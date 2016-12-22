@@ -22,4 +22,4 @@ Pääs rakendusse:
 
 Software application that gathers decriptions into a central datastore and publishes them through an API.  
 
-To use Browser, click on the icon above
+To use the Publisher, click on the icon above.

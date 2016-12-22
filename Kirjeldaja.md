@@ -34,4 +34,4 @@ Software application that helps a human user produce and publish descriptions in
 
 Publisher is deployed in distributed instances.  
 
-To use Browser, click on the icons above
+To use the Publisher, click on the icons above.
