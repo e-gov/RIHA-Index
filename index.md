@@ -15,37 +15,31 @@ RIHA (Riigi infosüsteemi haldussüsteem) on süsteem, millega saab:
 
 ## [Sirvija/Browser](Sirvija)
 
-<i class="material-icons ikoon" style='color: #616161; font-size: 48px;'>account_circle</i> [inimesele](http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8082/)
+<a href='http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8082/'><i class="material-icons ikoon" style='color: #616161; font-size: 48px;'>account_circle</i></a>
 
 ## [Kooskõlastaja/Approver](Kooskolastaja)
 
-<i class="material-icons ikoon" style='color: #FF555D; font-size: 48px;'>code</i>:
-[masinale](http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8080/approvals)
+<a href='http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8080/approvals'><i class="material-icons ikoon" style='color: #FF555D; font-size: 48px;'>code</i></a>
 
-<i class="material-icons ikoon" style='color: #616161; font-size: 48px;'>account_circle</i>
-[inimesele](http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8080/)
+<a href='http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8080/'><i class="material-icons ikoon" style='color: #616161; font-size: 48px;'>account_circle</i></a>
 
 ## [Avaldaja/Publisher](Avaldaja)
 
-<i class="material-icons ikoon" style='color: #FF555D; font-size: 48px;'>code</i> [masinale](http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8081/systems.json)
+<a href='http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8081/systems.json'><i class="material-icons ikoon" style='color: #FF555D; font-size: 48px;'>code</i></a>
 
 ## [Kirjeldaja/Producer](Kirjeldaja)
 
 Paigaldus 1
 
-<i class="material-icons ikoon" style='color: #616161; font-size: 48px;'>account_circle</i>
-[inimesele](http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8083)
+<a href='http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8083'><i class="material-icons ikoon" style='color: #616161; font-size: 48px;'>account_circle</i></a>
 
-<i class="material-icons ikoon" style='color: #FF555D; font-size: 48px;'>code</i> 
-[masinale](http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8083/systems.json)
+<a href='http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8083/systems.json'><i class="material-icons ikoon" style='color: #FF555D; font-size: 48px;'>code</i></a> 
 
 Paigaldus 2
 
-<i class="material-icons ikoon" style='color: #616161; font-size: 48px;'>account_circle</i>
-[inimesele](http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8084)
+<a href='http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8084'><i class="material-icons ikoon" style='color: #616161; font-size: 48px;'>account_circle</i></a>
 
-<i class="material-icons ikoon" style='color: #FF555D; font-size: 48px;'>code</i> 
-[masinale](http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8084/systems.json)
+<a href='http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8084/systems.json'><i class="material-icons ikoon" style='color: #FF555D; font-size: 48px;'>code</i></a> 
 
 ## Arhitektuur
 
