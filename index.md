@@ -28,31 +28,31 @@ Uuendatud RIHA on üles ehitatud hajusarhitektuuri põhimõtetele.
 
 [Sirvija/Browser](Sirvija)
 
-inimesele: [http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8082/](http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8082/)
+<i class="material-icons ikoon" style='color: #9C27B0; font-size: 48px;'>account_balance</i> inimesele: [http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8082/](http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8082/)
 
 [Kooskõlastaja/Approver](Kooskolastaja)
 
-- masinale:
+- <i class="material-icons ikoon" style='color: #FF555D; font-size: 48px;'>code</i> masinale:
 [http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8080/approvals](http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8080/approvals)
-- inimesele:
+- <i class="material-icons ikoon" style='color: #9C27B0; font-size: 48px;'>account_balance</i> inimesele:
 [http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8080/](http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8080/)
 
 [Avaldaja/Publisher](Avaldaja)
 
-- masinale: [http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8081/systems.json](http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8081/systems.json)
+- <i class="material-icons ikoon" style='color: #FF555D; font-size: 48px;'>code</i> masinale: [http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8081/systems.json](http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8081/systems.json)
 
 [Kirjeldaja/Producer](Kirjeldaja)
 
 Paigaldus 1
 
-- inimesele:
+- <i class="material-icons ikoon" style='color: #9C27B0; font-size: 48px;'>account_balance</i> inimesele:
 [http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8083](http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8083)
-- masinale: 
+- <i class="material-icons ikoon" style='color: #FF555D; font-size: 48px;'>code</i> masinale: 
 [http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8083/systems.json](http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8083/systems.json)
 
 Paigaldus 2
 
-- inimesele:
+- <i class="material-icons ikoon" style='color: #9C27B0; font-size: 48px;'>account_balance</i> inimesele:
 [http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8084](http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8084)
-- masinale: 
+- <i class="material-icons ikoon" style='color: #FF555D; font-size: 48px;'>code</i> masinale: 
 [http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8084/systems.json](http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8084/systems.json)
