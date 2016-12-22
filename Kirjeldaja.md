@@ -10,7 +10,9 @@ nr: 2
 
 # Kirjeldaja
 
-Rakendus, mis aitab inimkasutajal koostada ja avaldada kirjeldusi, kooskõlas RIHA kirjeldusstandardiga. 
+Rakendus, mis aitab inimkasutajal koostada ja avaldada kirjeldusi, kooskõlas RIHA kirjeldusstandardiga.
+
+Kirjeldaja paigaldatakse hajusalt, mitmetes eksemplarides. 
 
 Pääs rakendusse:
 
@@ -28,5 +30,8 @@ Paigaldus 2
 
 # Publisher
 
-Software application that helps a human user produce and publish descriptions in conformance with the RIHA standard.  
+Software application that helps a human user produce and publish descriptions in conformance with the RIHA standard.
 
+Publisher is deployed in distributed instances.  
+
+To use Browser, click on the icons above
