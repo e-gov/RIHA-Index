@@ -5,7 +5,6 @@ title: RIHA
 nr: 1
 ---
 
-
 {% include ET.html %}
 
 RIHA (Riigi infosüsteemi haldussüsteem) on süsteem, millega saab:

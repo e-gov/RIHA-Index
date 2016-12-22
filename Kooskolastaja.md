@@ -10,7 +10,9 @@ nr: 4
 
 # Kooskõlastaja
 
-Rakendus, millega volitatud inimkasutaja (kooskõlastaja) saab läbi vaadata kirjeldusi ja teha kooskõlastusotsusi. Kooskõlastusotsused avaldatakse masinliidese (API) abil. 
+Rakendus, millega volitatud inimkasutaja (kooskõlastaja) saab läbi vaadata kirjeldusi ja teha kooskõlastusotsusi.
+
+Kooskõlastusotsused avaldatakse masinliidese (API) abil. 
 
 Pääs rakendusse:
 
