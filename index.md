@@ -11,34 +11,36 @@ RIHA (Riigi infosüsteemi haldussüsteem) on süsteem, millega saab:
 - kooskõlastada infosüsteeme
 - tutvuda kirjeldustega ja kooskõlastusotsustega.
 
+Pääs rakendustesse:
+
 ## [Sirvija/Browser](Sirvija)
 
-<a href='http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8082/' style='text-decoration: none !important;'><i class="material-icons ikoon" style='color: #616161; font-size: 48px;'>account_circle</i></a>
+<a href='http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8082/' style='border-bottom: none !important;'><i class="material-icons ikoon" style='color: #616161; font-size: 48px;'>account_circle</i></a>
 
 ## [Kooskõlastaja/Approver](Kooskolastaja)
 
-<a href='http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8080/approvals' style='text-decoration: none !important;'><i class="material-icons ikoon" style='color: #FF555D; font-size: 48px;'>code</i></a> 
-<a href='http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8080/' style='text-decoration: none !important;'><i class="material-icons ikoon" style='color: #616161; font-size: 48px;'>account_circle</i></a>
+<a href='http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8080/approvals' style='border-bottom: none !important;'><i class="material-icons ikoon" style='color: #FF555D; font-size: 48px;'>code</i></a> 
+<a href='http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8080/' style='border-bottom: none !important;'><i class="material-icons ikoon" style='color: #616161; font-size: 48px;'>account_circle</i></a>
 
 ## [Avaldaja/Publisher](Avaldaja)
 
-<a href='http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8081/systems.json' style='text-decoration: none !important;'><i class="material-icons ikoon" style='color: #FF555D; font-size: 48px;'>code</i></a>
+<a href='http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8081/systems.json' style='border-bottom: none !important;'><i class="material-icons ikoon" style='color: #FF555D; font-size: 48px;'>code</i></a>
 
 ## [Kirjeldaja/Producer](Kirjeldaja)
 
 Paigaldus 1
 
-<a href='http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8083' style='text-decoration: none !important;'><i class="material-icons ikoon" style='color: #616161; font-size: 48px;'>account_circle</i></a> 
-<a href='http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8083/systems.json' style='text-decoration: none !important;'><i class="material-icons ikoon" style='color: #FF555D; font-size: 48px;'>code</i></a> 
+<a href='http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8083' style='border-bottom: none !important;'><i class="material-icons ikoon" style='color: #616161; font-size: 48px;'>account_circle</i></a> 
+<a href='http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8083/systems.json' style='border-bottom: none !important;'><i class="material-icons ikoon" style='color: #FF555D; font-size: 48px;'>code</i></a> 
 
 Paigaldus 2
 
-<a href='http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8084' style='text-decoration: none !important;'><i class="material-icons ikoon" style='color: #616161; font-size: 48px;'>account_circle</i></a> 
-<a href='http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8084/systems.json' style='text-decoration: none !important;'><i class="material-icons ikoon" style='color: #FF555D; font-size: 48px;'>code</i></a> 
+<a href='http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8084' style='border-bottom: none !important;'><i class="material-icons ikoon" style='color: #616161; font-size: 48px;'>account_circle</i></a> 
+<a href='http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8084/systems.json' style='border-bottom: none !important;'><i class="material-icons ikoon" style='color: #FF555D; font-size: 48px;'>code</i></a> 
 
 ---
 
-## Arhitektuur
+## RIHA arhitektuurist
 
 Uuendatud RIHA on üles ehitatud hajusarhitektuuri põhimõtetele.
 
