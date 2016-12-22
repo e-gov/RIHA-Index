@@ -1,0 +1,190 @@
+.Anon {
+  font-family: 'Anonymous Pro';
+}
+.edit { 
+  color: #E0E0E0; font-size: 24px; cursor: pointer;
+  position: absolute; right: 5px; top: 5px;
+  text-decoration:none;
+}
+a[href] .edit { color: #E0E0E0; text-decoration:none; }
+
+.Tekst {
+  margin-left: 13rem;
+}
+
+/* ---- Riba ---- */
+.Riba {
+  text-align: center;
+  padding: 0 1rem 2rem 1rem;
+  background-color: Azure;
+}
+@media (min-width: 48em) {
+  .Riba {
+    position: fixed;
+    top: 0; left: 0; bottom: 0;
+    width: 18rem;
+    text-align: left;
+  }
+}
+
+@media (min-width: 48em) {
+  .RibaKleepuv {
+    position: absolute;
+    right:  1rem;
+    bottom: 1rem;
+    left: 1rem;
+  }
+}
+
+.RibaLoetelu {
+
+}
+.RibaElement {
+  display: block;
+  line-height: 1.75;
+}
+
+.inset { 
+  font-size: 16px; 
+  font-family: 'Anonymous Pro', serif;
+  margin-left: 2em; }
+.caption {
+  font-size: 10px; margin-top: 0px; text-align: right; }
+blockquote { 
+  font-style: italic; 
+  font-family: 'Anonymous Pro', monospace;
+  font-size: 16px;
+  margin-left: 0;
+}
+.concept { 
+  text-decoration: underline;
+}
+
+body {
+	max-width: 40em;               /* limit line length to 50em for readability   */
+	margin: 0 auto;                /* center text within page                     */
+	padding: 1.6em 1.5em 2em calc(26px + 3em); /* leave space for status flag     */
+	line-height: 1.2;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14pt; 
+	color: #424242;
+	}
+
+/** Headings ******************************************************************/
+	h1, h2, dt {
+		font: 100% sans-serif;   /* Reset all font styling to clear out UA styles */
+		font-family: 'Roboto', monospace;    /* Inherit the font family. */
+		line-height: 1.2;        /* Keep wrapped headings compact */
+		hyphens: manual;         /* Hyphenated headings look weird */
+	}
+	h1, h2, h3 {
+		color: #424242;
+		font-weight: bold;
+		background: transparent;
+	}
+	h1 { font-size: 170%; margin-top: 2em; }
+	h2 { font-style: bold; margin-top: 1em; }
+
+/******************************************************************************/
+/*                            Paragraphs and Lists                            */
+/******************************************************************************/
+	p {
+		margin: 1em 0;
+	}
+	dd > p:first-child,
+	li > p:first-child {
+		margin-top: 0;
+	}
+	ul, ol {
+		margin-left: 0;
+		padding-left: 2em;
+	}
+	li {
+		margin: 0.25em 0 0.5em;
+		padding: 0;
+	}
+	dl dd {
+		margin: 0 0 .5em 2em;
+	}
+	.head dd + dd { /* compact for header */
+		margin-top: -.5em;
+	}
+	/* Style for algorithms */
+	ol.algorithm ol:not(.algorithm) {
+	 border-left: 0.5em solid #DEF;
+	}
+	/* Style for switch/case <dl>s */
+	dl.switch > dd > ol.only {
+	 margin-left: 0;
+	}
+	dl.switch > dd > ol.algorithm {
+	 margin-left: -2em;
+	}
+	dl.switch {
+	 padding-left: 2em;
+	}
+	dl.switch > dt {
+	 text-indent: -1.5em;
+	 margin-top: 1em;
+	}
+	dl.switch > dt + dt {
+	 margin-top: 0;
+	}
+	dl.switch > dt::before {
+	 content: '\21AA';
+	 padding: 0 0.5em 0 0;
+	 display: inline-block;
+	 width: 1em;
+	 text-align: right;
+	 line-height: 0.5em;
+	}
+
+/******************************************************************************/
+/*                                    Code                                    */
+	pre, code, samp {
+		font-family: 'Anonymous Pro', monospace;
+		font-size: 16px;
+		color: #424242; 
+		overflow-y: hidden; 
+		overflow-x: hidden;
+		page-break-inside: avoid;
+		hyphens: none;
+		text-transform: none;
+	}
+	pre code,
+	code code {
+		font-size: 100%;
+	}
+	pre {
+		margin-top: 1em;
+		margin-bottom: 1em;
+	}
+
+
+/** General Hyperlinks ********************************************************/
+
+	/* We hyperlink a lot, so make it less intrusive */
+	a[href] {
+		color: #607D8B;
+		text-decoration: none;
+		border-bottom: 1px solid #607D8B;
+		/* Need a bit of extending for it to look okay */
+		padding: 0 1px 0;
+		margin: 0 -1px 0;
+	}
+	a:visited {
+		border-bottom-color: #607D8B;
+	}
+
+	/* Use distinguishing colors when user is interacting with the link */
+	a[href]:focus,
+	a[href]:hover {
+		background: #607D8B;
+		background: rgba(75%, 75%, 75%, .25);
+		border-bottom-width: 3px;
+		margin-bottom: -2px;
+	}
+	a[href]:active {
+		color: #C00;
+		border-color: #C00;
+	}
