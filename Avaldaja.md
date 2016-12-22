@@ -12,6 +12,10 @@ nr: 3
 
 Rakendus, mis kogub kirjeldused kesksesse andmelattu ja teeb need masinliidese (API) kaudu kättesaadavaks. 
 
+Pääs rakendusse:
+
+<a href='http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8081/systems.json' style='border-bottom: none !important;'><i class="material-icons ikoon" style='color: #FF555D; font-size: 48px;'>code</i></a>
+
 {% include EN.html %}
 
 # Publisher
