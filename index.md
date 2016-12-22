@@ -1,5 +1,5 @@
 ---
-layout: IT
+layout: test
 publish: true
 title: RIHA
 nr: 1
