@@ -1,7 +1,7 @@
 ---
 layout: IT
 publish: true
-title: Avaldaja
+title: Avaldaja (Publisher)
 permalink: Avaldaja
 nr: 3
 ---

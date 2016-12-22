@@ -1,7 +1,7 @@
 ---
 layout: IT
 publish: true
-title: Kirjeldaja
+title: Kirjeldaja (Producer)
 permalink: Kirjeldaja
 nr: 2
 ---
@@ -28,7 +28,7 @@ Paigaldus 2
 
 {% include EN.html %}
 
-# Publisher
+# Producer
 
 Software application that helps a human user produce and publish descriptions in conformance with the RIHA standard.
 

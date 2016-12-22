@@ -1,7 +1,7 @@
 ---
 layout: IT
 publish: true
-title: Kooskolastaja
+title: Kooskolastaja (Approver)
 permalink: Kooskolastaja
 nr: 4
 ---
@@ -20,7 +20,7 @@ Pääs rakendusse:
 
 {% include EN.html %}
 
-# Publisher
+# Approver
 
 Software application that allows a human user (person from dedicated agencies) to review descriptions and make approval decisions. Approval decisions are published through the Approver's API.  
 

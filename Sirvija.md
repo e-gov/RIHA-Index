@@ -1,7 +1,7 @@
 ---
 layout: IT
 publish: true
-title: Sirvija
+title: Sirvija (Browser)
 permalink: Sirvija
 nr: 5
 ---
