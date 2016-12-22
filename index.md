@@ -13,6 +13,40 @@ RIHA (Riigi infosüsteemi haldussüsteem) on süsteem, millega saab:
 - kooskõlastada infosüsteeme
 - tutvuda kirjeldustega ja kooskõlastusotsustega.
 
+## [Sirvija/Browser](Sirvija)
+
+<i class="material-icons ikoon" style='color: #616161; font-size: 48px;'>account_circle</i> [inimesele](http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8082/)
+
+## [Kooskõlastaja/Approver](Kooskolastaja)
+
+<i class="material-icons ikoon" style='color: #FF555D; font-size: 48px;'>code</i>:
+[masinale](http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8080/approvals)
+
+<i class="material-icons ikoon" style='color: #616161; font-size: 48px;'>account_circle</i>
+[inimesele](http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8080/)
+
+## [Avaldaja/Publisher](Avaldaja)
+
+<i class="material-icons ikoon" style='color: #FF555D; font-size: 48px;'>code</i> [masinale](http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8081/systems.json)
+
+## [Kirjeldaja/Producer](Kirjeldaja)
+
+Paigaldus 1
+
+<i class="material-icons ikoon" style='color: #616161; font-size: 48px;'>account_circle</i>
+[inimesele](http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8083)
+
+<i class="material-icons ikoon" style='color: #FF555D; font-size: 48px;'>code</i> 
+[masinale](http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8083/systems.json)
+
+Paigaldus 2
+
+<i class="material-icons ikoon" style='color: #616161; font-size: 48px;'>account_circle</i>
+[inimesele](http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8084)
+
+<i class="material-icons ikoon" style='color: #FF555D; font-size: 48px;'>code</i> 
+[masinale](http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8084/systems.json)
+
 ## Arhitektuur
 
 Uuendatud RIHA on üles ehitatud hajusarhitektuuri põhimõtetele.
@@ -26,37 +60,3 @@ Uuendatud RIHA on üles ehitatud hajusarhitektuuri põhimõtetele.
 <li>rakendused paigaldatakse ühes või mitmes eksemplaris.</li>
 </ul>
 </div>
-
-## [Sirvija/Browser](Sirvija)
-
-<i class="material-icons ikoon" style='color: #616161; font-size: 48px;'>account_circle</i> [http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8082/](http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8082/)
-
-## [Kooskõlastaja/Approver](Kooskolastaja)
-
-<i class="material-icons ikoon" style='color: #FF555D; font-size: 48px;'>code</i>:
-[http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8080/approvals](http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8080/approvals)
-
-<i class="material-icons ikoon" style='color: #616161; font-size: 48px;'>account_circle</i>
-[http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8080/](http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8080/)
-
-## [Avaldaja/Publisher](Avaldaja)
-
-<i class="material-icons ikoon" style='color: #FF555D; font-size: 48px;'>code</i> [http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8081/systems.json](http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8081/systems.json)
-
-## [Kirjeldaja/Producer](Kirjeldaja)
-
-Paigaldus 1
-
-<i class="material-icons ikoon" style='color: #616161; font-size: 48px;'>account_circle</i>
-[http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8083](http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8083)
-
-<i class="material-icons ikoon" style='color: #FF555D; font-size: 48px;'>code</i> 
-[http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8083/systems.json](http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8083/systems.json)
-
-Paigaldus 2
-
-<i class="material-icons ikoon" style='color: #616161; font-size: 48px;'>account_circle</i>
-[http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8084](http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8084)
-
-<i class="material-icons ikoon" style='color: #FF555D; font-size: 48px;'>code</i> 
-[http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8084/systems.json](http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8084/systems.json)
