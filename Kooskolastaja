@@ -5,5 +5,15 @@ title: Kooskõlastaja
 permalink: Kooskolastaja
 ---
 
+{% include ET %}
+
 # Kooskõlastaja
+
+Rakendus, millega volitatud inimkasutaja (kooskõlastaja) saab läbi vaadata kirjeldusi ja teha kooskõlastusotsusi. Kooskõlastusotsused avaldatakse masinliidese (API) abil. 
+
+{% include EN %}
+
+# Publisher
+
+Software application that allows a human user (person from dedicated agencies) to review descriptions and make approval decisions. Approval decisions are published through the Approver's API.  
 
