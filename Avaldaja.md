@@ -3,6 +3,7 @@ layout: IT
 publish: true
 title: Avaldaja
 permalink: Avaldaja
+nr: 3
 ---
 
 {% include ET %}

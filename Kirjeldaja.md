@@ -3,6 +3,7 @@ layout: IT
 publish: true
 title: Kirjeldaja
 permalink: Kirjeldaja
+nr: 2
 ---
 
 {% include ET %}

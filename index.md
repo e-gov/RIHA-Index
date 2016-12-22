@@ -2,6 +2,7 @@
 layout: IT
 publish: true
 title: RIHA
+nr: 1
 ---
 
 # RIHA
@@ -24,22 +25,23 @@ Uuendatud RIHA on üles ehitatud hajusarhitektuuri põhimõtetele.
 
 ## Pääs rakendustesse
 
-Kooskõlastaja/Approver
+
+[Sirvija/Browser](Sirvija)
+
+inimesele: [http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8082/](http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8082/)
+
+[Kooskõlastaja/Approver](Kooskolastaja)
 
 - masinale:
 [http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8080/approvals](http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8080/approvals)
 - inimesele:
 [http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8080/](http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8080/)
 
-Avaldaja/Publisher
+[Avaldaja/Publisher](Avaldaja)
 
 - masinale: [http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8081/systems.json](http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8081/systems.json)
 
-Sirvija/Browser
-
-inimesele: [http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8082/](http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8082/)
-
-Kirjeldaja/Producer
+[Kirjeldaja/Producer](Kirjeldaja)
 
 Paigaldus 1
 
