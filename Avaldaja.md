@@ -6,13 +6,13 @@ permalink: Avaldaja
 nr: 3
 ---
 
-{% include ET %}
+{% include ET.html %}
 
 # Avaldaja
 
 Rakendus, mis kogub kirjeldused kesksesse andmelattu ja teeb need masinliidese (API) kaudu kättesaadavaks. 
 
-{% include EN %}
+{% include EN.html %}
 
 # Publisher
 

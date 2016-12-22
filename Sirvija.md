@@ -6,7 +6,7 @@ permalink: Sirvija
 nr: 5
 ---
 
-{% include ET %}
+{% include ET.html %}
 
 # Sirvija
 
@@ -14,7 +14,7 @@ Rakendus, millega inimkasutaja saab tutvuda kirjeldustega ja kooskõlastusotsust
 
 Sirvija saab oma andmed [Avaldajalt](Avaldaja).
 
-{% include EN %}
+{% include EN.html %}
 
 # Browser
 

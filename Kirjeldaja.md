@@ -6,13 +6,13 @@ permalink: Kirjeldaja
 nr: 2
 ---
 
-{% include ET %}
+{% include ET.html %}
 
 # Kirjeldaja
 
 Rakendus, mis aitab inimkasutajal koostada ja avaldada kirjeldusi, kooskõlas RIHA kirjeldusstandardiga. 
 
-{% include EN %}
+{% include EN.html %}
 
 # Publisher
 

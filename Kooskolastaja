@@ -6,13 +6,13 @@ permalink: Kooskolastaja
 nr: 4
 ---
 
-{% include ET %}
+{% include ET.html %}
 
 # Kooskõlastaja
 
 Rakendus, millega volitatud inimkasutaja (kooskõlastaja) saab läbi vaadata kirjeldusi ja teha kooskõlastusotsusi. Kooskõlastusotsused avaldatakse masinliidese (API) abil. 
 
-{% include EN %}
+{% include EN.html %}
 
 # Publisher
 
