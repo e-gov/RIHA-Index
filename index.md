@@ -5,6 +5,9 @@ title: RIHA
 nr: 1
 ---
 
+
+{% include ET.html %}
+
 RIHA (Riigi infosüsteemi haldussüsteem) on süsteem, millega saab:
 
 - kirjeldada infosüsteeme
@@ -39,7 +42,7 @@ Paigaldus 2
 
 ---
 
-## RIHA arhitektuurist
+## RIHA arhitektuur
 
 Uuendatud RIHA on üles ehitatud hajusarhitektuuri põhimõtetele.
 
