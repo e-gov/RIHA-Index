@@ -7,7 +7,7 @@ nr: 1
 
 {% include ET.html %}
 
-RIHA (Riigi infosüsteemi haldussüsteem) on süsteem, millega saab:
+RIHA-s (Riigi infosüsteemi haldussüsteemis) saab:
 
 - kirjeldada infosüsteeme
 - kooskõlastada infosüsteeme
