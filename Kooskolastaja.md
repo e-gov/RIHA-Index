@@ -3,7 +3,6 @@ layout: IT
 publish: true
 title: Kooskolastaja (Approver)
 permalink: Kooskolastaja
-nr: 4
 ---
 
 {% include ET.html %}
