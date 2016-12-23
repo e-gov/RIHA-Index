@@ -32,7 +32,17 @@ Käivitaja on veebileht, mis:
 ```
 <p class='teine'>See on väiksem tekst.</p>
 ```
-    
+- kolm liiki infokaste teabe esiletoomiseks (`note`, `tip` ja `warning`):
+```
+<div class='block__note'>
+  <p class='block__note--heading'>Infokasti pealkiri</p>
+  <p>
+    Infokasti tekst
+  </p>
+</div>
+```
+
+
 ## Edasiarendajale
 
 - Käivitaja on [Jekyll](https://jekyllrb.com/) rakendus.
