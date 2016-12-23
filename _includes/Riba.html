@@ -1,28 +1,16 @@
 <div class="Riba">
-  <div>
-    <p>
-      <i class="material-icons ikoon" style='color: #9C27B0; font-size: 48px;'>cloud_circle</i>
-      <!-- i class="material-icons ikoon" style='color: #E0E0E0; font-size: 48px;'>account_circle</i>
-      <i class="material-icons ikoon" style='color: #FF555D; font-size: 48px;'>code</i><br -->
-    </p>
-    <h1>{{ site.title }}</h1>
-    <p class='teine'>
-      Riigi infosüsteemi kataloog ja menetluskeskkond
-    </p>
-    <p class='teine'>
-      Estonian state information system metadata catalogue
-    </p>
-    <p class='Anon'>
-      <i>&mdash; "Usaldusväärsed metaandmed - inimesele ja masinale"</i>
-    </p>
-    <p class='Anon'>
-      <i>&mdash; "Awesome stuff - for human and machine"</i>
-    </p>
-  </div>
+
+  <p>
+    <i class="material-icons ikoon" style='color: #9C27B0; font-size: 48px;'>cloud_circle</i>
+  </p>
+
+  <h1>{{ site.title }}</h1>
 
   <p class='teine'>
-    Riigi Infosüsteemi Amet<br>
-    Estonian Information System Authority, 2016-2017
+    Riigi infosüsteemi kataloog ja menetluskeskkond
+  </p>
+  <p class='teine'>
+    Estonian state information system metadata catalogue
   </p>
   
   <nav>
@@ -61,20 +49,17 @@
     </ul>
   </nav>
 
-  <!-- div class="RibaKleepuv">
-    <div class="RibaLoetelu">
-      {% assign pages_list = site.pages | sort:"nr" %}
-      {% for node in pages_list %}
-        {% if node.title != null %}
-          {% if node.layout == "IT" %}
-            {% if node.publish == true %}
-              <a class="RibaElement{% if page.url == node.url %} active{% endif %}"
-                 href="{{ site.baseurl }}/{{ node.permalink }}">{{ node.title }}</a>
-            {% endif %}
-          {% endif %}
-        {% endif %}
-      {% endfor %}
-    </div -->
-    
+  <p class='Anon' style='margin-top: 2rem;'>
+    <i>&mdash; "Usaldusväärsed metaandmed - inimesele ja masinale"</i>
+  </p>
+  <p class='Anon'>
+    <i>&mdash; "Awesome stuff - for human and machine"</i>
+  </p>
+
+  <p class='teine' style='margin-bottom: 4rem;'>
+    Riigi Infosüsteemi Amet<br>
+    Estonian Information System Authority, 2016-2017
+  </p>
+
   </div>
 </div>
