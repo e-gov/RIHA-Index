@@ -14,6 +14,72 @@
   background-color: Azure;
 }
 
+/* ---- Blocks ---- */
+.block__note {
+	border-color:#0074d9;
+	background-color:#e5f1fb;
+	color:#004b8d;
+	padding:0 8px;
+	border:1px solid #0074d9;
+	border-radius:4px;
+	font-size:85%;
+	margin-bottom:5px;
+}
+.block__note > p {
+	margin:0 0 8px 0
+}
+.block__note--heading {
+	font-weight:600;
+	margin-top:8px;
+	line-height:1;
+	font-size:18px
+}
+.block__tip {
+	border-color:#cab918;
+	background-color:#f9f8e7;
+	color:#837810;
+	padding:0 8px;
+	border:1px solid #cab918;
+	border-radius:4px;
+	font-size:85%;
+	margin-bottom:5px;
+}
+.block__tip > p {
+	margin:0 0 8px 0
+}
+.block__tip--heading {
+	font-weight:600;
+	margin-top:8px;
+	line-height:1;
+	font-size:18px
+}
+.block__warning {
+	border-color:#ff851b;
+	background-color:#fff2e8;
+	color:#b75500;
+	padding:0 8px;
+	border:1px solid #ff851b;
+	border-radius:4px;
+	font-size:85%;
+	margin-bottom:5px;
+}
+.block__warning > p {
+	margin:0 0 8px 0
+}
+.block__warning--heading {
+	font-weight:600;
+	margin-top:8px;
+	line-height:1;
+	font-size:18px
+}
+.block__lead {
+	font-size:20px;
+}
+.block__lead > p {
+	margin-top:0
+}
+
+/* ---- ---- */
 
 .lyliti {
   cursor: pointer;

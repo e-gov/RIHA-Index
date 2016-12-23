@@ -9,6 +9,53 @@ permalink: Kirjeldusstandard
 
 [Formaalne kirjeldus](https://github.com/e-gov/RIHA-API/blob/master/RIHA-API.yaml) on koostatud vastavalt [Open API Initiative](https://www.openapis.org/) (endine Swagger) nõuetele.
 
+## Lühike lahtiseletus
+
+`swagger: '2.0'` - kasutatav Open API (Swagger) kirjelduskeele versiooni
+
+`info: [..]` - liidese nimetus, versioon ja kokkuvõtlik kirjeldus
+
+`consumes`, `produces` - päring liidesele saadetakse ja vastus saadakse JSON-vormingus
+
+`paths`
+
+- `/systems.json` - nii pöördudes tagastab liides infosüsteemide nimekirja
+- `{shortname}` - lühinimega pöördudes tagastab liides konkreetse infosüsteemi detailse kirjelduse
+
+<div class='block__note'>
+  <p class='block__note--heading'>Swagger Editor</p>
+  <p>
+    Kirjeldusstandardit on hea uurida <a href='http://editor.swagger.io/#/'>Swagger Editor</a>-iga. <a href='https://raw.githubusercontent.com/e-gov/RIHA-API/master/RIHA-API.yaml'>YAML-fail</a> tuleb redaktorisse laadida.
+  </p>
+</div>
+
+- `definitions` - liides poolt väljastatavad vormingud
+  - Liideses on kaks vormingut: süsteemi lühiandmestik ja detailandmestik
+
+- `system` - Süsteemi lühiandmestik. 
+  - `uri` - (KOHUSTUSLIK) Süsteemi unikaalselt identifitseeriv URI. HTTP GET sellel aadressil peab tagastama detailed_system tüüpi objekti
+  - `name` - Süsteemi täispikk, ametlik, nimi
+  - `shortname` - (KOHUSTUSLIK) Süsteemi lühinimi
+  - `owner` - (KOHUSTUSLIK) Süsteemi vastutav töötleja
+    - `code` - Süsteemi vastutava töötleja registrikood
+    - `name` - Süsteemi vastutava töötleja nimi
+  - `documentation` - URL, mis viitab süsteemi dokumentatsiooni avalikule asukohale
+  - `meta` - 
+    - `system_status` - Süsteemi olek
+      - `status` - Staatuse tekstiline kirjeldus
+      - `timestamp` - Staatuse saamise aeg
+    - approval_status - 
+      - `description` - Süsteemi kooskõlastuse olek
+        - `status` - Staatuse tekstiline kirjeldus
+        - `timestamp` - Staatuse saamise aeg
+    - description_timestamp - Süsteemi kohta väljastatava info viimase muutmise aeg
+             
+- `detailed system` - Süsteemi detailandmestik. 
+  - `shortname` - (KOHUSTUSLIK) Süsteemi lühinimi
+  - `description_timestamp` - (KOHUSTUSLIK) Kirje viimase muutmise aeg
+  - `payload` - Spetsifitseerimata struktuuriga masinloetav informatsioon süsteemi kohta
+
+
 {% include EN.html %}
 
 [Formal description](https://github.com/e-gov/RIHA-API/blob/master/RIHA-API.yaml) follows [Open API Initiative](https://www.openapis.org/) (former Swagger) requirements.
