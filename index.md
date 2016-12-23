@@ -15,10 +15,11 @@ RIHA-s (Riigi infosüsteemi haldussüsteemis) saab:
 
 Pääs rakendustesse:
 
-<div class='block__warning'>
+<div class='block__note'>
   <p class='block__note--warning'>Agiilarenduses produkt</p>
   <p>
     Käesolev veebileht ja siit avatavad rakendused on agiilselt arendatavad tööversioonid. Sõltumata valmidusastmest tuleb kasutamisel arvestada, et produkte ei ole veel ametlikult toodangusse lubatud. Rakenduste katsetamine on kõigiti teretulnud. Kommentaarid, arvamused ja teated võimalike vigade kohta palume saata <a href='https://e-gov.github.io/RIHA-Launcher/Osale'>Osale</a> kaudu.
+  </p>
 </div>
 
 ## [Sirvija/Browser](Sirvija)
