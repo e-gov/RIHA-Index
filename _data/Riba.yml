@@ -4,6 +4,9 @@
 - title: "Tutvustus (Introduction)"
   url: "/Tutvustus"
 
+- title: "Töövoog (Workflow)"
+  url: "/Toovoog"  
+
 - title: "Rakendused"
   categories:
     - title: "Kirjeldaja (Producer)"
