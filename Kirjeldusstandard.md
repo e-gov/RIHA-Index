@@ -7,7 +7,9 @@ permalink: Kirjeldusstandard
 
 {% include ET.html %}
 
-[Formaalne kirjeldus](https://github.com/e-gov/RIHA-API/blob/master/RIHA-API.yaml) on koostatud vastavalt [Open API Initiative](https://www.openapis.org/) (endine Swagger) nõuetele.
+# RIHA kirjeldusstandard
+
+RIHA masinliidese (API) standardiseeritud, ([formaalne kirjeldus](https://github.com/e-gov/RIHA-API/blob/master/RIHA-API.yaml) on koostatud vastavalt [Open API Initiative](https://www.openapis.org/) (endine Swagger) nõuetele.
 
 <div class='block__note'>
   <p class='block__note--heading'>Swagger Editor</p>
@@ -16,13 +18,13 @@ permalink: Kirjeldusstandard
   </p>
 </div>
 
+Kirjeldusstandardis määratletakse üldteave, pöördumisteed ja liidese poolt väljastatavate andmete vormingud. Alljärgnevalt esitame kirjeldusstandardi vabas vormis ülevaate. Täpsema teabe saamiseks tuleb pöörduda [formaalse kirjelduse](https://github.com/e-gov/RIHA-API/blob/master/RIHA-API.yaml) poole.
+
 ## Üldteave
 
-`swagger: '2.0'` - kasutatav Open API (Swagger) kirjelduskeele versioon
-
-`info: [..]` - liidese nimetus, versioon ja kokkuvõtlik kirjeldus
-
-`consumes`, `produces` - päring liidesele saadetakse ja vastus saadakse JSON-vormingus
+- `swagger: '2.0'` - kasutatav Open API (Swagger) kirjelduskeele versioon
+- `info: [..]` - liidese nimetus, versioon ja kokkuvõtlik kirjeldus
+- `consumes`, `produces` - määrab, et päring liidesele saadetakse ja vastus saadakse JSON-vormingus
 
 ## Pöördumisteed
 
@@ -49,11 +51,11 @@ Jaotises `definitions` määratletakse liides poolt väljastatavad vormingud. Ne
     - `system_status` - Süsteemi olek
       - `status` - Staatuse tekstiline kirjeldus
       - `timestamp` - Staatuse saamise aeg
-    - approval_status - 
+    - `approval_status` - 
       - `description` - Süsteemi kooskõlastuse olek
         - `status` - Staatuse tekstiline kirjeldus
         - `timestamp` - Staatuse saamise aeg
-    - description_timestamp - Süsteemi kohta väljastatava info viimase muutmise aeg
+    - `description_timestamp` - Süsteemi kohta väljastatava info viimase muutmise aeg
              
 ## Süsteemi detailandmestik
 
