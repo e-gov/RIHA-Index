@@ -5,7 +5,7 @@
 }
 #Tekst {
 	flex-grow: 1;
-  margin-left: 13rem;
+  margin-left: 2rem;
 }
 #Riba {
 	flex-grow: 2;
@@ -64,9 +64,9 @@ blockquote {
 }
 
 body {
-	max-width: 40em;               /* limit line length to 50em for readability   */
-	margin: 0 auto;                /* center text within page                     */
-	padding: 1.6em 1.5em 2em calc(26px + 3em); /* leave space for status flag     */
+	max-width: 50em; /* limit line length to 50em for readability   */
+	margin: 0 0; 
+	padding: 1.6em 1.5em 2em 1em; 
 	line-height: 1.2;
 	font-family: 'Roboto', sans-serif;
 	font-size: 14pt; 
