@@ -95,3 +95,34 @@ KOOSKÕLASTAJA                    |Sirvija      |     /|\
   - Approval decisions are made available through [Approver](Kooskõlastaja)'s API.
 5. Using RIHA data 
   - RIHA USER, using [Browser](Sirvija), views descriptions and approval decisions.
+
+<pre>
+                                                  RIHA USER
+
+                                                      ,-.
+                                  +-------------+     `|'
+APPROVER                          |Sirvija      |     /|\
+                                  |             +---+  |
+ ,-.                              +--+--+-------+     / \
+ `|'                                 ^  ^
+ /|\     +-------------+  API        |  |
+  | +--> |Kooskõlastaja|◯ +----------+  |
+ / \     |             |                +
+         +------+------+     +---------+◯  API
+                ^            |   +-------------+
+                +------------+   |Avaldaja     |
+                                 |             |
+               ,-.           Konf+------+------+
+     RIA       `|'            ^         ^
+     SERVICE   /|\            |         |
+     MANAGER    |  +----------+         |
+               / \                      +
+                ^        ,-.            ◯  API
+                |        `|'     +-------------+
+                +------+ /|\     |Kirjeldaja   |
+                          | +--> |             |
+                         / \     +-------------+
+
+                        OWNER
+  
+</pre>

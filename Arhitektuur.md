@@ -62,3 +62,31 @@ New RIHA has been re-built in accordance with principles of distributed architec
 <li>Applications are deployed in one or more instances.</li>
 </ul>
 </div>
+
+<pre>
+                                                     ,-.
+                                 +-------------+     `|'
+                                 | Browser     |     /|\
+                                 |             +---+  |
+,-.                              +--+--+-------+     / \
+`|'                                 ^  ^
+/|\     +-------------+  API        |  |
+ | +--> |  Approver   |◯ +----------+  |
+/ \     |             |                +
+        +------+------+     +---------+◯  API
+               ^            |   +-------------+
+               +------------+   |  Publisher  |
+                                |             |
+                                +------+------+
+                                       ^
+                                       |
+                                       |
+                                       +
+                        ,-.            ◯  API
+                        `|'     +-------------+
+                        /|\     |  Producer   |
+                         | +--> |             |
+                        / \     +-------------+
+  
+</pre>  
+
