@@ -14,9 +14,23 @@ Rakendus, mis aitab inimkasutajal koostada ja avaldada kirjeldusi, kooskõlas RI
 
 Kirjeldaja paigaldatakse hajusalt, mitmetes eksemplarides. 
 
+<div class='block__warning'>
+  <p class='block__warning--heading'>Agiilarenduses produkt</p>
+  <p>
+    Praegu saab sisestada ainult infosüsteemi nime, lühinime ja dokumentatsiooni URLi. Kirjeldusi saab muuta ja kustutada.
+  </p>
+</div>
+
 Pääs rakendusse:
 
 Paigaldus 1
+
+<div class='block__note'>
+  <p class='block__note--heading'>Testimine</p>
+  <p>
+    Paigaldus 1 on testimise eesmärgil. Paigalduse omaniku registrikoodiks on seatud 12345.
+  </p>
+</div>
 
 <a href='http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8083' style='border-bottom: none !important;'><i class="material-icons ikoon" style='color: #616161; font-size: 48px;'>account_circle</i></a> 
 <a href='http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8083/systems.json' style='border-bottom: none !important;'><i class="material-icons ikoon" style='color: #FF555D; font-size: 48px;'>code</i></a> 
