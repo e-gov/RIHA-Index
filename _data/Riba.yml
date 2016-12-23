@@ -1,0 +1,25 @@
+- title: "Pääs rakendustesse"
+  url: "/"
+
+- title: "Tutvustus (Introduction)"
+  url: "/Tutvustus"
+
+- title: "Rakendused"
+  categories:
+    - title: "Kirjeldaja (Producer)"
+      url: "/Kirjeldaja"
+    - title: "Avaldaja (Publisher"
+      url: "/Avaldaja"
+    - title: "Kooskõlastaja (Approver)"
+      url: "/Kooskolastaja"
+    - title: "Sirvija (Browser)"
+      url: "/Sirvija"
+    - title: "Arendajale (for Developer)"
+      categories:
+
+- title: "Arendajale (for Developer)"
+  categories:
+    - title: "Arhitektuur (Architecture)"
+      url: "/Arhitektuur"
+    - title: "Kirjeldusstandard (Description Standard)"
+      url: "/Standard"

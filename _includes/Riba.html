@@ -25,7 +25,43 @@
     Estonian Information System Authority, 2016-2017
   </p>
   
-  <div class="RibaKleepuv">
+  <nav>
+    <ul>
+      {% assign id_count = '' %}
+      {% for nav in site.data.Riba %}
+        {% if nav.categories != null %}
+          {% assign id_count = id_count | append: 'x' %}
+          <li>
+            <a 
+              href="{{ site.baseurl }}{{ nav.url }}">{{ nav.title }}
+            </a>
+            <!-- Alammenüü lüliti --> 
+            <span
+              id="{{ id_count.size }}"
+              class="lyliti"
+            >
+              ▼
+            </span>
+            <ul id="alammenyy{{ id_count.size }}" class='alammenyy'>
+            {% for category in nav.categories %}
+              <li><a href="{{ site.baseurl }}{{ category.url }}">{{ category.title }}</a></li>
+            {% endfor %}
+            </ul>
+          </li>
+        {% elsif nav.title == page.title %}
+           <li class="active">
+             <a href="{{ site.baseurl }}{{ nav.url }}">{{ nav.title }}</a>
+           </li>
+        {% else %} 
+          <li>
+            <a href="{{ site.baseurl }}{{ nav.url }}">{{ nav.title }}</a>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </nav>
+
+  <!-- div class="RibaKleepuv">
     <div class="RibaLoetelu">
       {% assign pages_list = site.pages | sort:"nr" %}
       {% for node in pages_list %}
@@ -38,7 +74,7 @@
           {% endif %}
         {% endif %}
       {% endfor %}
-    </div>
+    </div -->
     
   </div>
 </div>
