@@ -1,4 +1,4 @@
-- title: "Pääs rakendustesse"
+- title: "Pääs rakendustesse (To Apps)"
   url: "/"
 
 - title: "Tutvustus (Introduction)"
@@ -25,6 +25,6 @@
     - title: "Kirjeldusstandard (Description Standard)"
       url: "/Standard"
 
-- title: "Osale"
+- title: "Osale (Contribute)"
   url: "/Osale"
   

@@ -15,7 +15,7 @@ RIHA tarkvara arendus toimub GitHub-is. Anna tagasisidet ja tee ettepanekuid all
 
 ## Help RIHA improve
 
-RIHA software is developed in GitHub. Give feedback and propose improvements in the code repositories above.
+RIHA software is developed in GitHub. Give feedback and propose improvements in the code repositories below.
 
 | Repo   | Description |
 |--------|-----------|
