@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>IT 2016</title>
+
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery.min.js"></script>
+
+    <!--
+      Material Design Lite - vt https://getmdl.io/
+      Material Design      - vt https://material.io/
+      sh Material Design Guidelines - vt https://material.io/guidelines/
+
+      jsPlumb
+      =======
+      Docs (Community) - vt https://jsplumbtoolkit.com/community/doc/home.html
+      Dash style - vt https://www.w3.org/TR/NOTE-VML
+
+      Workflow:
+
+      (1) Material Design Icons (Community) https://materialdesignicons.com/
+          Advanced Export - > Foreground rgb(66, 66, 66), Background White ->
+          suurus ei oma tähtsust, Export Optimised SVG
+      (2) SVG optimeerimine pole vajalik. Vajadusel:
+          https://jakearchibald.github.io/svgomg/
+      (3) img src width=48
+          Kaaluda embedding
+
+      Hand Created by Rafa Goicoechea frome the Noun Project
+      
+
+    -->
+
+    <!-- Material Design icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet">
+
+    <!-- Roboto -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet"> 
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
+
+    <!-- jsPlumb -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jsPlumb/2.0.7/jsPlumb.js'></script>
+
+    <style>
+      .ModelRow {
+        display: -webkit-flex;
+        display: flex;
+        width: 820px;
+        height: 320px;
+        background-color: Azure;
+      }
+
+      .ModelCol {
+        position: relative;
+        width: 800px;
+        height: 300px;
+        margin: 10px;
+        border: none /* 1px solid black */;
+      }
+      #ModelN1Col {
+        background-color: #FFEB3B /* Yellow 500 */;        
+      }
+      #ModelN2Col {
+        background-color: #DCEDC8 /* Light Green ? */;        
+      }
+
+      #debug {
+      }
+
+      .my-btn {
+        border-color: #6df4a9 !important;
+        color: #27ca6f !important;
+        margin: 5px;
+      }
+
+      .iconContainer {
+        position: absolute;
+        text-align: center;
+        z-index: 3;
+        cursor: pointer;
+        font-family: 'Roboto';
+        font-weight: 300; 
+      }
+
+      .iconContainer i {
+        font-size: 48px;
+        color: #424242;
+        background-color: none;
+      }
+
+      .labelArrow {
+        font-family: 'Roboto';
+        font-weight: 300;
+        font-size: 36px;
+        background-color: White;
+      }
+
+      .labelText {
+        font-family: 'Roboto';
+        font-weight: 300;
+        font-size: 18px;
+        background-color: White;
+      }
+
+      .hidden {
+        display: none;
+      }
+
+    </style>
+
+  <!-- Init -->
+  <script>
+    function init() {
+
+      // Non-jsPlumb things
+      // Event handler for the positioning tool
+      $('#showIconPositions').click(function() {
+        var positions = [];
+        $('.iconContainer').each(function() {
+          positions.push({
+            id: $(this).attr('id'),
+            left: $(this).css('left'),
+            top: $(this).css('top')
+          });
+        });
+        $('#log').text(JSON.stringify(positions));
+      });
+
+      // Position icons
+      var positions = [
+        { "id":"i1","left":"34px","top":"57px" },
+        { "id":"i2","left":"253px","top":"176px" },
+        { "id":"i3","left":"34px","top":"57px" },
+        { "id":"i4","left":"200px","top":"157px" },
+        { "id":"i5","left":"34px","top":"257px" }
+      ];
+
+      for (var i = 0; i < positions.length; i++) {
+        var e = $('#' + positions[i].id);
+        e.css('left', positions[i].left);
+        e.css('top', positions[i].top);
+        e.removeClass('hidden');
+      }
+
+      // jsPlumb things
+
+      var ModelN1 = jsPlumb.getInstance();
+
+      ModelN1.ready(function() { 
+        // Init jsPlumb
+        ModelN1.Defaults.MaxConnections = 5;
+        ModelN1.setContainer($("#ModelN2Row"));
+
+        // Repaint
+        ModelN1.repaint($('.iconContainer'));      
+
+        // Set icons draggable
+        ModelN1.draggable($('.iconContainer'), {
+            grid: [40, 40]
+        });
+
+        // Insert connections
+        ModelN1.connect({
+            source:"i1", target:"i2", anchor:"AutoDefault", endpoint:"Blank",
+            paintStyle: { strokeStyle: 'blue', dashstyle: '2 4', lineWidth: 4 },
+            overlays: [ ["Arrow", { location: 0.95 } ] ]
+        });        
+
+        // Repaint
+        ModelN1.repaint($('.iconContainer'));      
+
+      });
+
+      var ModelN2 = jsPlumb.getInstance();
+
+      ModelN2.ready(function() { 
+        // Init jsPlumb
+        ModelN2.Defaults.MaxConnections = 5;
+        ModelN2.setContainer($("#ModelN2Row"));
+
+        // Repaint
+        ModelN2.repaint($('.iconContainer'));      
+
+        // Set icons draggable
+        ModelN2.draggable($('.iconContainer'), {
+            grid: [40, 40]
+        });
+
+        // Insert connections
+        ModelN2.connect({
+            source:"i3", target:"i3", anchor:"AutoDefault", endpoint:"Blank",
+            paintStyle: { strokeStyle: 'blue', dashstyle: '2 4', lineWidth: 4 },
+            overlays: [ ["Arrow", { location: 0.95 } ] ]
+        });        
+
+
+/*
+        ModelN1.connect({
+            source:"i1", target:"i2", anchor:"AutoDefault", endpoint:"Blank",
+            paintStyle: { strokeStyle: 'blue', dashstyle: '2 4', lineWidth: 4 },
+            overlays: [ ["Arrow", { location: 0.95 } ], 
+              [ "Label", { label: "↗", location: 0.5,
+                           id: "myLabel", cssClass: 'labelArrow' } ]
+            ]
+        });        
+
+*/
+
+        // Repaint
+        ModelN2.repaint($('.iconContainer'));      
+
+      });
+
+    }
+
+  </script>
+
+  </head>
+
+  <!--  --> 
+  <body onload="init();">
+
+  <div class="container" style='margin-top: 10px; margin-bottom: 40px; '>
+
+    <!-- Model 1 -->
+    <div class='row ModelRow' id='ModelN1Row'>
+      <div class='col-sm-8 ModelCol' id='ModelN1Col'>
+
+        <div id='i1' class='iconContainer hidden'>
+          <!-- i class="material-icons">flight_takeoff</i><br/ -->
+          <img src="pot.svg" width=48 ><br>
+          Trendikad<br/>imevahendid
+        </div>
+
+        <div id='i2' class='iconContainer hidden'>
+          <!-- i class="material-icons">flight_takeoff</i><br/ -->
+          <img src="skull.svg" width=48 ><br>
+          Läbikukkunud<br/>projektid
+        </div>
+
+      </div>        
+
+    </div>
+    <!-- end of Model 1 -->        
+
+
+    <!-- Model 2 -->
+    <div class='row ModelRow' id='ModelN2Row'>
+      <div class='col-sm-8 ModelCol' id='ModelN2Col'>
+
+        <div id='i3' class='iconContainer hidden'>
+          <img src="Hand.svg" height=48 ><br>
+          Turu nähtamatu<br/>käsi
+        </div>
+
+        <div id='i4' class='iconContainer hidden'>
+          <i class="material-icons">account_circle</i><br/>
+          <!-- img src="skull.svg" width=48 ><br -->
+          IT<br/>tööjõud
+        </div>
+
+        <div id='i5' class='iconContainer hidden'>
+          <img src="Entry.svg" width=48 ><br>
+          Sisenemine<br/>tööturule
+        </div>
+
+      </div>        
+
+    </div>
+    <!-- end of Model 2 -->        
+
+    <div class='row' id='debug'>
+      <div class='col-sm-8'>
+        <button id='showIconPositions' type='button' class='my-btn btn btn-outline-primary'>
+          Show Icon Positions
+        </button>
+    
+        <div id='log'>
+          
+        </div>
+        
+      </div>
+    </div>
+    <!-- end of debug -->
+
+  </div>
+
+  <!-- jQuery first, then Tether, then Bootstrap JS. -->
+  <script
+    src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"
+    integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7"
+    crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js" integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
+
+  </body>
+
+</html>

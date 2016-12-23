@@ -19,6 +19,36 @@ Uuendatud RIHA on üles ehitatud hajusarhitektuuri põhimõtetele.
 </ul>
 </div>
 
+<div id='Arhitektuurijoonis'>
+<pre>
+                                                     ,-.
+                                 +-------------+     `|'
+                                 |Sirvija      |     /|\
+                                 |             +---+  |
+,-.                              +--+--+-------+     / \
+`|'                                 ^  ^
+/|\     +-------------+  API        |  |
+ | +--> |Kooskõlastaja|◯ +----------+  |
+/ \     |             |                +
+        +------+------+     +---------+◯  API
+               ^            |   +-------------+
+               +------------+   |Avaldaja     |
+                                |             |
+                                +------+------+
+                                       ^
+                                       |
+                                       |
+                                       +
+                        ,-.            ◯  API
+                        `|'     +-------------+
+                        /|\     |Kirjeldaja   |
+                         | +--> |             |
+                        / \     +-------------+
+  
+</pre>  
+
+</div>
+
 {% include EN.html %}
 
 New RIHA has been re-built in accordance with principles of distributed architecture.

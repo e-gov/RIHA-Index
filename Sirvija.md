@@ -12,7 +12,7 @@ nr: 5
 
 Rakendus, millega inimkasutaja saab tutvuda kirjeldustega ja kooskõlastusotsustega. 
 
-Sirvija saab oma andmed [Avaldajalt](Avaldaja).
+Sirvija saab oma andmed [Avaldajalt](Avaldaja) ja [Kooskõlastajalt](Kooskõlastaja).
 
 Pääs rakendusse:
 
