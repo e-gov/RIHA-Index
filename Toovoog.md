@@ -31,7 +31,7 @@ permalink: Toovoog
   - [Avaldaja](Avaldaja) teeb kirjeldused masinliidese (API) kaudu kõigile kättesaadavaks.
 4. Kooskõlastamine
   - KOOSKÕLASTAJA, kasutades [Kooskõlastajat](Kooskõlastaja), vaatab läbi kokkukogutud kirjeldused ja teeb kooskõlastusotsused.
-  - Kooskõlastusotsused saavad avalikult kättesaadavaks [Kooskõlastajat](Kooskõlastaja) masinliidese (API) kaudu.
+  - Kooskõlastusotsused saavad avalikult kättesaadavaks [Kooskõlastaja](Kooskõlastaja) masinliidese (API) kaudu.
 5. RIHA andmete kasutamine
   - RIHA KASUTAJA saab [Sirvija](Sirvija) abil tutvuda kirjeldustega ja kooskõlastusotsustega.
 
