@@ -9,19 +9,6 @@ permalink: Kirjeldusstandard
 
 [Formaalne kirjeldus](https://github.com/e-gov/RIHA-API/blob/master/RIHA-API.yaml) on koostatud vastavalt [Open API Initiative](https://www.openapis.org/) (endine Swagger) nõuetele.
 
-## Lühike lahtiseletus
-
-`swagger: '2.0'` - kasutatav Open API (Swagger) kirjelduskeele versiooni
-
-`info: [..]` - liidese nimetus, versioon ja kokkuvõtlik kirjeldus
-
-`consumes`, `produces` - päring liidesele saadetakse ja vastus saadakse JSON-vormingus
-
-`paths`
-
-- `/systems.json` - nii pöördudes tagastab liides infosüsteemide nimekirja
-- `{shortname}` - lühinimega pöördudes tagastab liides konkreetse infosüsteemi detailse kirjelduse
-
 <div class='block__note'>
   <p class='block__note--heading'>Swagger Editor</p>
   <p>
@@ -29,8 +16,26 @@ permalink: Kirjeldusstandard
   </p>
 </div>
 
-- `definitions` - liides poolt väljastatavad vormingud
-  - Liideses on kaks vormingut: süsteemi lühiandmestik ja detailandmestik
+## Üldteave
+
+`swagger: '2.0'` - kasutatav Open API (Swagger) kirjelduskeele versioon
+
+`info: [..]` - liidese nimetus, versioon ja kokkuvõtlik kirjeldus
+
+`consumes`, `produces` - päring liidesele saadetakse ja vastus saadakse JSON-vormingus
+
+## Pöördumisteed
+
+Liidese poole pöördumise teed (URL-i osad) on määratud jaotises `paths`. Pöördumisteid on kaks:
+
+- `/systems.json` - nii pöördudes tagastab liides infosüsteemide nimekirja
+- `/{shortname}` - lühinimega pöördudes tagastab liides konkreetse infosüsteemi detailse kirjelduse
+
+## Vormingud
+
+Jaotises `definitions` määratletakse liides poolt väljastatavad vormingud. Neid on kaks: süsteemi lühiandmestik ja detailandmestik
+
+## Süsteemi lühiandmestik
 
 - `system` - Süsteemi lühiandmestik. 
   - `uri` - (KOHUSTUSLIK) Süsteemi unikaalselt identifitseeriv URI. HTTP GET sellel aadressil peab tagastama detailed_system tüüpi objekti
@@ -50,6 +55,8 @@ permalink: Kirjeldusstandard
         - `timestamp` - Staatuse saamise aeg
     - description_timestamp - Süsteemi kohta väljastatava info viimase muutmise aeg
              
+## Süsteemi detailandmestik
+
 - `detailed system` - Süsteemi detailandmestik. 
   - `shortname` - (KOHUSTUSLIK) Süsteemi lühinimi
   - `description_timestamp` - (KOHUSTUSLIK) Kirje viimase muutmise aeg
