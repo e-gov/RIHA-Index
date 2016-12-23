@@ -31,30 +31,9 @@ a[href] .edit { color: #E0E0E0; text-decoration:none; }
 
 /* ---- Riba ---- */
 .Riba {
-  text-align: center;
+  width: 18rem;
   padding: 0 1rem 2rem 1rem;
   background-color: Azure;
-}
-@media (min-width: 48em) {
-  .Riba {
-    position: fixed;
-    top: 0; left: 0; bottom: 0;
-    width: 18rem;
-    text-align: left;
-  }
-}
-
-@media (min-width: 48em) {
-  .RibaKleepuv {
-    position: absolute;
-    right:  1rem;
-    bottom: 1rem;
-    left: 1rem;
-  }
-}
-
-.RibaLoetelu {
-
 }
 .RibaElement {
   display: block;
