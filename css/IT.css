@@ -1,3 +1,20 @@
+/* ---- General layout ---- */
+#Container {
+	display: flex;
+	flex-wrap: wrap;
+}
+#Tekst {
+	flex-grow: 1;
+  margin-left: 13rem;
+}
+#Riba {
+	flex-grow: 2;
+  width: 18rem;
+  padding: 0 1rem 2rem 1rem;
+  background-color: Azure;
+}
+
+
 .lyliti {
   cursor: pointer;
 }
@@ -25,16 +42,6 @@
 }
 a[href] .edit { color: #E0E0E0; text-decoration:none; }
 
-.Tekst {
-  margin-left: 13rem;
-}
-
-/* ---- Riba ---- */
-.Riba {
-  width: 18rem;
-  padding: 0 1rem 2rem 1rem;
-  background-color: Azure;
-}
 .RibaElement {
   display: block;
   line-height: 1.75;
