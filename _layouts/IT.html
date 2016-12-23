@@ -17,9 +17,19 @@
 
   </head>
   <body onload='init()'>
-    {% include Riba.html %}
-    <div class='Tekst'>
-      {{ content }}
+    <!-- Flexbox -->
+    <div id='container' class='display: -webkit-flex; display: flex;'>
+
+      {% include Riba.html %}
+
+      <div class='Tekst'>
+        {{ content }}
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div style='margin-top: 4rem;'>
+     &nbsp;
     </div>
   </body>
 </html>
