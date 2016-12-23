@@ -54,9 +54,9 @@
 	font-size:18px
 }
 .block__warning {
-	border-color:#ff851b;
-	background-color:#fff2e8;
-	color:#b75500;
+	border-color:#f44336;
+	background-color:#ffcdd2;
+	color:#f44336;
 	padding:0 8px;
 	border:1px solid #ff851b;
 	border-radius:4px;
