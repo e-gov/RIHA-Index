@@ -9,7 +9,9 @@ permalink: Kirjeldusstandard
 
 # RIHA kirjeldusstandard
 
-RIHA masinliidese (API) standardiseeritud, ([formaalne kirjeldus](https://github.com/e-gov/RIHA-API/blob/master/RIHA-API.yaml) on koostatud vastavalt [Open API Initiative](https://www.openapis.org/) (endine Swagger) nõuetele.
+RIHA masinliidese (API) standardiseeritud, [formaalne kirjeldus](https://github.com/e-gov/RIHA-API/blob/master/RIHA-API.yaml) on koostatud vastavalt [Open API Initiative](https://www.openapis.org/) (endine Swagger) nõuetele.
+
+Kirjeldusstandardis määratletakse üldteave, pöördumisteed ja liidese poolt väljastatavate andmete vormingud. Alljärgnevalt esitame kirjeldusstandardi vabas vormis ülevaate. Täpsema teabe saamiseks tuleb pöörduda [formaalse kirjelduse](https://github.com/e-gov/RIHA-API/blob/master/RIHA-API.yaml) poole.
 
 <div class='block__note'>
   <p class='block__note--heading'>Swagger Editor</p>
@@ -18,13 +20,11 @@ RIHA masinliidese (API) standardiseeritud, ([formaalne kirjeldus](https://github
   </p>
 </div>
 
-Kirjeldusstandardis määratletakse üldteave, pöördumisteed ja liidese poolt väljastatavate andmete vormingud. Alljärgnevalt esitame kirjeldusstandardi vabas vormis ülevaate. Täpsema teabe saamiseks tuleb pöörduda [formaalse kirjelduse](https://github.com/e-gov/RIHA-API/blob/master/RIHA-API.yaml) poole.
-
 ## Üldteave
 
-- `swagger: '2.0'` - kasutatav Open API (Swagger) kirjelduskeele versioon
+- `swagger: '2.0'` - määratakse kasutatav Open API (Swagger) kirjelduskeele versioon
 - `info: [..]` - liidese nimetus, versioon ja kokkuvõtlik kirjeldus
-- `consumes`, `produces` - määrab, et päring liidesele saadetakse ja vastus saadakse JSON-vormingus
+- `consumes`, `produces` - määratakse, et päring liidesele saadetakse ja vastus saadakse JSON-vormingus
 
 ## Pöördumisteed
 
@@ -59,12 +59,14 @@ Jaotises `definitions` määratletakse liides poolt väljastatavad vormingud. Ne
              
 ## Süsteemi detailandmestik
 
-- `detailed system` - Süsteemi detailandmestik. 
+- `detailed_system` - Süsteemi detailandmestik. 
   - `shortname` - (KOHUSTUSLIK) Süsteemi lühinimi
   - `description_timestamp` - (KOHUSTUSLIK) Kirje viimase muutmise aeg
   - `payload` - Spetsifitseerimata struktuuriga masinloetav informatsioon süsteemi kohta
 
 
 {% include EN.html %}
+
+# RIHA Description Standard
 
 [Formal description](https://github.com/e-gov/RIHA-API/blob/master/RIHA-API.yaml) follows [Open API Initiative](https://www.openapis.org/) (former Swagger) requirements.
