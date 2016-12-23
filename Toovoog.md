@@ -23,7 +23,7 @@ permalink: Toovoog
     - Kirjeldus peab vastama [RIHA kirjeldusstandardile](Kirjeldusstandard).
   - OMANIK paneb kirjelduse avalikult internetti välja.
     - [Kirjeldaja](Kirjeldaja) kasutamisel on kirjeldus automaatselt välja pandud.
-2. Kirjeldusest teatamine
+2. Kirjelduse URL-i teatamine
   - OMANIK teatab RIA TEENUSEHALDUR-ile koostatud kirjelduse URL-i.
   - RIA TEENUSEHALDUR registreerib kirjelduse URL-i [Avaldaja](Avaldaja) konfiguratsioonis.
 3. Kirjelduste kokkukogumine
@@ -69,3 +69,29 @@ KOOSKÕLASTAJA                    |Sirvija      |     /|\
 {% include EN.html %}
 
 # General Workflow
+
+## Roles
+
+1. OWNER of information system
+2. RIA SERVICE MANAGER
+3. APPROVER
+4. RIHA USER
+
+## Operations
+
+1. Describing information system
+  - OWNER, using [Producer](Kirjeldaja) - or, if she or he wishes, a text editor or programmer's editor, composes a description of information system.
+    - Description has to conform to [RIHA Description Standard](Kirjeldusstandard).
+  - OWNER makes the description publicly available on the internet.
+    - When [Producer](Kirjeldaja) is used, Producer publicises the description.
+2. Reporting description URL
+  - OWNER reports to RIA SERVICE MANAGER the URL of the description.
+  - RIA SERVICE MANAGER enters the URL into [Publisher](Avaldaja)'s configuration.
+3. Harvesting of descriptions
+  - [Publisher](Avaldaja) periodically visits reported URLs and gathers the descriptions into central datastorage.
+  - [Publisher](Avaldaja) makes harvested descriptions available through API.
+4. Approving
+  - APPROVER, using [Approver](Kooskõlastaja), reviews the harvested descriptions and makes approval decisions.
+  - Approval decisions are made available through [Approver](Kooskõlastaja)'s API.
+5. Using RIHA data 
+  - RIHA USER, using [Browser](Sirvija), views descriptions and approval decisions.
