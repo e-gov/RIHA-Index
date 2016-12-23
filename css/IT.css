@@ -1,7 +1,7 @@
 /* ---- General layout ---- */
 #Container {
 	display: flex;
-	flex-wrap: wrap;
+	/* flex-wrap: wrap; */
 }
 #Tekst {
 	flex-grow: 1;
