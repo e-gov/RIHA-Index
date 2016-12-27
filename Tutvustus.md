@@ -5,6 +5,8 @@ title: Tutvustus (Introduction)
 permalink: Tutvustus
 ---
 
+---
+
 {% include ET.html %}
 
 RIHAs saab:
@@ -23,6 +25,8 @@ ldust.
 </p>
 
 Vt ka: [RIHA kohta RIA veebilehel](https://www.ria.ee/ee/riha.html)
+
+---
 
 {% include EN.html %}
 
