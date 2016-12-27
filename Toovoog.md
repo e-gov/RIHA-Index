@@ -5,6 +5,8 @@ title: Töövoog (Workflow)
 permalink: Toovoog
 ---
 
+---
+
 {% include ET.html %}
 
 # Üldine töövoog
@@ -65,6 +67,8 @@ KOOSKÕLASTAJA                    |Sirvija      |     /|\
 </pre>  
 
 </div>
+
+---
 
 {% include EN.html %}
 
