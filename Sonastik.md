@@ -1,3 +1,10 @@
+---
+title: Sõnastik/Glossary
+layout: IT
+permalink: Sonastik
+published: true
+---
+
 ## Sõnastik/Glossary
 
 <dl>
