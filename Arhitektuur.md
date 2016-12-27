@@ -5,6 +5,8 @@ title: Arhitektuur (Architecture)
 permalink: Arhitektuur
 ---
 
+---
+
 {% include ET.html %}
 
 Uuendatud RIHA on üles ehitatud hajusarhitektuuri põhimõtetele.
@@ -48,6 +50,8 @@ Uuendatud RIHA on üles ehitatud hajusarhitektuuri põhimõtetele.
 </pre>  
 
 </div>
+
+---
 
 {% include EN.html %}
 
