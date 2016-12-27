@@ -23,7 +23,7 @@ Kirjeldaja paigaldatakse hajusalt, mitmetes eksemplarides.
   </p>
 </div>
 
-[Pääs rakendusse](/)
+[Pääs rakendusse]()
 
 ---
 
@@ -35,4 +35,4 @@ Software application that helps a human user produce and publish descriptions in
 
 Publisher is deployed in distributed instances.  
 
-[To App](/)
+[To App](https://e-gov.github.io/RIHA-Launcher/)
