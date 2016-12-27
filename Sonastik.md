@@ -5,7 +5,7 @@ permalink: Sonastik
 published: true
 ---
 
-## Sõnastik/Glossary
+# Sõnastik/Glossary
 
 <dl>
   <dt>infosüsteemi staatus</dt>
