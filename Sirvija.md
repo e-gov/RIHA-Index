@@ -12,7 +12,16 @@ nr: 5
 
 # Sirvija
 
-Rakendus, millega inimkasutaja saab tutvuda kirjeldustega ja kooskõlastusotsustega. 
+Sirvija on rakendus, millega inimkasutaja saab tutvuda kirjeldustega ja kooskõlastusotsustega. Esitatakse järgmid väljad:
+
+- `omanik` - infosüsteemi omaniku registrikood
+- `infosüsteemi nimi`
+- `viimati muudetud` - infosüsteemi kirjelduse viimase muutmise kuupäev
+- `staatus' - infosüsteemi staatus
+- `kooskõlastatud` - viimase kooskõlastusotsuse tegemise kuupäev
+- `kooskõlastamise staatus` - viimase kooskõlastusotsuse sisu.
+
+Andmeid saab väljade järgi sortida.
 
 Sirvija saab oma andmed [Avaldajalt](Avaldaja) ja [Kooskõlastajalt](Kooskõlastaja).
 
@@ -26,5 +35,15 @@ Pääs rakendusse:
 
 # Browser
 
-Software application that allows a human user to browse descriptions and approval decisions. Browser takes descriptions from the Publisher. 
+Software application that allows a human user to browse descriptions and approval decisions. 
+
+- `omanik` - registry code of the owner of the information system
+- `infosüsteemi nimi` - name of the information system
+- `viimati muudetud` - date of last change of information system description
+- `staatus' - status of information system
+- `kooskõlastatud` - data of the last approval decision
+- `kooskõlastamise staatus` - the last approval decision (e.g. `KOOSKÕLASTATUS` (Approved), `MITTE KOOSKÕLASTATUD` (Not Approved)).
+
+Browser takes descriptions from the Publisher. 
+
 To use Browser, click on the icon above
