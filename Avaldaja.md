@@ -12,7 +12,7 @@ nr: 3
 
 # Avaldaja
 
-Rakendus, mis kogub kirjeldused kesksesse andmelattu ja teeb need [masinliidese (API)](Kirjeldusstandard) kaudu kättesaadavaks. 
+Avaldaja on rakendus, mis kogub kirjeldused kesksesse andmehoidlasse ja teeb need [masinliidese (API)](Kirjeldusstandard) kaudu kättesaadavaks. Vt ka [RIHA töövoog](Toovoog).
 
 Pääs rakendusse:
 
@@ -26,7 +26,7 @@ Pääs rakendusse:
 
 # Publisher
 
-Software application that gathers decriptions into a central datastore and publishes them through [an API](Kirjeldusstandard).  
+Publisher is application that gathers decriptions into a central datastore and publishes them through [an API](Kirjeldusstandard). See also [RIHA Workflow](Toovoog).
 
 To use the Publisher, click on the icon below.
 
