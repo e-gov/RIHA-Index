@@ -22,15 +22,16 @@ RIHA-s (Riigi infosüsteemi haldussüsteemis) saab:
   </p>
 </div>
 
-Pääs rakendustesse:
+Pääs rakendustesse (Access to Apps & APis):
 
-| komponent | inimkasutaja rakendus | masinliides (API) |
-| :---: | :---: | :---: |
-| [Sirvija](Sirvija) | <a href='http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8082/' style='border-bottom: none !important;'><i class="material-icons ikoon" style='color: #616161; font-size: 48px;'>account_circle</i></a> | |
-| [Kooskõlastaja](Kooskolastaja) | <a href='http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8080/' style='border-bottom: none !important;'><i class="material-icons ikoon" style='color: #616161; font-size: 48px;'>account_circle</i></a> | masinliides (API): <a href='http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8080/approvals' style='border-bottom: none !important;'><i class="material-icons ikoon" style='color: #FF555D; font-size: 48px;'>code</i></a> |
-| [Avaldaja](Avaldaja) |  | <a href='http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8081/systems.json' style='border-bottom: none !important;'><i class="material-icons ikoon" style='color: #FF555D; font-size: 48px;'>code</i></a> |
-| [Kirjeldaja](Kirjeldaja)  Paigaldus 1 | <a href='http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8083' style='border-bottom: none !important;'><i class="material-icons ikoon" style='color: #616161; font-size: 48px;'>account_circle</i></a> | <a href='http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8083/systems.json' style='border-bottom: none !important;'><i class="material-icons ikoon" style='color: #FF555D; font-size: 48px;'>code</i></a> |
-| [Kirjeldaja](Kirjeldaja)  Paigaldus 2 | <a href='http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8084' style='border-bottom: none !important;'><i class="material-icons ikoon" style='color: #616161; font-size: 48px;'>account_circle</i></a> | <a href='http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8084/systems.json' style='border-bottom: none !important;'><i class="material-icons ikoon" style='color: #FF555D; font-size: 48px;'>code</i></a> |
+| komponent | inimkasutaja rakendus (human UI) | masinliides (API) |
+| :--- | :---: | :---: |
+| [Sirvija/Browser](Sirvija) | <a href='http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8082/' style='border-bottom: none !important;'><i class="material-icons ikoon" style='color: #616161; font-size: 48px;'>account_circle</i></a> | |
+| [Kooskõlastaja/Approver](Kooskolastaja) | <a href='http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8080/' style='border-bottom: none !important;'><i class="material-icons ikoon" style='color: #616161; font-size: 48px;'>account_circle</i></a> | masinliides (API): <a href='http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8080/approvals' style='border-bottom: none !important;'><i class="material-icons ikoon" style='color: #FF555D; font-size: 48px;'>code</i></a> |
+| [Avaldaja/Publisher](Avaldaja) |  | <a href='http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8081/systems.json' style='border-bottom: none !important;'><i class="material-icons ikoon" style='color: #FF555D; font-size: 48px;'>code</i></a> |
+| [Kirjeldaja/Producer](Kirjeldaja)  |  |  |
+| paigaldus 1 | <a href='http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8083' style='border-bottom: none !important;'><i class="material-icons ikoon" style='color: #616161; font-size: 48px;'>account_circle</i></a> | <a href='http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8083/systems.json' style='border-bottom: none !important;'><i class="material-icons ikoon" style='color: #FF555D; font-size: 48px;'>code</i></a> |
+| paigaldus 2 | <a href='http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8084' style='border-bottom: none !important;'><i class="material-icons ikoon" style='color: #616161; font-size: 48px;'>account_circle</i></a> | <a href='http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8084/systems.json' style='border-bottom: none !important;'><i class="material-icons ikoon" style='color: #FF555D; font-size: 48px;'>code</i></a> |
 
 ---
 
@@ -49,37 +50,5 @@ In RIHA (Administration System for the State Information System RIHA) one can:
   </p>
 </div>
 
-To apps and APIs:
 
-## [Browser](Sirvija)
-
-| human UI |
-| :---: |
-| <a href='http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8082/' style='border-bottom: none !important;'><i class="material-icons ikoon" style='color: #616161; font-size: 48px;'>account_circle</i></a> |
-
-## [Approver](Kooskolastaja)
-
-| human UI | API |
-| :---: | :---: |
-| <a href='http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8080/' style='border-bottom: none !important;'><i class="material-icons ikoon" style='color: #616161; font-size: 48px;'>account_circle</i></a> | <a href='http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8080/approvals' style='border-bottom: none !important;'><i class="material-icons ikoon" style='color: #FF555D; font-size: 48px;'>code</i></a> |
-
-## [Publisher](Avaldaja)
-
-| API |
-| :---: |
-| <a href='http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8081/systems.json' style='border-bottom: none !important;'><i class="material-icons ikoon" style='color: #FF555D; font-size: 48px;'>code</i></a> |
-
-## [Producer](Kirjeldaja)
-
-Instance 1
-
-| human UI | API |
-| :---: | :---: |
-| <a href='http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8083' style='border-bottom: none !important;'><i class="material-icons ikoon" style='color: #616161; font-size: 48px;'>account_circle</i></a> | <a href='http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8083/systems.json' style='border-bottom: none !important;'><i class="material-icons ikoon" style='color: #FF555D; font-size: 48px;'>code</i></a> |
-
-Instance 2
-
-| human UI | API |
-| :---: | :---: |
-| <a href='http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8084' style='border-bottom: none !important;'><i class="material-icons ikoon" style='color: #616161; font-size: 48px;'>account_circle</i></a> | <a href='http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8084/systems.json' style='border-bottom: none !important;'><i class="material-icons ikoon" style='color: #FF555D; font-size: 48px;'>code</i></a> |
 
