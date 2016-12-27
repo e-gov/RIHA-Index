@@ -5,6 +5,8 @@ title: Kirjeldusstandard (Description Standard)
 permalink: Kirjeldusstandard
 ---
 
+---
+
 {% include ET.html %}
 
 # RIHA kirjeldusstandard
@@ -64,6 +66,7 @@ Jaotises `definitions` määratletakse liidese poolt väljastatavad vormingud. N
   - `description_timestamp` - (KOHUSTUSLIK) Kirje viimase muutmise aeg
   - `payload` - Spetsifitseerimata struktuuriga masinloetav informatsioon süsteemi kohta.
 
+---
 
 {% include EN.html %}
 
