@@ -5,6 +5,8 @@ title: RIHA
 nr: 1
 ---
 
+---
+
 {% include ET.html %}
 
 RIHA-s (Riigi infosüsteemi haldussüsteemis) saab:
@@ -46,3 +48,43 @@ Paigaldus 2
 <a href='http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8084' style='border-bottom: none !important;'><i class="material-icons ikoon" style='color: #616161; font-size: 48px;'>account_circle</i></a> 
 <a href='http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8084/systems.json' style='border-bottom: none !important;'><i class="material-icons ikoon" style='color: #FF555D; font-size: 48px;'>code</i></a> 
 
+{% include EN.html %}
+
+In RIHA (Administration System for the State Information System RIHA) one can:
+
+- describe information systems
+- approve information systems
+- view information system descriptions and approval decisions
+
+<div class='block__warning'>
+  <p class='block__warning--heading'>A Product under Agile Development</p>
+  <p>
+    This is not a production-ready product yet. Please submit comments and error reports at <a href='https://e-gov.github.io/RIHA-Launcher/Osale'>Osale</a>.
+  </p>
+</div>
+
+To apps and APIs:
+
+## [Browser](Sirvija)
+
+<a href='http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8082/' style='border-bottom: none !important;'><i class="material-icons ikoon" style='color: #616161; font-size: 48px;'>account_circle</i></a>
+
+## [Approver](Kooskolastaja)
+
+<a href='http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8080/' style='border-bottom: none !important;'><i class="material-icons ikoon" style='color: #616161; font-size: 48px;'>account_circle</i></a><a href='http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8080/approvals' style='border-bottom: none !important;'><i class="material-icons ikoon" style='color: #FF555D; font-size: 48px;'>code</i></a> 
+
+## [Publisher](Avaldaja)
+
+<a href='http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8081/systems.json' style='border-bottom: none !important;'><i class="material-icons ikoon" style='color: #FF555D; font-size: 48px;'>code</i></a>
+
+## [Producer](Kirjeldaja)
+
+Instance 1
+
+<a href='http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8083' style='border-bottom: none !important;'><i class="material-icons ikoon" style='color: #616161; font-size: 48px;'>account_circle</i></a> 
+<a href='http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8083/systems.json' style='border-bottom: none !important;'><i class="material-icons ikoon" style='color: #FF555D; font-size: 48px;'>code</i></a> 
+
+Instance 2
+
+<a href='http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8084' style='border-bottom: none !important;'><i class="material-icons ikoon" style='color: #616161; font-size: 48px;'>account_circle</i></a> 
+<a href='http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8084/systems.json' style='border-bottom: none !important;'><i class="material-icons ikoon" style='color: #FF555D; font-size: 48px;'>code</i></a> 
