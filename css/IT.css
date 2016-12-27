@@ -172,41 +172,8 @@ body {
 		margin: 0.25em 0 0.5em;
 		padding: 0;
 	}
-	dl dd {
-		margin: 0 0 .5em 2em;
-	}
-	.head dd + dd { /* compact for header */
-		margin-top: -.5em;
-	}
-	/* Style for algorithms */
-	ol.algorithm ol:not(.algorithm) {
-	 border-left: 0.5em solid #DEF;
-	}
-	/* Style for switch/case <dl>s */
-	dl.switch > dd > ol.only {
-	 margin-left: 0;
-	}
-	dl.switch > dd > ol.algorithm {
-	 margin-left: -2em;
-	}
-	dl.switch {
-	 padding-left: 2em;
-	}
-	dl.switch > dt {
-	 text-indent: -1.5em;
-	 margin-top: 1em;
-	}
-	dl.switch > dt + dt {
-	 margin-top: 0;
-	}
-	dl.switch > dt::before {
-	 content: '\21AA';
-	 padding: 0 0.5em 0 0;
-	 display: inline-block;
-	 width: 1em;
-	 text-align: right;
-	 line-height: 0.5em;
-	}
+	dl dd { margin: 0 0 .5em 2em; }
+        dt { font-weight: bold; font-style: italic; }
 
 /******************************************************************************/
 /*                                    Code                                    */
