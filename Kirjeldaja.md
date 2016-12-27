@@ -6,6 +6,8 @@ permalink: Kirjeldaja
 nr: 2
 ---
 
+---
+
 {% include ET.html %}
 
 # Kirjeldaja
@@ -21,24 +23,9 @@ Kirjeldaja paigaldatakse hajusalt, mitmetes eksemplarides.
   </p>
 </div>
 
-Pääs rakendusse:
+[Pääs rakendusse](/)
 
-Paigaldus 1
-
-<div class='block__note'>
-  <p class='block__note--heading'>Testimine</p>
-  <p>
-    Paigaldus 1 on testimise eesmärgil. Paigalduse omaniku registrikoodiks on seatud 12345.
-  </p>
-</div>
-
-<a href='http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8083' style='border-bottom: none !important;'><i class="material-icons ikoon" style='color: #616161; font-size: 48px;'>account_circle</i></a> 
-<a href='http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8083/systems.json' style='border-bottom: none !important;'><i class="material-icons ikoon" style='color: #FF555D; font-size: 48px;'>code</i></a> 
-
-Paigaldus 2
-
-<a href='http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8084' style='border-bottom: none !important;'><i class="material-icons ikoon" style='color: #616161; font-size: 48px;'>account_circle</i></a> 
-<a href='http://ec2-35-160-53-79.us-west-2.compute.amazonaws.com:8084/systems.json' style='border-bottom: none !important;'><i class="material-icons ikoon" style='color: #FF555D; font-size: 48px;'>code</i></a>
+---
 
 {% include EN.html %}
 
@@ -48,4 +35,4 @@ Software application that helps a human user produce and publish descriptions in
 
 Publisher is deployed in distributed instances.  
 
-To use the Publisher, click on the icons above.
+[To App](/)
