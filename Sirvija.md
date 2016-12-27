@@ -46,4 +46,4 @@ Software application that allows a human user to browse descriptions and approva
 
 Browser takes descriptions from the Publisher. 
 
-To use Browser, click on the icon above
+To use Browser, click on the icon above.
