@@ -9,6 +9,8 @@ permalink: Tutvustus
 
 {% include ET.html %}
 
+# Tutvustus
+
 RIHAs saab:
 
 - kirjeldada infosüsteeme
@@ -29,6 +31,8 @@ Vt ka: [RIHA kohta RIA veebilehel](https://www.ria.ee/ee/riha.html)
 ---
 
 {% include EN.html %}
+
+# Introduction
 
 User can use RIHA to:
 
