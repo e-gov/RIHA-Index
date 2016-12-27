@@ -5,6 +5,8 @@ title: Kooskolastaja (Approver)
 permalink: Kooskolastaja
 ---
 
+---
+
 {% include ET.html %}
 
 # Kooskõlastaja
@@ -45,6 +47,8 @@ Rakendus:
     - `status` - kooskõlastusseisundi tekstiline kirjeldus
       - võimalikud väärtused: `KOOSKÕLASTATUD`, `MITTE KOOSKÕLASTATUD` (NB! Ei ole veel standarditud)
     - `timestamp` - seisundi saamise aeg.  
+
+---
 
 {% include EN.html %}
 
