@@ -5,11 +5,15 @@ title: Osale (Contribute)
 permalink: Osale
 ---
 
+---
+
 {% include ET.html %}
 
 ## Aita RIHA paremaks teha
 
 RIHA tarkvara arendus toimub GitHub-is. Anna tagasisidet ja tee ettepanekuid alljärgnevates koodirepodes.
+
+---
 
 {% include EN.html %}
 
