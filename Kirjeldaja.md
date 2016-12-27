@@ -23,7 +23,7 @@ Kirjeldaja paigaldatakse hajusalt, mitmetes eksemplarides.
   </p>
 </div>
 
-[Pääs rakendusse]()
+[Pääs rakendusse](https://e-gov.github.io/RIHA-Launcher/)
 
 ---
 
