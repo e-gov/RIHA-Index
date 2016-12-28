@@ -1,3 +1,10 @@
+---
+title: Soovitusi
+layout: IT
+permalink: Soovitusi
+published: true
+---
+
 # Soovitusi
 
 ## Kirjelduste publitseerimine GitHubi abil
