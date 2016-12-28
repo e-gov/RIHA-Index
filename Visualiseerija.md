@@ -7,7 +7,7 @@ published: true
 
 # Visualiseerija
 
-RIHA [Avaldaja](/Avaldaja) API-l põhinev lihtne visualiseerimisrakendus
+RIHA [Avaldaja](Avaldaja) API-l põhinev lihtne visualiseerimisrakendus
 
-- https://e-gov.github.io/RIHA-Visualizer/Status.html (rakendus)
-- https://github.com/e-gov/RIHA-Visualizer (lähtekood)
+- (https://e-gov.github.io/RIHA-Visualizer/Status.html)[https://e-gov.github.io/RIHA-Visualizer/Status.html] (rakendus)
+- (https://github.com/e-gov/RIHA-Visualizer)[https://github.com/e-gov/RIHA-Visualizer] (lähtekood)
