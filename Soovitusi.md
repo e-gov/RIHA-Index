@@ -5,6 +5,10 @@ permalink: Soovitusi
 published: true
 ---
 
+---
+
+{% include ET.html %}
+
 # Soovitusi
 
 ## Kirjelduste publitseerimine GitHubi abil
@@ -30,4 +34,10 @@ Näitame [Andmejälgija](https://github.com/e-gov/AJ) näitel, kuidas RIHA kirje
   - [https://rawgit.com/e-gov/AJ/master/systems.json](https://rawgit.com/e-gov/AJ/master/systems.json)
   - [https://rawgit.com/e-gov/AJ/master/AJ.json](https://rawgit.com/e-gov/AJ/master/AJ.json)
 
-Ülalkirjeldatud meetodit eeldab kirjelduse koostamist käsitsi, tekstiredaktori abil. JSON-i redigeerimine pole raske, kuid nõuab siiski tähelepanu (komade, sulgude ja jutumärkide paarsuse jälgimine, paojadade kasutamine jutumärkide ja reavahetuste sisestamisel). JSON-ga varasemat kokkupuudet mitteomaval kasutajal on tõenäoliselt mõistlikum kasutada [Kirjeldajat](/Kirjeldaja).
+Ülalkirjeldatud meetod eeldab kirjelduse koostamist käsitsi, tekstiredaktori abil. JSON-i redigeerimine pole raske, kuid nõuab siiski tähelepanu (komade, sulgude ja jutumärkide paarsuse jälgimine, paojadade kasutamine jutumärkide ja reavahetuste sisestamisel). JSON-ga varasemat kokkupuudet mitteomaval kasutajal on tõenäoliselt mõistlikum kasutada [Kirjeldajat](/Kirjeldaja).
+
+---
+
+{% include EN.html %}
+
+Recommendations for publishing RIHA descriptions in GitHub.
