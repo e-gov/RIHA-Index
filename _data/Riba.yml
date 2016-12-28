@@ -28,6 +28,13 @@
     - title: "Kirjeldusstandard (Description Standard)"
       url: "/Kirjeldusstandard"
 
+- title: "Ökosüsteem"
+  categories:
+  - title: "Soovitusi"
+    url: "/Soovitusi"
+  - title: "Visualiseerija"
+    url: "/Visualiseerija"
+  
 - title: "Osale (Contribute)"
   url: "/Osale"
   
