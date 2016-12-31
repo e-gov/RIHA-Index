@@ -20,7 +20,9 @@
     <!-- Flexbox -->
     <div id='Container'>
 
-      {% include Riba.html %}
+      {% if page.sidebar %}
+        {% include Riba.html %}
+      {% endif %}
 
       <div id='Tekst'>
         {{ content }}

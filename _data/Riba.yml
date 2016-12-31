@@ -27,6 +27,8 @@
       url: "/Arhitektuur"
     - title: "Kirjeldusstandard (Description Standard)"
       url: "/Kirjeldusstandard"
+    - title: "Tehnoloogiaplaan"
+      url: "/Tehnoloogiaplaan"
 
 - title: "Ökosüsteem"
   categories:
