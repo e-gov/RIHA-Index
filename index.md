@@ -1,8 +1,8 @@
 ---
 layout: IT
+sidebar: true
 publish: true
 title: RIHA
-nr: 1
 ---
 
 ---
