@@ -1,10 +1,11 @@
-/* ---- General layout ---- */
+/* ---- Paigutus ---- */
 #Container {
 	display: flex;
 	/* flex-wrap: wrap; */
 }
 #Tekst {
 	flex-grow: 1; margin-left: 2rem;
+	max-width: 53rem; /* Teksti loetavuse huvides */
 }
 #Riba {
 	flex-grow: 2; width: 18rem;
@@ -12,7 +13,7 @@
   background-color: Azure;
 }
 
-/* ---- Blocks ---- */
+/* ---- Teatepaneelid ---- */
 .block__note {
 	border-color:#0074d9; background-color:#e5f1fb;
 	color:#004b8d; padding:0 8px;
@@ -20,14 +21,10 @@
 	border-radius:4px; font-size:85%;
 	margin-bottom:5px;
 }
-.block__note > p {
-	margin:0 0 8px 0
-}
+.block__note > p { margin:0 0 8px 0 }
 .block__note--heading {
-	font-weight:600;
-	margin-top:8px;
-	line-height:1;
-	font-size:18px
+	font-weight:600; margin-top:8px;
+	line-height:1; font-size:18px
 }
 .block__tip {
 	border-color:#cab918;

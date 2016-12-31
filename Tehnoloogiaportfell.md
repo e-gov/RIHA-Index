@@ -37,31 +37,32 @@ Tehnoloogiate valimisel tuleb arvestada eriti järgmist.
 2.3 RIHA ärinõudeks on lihtsus. Eesmärgiks ei ole teha suurt, keerulist süsteemi. Seetõttu tuleb tehnoloogiliste valikute tegemisel küsida, kas ärilise eesmärgi võiks saavutada lihtsama tehnoloogiaga. Teiste sõnadega, kas võimsam, aga samas keerukam tehnoloogia toob konkreetsel juhul väärtust.
 
 2.4 RIHA rajatakse komponentidena. RIHA komponenti iseloomustab:
+
 - selge funktsioon, soovitavalt ühe (või mitme üksteisega seotud) funktsiooni täitmine.
 - eraldipaigaldatavus, sh erinevatesse keskkondadesse
 - andmete pakkumine masinliidese abil
-  - moodulid liidestatakse üksteisega ja avatakse liidestusteks välistele süsteemidele REST API-de abil.
-  - moodulid tuleb projekteerida nii väikesteks, et vajadusel saab mooduli välja vahetada, teostades selle teises programmeerimiskeeles vm teisel tehnoloogia alusel.
-  - moodulite kogum peab olema laiendatav. RIHA strateegias on sõnastike mooduli, projektide mooduli, finantssjuhtimise mooduli
+- moodulid liidestatakse üksteisega ja avatakse liidestusteks välistele süsteemidele REST API-de abil.
+- moodulid tuleb projekteerida nii väikesteks, et vajadusel saab mooduli välja vahetada, teostades selle teises programmeerimiskeeles vm teisel tehnoloogia alusel.
+- moodulite kogum peab olema laiendatav. RIHA strateegias on sõnastike, projektide, finantssjuhtimise moodulite perspektiivne lisamine.
 
 2.5 Komponentide kokkusobivus ja tervikuna toimimine tagatakse muuhulgas:
 
 - kasutajaliideste ühtlustatud kujunduspõhimõtetega
-- liideste (API-de) täieliku ja täpse dokumenteerimisega
+- liideste (API-de) täieliku ja täpse dokumenteerimisega.
   
 2.6 Komponentide paigaldatavus erinevates keskkondades   
 
 - RIHA on hajussüsteem. Komponentrakendused paigaldatakse erinevate asutuste kontrolli all olevatesse keskkondadesse
-- Osa komponente paigaldatakse RIA taristusse (RIHA kesksüsteem)
-- Seetõttu komponendid peavad vastama erinevate haldajate taristute poolt seatavatele nõuetele
-- Kuna need nõuded ei ole ette teada, on eelistatud laialt levinud tehnoloogiad ja standardsed lahendused.
+- osa komponente paigaldatakse RIA taristusse (RIHA kesksüsteem)
+- seetõttu komponendid peavad vastama erinevate haldajate taristute poolt seatavatele nõuetele
+- kuna need nõuded ei ole ette teada, on eelistatud laialt levinud tehnoloogiad ja standardsed lahendused.
 
 ## 3 Tehnoloogilised nõuded ja valikud
 
 ### Andmesalvestus
 - RIHAs ei moodustata tsentraalset superandmebaasi, vaid andmed paigutatakse hajusalt
-- Andmete iseloomu arvestades ei ole fookuses relatsiooniline andmetehnoloogia, vaid suuremat paindlikkust võimaldav [JSON](http://www.json.org/). RIHA andmeid hoitakse põhiosas JSON-vormingus
-- Seejuures võib relatsioonilist andmebaasi kasutada JSON-tekstide hoidmiseks 
+- [JSON](http://www.json.org/), RIHA andmete põhivorming. Andmete iseloomu arvestades ei ole fookuses relatsiooniline andmetehnoloogia, vaid suuremat paindlikkust võimaldav JSON
+- Seejuures võib relatsioonilist andmebaasi kasutada JSON-tekstide hoidmiseks
 - Kontseptsioonis on hajusalt tekkivate ja uuenevate andmete kokkukogumine (ingl _harvesting_) kesksesse andmehoidlasse (seda võib nimetada andmelaoks). 
 
 ### Masinliidesed (API-d)
@@ -93,7 +94,8 @@ Tehnoloogiate valimisel tuleb arvestada eriti järgmist.
 - [Sass](http://sass-lang.com/)
 
 ### Äriloogika
-- järgides tänapäevaseid trende, üheleherakendus (ingl _single page application_)
+- järgides tänapäeva trende, teostatakse kasutajaliidesed peamiselt üleherakendustena (ingl _single page application_)
+- paindlikkuse tagamiseks kasutatakse mallipõhisust jms tehnikaid.
   
 ### Serveripoolsed komponendid
 - [Java](https://www.java.com/en/), on eelistatud ja seni kasutatud
@@ -101,48 +103,40 @@ Tehnoloogiate valimisel tuleb arvestada eriti järgmist.
 - [Node.js](https://nodejs.org/en/) jms ei ole välistatud.
 
 ### Dokumentatsioon
+
 #### Põhilised
 - [Markdown](https://guides.github.com/features/mastering-markdown/) (GitHubi dialekt) (avaldamisvorming)
 - dokumentatsiooni valmistamisel võib kasutada ka muid vahendeid (lepingupartneri soovil ka Microsoft Word), kuid tulemus teisendatakse alati avaldamisvormingusse
 
-### Abistavad
+#### Abistavad
 - [Jekyll](https://jekyllrb.com/docs/home/) (avaldamistehnoloogia kõrgemate kasutatavusnõuetega dokumentatsioonile), kasutatav  GitHubis või eraldi
 - [Liquid](http://shopify.github.io/liquid/) templiidikeel, kasutusel Jekyllis
 - [Kramdown](https://kramdown.gettalong.org/quickref.html) - Markdown -> HTML teisendaja, kasutusel GitHub Jekyllis
 
-## Andmebaas
+### Andmebaas
 - [PostgreSQL](https://www.postgresql.org/)
   - sh JSON-i töötlemise võimalused
   
-## Tarkvararepositoorium
+### Tarkvararepositoorium
 - [GitHub](https://github.com/)
 - [BitBucket](https://bitbucket.org/)
 - töövoog on commit-ne GitHub-i, sealt automatiseeritud peegeldamine RIA taristu BitBucket-sse
 
-## Modelleerimine
+### Modelleerimine
 - [Enterprise Architect](http://www.sparxsystems.com/products/ea/) 
 - [asciiFlow](http://asciiflow.com/), abistavas rollis, lihtsamates joonistes  
 
-## Logimine
+### Logimine
 - [SLFJ4](http://www.slf4j.org/), Simple Logging Facade for Java
 - syslog protokoll (RFC 5424, RFC 3164). 
 
 ## Mallid ja konfiguratsioonifailid
-- JSON
-- [YAML](http://yaml.org/)
+- [JSON](http://www.json.org/)
+- [YAML](http://yaml.org/).
  
 ##  Üldiselt kasutavav
 - [UTF-8](https://en.wikipedia.org/wiki/UTF-8)
-- [Ubuntu](https://www.ubuntu.com/) - paigalduskeskkonna op-süsteem
+- [Ubuntu](https://www.ubuntu.com/) - paigalduskeskkonna op-süsteem.
   
-  
 
-
-
-
-
-
-[Sublime Text 3](http://docs.sublimetext.info/en/latest/index.html) - programmeerija tekstiredaktor
-
-[GitSavvy](https://github.com/divmain/GitSavvy) - tekstiredaktori Sublime Text 3 ja Giti lõimetis
 
