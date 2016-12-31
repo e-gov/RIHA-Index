@@ -2,13 +2,10 @@
 layout: IT
 publish: true
 title: Tehnoloogiaportfell (Technology Portfolio)
-permalink: Tehnoloogiaplaan
-sidebar: true
+permalink: Tehnoloogiaportfell
 ---
 
 ---
-
-{% include ET.html %}
 
 RIHA
 
@@ -22,10 +19,10 @@ RIHA
 
 Käesolev dokument:
 
-- annab lähtekohad ja põhimõtted tehnoloogiate valikuks
+- esitab lähtekohad ja põhimõtted tehnoloogiate valikuks
 - fikseerib juba tehtud valikud
-- toimib kasutatavate tehnoloogiate kaardistusena
-- annab viiteid tehnoloogiate dokumentatsioonile.
+- toimib kasutatavate tehnoloogiate kaardistusena ja kataloogina
+- annab viiteid tehnoloogiate kirjeldustele.
 
 Tehnoloogiaportfelli täiendatakse arenduse käigus.
 
@@ -48,22 +45,24 @@ Tehnoloogiate valimisel tuleb arvestada eriti järgmist.
   - moodulite kogum peab olema laiendatav. RIHA strateegias on sõnastike mooduli, projektide mooduli, finantssjuhtimise mooduli
 
 2.5 Komponentide kokkusobivus ja tervikuna toimimine tagatakse muuhulgas:
-  - kasutajaliideste ühtlustatud kujunduspõhimõtetega
-  - liideste (API-de) täieliku ja täpse dokumenteerimisega
+
+- kasutajaliideste ühtlustatud kujunduspõhimõtetega
+- liideste (API-de) täieliku ja täpse dokumenteerimisega
   
 2.6 Komponentide paigaldatavus erinevates keskkondades   
-- RIHA on hajussüsteem. RIHA-s säilub küll kesksüsteem (mida haldab RIA), selle kõrval komponentrakendused paigaldatakse erinevate asutuste kontrolli all olevatesse keskkondadesse.
-Osa komponente paigaldatakse RIA taristusse  - tähendab, et komponendid peavad vastama erinevate haldajate taristute poolt seatavatele nõuetele.
-  - Need nõuded ei ole ette teada. 
-  - Seetõttu on eelistatud laialt levinud tehnoloogiad ja standardsed lahendused
+
+- RIHA on hajussüsteem. Komponentrakendused paigaldatakse erinevate asutuste kontrolli all olevatesse keskkondadesse
+- Osa komponente paigaldatakse RIA taristusse (RIHA kesksüsteem)
+- Seetõttu komponendid peavad vastama erinevate haldajate taristute poolt seatavatele nõuetele
+- Kuna need nõuded ei ole ette teada, on eelistatud laialt levinud tehnoloogiad ja standardsed lahendused.
 
 ## 3 Tehnoloogilised nõuded ja valikud
 
 ### Andmesalvestus
-- RIHA andmed paigutatakse hajusalt. Andmete iseloomu arvestades ei ole fookuses relatsiooniline andmetehnoloogia, vaid suuremat paindlikkust võimaldav [JSON](http://www.json.org/). RIHA andmeid hoitakse põhiosas JSON-vormingus.
- - Küll võib relatsioonilist andmebaasi kasutada JSON-tekstide hoidmiseks. 
-- RIHAs ei moodustata tsentraalset superandmebaasi. 
-- Küll on kontseptsioonis hajusalt tekkivate ja uuenevate andmete kokkukogumine (ingl _harvesting_) kesksesse andmehoidlasse (seda võib nimetada andmelaoks). 
+- RIHAs ei moodustata tsentraalset superandmebaasi, vaid andmed paigutatakse hajusalt
+- Andmete iseloomu arvestades ei ole fookuses relatsiooniline andmetehnoloogia, vaid suuremat paindlikkust võimaldav [JSON](http://www.json.org/). RIHA andmeid hoitakse põhiosas JSON-vormingus
+- Seejuures võib relatsioonilist andmebaasi kasutada JSON-tekstide hoidmiseks 
+- Kontseptsioonis on hajusalt tekkivate ja uuenevate andmete kokkukogumine (ingl _harvesting_) kesksesse andmehoidlasse (seda võib nimetada andmelaoks). 
 
 ### Masinliidesed (API-d)
 - [RESTful](https://en.wikipedia.org/wiki/Representational_state_transfer). Masinliidesed teostatakse reeglina REST liidestena
@@ -75,18 +74,21 @@ Osa komponente paigaldatakse RIA taristusse  - tähendab, et komponendid peavad 
 #### Inimkasutajate autentimine
 - teostatakse RIHA-välise teenuse või lahendusena
 - kavas on kasutada 2017. a kevadel valmiva eesti.ee eIDAS-autentimisteenust
-  - kui võimalikud on teised variandid
+  - võimalikud on ka täiendavad variandid
 
 #### Masinkasutajate autentimine
 - [HTTP Basic Authentication](https://tools.ietf.org/html/rfc2617)
 
 ### Pääsuhaldus
- - [LDAP](https://en.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol), [RBAC](https://en.wikipedia.org/wiki/Role-based_access_control) (rollipõhine pääsuhaldus)
+ - [LDAP](https://en.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol)
+ - [RBAC](https://en.wikipedia.org/wiki/Role-based_access_control) (rollipõhine pääsuhaldus)
 
 ### Kasutajaliides (UI)
-- senitehtus on kasutatud:
-  - [React](https://facebook.github.io/react)
-  - Javascript + [Bootstrap 4](https://v4-alpha.getbootstrap.com/) (agiilselt arendatud komponentides)
+- [HTML5](https://www.w3.org/TR/html5/)
+- [Javascript](http://www.2ality.com/)
+- [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
+- [React](https://facebook.github.io/react), kasutatud senitehtus
+- [Bootstrap 4](https://v4-alpha.getbootstrap.com/) (agiilselt arendatud komponentides)
 - millist veebiraamistikku kasutada, ei ole põhiküsimus. Veebiraamistikud arenevad kiiresti. Tähtis on teha komponentide kasutajaliidesed lihtsad ja äriloogika selge, nii, et vajadusel (tehnoloogia vananemine) saaks komponendi ümber kirjutada.
 - [Sass](http://sass-lang.com/)
 
