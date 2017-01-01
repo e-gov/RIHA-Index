@@ -24,6 +24,11 @@ Käesolev dokument:
 - toimib kasutatavate tehnoloogiate kaardistusena ja kataloogina
 - annab viiteid tehnoloogiate kirjeldustele.
 
+<p class='block__note'>
+  <p class='block__note--heading'>Terminoloogiline märkus</p>
+  <p>Tehnoloogiaportfell tähenduses <i>set of technologies in use</i> (vt <a href='https://en.wikipedia.org/wiki/Technology_management'>Technology management</a> (Wikipedia). Dokumenti võiks nimetada ka RIHA tehnoloogiliseks profiiliks või tehnoloogiliseks plaaniks. Profiil &mdash; ülesande täitmiseks kehtestatud standardite kogum (levinud vene keeles).</p>
+</p>
+
 Tehnoloogiaportfelli täiendatakse arenduse käigus.
 
 ## 2 Tehnoloogiate valiku lähtekohad ja põhimõtted
@@ -134,9 +139,15 @@ Tehnoloogiate valimisel tuleb arvestada eriti järgmist.
 - [JSON](http://www.json.org/)
 - [YAML](http://yaml.org/).
  
-##  Üldiselt kasutavav
+## Üldiselt kasutavav
 - [UTF-8](https://en.wikipedia.org/wiki/UTF-8)
 - [Ubuntu](https://www.ubuntu.com/) - paigalduskeskkonna op-süsteem.
   
+## Visualiseerimine
+- tasuta raamistike või teekidega, mis tarbivad RIHA API-sid
+- nt [Google Charts](https://developers.google.com/chart/) teegiga on tehtud eksperimentaalne visualiseerimismoodul
 
-
+## Sõnastikud
+- [Schema.org](https://github.com/schemaorg/schemaorg) on olnud kaalumisel, kuid sobivus RIHA vajadusteks pole selge
+- [JSON-LD](http://json-ld.org/), "a lightweight format for linked data", on olnud kaalumisel; sobivus RIHA vajaduste ja ressurssidega on ebaselge.
+  
