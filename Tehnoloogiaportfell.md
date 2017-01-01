@@ -123,31 +123,31 @@ Tehnoloogiate valimisel tuleb arvestada eriti järgmist.
   - sh JSON-i töötlemise võimalused
   
 ### Tarkvararepositoorium
-- [GitHub](https://github.com/)
-- [BitBucket](https://bitbucket.org/)
-- töövoog on commit-ne GitHub-i, sealt automatiseeritud peegeldamine RIA taristu BitBucket-sse
+- [GitHub](https://github.com/), jooksvaks arenduseks
+  - organisatsioon [e-gov](https://github.com/e-gov) (sisaldab ka muid reposid)
+- [BitBucket](https://bitbucket.org/), tulemuste fikseerimiseks
+- töövoog on commit-ne GitHub-i, sealt automatiseeritud peegeldamine RIA taristu BitBucket-sse.
 
 ### Modelleerimine
 - [Enterprise Architect](http://www.sparxsystems.com/products/ea/) 
-- [asciiFlow](http://asciiflow.com/), abistavas rollis, lihtsamates joonistes  
+- [asciiFlow](http://asciiflow.com/), abistavas rollis, lihtsamates joonistes.
 
 ### Logimine
 - [SLFJ4](http://www.slf4j.org/), Simple Logging Facade for Java
 - syslog protokoll (RFC 5424, RFC 3164). 
 
-## Mallid ja konfiguratsioonifailid
+### Mallid ja konfiguratsioonifailid
 - [JSON](http://www.json.org/)
 - [YAML](http://yaml.org/).
  
-## Üldiselt kasutavav
+### Üldiselt kasutavav
 - [UTF-8](https://en.wikipedia.org/wiki/UTF-8)
 - [Ubuntu](https://www.ubuntu.com/) - paigalduskeskkonna op-süsteem.
   
-## Visualiseerimine
+### Visualiseerimine
 - tasuta raamistike või teekidega, mis tarbivad RIHA API-sid
-- nt [Google Charts](https://developers.google.com/chart/) teegiga on tehtud eksperimentaalne visualiseerimismoodul
+- nt [Google Charts](https://developers.google.com/chart/) teegiga on tehtud eksperimentaalne visualiseerimismoodul.
 
-## Sõnastikud
+### Sõnastikud
 - [Schema.org](https://github.com/schemaorg/schemaorg) on olnud kaalumisel, kuid sobivus RIHA vajadusteks pole selge
 - [JSON-LD](http://json-ld.org/), "a lightweight format for linked data", on olnud kaalumisel; sobivus RIHA vajaduste ja ressurssidega on ebaselge.
-  
