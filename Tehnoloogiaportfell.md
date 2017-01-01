@@ -24,10 +24,10 @@ Käesolev dokument:
 - toimib kasutatavate tehnoloogiate kaardistusena ja kataloogina
 - annab viiteid tehnoloogiate kirjeldustele.
 
-<p class='block__note'>
+<div class='block__note'>
   <p class='block__note--heading'>Terminoloogiline märkus</p>
   <p>Tehnoloogiaportfell tähenduses <i>set of technologies in use</i> (vt <a href='https://en.wikipedia.org/wiki/Technology_management'>Technology management</a> (Wikipedia). Dokumenti võiks nimetada ka RIHA tehnoloogiliseks profiiliks või tehnoloogiliseks plaaniks. Profiil &mdash; ülesande täitmiseks kehtestatud standardite kogum (levinud vene keeles).</p>
-</p>
+</div>
 
 Tehnoloogiaportfelli täiendatakse arenduse käigus.
 
