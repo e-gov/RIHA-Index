@@ -37,17 +37,17 @@ Tehnoloogiate valimisel tuleb arvestada eriti järgmist.
 
 2.1 Üldiselt on eesmärk kasutada tänapäevaseid, efektiivseid arendusvahendeid ja tehnoloogiaid, üritades üle saada avalikult sektorile iseloomulikust inertsist.
 
-2.2 Tehnoloogianeutraalsus. See iseenesest, millist konkreetset tehnoloogiat kasutatakse, on äriülesande täitmisega võrreldes teisejärguline.
+2.2 Tehnoloogiate teisejärgulisus äriülesande täitmise suhtes. See, kui uut ja "ägedat" tehnoloogiat kasutatakse, ei ole alati nii oluline. Esmatähtis on, et ülesanne saab täidetud.
 
-2.3 Tehnoloogiliste ummikteede ja sundseisude vältimine, niipalju, kui see on võimalik.
+2.3 Tehnoloogiliste ummikteede ja sundseisude vältimine, niipalju, kui see on võimalik, unustamata, et üleliigne paindlikkus on investeering, mis sageli jääb kasutamata. 
 
 2.4 Lokaalse optimeerimise vältimine, niipalju, kui see on võimalik.
 
-2.2 Tehnoloogiad ja töövahendid peavad olema vabalt, litsentsitasudeta kasutatavad.
+2.5 Tehnoloogiad ja töövahendid peavad olema vabalt, litsentsitasudeta kasutatavad.
 
-2.3 RIHA ärinõudeks on lihtsus. Eesmärgiks ei ole teha suurt, keerulist süsteemi. Seetõttu tuleb tehnoloogiliste valikute tegemisel küsida, kas ärilise eesmärgi võiks saavutada lihtsama tehnoloogiaga. Teiste sõnadega, kas võimsam, aga samas keerukam tehnoloogia toob konkreetsel juhul väärtust.
+2.6 RIHA ärinõudeks on lihtsus. Eesmärgiks ei ole teha suurt, keerulist süsteemi. Seetõttu tuleb tehnoloogiliste valikute tegemisel küsida, kas ärilise eesmärgi võiks saavutada lihtsama tehnoloogiaga. Teiste sõnadega, kas võimsam, aga samas keerukam tehnoloogia toob konkreetsel juhul väärtust.
 
-2.4 RIHA rajatakse komponentidena. RIHA komponenti iseloomustab:
+2.7 RIHA rajatakse komponentidena. RIHA komponenti iseloomustab:
 
 - selge funktsioon, soovitavalt ühe (või mitme üksteisega seotud) funktsiooni täitmine.
 - eraldipaigaldatavus, sh erinevatesse keskkondadesse
@@ -60,12 +60,12 @@ Tehnoloogiate valimisel tuleb arvestada eriti järgmist.
   <p>Moodulprintsiibi tähtis aspekt on moodulite väljavahetatavus. Moodulid tuleb projekteerida nii väikesteks, et vajadusel saab mooduli välja vahetada, teostades selle teises programmeerimiskeeles vm teisel tehnoloogia alusel. Ideaaljuhul nagu To-Do rakendus, mida saab igas programmeerimiskeeles teostada.</p>
 </div>
 
-2.5 Komponentide kokkusobivus ja tervikuna toimimine tagatakse muuhulgas:
+2.8 Komponentide kokkusobivus ja tervikuna toimimine tagatakse muuhulgas:
 
 - kasutajaliideste ühtlustatud kujunduspõhimõtetega
 - liideste (API-de) täieliku ja täpse dokumenteerimisega.
   
-2.6 Komponentide paigaldatavus erinevates keskkondades   
+2.9 Komponentide paigaldatavus erinevates keskkondades   
 
 - RIHA on hajussüsteem. Komponentrakendused paigaldatakse erinevate asutuste kontrolli all olevatesse keskkondadesse
 - osa komponente paigaldatakse RIA taristusse (RIHA kesksüsteem)
