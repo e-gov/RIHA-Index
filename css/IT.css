@@ -20,6 +20,7 @@
 	border:1px solid #0074d9;
 	border-radius:4px; font-size:85%;
 	margin-bottom:5px;
+	max-width: 60rem;
 }
 .block__note > p { margin:0 0 8px 0 }
 .block__note--heading {
@@ -54,6 +55,7 @@
 	border-radius:4px;
 	font-size:85%;
 	margin-bottom:5px;
+	max-width: 60rem;
 }
 .block__warning > p {
 	margin:0 0 8px 0
