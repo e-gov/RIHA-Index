@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <title>
+      {% if page.title %} {{ site.title }} > {{ page.title }}
+      {% else %} {{ site.title }}
+      {% endif %}
+    </title>
     <!-- Material Design icons -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
         rel="stylesheet">
