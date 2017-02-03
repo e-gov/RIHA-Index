@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width" initial-scale="1">
+    <title>Nõustaja POC</title>
+
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery.min.js">
+    </script>
+
+    <!-- Bootstrap -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+    <style>
+
+      body {
+        padding-top: 50px;
+        font-family: Roboto; 
+      }
+      .Kysimus { margin: 1em 0; }
+      .Nouanne { margin: 1em 0; }
+      .Vahe { color: #333; font-style: italic; }
+      .Lopp { font-weight: bold; }
+      .Tool { background-color: Azure;
+        margin-bottom: 2em; }
+
+    </style>
+
+    <script>
+
+    function init() {
+      $( "#BY1" ).click(function() {
+        $('#N1').addClass('Vahe').text('Mine edasi järgmise küsimuse juurde');
+      });
+      $( "#BN1" ).click(function() {
+        $('#N1').addClass('Lopp').text('Sul ole andmekogusid. LÕPP');
+      });
+
+      $( "#BY2" ).click(function() {
+        $('#N2').addClass('Vahe').text('Mine edasi järgmise küsimuse juurde');
+      });
+      $( "#BN2" ).click(function() {
+        $('#N2').addClass('Lopp').text('Ei ole tegu andmekoguga. LÕPP');
+      });
+      $( "#BY3" ).click(function() {
+        $('#N3').addClass('Lopp').text('Kõik on korras. Tegu on andmekoguga. LÕPP');
+      });
+      $( "#BN3" ).click(function() {
+        $('#N3').addClass('Lopp').text('Kui andmekogu ' + 
+         'vastutav töötleja (haldaja),' + 
+         ' andmekogusse kogutavate andmete koosseis ja' + 
+         'andmeandjad on vastavas seaduses' +  
+         ' kirjas, siis polegi vaja. Näiteks' + 
+         'raamatuüpidamisprogrammi puhul piisab ' + 
+         'sellest, kui on asutuse raamatupidamise siseeeskiri.');
+      }); 
+    }
+
+    </script>
+
+  </head>
+
+  <body onload='init()'>
+
+    <div class="container">
+      <div class="row">
+      <div class="col-md-6"
+
+        <p class='Tool'>Nõuandja</p>
+
+        <h2>Tahan välja selgitada, kas tegemist on andmekoguga?</h2>  
+
+        <div class='Kysimus'>  
+        <p>Kas oled avalikke ülesandeid täitev asutus?</p>      
+        <div class="btn-group">
+          <button class="btn btn-default" id='BY1'>Jah</button>
+          <button class="btn btn-default btn-danger" id='BN1'>EI</button>
+        </div>
+          <p class='Nouanne'>Nõuanne: <span id='N1'></span></p>  
+        </div>
+          
+        <div class='Kysimus'>  
+        <p>Kas andmed on korrastatult kogutud?</p>
+        <div class="btn-group">
+          <button class="btn btn-default" id='BY2'>Jah</button>
+          <button class="btn btn-default btn-danger" id='BN2'>EI</button>
+        </div>
+          <p class='Nouanne'>Nõuanne: <span id='N2'></span></p>  
+        </div>
+          
+        <div class='Kysimus'>  
+        <p>Aga mis siis, kui mul pole andmekogu põhimäärust? Põhimäärus on?</p>
+        <div class="btn-group">
+          <button class="btn btn-default" id='BY3'>Jah</button>
+          <button class="btn btn-default btn-danger" id='BN3'>EI</button>
+        </div>
+          <p class='Nouanne'>Nõuanne: <span id='N3'></span></p>  
+        </div>
+          
+        </div>    
+      </div>
+      
+    </div><!-- /.container -->
+  </body>
+
+</html>
