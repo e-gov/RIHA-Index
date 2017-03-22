@@ -1,13 +1,12 @@
 ---
-layout: IT
-sidebar: true
-publish: true
 title: RIHA
 ---
 
 ---
 
 {% include ET.html %}
+
+RIHA dokumentatsioon
 
 RIHA-s (Riigi infosüsteemi haldussüsteemis) saab:
 
