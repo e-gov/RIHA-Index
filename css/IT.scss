@@ -7,7 +7,7 @@ $bluegrey100: #CFD8DC;
 /* ---- Keha -------- */
 body {
   max-width: 50em; margin: 0 0; 
-  padding: 0.6em 1.5em 2em 8em; 
+  padding: 0.6em 1.5em 2em 2em; 
   line-height: 1.2;
   font-family: 'Times New Roman', serif; 
   color: #333;
@@ -25,10 +25,22 @@ body {
 #Tekst { max-width: 44rem; 
 }
 
-/* Statistikariba */
+/* Päis */
 #Pais { font-family: 'Roboto', sans-serif;
   font-size: 13pt; margin-bottom: 8px; }
 
+/* ==== Külgriba ======== */
+#Riba {
+  flex-grow: 0; width: 18rem;
+  padding: 0 1rem 2rem 1rem;
+  background-color: Azure;
+}
+.RibaElement { display: block; line-height: 1.75; }
+
+.lyliti {
+  cursor: pointer;
+  color: $erepunane; 
+}
 /* Jaotisepealkiri */
 h1, h2 { font-size: 130%;
   line-height: 1.2;
