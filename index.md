@@ -1,5 +1,6 @@
 ---
 title: RIHA
+layout: IT
 ---
 
 ---
