@@ -7,20 +7,11 @@ layout: IT
 
 {% include ET.html %}
 
-RIHA dokumentatsioon
-
 RIHA-s (Riigi infosüsteemi haldussüsteemis) saab:
 
 - kirjeldada infosüsteeme
 - kooskõlastada infosüsteeme
 - tutvuda kirjeldustega ja kooskõlastusotsustega.
-
-<div class='block__warning'>
-  <p class='block__warning--heading'>Agiilarenduses produkt</p>
-  <p>
-    Palume kasutamisel arvestada, et sõltumata valmidusastmest ei ole produkte veel ametlikult toodangusse lubatud. Seejuures katsetamine on igati teretulnud. Kommentaarid, arvamused ja teated võimalike vigade kohta palume saata <a href='https://e-gov.github.io/RIHA-Launcher/Osale'>Osale</a> kaudu.
-  </p>
-</div>
 
 Pääs rakendustesse (Access to Apps & APis):
 
