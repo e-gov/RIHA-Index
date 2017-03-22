@@ -1,5 +1,13 @@
 # Üldised määratlused
 title: RIHA
-baseurl: "https://e-gov.github.io/RIHA-Launcher"
+baseurl: "https://e-gov.github.io/RIHA-Index"
 
+defaults:
+  -
+    scope:
+      path: "" # Kõik failid
+    values:
+      layout: "IT"
+      draft: "false"
+      sidebar: "true"
 

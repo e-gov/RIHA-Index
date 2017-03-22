@@ -1,4 +1,4 @@
-- title: "Pääs rakendustesse (To Apps)"
+- title: "Indeks"
   url: "/"
 
 - title: "Tutvustus (Introduction)"
@@ -8,34 +8,34 @@
   url: "/Sonastik"
 
 - title: "Töövoog (Workflow)"
-  url: "/Toovoog"  
+  url: "/Toovoog"
 
-- title: "Rakendused"
-  categories:
-    - title: "Kirjeldaja (Producer)"
-      url: "/Kirjeldaja"
-    - title: "Avaldaja (Publisher"
-      url: "/Avaldaja"
-    - title: "Kooskõlastaja (Approver)"
-      url: "/Kooskolastaja"
-    - title: "Sirvija (Browser)"
-      url: "/Sirvija"
+- title: "Kirjeldaja (Producer)"
+  url: "/Kirjeldaja"
 
-- title: "Arendajale (for Developer)"
-  categories:
-    - title: "Arhitektuur (Architecture)"
-      url: "/Arhitektuur"
-    - title: "Kirjeldusstandard (Description Standard)"
-      url: "/Kirjeldusstandard"
-    - title: "Tehnoloogiaportfell"
-      url: "/Tehnoloogiaportfell"
+- title: "Avaldaja (Publisher"
+  url: "/Avaldaja"
 
-- title: "Ökosüsteem"
-  categories:
-  - title: "Soovitusi"
-    url: "/Soovitusi"
-  - title: "Visualiseerija"
-    url: "/Visualiseerija"
+- title: "Kooskõlastaja (Approver)"
+  url: "/Kooskolastaja"
+
+- title: "Sirvija (Browser)"
+  url: "/Sirvija"
+
+- title: "Arhitektuur (Architecture)"
+  url: "/Arhitektuur"
+
+- title: "Kirjeldusstandard (Description Standard)"
+  url: "/Kirjeldusstandard"
+
+- title: "Tehnoloogiaportfell"
+  url: "/Tehnoloogiaportfell"
+
+- title: "Soovitusi"
+  url: "/Soovitusi"
+
+- title: "Visualiseerija"
+  url: "/Visualiseerija"
   
 - title: "Osale (Contribute)"
   url: "/Osale"

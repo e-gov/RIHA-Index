@@ -1,218 +1,132 @@
+---
+---
+
+$mutedblue: #607D8B;
+$bluegrey100: #CFD8DC;
+
+/* ---- Keha -------- */
+body {
+  max-width: 50em; margin: 0 0; 
+  padding: 0.6em 1.5em 2em 8em; 
+  line-height: 1.2;
+  font-family: 'Times New Roman', serif; 
+  color: #333;
+  font-size: 12pt; 
+  }
+
 /* ---- Paigutus ---- */
-#Container {
-	display: flex;
-	/* flex-wrap: wrap; */
-}
-#Tekst {
-	flex-grow: 1; margin-left: 2rem;
-	max-width: 53rem; /* Teksti loetavuse huvides */
-}
-#Riba {
-	flex-grow: 2; width: 18rem;
-  padding: 0 1rem 2rem 1rem;
-  background-color: Azure;
+#Container { display: flex; max-width: 40em; }
+
+#Avatekst {
+  flex-grow: 1; margin-left: 2rem;
+  max-width: 53rem; /* Teksti loetavuse huvides */
 }
 
-/* ---- Teatepaneelid ---- */
-.block__note {
-	border-color:#0074d9; background-color:#e5f1fb;
-	color:#004b8d; padding:0 8px;
-	border:1px solid #0074d9;
-	border-radius:4px; font-size:85%;
-	margin-bottom:5px;
-	max-width: 40rem;
-}
-.block__note > p { margin:0 0 8px 0 }
-.block__note--heading {
-	font-weight:600; margin-top:8px;
-	line-height:1; font-size:18px
-}
-.block__tip {
-	border-color:#cab918;
-	background-color:#f9f8e7;
-	color:#837810;
-	padding:0 8px;
-	border:1px solid #cab918;
-	border-radius:4px;
-	font-size:85%;
-	margin-bottom:5px;
-}
-.block__tip > p {
-	margin:0 0 8px 0
-}
-.block__tip--heading {
-	font-weight:600;
-	margin-top:8px;
-	line-height:1;
-	font-size:18px
-}
-.block__warning {
-	border-color:#f44336;
-	background-color:#FFECEC;
-	color:#f44336;
-	padding:0 8px;
-	border:1px solid #ff851b;
-	border-radius:4px;
-	font-size:85%;
-	margin-bottom:5px;
-	max-width: 40rem;
-}
-.block__warning > p {
-	margin:0 0 8px 0
-}
-.block__warning--heading {
-	font-weight:600;
-	margin-top:8px;
-	line-height:1;
-	font-size:18px
-}
-.block__lead {
-	font-size:20px;
-}
-.block__lead > p {
-	margin-top:0
+#Tekst { max-width: 44rem; 
 }
 
-/* ---- ---- */
+/* Statistikariba */
+.statistika { font-family: 'Roboto', sans-serif;
+  font-size: 13pt; margin-bottom: 8px; }
 
-.lyliti {
-  cursor: pointer;
-}
-.keel {
-	font-size: 16px;
-	font-weight: bold;
-	color: white;
-	background-color: #9E9E9E;
-	width: 2rem;
-	border-radius: 3px;
-	text-align: center;
-}
-.teine { 
-  font-size: 16px; 
-  font-family: 'Anonymous Pro', serif;
+/* Jaotisepealkiri */
+h1, h2 { font-size: 130%;
+  line-height: 1.2;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif; 
+  margin-top: 1em; }
+
+/* h2 { font-size: 12pt; 
+  line-height: 1.2; text-decoration: underline;
+  margin: 1.5em 0 0.2em 0; } */
+
+h3 { font-size: 12pt; font-style: italic; font-weight: normal;
+  line-height: 1.2; text-decoration: underline;
+  margin: 0.2em 0 0.2em 0; }  
+
+/* Tekstiparagrahv */
+p { margin: 0 0 1em 0; }
+
+/* Loetelud */
+#Tekst ul { list-style: none; margin: 0 0 1em 0;
+    padding-left: 1em; }
+#Tekst ul > li:before { display: inline-block;
+    content: "-"; width: 1em; margin-left: -1em; }
+
+/* Tabelid */
+table { table-layout: fixed;
+    width: 100%; margin: 0 4em 2em 0; }
+table { border-collapse: collapse; }
+table, th, td { border: 1px solid black; }
+
+.ei, .jah { text-align: center; }
+.ei { color: White; background-color: #D1F3D1; } /* Doodle */
+.jah { background-color: #FFCCCA; } /* Doodle */
+
+/* Tekst */
+.disabled { color:#000000; opacity:0.38; }
+.s { font-size: 10pt; }
+
+/* TOC genereeritud */
+#markdown-toc > li {
+  list-style: none;
 }
 
-.Anon {
-  font-family: 'Anonymous Pro';
-}
-.edit { 
-  color: #E0E0E0; font-size: 24px; cursor: pointer;
-  position: absolute; right: 5px; top: 5px;
-  text-decoration:none;
-}
-a[href] .edit { color: #E0E0E0; text-decoration:none; }
+/* Allkriipsutus */
+.u { text-decoration: underline; }
 
-.RibaElement {
-  display: block;
-  line-height: 1.75;
-}
-
-.inset { 
-  font-size: 16px; 
-  font-family: 'Anonymous Pro', serif;
-  margin-left: 2em; }
-.caption {
-  font-size: 10px; margin-top: 0px; text-align: right; }
+/* Plokktsitaat */
 blockquote { 
   font-style: italic; 
   font-family: 'Anonymous Pro', monospace;
   font-size: 16px;
   margin-left: 0;
 }
-.concept { 
-  text-decoration: underline;
+
+/* Kood; asciiflow joonised */
+pre, code, samp {
+  font-family: 'Anonymous Pro', monospace;
+  font-size: 16px; color: Red;
+  overflow-y: hidden; overflow-x: hidden;
+  page-break-inside: avoid; hyphens: none;
+  text-transform: none;
+}
+pre code,
+code code {
+  font-size: 100%;
+}
+pre { margin-top: 1em; margin-bottom: 1em; }
+
+/* Lingid */
+a[href] {
+  color: $mutedblue;
+  text-decoration: none;
+  border-bottom: 1px solid $mutedblue;
+  padding: 0 1px 0;
+  margin: 0 -1px 0;
+}
+a:visited {
+  border-bottom-color: $mutedblue;
 }
 
-body {
-	max-width: 50em; /* limit line length to 50em for readability   */
-	margin: 0 0; 
-	padding: 1.6em 1.5em 2em 1em; 
-	line-height: 1.2;
-	font-family: 'Roboto', sans-serif;
-	font-size: 14pt; 
-	color: #424242;
-	}
+a[href]:focus,
+a[href]:hover {
+  background: $mutedblue;
+  background: rgba(75%, 75%, 75%, .25);
+  border-bottom-width: 3px;
+  margin-bottom: -2px;
+}
+a[href]:active {
+  color: #C00;
+  border-color: #C00;
+}
 
-/** Headings ******************************************************************/
-	h1, h2, h3, h4, dt {
-		font: 100% sans-serif;   /* Reset all font styling to clear out UA styles */
-		font-family: 'Roboto', monospace;    /* Inherit the font family. */
-		line-height: 1.2;        /* Keep wrapped headings compact */
-		hyphens: manual;         /* Hyphenated headings look weird */
-	}
-	h1, h2, h3, h4 { color: #424242; font-weight: bold; }
-	h1 { font-size: 170%; margin-top: 1em; }
-	h2 { font-size: 130%; font-weight: bold; margin-top: 1em; }
-	h3 { font-weight: bold; margin-top: 0.5em; }
-	h4 { font-style: italic; margin-left: 4em; margin-top: 0.5em; }
+/* ======== Paneelid ======== */
+.action, .takeaway, .teade { border-radius: 8px; padding: 10px; }
 
-/******************************************************************************/
-/*                            Paragraphs and Lists                            */
-/******************************************************************************/
-	p {
-		margin: 1em 0;
-	}
-	dd > p:first-child,
-	li > p:first-child {
-		margin-top: 0;
-	}
-	ul, ol {
-		margin-left: 0;
-		padding-left: 2em;
-	}
-	li {
-		margin: 0.25em 0 0.5em;
-		padding: 0;
-	}
-	dl dd { margin: 0 0 .5em 2em; }
-        dt { font-weight: bold; font-style: italic; }
-
-/******************************************************************************/
-/*                                    Code                                    */
-	pre, code, samp {
-		font-family: 'Anonymous Pro', monospace;
-		font-size: 16px;
-		color: #424242; 
-		overflow-y: hidden; 
-		overflow-x: hidden;
-		page-break-inside: avoid;
-		hyphens: none;
-		text-transform: none;
-	}
-	pre code,
-	code code {
-		font-size: 100%;
-	}
-	pre {
-		margin-top: 1em;
-		margin-bottom: 1em;
-	}
-
-
-/** General Hyperlinks ********************************************************/
-
-	/* We hyperlink a lot, so make it less intrusive */
-	a[href] {
-		color: #607D8B;
-		text-decoration: none;
-		border-bottom: 1px solid #607D8B;
-		/* Need a bit of extending for it to look okay */
-		padding: 0 1px 0;
-		margin: 0 -1px 0;
-	}
-	a:visited {
-		border-bottom-color: #607D8B;
-	}
-
-	/* Use distinguishing colors when user is interacting with the link */
-	a[href]:focus,
-	a[href]:hover {
-		background: #607D8B;
-		background: rgba(75%, 75%, 75%, .25);
-		border-bottom-width: 3px;
-		margin-bottom: -2px;
-	}
-	a[href]:active {
-		color: #C00;
-		border-color: #C00;
-	}
+/* Tegevus */
+.action { border: 1px solid $bluegrey100; 
+  background-color: $bluegrey100; 
+}
+/* Kaasavõtmiseks */
+.noue { border: 1px solid Aquamarine; background-color: Azure; }
