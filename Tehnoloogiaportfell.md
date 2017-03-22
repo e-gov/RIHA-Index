@@ -1,13 +1,7 @@
 ---
-layout: IT
-publish: true
-title: Tehnoloogiaportfell (Technology Portfolio)
+title: Tehnoloogiaportfell
 permalink: Tehnoloogiaportfell
 ---
-
----
-
-RIHA
 
 # Tehnoloogiaportfell
 {:.no_toc}

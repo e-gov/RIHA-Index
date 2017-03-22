@@ -1,13 +1,7 @@
 ---
-layout: IT
-publish: true
-title: Kirjeldusstandard (Description Standard)
+title: Kirjeldusstandard
 permalink: Kirjeldusstandard
 ---
-
----
-
-{% include ET.html %}
 
 # RIHA kirjeldusstandard
 
@@ -65,11 +59,3 @@ Jaotises `definitions` määratletakse liidese poolt väljastatavad vormingud. N
   - `shortname` - (KOHUSTUSLIK) Süsteemi lühinimi
   - `description_timestamp` - (KOHUSTUSLIK) Kirje viimase muutmise aeg
   - `payload` - Spetsifitseerimata struktuuriga masinloetav informatsioon süsteemi kohta.
-
----
-
-{% include EN.html %}
-
-# RIHA Description Standard
-
-[Formal description](https://github.com/e-gov/RIHA-API/blob/master/RIHA-API.yaml) follows [Open API Initiative](https://www.openapis.org/) (former Swagger) requirements.

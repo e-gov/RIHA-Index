@@ -1,11 +1,9 @@
 ---
-title: Sõnastik/Glossary
-layout: IT
+title: Sõnastik
 permalink: Sonastik
-published: true
 ---
 
-# Sõnastik/Glossary
+# Sõnastik
 
 <dl>
   <dt>infosüsteemi staatus</dt>

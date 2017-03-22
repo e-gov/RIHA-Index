@@ -132,6 +132,11 @@ a[href]:active {
   border-color: #C00;
 }
 
+/* Definitsiooniloetelud */
+dt { font-weight: bold; font-style: italic; 
+  margin-top: 0.5em; }
+dd { margin-left: 4em; }
+
 /* ======== Paneelid ======== */
 .action, .takeaway, .teade { border-radius: 8px; padding: 10px; }
 
