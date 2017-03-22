@@ -1,7 +1,7 @@
 <div id="Riba">
   
   <nav>
-    <ul>
+    <ol>
       {% assign id_count = '' %}
       {% for nav in site.data.Riba %}
         {% if nav.categories != null %}
@@ -17,11 +17,11 @@
             >
               ▼
             </span>
-            <ul id="alammenyy{{ id_count.size }}" class='alammenyy'>
+            <ol id="alammenyy{{ id_count.size }}" class='alammenyy'>
             {% for category in nav.categories %}
               <li><a href="{{ site.baseurl }}{{ category.url }}">{{ category.title }}</a></li>
             {% endfor %}
-            </ul>
+            </ol>
           </li>
         {% elsif nav.title == page.title %}
            <li class="active">
@@ -33,7 +33,7 @@
           </li>
         {% endif %}
       {% endfor %}
-    </ul>
+    </ol>
   </nav>
 
 </div>

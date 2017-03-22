@@ -1,30 +1,30 @@
 - title: "Ülevaade"
   url: "/"
 
-- title: "Tutvustus (Introduction)"
+- title: "Tutvustus"
   url: "/Tutvustus"
 
-- title: "Sõnastik (Glossary)"
+- title: "Sõnastik"
   url: "/Sonastik"
 
-- title: "Töövoog (Workflow)"
+- title: "Töövoog"
   url: "/Toovoog"
 
 - title: "Komponendid"
   categories:
-  - title: "Kirjeldaja (Producer)"
+  - title: "Kirjeldaja"
     url: "/Kirjeldaja"
-  - title: "Avaldaja (Publisher"
+  - title: "Avaldaja"
     url: "/Avaldaja"
-  - title: "Kooskõlastaja (Approver)"
+  - title: "Kooskõlastaja"
     url: "/Kooskolastaja"
-  - title: "Sirvija (Browser)"
+  - title: "Sirvija"
     url: "/Sirvija"
 
-- title: "Arhitektuur (Architecture)"
+- title: "Arhitektuur"
   url: "/Arhitektuur"
 
-- title: "Kirjeldusstandard (Description Standard)"
+- title: "Kirjeldusstandard"
   url: "/Kirjeldusstandard"
 
 - title: "Tehnoloogiaportfell"
@@ -35,7 +35,5 @@
 
 - title: "Visualiseerija"
   url: "/Visualiseerija"
-  
-- title: "Osale (Contribute)"
-  url: "/Osale"
+
   
