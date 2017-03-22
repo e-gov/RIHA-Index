@@ -10,17 +10,16 @@
 - title: "Töövoog (Workflow)"
   url: "/Toovoog"
 
-- title: "Kirjeldaja (Producer)"
-  url: "/Kirjeldaja"
-
-- title: "Avaldaja (Publisher"
-  url: "/Avaldaja"
-
-- title: "Kooskõlastaja (Approver)"
-  url: "/Kooskolastaja"
-
-- title: "Sirvija (Browser)"
-  url: "/Sirvija"
+- title: "Komponendid"
+  categories:
+  - title: "Kirjeldaja (Producer)"
+    url: "/Kirjeldaja"
+  - title: "Avaldaja (Publisher"
+    url: "/Avaldaja"
+  - title: "Kooskõlastaja (Approver)"
+    url: "/Kooskolastaja"
+  - title: "Sirvija (Browser)"
+    url: "/Sirvija"
 
 - title: "Arhitektuur (Architecture)"
   url: "/Arhitektuur"

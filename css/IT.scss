@@ -65,6 +65,9 @@ p { margin: 0 0 1em 0; }
     padding-left: 1em; }
 #Tekst ul > li:before { display: inline-block;
     content: "-"; width: 1em; margin-left: -1em; }
+/* Külgriba loetelud */
+nav > ul { padding-left: 1em; }
+nav ul { list-style-type: none; }
 
 /* Tabelid */
 table { table-layout: fixed;
