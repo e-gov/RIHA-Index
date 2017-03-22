@@ -18,11 +18,6 @@ body {
 /* ---- Paigutus ---- */
 #Container { display: flex; max-width: 40em; }
 
-#Avatekst {
-  flex-grow: 1; margin-left: 2rem;
-  max-width: 53rem; /* Teksti loetavuse huvides */
-}
-
 #Tekst { max-width: 44rem; 
 }
 
@@ -33,7 +28,7 @@ body {
 /* ==== Külgriba ======== */
 #Riba {
   flex-grow: 0; width: 18rem;
-  padding: 0 1rem 2rem 1rem;
+  padding: 0 1rem 2rem 0;
   background-color: Azure;
 }
 .RibaElement { display: block; line-height: 1.75; }
@@ -66,7 +61,7 @@ p { margin: 0 0 1em 0; }
 #Tekst ul > li:before { display: inline-block;
     content: "-"; width: 1em; margin-left: -1em; }
 /* Külgriba loetelud */
-nav > ul li, nav > ol li { margin-bottom: 0.5em; }
+nav > ul li, nav > ol li { margin-top: 0.5em; }
 nav ul { list-style-type: none; }
 
 /* Tabelid */
