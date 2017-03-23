@@ -28,6 +28,7 @@ Tähistused: (W) - koskarendus
 | `Travis`                            | RIHA-Browser |
 | __Testimine__                       |      |
 | `Karma`                             | RIHA-Browser |
+| `Mocha`                             | (W)  |
 | __Koodihoidmine__                   |      |
 | `GitHub`                            |      |
 | `BitBucket`                         |      |
