@@ -5,6 +5,7 @@ permalink: Strateegia
 
 <p class='rem'>[Väljavõte RIHA strateegiast]</p>
 
+# Strateegia
 {:.no_toc}
 
 * TOC
