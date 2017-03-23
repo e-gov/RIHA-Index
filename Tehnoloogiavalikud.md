@@ -1,16 +1,15 @@
 ---
-title: Tehnoloogiaportfell
-permalink: Tehnoloogiaportfell
+title: Tehnoloogiavalikute lähtekohad
+permalink: Tehnoloogiavalikud
 ---
 
-# Tehnoloogiaportfell
+# Tehnoloogiavalikute lähtekohad
 {:.no_toc}
 
 Käesolev dokument:
 
 - esitab lähtekohad ja põhimõtted tehnoloogiate valikuks
 - fikseerib juba tehtud valikud
-- toimib kasutatavate tehnoloogiate kaardistusena ja kataloogina
 - annab viiteid tehnoloogiate kirjeldustele.
 
 <div class='rem'>Dokumenti võiks nimetada ka RIHA tehnoloogiliseks profiiliks või tehnoloogiliseks plaaniks. Profiil &mdash; ülesande täitmiseks kehtestatud standardite kogum (levinud vene keeles).

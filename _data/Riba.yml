@@ -27,8 +27,12 @@
 - title: "Kirjeldusstandard"
   url: "/Kirjeldusstandard"
 
-- title: "Tehnoloogiaportfell"
-  url: "/Tehnoloogiaportfell"
+- title: "Tehnoloogiad"
+  categories:
+  - title: "Valikute lähtekohad"  
+    url: "/Tehnoloogiavalikud"
+  - title: "Tehnoloogiakasutus"
+    url: "/Tehnoloogiakasutus"  
 
 - title: "Isikuandmete töötlus"
   url: "/Isikuandmed"
@@ -54,4 +58,3 @@
 - title: "Teatmiku täiendamine"
   url: "/Taiendamine"
 
-  
