@@ -6,11 +6,6 @@ permalink: Tehnoloogiaportfell
 # Tehnoloogiaportfell
 {:.no_toc}
 
-* TOC
-{:toc}
-
-## 1 Ülevaade
-
 Käesolev dokument:
 
 - esitab lähtekohad ja põhimõtted tehnoloogiate valikuks
@@ -18,12 +13,13 @@ Käesolev dokument:
 - toimib kasutatavate tehnoloogiate kaardistusena ja kataloogina
 - annab viiteid tehnoloogiate kirjeldustele.
 
-<div class='block__note'>
-  <p class='block__note--heading'>Terminoloogiline märkus</p>
-  <p>Tehnoloogiaportfell tähenduses <i>set of technologies in use</i> (vt <a href='https://en.wikipedia.org/wiki/Technology_management'>Technology management</a> (Wikipedia). Dokumenti võiks nimetada ka RIHA tehnoloogiliseks profiiliks või tehnoloogiliseks plaaniks. Profiil &mdash; ülesande täitmiseks kehtestatud standardite kogum (levinud vene keeles).</p>
+<div class='rem'>Dokumenti võiks nimetada ka RIHA tehnoloogiliseks profiiliks või tehnoloogiliseks plaaniks. Profiil &mdash; ülesande täitmiseks kehtestatud standardite kogum (levinud vene keeles).
 </div>
 
 Tehnoloogiaportfelli täiendatakse arenduse käigus.
+
+* TOC
+{:toc}
 
 ## 2 Tehnoloogiate valiku lähtekohad ja põhimõtted
 

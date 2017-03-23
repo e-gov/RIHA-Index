@@ -5,6 +5,11 @@ permalink: Strateegia
 
 <p class='rem'>[Väljavõte RIHA strateegiast]</p>
 
+{:.no_toc}
+
+* TOC
+{:toc}
+
 ## RIHA-le seatud ülesanded
 - tagab riigi infosüsteemi haldamise läbipaistvuse
 - planeerib riigi infohaldust
@@ -67,7 +72,7 @@ RIHA:
 - EI taga IT nõuetele vastavust. Nõuetele vastavust peab tagama IS omanik
 - ...veel mõni müüt? :)
 
-Eesmärgid
+## Eesmärgid
 - 31.12.2017 - IT nõuded on hinnatud ja RIHA kaudu kontrollitavad
 - 31.12.2018 - kataloog näitab tegelikku seisu riigi infosüsteemist
 - 31.12.2019 - riigi infosüsteemi juhitakse osaliselt RIHA abil

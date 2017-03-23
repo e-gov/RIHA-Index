@@ -10,6 +10,9 @@
 - title: "Töövoog"
   url: "/Toovoog"
 
+- title: "Komponentstruktuur"
+  url: "/Komponentstruktuur"
+
 - title: "Komponendid"
   categories:
   - title: "Kirjeldaja"
@@ -20,9 +23,6 @@
     url: "/Kooskolastaja"
   - title: "Sirvija"
     url: "/Sirvija"
-
-- title: "Komponentstruktuur"
-  url: "/Komponentstruktuur"
 
 - title: "Kirjeldusstandard"
   url: "/Kirjeldusstandard"
@@ -47,4 +47,7 @@
 
 - title: "Kood"
   url: "/Kood"
-      
+
+- title: "Teenuste URL-id"
+  url: "/URLid.md"
+  
