@@ -1,9 +1,9 @@
 ---
-title: Töövoog (Workflow)
+title: RIHA üldine töövoog
 permalink: Toovoog
 ---
 
-# Üldine töövoog
+# RIHA üldine töövoog
 
 ## Rollid
 
@@ -31,7 +31,6 @@ permalink: Toovoog
 5. RIHA andmete kasutamine
   - RIHA KASUTAJA saab [Sirvija](Sirvija) abil tutvuda kirjeldustega ja kooskõlastusotsustega.
 
-<div id='Arhitektuurijoonis'>
 <pre>
                                             RIHA KASUTAJA
                                                      ,-.
@@ -59,6 +58,4 @@ KOOSKÕLASTAJA                    |Sirvija      |     /|\
                         / \     +-------------+
                       OMANIK
 </pre>  
-
-</div>
 

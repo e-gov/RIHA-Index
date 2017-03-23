@@ -3,6 +3,8 @@ title: Komponentstruktuur
 permalink: Komponentstruktuur
 ---
 
+# Komponentstruktuur
+
 Uus RIHA rajatakse hajuspõhimõttele, mille kohaselt soositakse infosüsteemide kirjelduste publitseerimist asutuse enda taristus. Asutus võib vastava RIA arendatud komponendi (Kirjeldaja) paigaldada oma taristusse, võib aga ka arendada liidese, mis publitseerib asutuse enda metaandmete varamust kirjeldusi (vastavalt RIHA API spetsifikatsioonile).
 
 Asutustele, kes Kirjeldajat oma taristusse paigaldada ei soovi, pakutakse RIA taristusse paigaldatud Kirjeldajat.
