@@ -5,33 +5,31 @@ permalink: Tehnoloogiakasutus
 
 # Tehnoloogiakasutus
 
-Käesolev dokument toimib kasutatavate tehnoloogiate kaardistusena ja kataloogina.
+Käesolev dokument kataloogib RIHAs tegelikult kasutusel olevaid tehnoloogiaid.
 
 Tähistused: (W) - koskarendus, (A) - agiilarendus
 
-- Programmeerimine
+- __Programmeerimine__
   - Serveri pool
   - Veebisirvijas
-    - Javascript
-    - React (A)
-- Andmesalvestus
+    - `Javascript`
+    - `React` (A)
+- __Andmesalvestus__
   - Relatsiooniline andmebaas
-    - PostgreSQL (W)
-  - failisüsteem  
-- Ehitamine
-- Testimine
-- Koodihoidla
-  - GitHub
-  - BitBucket
-- Dokumentatsioonihoidla
-  - GitHub (RIHA-API, RIHA-Index)
-  - Confluence
-- Kasutuslood, arendusülesanded
-  - JIRA    
-- Dokumentatsioon
-  - GitHub  (RIHA-Index)
-    - Markdown
-    - Jekyll
-      - Liquid
-      - Kramdown
+    - `PostgreSQL` (W)
+  - `failisüsteem`  
+- __Ehitamine__
+- __Testimine__
+- __Koodihoidmine__
+  - `GitHub`
+  - `BitBucket`
+- __Dokumentatsioonihoidmine__
+  - `GitHub` (RIHA-API, RIHA-Index)
+    - `Markdown`
+    - `Jekyll`
+      - `Liquid`
+      - `Kramdown`
+  - `Confluence`
+- __Kasutuslood, arendusülesanded__
+  - `JIRA`    
 
