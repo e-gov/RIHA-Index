@@ -36,22 +36,14 @@ permalink: Yleminek
 ## Ülekandeprotsess
 
 0. __Ülekande eeldused.__
-
-- uus kirjeldusvorming on stabiliseerunud.
-
+  - uus kirjeldusvorming on stabiliseerunud.
 1. __Eksport__
-
-Eksport vanast süsteemist vahevormingusse (JSON), ühtlasi automaatse teisendamisega uude vormingusse. Omanikke tuleb selgelt teavitada, mis teisendusi tehakse. Kui omanik peab andmete uude vormingusse viimiseks tegema käsitsi tegevusi, siis tuleb anda omanikule selged juhised.
-
-Eksporditud andmed salvestatakse failidena.
-
+  - Eksport vanast süsteemist vahevormingusse (JSON), ühtlasi automaatse teisendamisega uude vormingusse. Omanikke tuleb selgelt teavitada, mis teisendusi tehakse. Kui omanik peab andmete uude vormingusse viimiseks tegema käsitsi tegevusi, siis tuleb anda omanikule selged juhised.
+  - Eksporditud andmed salvestatakse failidena.
 2. __Import uude süsteemi__
-
-Eeldus: asutus on otsustanud, kas hoiab kirjeldus enda juures või RIHA kesksüsteemis.
-
+  - Eeldus: asutus on otsustanud, kas hoiab kirjeldus enda juures või RIHA kesksüsteemis.
 3. __Vana RIHA "külmutamine"__
-
-Andmeid saab kasutajaliidese kaudu lugeda, kui ei saa muuta.
+  - Andmeid saab kasutajaliidese kaudu lugeda, kui ei saa muuta.
 
 ## Seonduv
 
