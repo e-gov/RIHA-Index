@@ -5,7 +5,11 @@ permalink: LiidesSAPga
 
 # Liides SAP-ga
 
-RIHA kesksüsteem ühendatakse SAP-ga (ametliku nimega "Personali- ja palgaarvestuse andmekogu"). SAP-st kontrollitakse X-tee kaudu, kas RIHAs autenditud kasutaja, kes soovib infosüsteemi kirjeldada või olla kontaktisiku rollis, tegelikult töötab asutuses. 
+RIHA kesksüsteem ühendatakse SAP-ga (ametliku nimega "Personali- ja palgaarvestuse andmekogu").
+
+SAP-st kontrollitakse X-tee kaudu, kas RIHAs autenditud kasutaja, kes soovib infosüsteemi kirjeldada või olla kontaktisiku rollis, tegelikult töötab asutuses.
+
+Andmekasutus kooskõlastatakse AKI-ga. 
 
 Vt vaheanalüüs "Andmevahetus SAPiga" [https://confluence.ria.ee/display/RIHA/Andmevahetus+SAPiga](https://confluence.ria.ee/display/RIHA/Andmevahetus+SAPiga).
 

@@ -1,10 +1,13 @@
-----
+---
 title: Isikuandmete töötlus
+permalink: Isikuandmed
 ---
 
 # Isikuandmete töötlus
 
-Isikuandmed ei ole RIHAs kõige tähtsamad. RIHAs töödeldakse siiski isikuandmeid. Töödeldavaid isikuandmeid on vaja kaitsta. Eelkõige tuleb tagada, et: 1) hoitakse eesmärkide saavutamiseks minimaalselt vajalikke andmeid; 2) ja ligipääs tundlikele või eraelulistele isikuandmetele on piiratud. 
+Isikuandmed ei ole RIHAs kõige tähtsamad, kuid siiski töödeldakse RIHAs vähesel määral isikuandmeid.
+
+Isikuandmeid on vaja kaitsta. Eelkõige tuleb tagada, et: 1) hoitakse eesmärkide saavutamiseks minimaalselt vajalikke andmeid; 2) ligipääs tundlikele või eraelulistele isikuandmetele on piiratud. 
 
 Füüsilised isikud suhtestuvad RIHAga järgmistes rollides:
 - kirjelduste sirvija

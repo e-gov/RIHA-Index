@@ -39,7 +39,9 @@ __Koht RIHA arendus- ja haldusartefaktide süsteemis.__
 
 __Modulaarne ülesehitus.__ Arhitektuuridokument on modulaarse ülesehitusega, koosnedes osadokumentidest (lehtedest). Iga osadokument käsitleb üht tehnilist küsimust või arhitektuurset aspekti. 
 
+__Protsess.__ Arhitektuurilise küsimuse tõusetumisel töötatakse see läbi. Peamised töövormid on arutelu, tehniline uurimine, kasutades erinevaid allikaid. Tulemus fikseeritakse kirjalikult niivõrd, kuivõrd see on arendusega edasiliikumiseks vajalik. 
 
+<p class='rem'> Arhitektuur hõlmab eelkõige tehnilisi küsimusi (küsimus "kuidas tehniliselt lahendada?"), võttes kasutajate sõnastatud vajadusi ja nõudeid siiski mitte jäigalt etteantutena, vaid neid ka konstruktiivselt kritiseerides ja teostusvõimalustega moduleerides.</p> 
 
 
 

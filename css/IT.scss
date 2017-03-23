@@ -38,15 +38,14 @@ body {
   color: $mutedblue; 
 }
 /* Jaotisepealkiri */
-h1, h2 { font-size: 130%;
+h1 { font-size: 130%;
   line-height: 1.2;
   font-weight: bold;
   font-family: 'Roboto', sans-serif; 
   margin-top: 1em; }
 
-/* h2 { font-size: 12pt; 
-  line-height: 1.2; text-decoration: underline;
-  margin: 1.5em 0 0.2em 0; } */
+h2 { font-weight: bold; font-size: 100%; 
+  margin: 1em 0 1em 0; }
 
 h3 { font-size: 12pt; font-style: italic; font-weight: normal;
   line-height: 1.2; text-decoration: underline;
@@ -138,10 +137,10 @@ dt { font-weight: bold; font-style: italic;
 dd { margin-left: 4em; }
 
 /* ======== Paneelid ======== */
-.action, .takeaway, .teade { border-radius: 8px; padding: 10px; }
+.rem { border-radius: 8px; padding: 10px; }
 
-/* Tegevus */
-.action { border: 1px solid $bluegrey100; 
+/* Märkus */
+.rem { border: 1px solid $bluegrey100; 
   background-color: $bluegrey100; 
 }
 /* Kaasavõtmiseks */
