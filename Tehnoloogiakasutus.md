@@ -17,7 +17,7 @@ Tähistused: (W) - koskarendus
 | `Javascript`                        |    |
 | `React`                             | (W) |
 | __UI/UX__                           |    |
-| Bootstrap 4                         | RIHA-Browser |  
+| `Bootstrap 4`                       | RIHA-Browser |  
 | __Andmesalvestus__                  |    |
 | `PostgreSQL`                        | (W) |
 | `failisüsteem`                      |     |
@@ -29,10 +29,10 @@ Tähistused: (W) - koskarendus
 | __Testimine__                       |      |
 | `Karma`                             | RIHA-Browser |
 | `Mocha`                             | (W)  |
-| __Koodihoidmine__                   |      |
+| __Koodi hoidmine__                   |      |
 | `GitHub`                            |      |
 | `BitBucket`                         |      |
-| __Dokumentatsioonihoidmine__        |    |
+| __Dokumentatsiooni hoidmine__        |    |
 | `GitHub`                            | RIHA-API, RIHA-Index |
 | - `Markdown`                        |      |
 | - `Jekyll`                          |      |
