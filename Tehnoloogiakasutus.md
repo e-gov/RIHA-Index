@@ -7,19 +7,31 @@ permalink: Tehnoloogiakasutus
 
 Käesolev dokument kataloogib RIHAs tegelikult kasutusel olevaid tehnoloogiaid.
 
-Tähistused: (W) - koskarendus, (A) - agiilarendus
+Tähistused: (W) - koskarendus
 
-- __Programmeerimine__
-  - Serveri pool
-  - Veebisirvijas
-    - `Javascript`
-    - `React` (A)
+! tehnoloogia ! kasutus    |
+!-------------!------------!
+| - __Programmeerimine__ |    |
+|  - Serveri pool        |    |
+|    - Java              |    |
+|      - Spring Boot     | RIHA-Browser |
+|  - Veebisirvijas       |    |
+|    - `Javascript`      |    |
+|    - `React`           | (W) |
+
 - __Andmesalvestus__
   - Relatsiooniline andmebaas
     - `PostgreSQL` (W)
   - `failisüsteem`  
+
 - __Ehitamine__
+  - Maven (RIHA-Browser)
+
+- __Continuous Integration
+  - Travis (RIHA-Browser)
+
 - __Testimine__
+
 - __Koodihoidmine__
   - `GitHub`
   - `BitBucket`
