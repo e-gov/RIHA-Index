@@ -5,6 +5,12 @@ permalink: Sonastik
 
 # Sõnastik
 
+Stabiilse ja kasutatava tarkvara aluseks on täpne terminoloogia ja selle järjekindel kasutamine.
+
+Terminoloogiat luuakse ja täpsustatakse arenduse käigus. Terminoloogia fikseerib erinevates artefaktides. 
+
+Käesolev leht ei pretendeeri täielikkusele, esitades mõningaid kõige tähtsamaid termineid, mis ei ole mujal määratletud.
+
 <dl>
   <dt>infosüsteemi staatus</dt>
     <dd>infosüsteemi omaniku poolt määratud tekstivormis teave infosüsteemi seisundi kohta (nt `Arenduses`, `Kasutuses` vms). Staatuse väärtused on vabalt valitavad (ei ole standarditud).</dd>
