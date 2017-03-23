@@ -27,10 +27,18 @@
 - title: "Kirjeldusstandard"
   url: "/Kirjeldusstandard"
 
-- title: "Tehnoloogiaportfell (*)"
+- title: "Tehnoloogiaportfell"
   url: "/Tehnoloogiaportfell"
 
-- title: "Isikuandmedte töötlus (*)"
+- title: "Isikuandmete töötlus"
   url: "/Isikuandmed"
 
+- title: "Liidesed teiste süsteemidega"
+  categories:
+  - title: "Liides SAP-ga"
+    url: "/LiidesSAPga"
+
+
+- title: "Teavitused"
+  url: "/Teavitused"
   
