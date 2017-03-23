@@ -5,9 +5,9 @@ permalink: Yleminek
 
 # Üleminek
 
-Üleminekul uuele RIHA-le on nii korralduslikud (organisatsioonilised), õiguslikud kui ka tehnilised aspektid.
+<p class='staatus'>Praegu käsitleme siin eelkõige andmete ülekandmist vanast RIHAst uude. Hiljem käsitlus täieneb.</p>
 
-<p class='rem'>Praegu käsitleme siin eelkõige andmete ülekandmist vanast RIHAst uude. Hiljem käsitlus täieneb.</p>
+Üleminekul uuele RIHA-le on nii korralduslikud (organisatsioonilised), õiguslikud kui ka tehnilised aspektid.
 
 ## Üldnõuded andmete ülekandele
 
