@@ -3,6 +3,8 @@
 
 $mutedblue: #607D8B;
 $bluegrey100: #CFD8DC;
+$roheserv: #009688;
+$rohetaust: #C5E1A5;
 $erepunane: #f44336;
 
 /* ---- Keha -------- */
@@ -24,7 +26,7 @@ body {
 /* Päis */
 #Pais { font-family: 'Roboto', sans-serif;
   color: #222326;
-  font-size: 20pt; margin-bottom: 8px; }
+  font-size: 18pt; margin-bottom: 8px; }
 
 /* ==== Külgriba ======== */
 #Riba {
@@ -138,11 +140,17 @@ dt { font-weight: bold; font-style: italic;
 dd { margin-left: 4em; }
 
 /* ======== Paneelid ======== */
-.rem { border-radius: 8px; padding: 10px; }
+.rem, .staatus { border-radius: 8px; padding: 10px; }
 
 /* Märkus */
 .rem { border: 1px solid $bluegrey100; 
   background-color: $bluegrey100; 
 }
+
+/* Staatus */
+.staatus { border: 1px solid $roheserv; 
+  background-color: $rohetaust; 
+}
+
 /* Kaasavõtmiseks */
 .noue { border: 1px solid Aquamarine; background-color: Azure; }
