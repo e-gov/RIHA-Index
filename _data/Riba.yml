@@ -1,8 +1,8 @@
 - title: "Ülevaade"
   url: "/"
 
-- title: "Tutvustus"
-  url: "/Tutvustus"
+- title: "Strateegia"
+  url: "/Strateegia"
 
 - title: "Sõnastik"
   url: "/Sonastik"
@@ -21,8 +21,8 @@
   - title: "Sirvija"
     url: "/Sirvija"
 
-- title: "Arhitektuur"
-  url: "/Arhitektuur"
+- title: "Komponentstruktuur"
+  url: "/Komponentstruktuur"
 
 - title: "Kirjeldusstandard"
   url: "/Kirjeldusstandard"

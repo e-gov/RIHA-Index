@@ -1,19 +1,24 @@
 ---
-title: Arhitektuur (Architecture)
-permalink: Arhitektuur
+title: Komponentstruktuur
+permalink: Komponentstruktuur
 ---
 
-Uuendatud RIHA on üles ehitatud hajusarhitektuuri põhimõtetele.
+Uus RIHA rajatakse hajuspõhimõttele, mille kohaselt soositakse infosüsteemide kirjelduste publitseerimist asutuse enda taristus. Asutus võib vastava RIA arendatud komponendi (Kirjeldaja) paigaldada oma taristusse, võib aga ka arendada liidese, mis publitseerib asutuse enda metaandmete varamust kirjeldusi (vastavalt RIHA API spetsifikatsioonile).
 
-<ul>	
-<li>süsteem koosneb eraldi paigaldatavatest ja kasutatavatest rakendustest (komponentidest)</li>
-<li>iga rakendus täidab üht-kaht funktsiooni</li>
-<li>komponendid tarbivad teiste komponentide teavet masinliideste (API-de) kaudu ja pakuvad ise teavet samuti masinliideste kaudu</li>
-<li>inimene suhtleb rakendustega kasutajaliideste kaudu</li>
-<li>rakendused paigaldatakse ühes või mitmes eksemplaris.</li>
-</ul>
+Asutustele, kes Kirjeldajat oma taristusse paigaldada ei soovi, pakutakse RIA taristusse paigaldatud Kirjeldajat.
 
-<div id='Arhitektuurijoonis'>
+RIHA koosneb eraldi paigaldatavatest ja kasutatavatest rakendustest (komponentidest).
+
+Iga rakendus täidab üht-kaht funktsiooni.
+
+Komponendid tarbivad teiste komponentide teavet masinliideste (API-de) kaudu ja pakuvad ise teavet samuti masinliideste kaudu.
+
+Inimene suhtleb rakendustega kasutajaliideste kaudu.
+
+Rakendused paigaldatakse ühes või mitmes eksemplaris.
+
+__RIHA kesksüsteemi__ moodustavad RIA taristusse paigaldatud komponendid.
+
 <pre>
                                                      ,-.
                                  +-------------+     `|'
@@ -40,8 +45,6 @@ Uuendatud RIHA on üles ehitatud hajusarhitektuuri põhimõtetele.
                         / \     +-------------+
   
 </pre>  
-
-</div>
 
 
 

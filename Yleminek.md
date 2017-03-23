@@ -18,6 +18,7 @@ permalink: Yleminek
   - Võimalust mööda peab ülekannet automatiseerima.
 - Ülekanne peab olema võimalust mööda lihtne. Ideaalis omanik saab teate, et uues süsteemis on kõik valmis, andmed üle kantud.
 - Eriti kooskõlastamiste andmed ei tohi üleminekul kaotsi minna (AKI nõue).
+- Ülekande käigus ei tohi tekkida lubamatut juurdepääsu RIHAs hoitavale piiratud juurdepääsuga teabele.
 
 ## Võtmeküsimused
 
@@ -32,18 +33,25 @@ permalink: Yleminek
 - __kõik asutused korraga või eraldi?
 - __millal vana süsteem sulgeda?__
 
-## Lahenduse põhijooned
+## Ülekandeprotsess
 
-Vana RIHA "külmutamine" - andmeid saab kasutajaliidese kaudu lugeda, kui ei saa muuta
+0. __Ülekande eeldused.__
 
-Eksport vanast süsteemist vahevormingusse (JSON) koos teisendamisega
+- uus kirjeldusvorming on stabiliseerunud.
 
-Import uude süsteemi.
+1. __Eksport__
 
-__Ülekande eeldused__
+Eksport vanast süsteemist vahevormingusse (JSON), ühtlasi automaatse teisendamisega uude vormingusse. Omanikke tuleb selgelt teavitada, mis teisendusi tehakse. Kui omanik peab andmete uude vormingusse viimiseks tegema käsitsi tegevusi, siis tuleb anda omanikule selged juhised.
 
-- uus kirjeldusvorming onstabiliseerunud
+Eksporditud andmed salvestatakse failidena.
 
+2. __Import uude süsteemi__
+
+Eeldus: asutus on otsustanud, kas hoiab kirjeldus enda juures või RIHA kesksüsteemis.
+
+3. __Vana RIHA "külmutamine"__
+
+Andmeid saab kasutajaliidese kaudu lugeda, kui ei saa muuta.
 
 ## Seonduv
 
