@@ -16,12 +16,15 @@ Tähistused: (W) - koskarendus
 | `Spring Boot`                       | RIHA-Browser |
 | `Javascript`                        |    |
 | `React`                             | (W) |
+| __UI/UX__                           |    |
+| Bootstrap 4                         | RIHA-Browser |  
 | __Andmesalvestus__                  |    |
 | `PostgreSQL`                        | (W) |
 | `failisüsteem`                      |     |
 | __Ehitamine__                       |     |
 | `Maven`                             | RIHA-Browser |
-| __Continuous Integration            |    |
+| `Jenkins`                           | (W) |
+| __Continuous Integration__          |     |
 | `Travis`                            | RIHA-Browser |
 | __Testimine__                       |      |
 | `Karma`                             | RIHA-Browser |
@@ -34,6 +37,7 @@ Tähistused: (W) - koskarendus
 | - `Jekyll`                          |      |
 | - `Liquid`                          |      |
 | - `Kramdown`                        |      |
+| - `Sass`                        |      |
 | `Confluence`                        |      |
 | __Kasutuslood, arendusülesanded__   |      |
 | `JIRA`                              |      |    
