@@ -5,10 +5,6 @@ permalink: Soovitusi
 published: true
 ---
 
----
-
-{% include ET.html %}
-
 # Soovitusi
 
 ## Kirjelduste publitseerimine GitHubi abil
@@ -26,7 +22,7 @@ Näitame [Andmejälgija](https://github.com/e-gov/AJ) näitel, kuidas RIHA kirje
 
 ### Kirjelduse koostamine ja avaldamine:
 
-1. Koostada tuleb kaks faili - `systems.json` ja `{}shortname.json`, kus `{shortname}` on infosüsteemi vabalt valitud lühinimi
+1. Koostada tuleb kaks faili - `systems.json` ja `{shortname}.json`, kus `{shortname}` on infosüsteemi vabalt valitud lühinimi
 2. Vt nt:
   - [https://github.com/e-gov/AJ/blob/master/systems.json](https://github.com/e-gov/AJ/blob/master/systems.json)
   - [https://github.com/e-gov/AJ/blob/master/AJ.json](https://github.com/e-gov/AJ/blob/master/AJ.json)
@@ -36,8 +32,4 @@ Näitame [Andmejälgija](https://github.com/e-gov/AJ) näitel, kuidas RIHA kirje
 
 Ülalkirjeldatud meetod eeldab kirjelduse koostamist käsitsi, tekstiredaktori abil. JSON-i redigeerimine pole raske, kuid nõuab siiski tähelepanu (komade, sulgude ja jutumärkide paarsuse jälgimine, paojadade kasutamine jutumärkide ja reavahetuste sisestamisel). JSON-ga varasemat kokkupuudet mitteomaval kasutajal on tõenäoliselt mõistlikum kasutada [Kirjeldajat](Kirjeldaja).
 
----
 
-{% include EN.html %}
-
-Recommendations for publishing RIHA descriptions in GitHub.
