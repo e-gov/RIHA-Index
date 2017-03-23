@@ -9,8 +9,8 @@ Käesolev dokument kataloogib RIHAs tegelikult kasutusel olevaid tehnoloogiaid.
 
 Tähistused: (W) - koskarendus
 
-! tehnoloogia ! kasutus    |
-!-------------!------------!
+| tehnoloogia | kasutus    |
+|-------------|------------|
 | - __Programmeerimine__ |    |
 |  - Serveri pool        |    |
 |    - Java              |    |
