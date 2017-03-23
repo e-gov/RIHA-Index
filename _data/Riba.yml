@@ -27,8 +27,10 @@
 - title: "Kirjeldusstandard"
   url: "/Kirjeldusstandard"
 
-- title: "Tehnoloogiaportfell"
+- title: "Tehnoloogiaportfell (*)"
   url: "/Tehnoloogiaportfell"
 
+- title: "Isikuandmedte töötlus (*)"
+  url: "/Isikuandmed"
 
   
