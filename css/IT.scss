@@ -3,8 +3,6 @@
 
 $mutedblue: #607D8B;
 $bluegrey100: #CFD8DC;
-$roheserv: #009688;
-$rohetaust: #C5E1A5;
 $erepunane: #f44336;
 
 /* ---- Keha -------- */
@@ -148,8 +146,8 @@ dd { margin-left: 4em; }
 }
 
 /* Staatus */
-.staatus { border: 1px solid $roheserv; 
-  background-color: $rohetaust; 
+.staatus { border: 2px solid Aqua;
+  color: CadeBlue;
 }
 
 /* Kaasavõtmiseks */
