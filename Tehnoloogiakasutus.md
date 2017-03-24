@@ -5,6 +5,8 @@ permalink: Tehnoloogiakasutus
 
 # Tehnoloogiakasutus
 
+<p class='rem'>Kataloog on koostamisel</p>
+
 Käesolev dokument kataloogib RIHAs tegelikult kasutusel olevaid tehnoloogiaid.
 
 Tähistused: (W) - koskarendus
