@@ -34,6 +34,9 @@
   - title: "Tehnoloogiakasutus"
     url: "/Tehnoloogiakasutus"  
 
+- title: "Andmekoosseis"
+  url: "/Andmekoosseis"
+
 - title: "Isikuandmete töötlus"
   url: "/Isikuandmed"
 
