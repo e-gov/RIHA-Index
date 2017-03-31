@@ -5,8 +5,11 @@ permalink: Teavitused
 
 # Teavitused
 
+<p class='staatus'>31.03. Lisatud "Teata puudulikest andmetest".</p>
 
-RIHA teavitus on isiku e-postile saadetav teade RIHA-s toimuvast olulisest sündmusest.
+## RIHA teavitus
+
+__RIHA teavitus__ on isiku e-postile saadetav teade RIHA-s toimuvast olulisest sündmusest.
 
 RIHA teavitused on avalikud.
 
@@ -28,6 +31,16 @@ Teavitused saadetakse e-postile.
 Teavitused on eraldi tarkvarakomponentide vahelisest REST API HTTPS sõnumiliiklusest.
 
 RIHA haldamise, statistika ja turvalisuse eesmärgil teavitusi logitakse.
+
+## "Teata puudulikest andmetest" (kavand)
+
+Andmete ajakohasuse ja täielikkuse saavutamine ning hoidmine RIHAs on suur väljakutse. Andmete looja motivatsioon häid kirjeldusi koostada ja ajakohasena hoida võib olla nõrk, kuna andmete kasutajaga ei ole otsest kontakti ega tagasisidet. Andmete looja ei tarvitse ka hoomata, et kirjeldus on raskesti mõistetav. 
+
+Omadus (ja vastav töövoog) "Teata puudulikest andmetest" võimaldab kaasata kõiki RIHA kasutajaid andmete kvaliteedi tõstmisse.
+
+RIHA andmeid sirvides on kasutajal võimalik, end eelnevalt autentides, saata e-kirjaga infosüsteemi omanikule teade täiendamist vajavatest andmetest (vastav nupp kasutajaliideses). Teate koopia saadetakse RIA-le, kes selle kaudu kogub ja üldistab andmeid RIHA andmekvaliteedi kohta.
+
+Vt ka [Andmekvaliteet](Andmekvaliteet). 
 
 ## Protsess
 
