@@ -14,8 +14,8 @@
   categories:
   - title: "Nõue"
     url: "/Noue"
-  - title: "Kirjeldusstandard"
-    url: "/Kirjeldus"
+  - title: "Kirjeldus"
+    url: "/Kirjeldusstandard"
   - title: "Issue"
     url: "/Issue"
 
@@ -51,6 +51,8 @@
   categories:
   - title: "Liides SAP-ga"
     url: "/LiidesSAPga"
+  - title: "Liides Äriregistriga"
+    url: "/liidesAriregistriga"
 
 - title: "Turvalisus"
   url: "/Turvalisus"
