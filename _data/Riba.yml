@@ -10,6 +10,12 @@
 - title: "Töövoog"
   url: "/Toovoog"
 
+- title: "Kontseptid"
+  categories:
+
+    title: "Issue"
+    url: "Issue"
+
 - title: "Komponentstruktuur"
   url: "/Komponentstruktuur"
 

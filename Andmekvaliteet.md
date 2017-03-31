@@ -15,5 +15,5 @@ __Selge metoodika andmevälja täitmisel__. Iga andmevälja täitmisel peab olem
 
 __Metoodikate testimine__. Metoodikate ja kasutajaliidese arusaadavust testitakse reaalsete kasutajatega. Vajadusel tehakse A/B-teste.
 
-__Teata puudulikest andmetest__. Andmekvaliteedi tõstmisele on suunatud ka omadus "Teata puudulikest andmetest" (vt [Teavitamine](Teavitamine)).
+__Teata puudulikest andmetest__. Andmekvaliteedi tõstmisele on suunatud ka omadus "Teata puudulikest andmetest" (vt [Teavitused](Teavitused)).
 

@@ -18,4 +18,6 @@ Käesolev leht ei pretendeeri täielikkusele, esitades mõningaid kõige tähtsa
     <dd>infosüsteemi suhtes tehtud viimase kooskõlastusotsusega määratud infosüsteemi seisund (`KOOSKÕLASTATUD`, `MITTE KOOSKÕLASTATUD`). Kooskõlastusstaatust väljastab Kooskõlastaja API.</dd>
   <dt>staatus</dt>
     <dd>vt: 1) infosüsteemi staatus; 2) kooskõlastusstaatus.</dd>
+  <dt>issue</dt>
+    <dd>vt Issue</dd>
 </dl>
