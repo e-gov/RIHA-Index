@@ -12,11 +12,11 @@
 
 - title: "Põhikontseptid"
   categories:
-    title: "Nõue"
+  - title: "Nõue"
     url: "/Noue"
-    title: "Kirjeldusstandard"
+  - title: "Kirjeldusstandard"
     url: "/Kirjeldus"
-    title: "Issue"
+  - title: "Issue"
     url: "/Issue"
 
 - title: "Komponentstruktuur"
@@ -52,6 +52,8 @@
   - title: "Liides SAP-ga"
     url: "/LiidesSAPga"
 
+- title: "Turvalisus"
+  url: "/Turvalisus"
 
 - title: "Teavitused"
   url: "/Teavitused"
