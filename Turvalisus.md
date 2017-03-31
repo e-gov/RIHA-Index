@@ -17,6 +17,8 @@ Juhindutakse [ISKE](https://www.ria.ee/ee/iske.html)-st, täiendades seda riskia
 
 Turvakäsitlus täieneb arenduse käigus.
 
+Vt ka: [IT töökindlus ja turve](https://agiil.github.io/IT/Tookindlus).
+
 ## Lähtekohad
 
 Turvalisuse tagamisel tuleb arvestada, et RIHA on tarkvararakendus, aga ühtlasi ka protsess ja organisatsioon:
