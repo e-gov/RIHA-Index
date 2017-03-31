@@ -13,7 +13,9 @@ Turvalisuse eesmärk on tagada, et RIHA andmed oleksid õiged, kättesaadavad ja
 
 Teemal on puutumus [Andmekvaliteediga](Andmekvaliteet).
 
-Juhindutakse [ISKE](https://www.ria.ee/ee/iske.html)-st, .
+Juhindutakse [ISKE](https://www.ria.ee/ee/iske.html)-st, täiendades seda riskianalüüsiga jm asjakohaste turvataset tõstvate praktikatega.
+
+Turvakäsitlus täieneb arenduse käigus.
 
 ## Lähtekohad
 
@@ -30,7 +32,9 @@ __Oht__ - sündmus või asjaolu, mis võib põhjustada katkestust või kahjustad
 
 __Risk__ – määramatust arvestav hinnang ohule. Infoturvariski väljendatakse sageli infoturvasündmuse tagajärgede ja selle sündmuse võimalikkuse kombinatsioonina
 
-| Tegevus  | Oht - Tagajärg - Tõenäosus - Meetmed |
+Ohud ja riskid
+
+| Tegevus  | Oht - Tagajärg - Tõenäosus - Turvameetmed |
 |-----------|------------------------------------|
 | 1 Infosüsteemide kirjeldamine RIHAs | 1.1 Omanik ei kirjelda hoolikalt → Kirjeldus mittetäielik, mitteajakohane, v-o isegi eksitav (30%) → 1, 2 |
 |          | 1.2 Kirjeldama pääseb vastava õiguseta isik → Ebaõiged või fake-andmed →   |
@@ -39,7 +43,7 @@ __Risk__ – määramatust arvestav hinnang ohule. Infoturvariski väljendatakse
 
 Meetmed
 
-| Nr     |   Meede                                     |
+| Nr     |   Turvameede                                     |
 |:------:|--------------------------------------|
 | 1 | Tarkvaralised automaatkontrollid RIHA kontrollimoodulis |
 | 2 | "Teata puudulikest andmetest" (vt [Teavitused](Teavitused)) |
