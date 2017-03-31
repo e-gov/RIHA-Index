@@ -10,11 +10,14 @@
 - title: "Töövoog"
   url: "/Toovoog"
 
-- title: "Kontseptid"
+- title: "Põhikontseptid"
   categories:
-
+    title: "Nõue"
+    url: "/Noue"
+    title: "Kirjeldusstandard"
+    url: "/Kirjeldus"
     title: "Issue"
-    url: "Issue"
+    url: "/Issue"
 
 - title: "Komponentstruktuur"
   url: "/Komponentstruktuur"
@@ -30,8 +33,6 @@
   - title: "Sirvija"
     url: "/Sirvija"
 
-- title: "Kirjeldusstandard"
-  url: "/Kirjeldusstandard"
 
 - title: "Tehnoloogiad"
   categories:
