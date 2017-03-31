@@ -17,11 +17,20 @@
             >
               ▼
             </span>
+
             <ol id="alammenyy{{ id_count.size }}" class='alammenyy'>
-            {% for category in nav.categories %}
-              <li><a href="{{ site.baseurl }}{{ category.url }}">{{ category.title }}</a></li>
+            {% for subcategory in nav.categories %}
+              <li><a href="{{ site.baseurl }}{{ subcategory.url }}">{{ subcategory.title }}</a></li>
+
+              <ol class='alammenyy2'>
+              {% for subitem in subcategory %}
+                <li><a href="{{ site.baseurl }}{{ subitem.url }}">{{ subitem.title }}</a></li>
+              {% endfor %}
+              </ol>
+
             {% endfor %}
             </ol>
+
           </li>
         {% elsif nav.title == page.title %}
            <li class="active">

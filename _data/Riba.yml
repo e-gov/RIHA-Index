@@ -14,8 +14,12 @@
   categories:
   - title: "Nõue"
     url: "/Noue"
-  - title: "Kirjeldus"
-    url: "/Kirjeldusstandard"
+  - title: "Infosüsteemi kirjeldus"
+    categories:
+    - title: "Andmekoosseis"
+      url: "/Andmekoosseis"
+    - title: "Kirjeldusstandard"
+      url: "/Kirjeldusstandard"
   - title: "Issue"
     url: "/Issue"
 
@@ -41,8 +45,6 @@
   - title: "Tehnoloogiakasutus"
     url: "/Tehnoloogiakasutus"  
 
-- title: "Andmekoosseis"
-  url: "/Andmekoosseis"
 
 - title: "Isikuandmete töötlus"
   url: "/Isikuandmed"
