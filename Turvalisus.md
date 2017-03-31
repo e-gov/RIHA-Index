@@ -30,8 +30,15 @@ __Oht__ - sündmus või asjaolu, mis võib põhjustada katkestust või kahjustad
 
 __Risk__ – määramatust arvestav hinnang ohule. Infoturvariski väljendatakse sageli infoturvasündmuse tagajärgede ja selle sündmuse võimalikkuse kombinatsioonina
 
-| Tegevus  | Oht | Tagajärg | Tõenäosus |
-|-----------|-------|------------|---------------|
-| Infosüsteemide kirjeldamine RIHAs | Omanik ei kirjelda hoolikalt | Kirjeldus mittetäielik, mitteajakohane, v-o isegi eksitav | 30% | Tarkvaralised automaatkontrollid RIHA kontrollimoodulis; "Teata puudlikest andmetest" (vt [Teavitused](Teavitused)) |
-|          | Kirjeldama pääseb vastava õiguseta isik | Ebaõiged või fake-andmed |  |
+| Tegevus  | Oht - Tagajärg - Tõenäosus | Meetmed |
+|-----------|------------------------------------|
+| Infosüsteemide kirjeldamine RIHAs | Omanik ei kirjelda hoolikalt → Kirjeldus mittetäielik, mitteajakohane, v-o isegi eksitav (30%) | 1, 2 |
+|          | Kirjeldama pääseb vastava õiguseta isik → Ebaõiged või fake-andmed |  |
+
+Meetmed
+
+| Nr           |   Meede       |
+|------------|----------------|
+|     1         | Tarkvaralised automaatkontrollid RIHA kontrollimoodulis |
+|     2         | "Teata puudulikest andmetest" (vt [Teavitused](Teavitused)) |
 
