@@ -7,7 +7,7 @@ permalink: Turvalisus
 
 ## Ülevaade 
 
-Käesolev leht esitab RIHA turvalisuse vaate. Ei esitata teavet, sh konkreetseid turvameetmeid, võimalikke nõrkusi jms, mille avalikustamine võiks kahjustada RIHA turvet.
+Käesolev leht esitab RIHA turvalisuse vaate. Leht ei esitata teavet, sh konkreetseid turvameetmeid, võimalikke nõrkusi jms, mille avalikustamine võiks kahjustada RIHA turvet.
 
 Turvalisuse eesmärk on tagada, et RIHA andmed oleksid õiged, kättesaadavad ja kvaliteetsed. 
 
@@ -33,7 +33,8 @@ __Risk__ – määramatust arvestav hinnang ohule. Infoturvariski väljendatakse
 | Tegevus  | Oht - Tagajärg - Tõenäosus - Meetmed |
 |-----------|------------------------------------|
 | Infosüsteemide kirjeldamine RIHAs | Omanik ei kirjelda hoolikalt → Kirjeldus mittetäielik, mitteajakohane, v-o isegi eksitav (30%) → 1, 2 |
-|          | Kirjeldama pääseb vastava õiguseta isik → Ebaõiged või fake-andmed   |
+|          | Kirjeldama pääseb vastava õiguseta isik → Ebaõiged või fake-andmed →   |
+|          | Lokaalses RIHAs pääseb kirjeldama vastava õiguseta isik → Ebaõiged või fake-andmed, mis jõuavad ka kesksüsteemi (?%) → 5 |
 | Kirjelduste kogumine kesksüsteemi | Koguja võtab valed andmed → lokaalselt kirjeldatud andmed jäävad kogumata või kogutakse fake-andmeid (?%) →  3, 4 |
 
 Meetmed
@@ -44,5 +45,7 @@ Meetmed
 | 2 | "Teata puudulikest andmetest" (vt [Teavitused](Teavitused)) |
 | 3 | Lokaalse RIHA aadressi edastamine turvalise kanali kaudu |
 | 4 | Lokaalse RIHA aadressi õigsuse perioodiline kontroll |
+| 5 | Turvajuhendi koostamine lokaalse RIHA paigaldajale |
+
 
 
