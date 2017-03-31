@@ -4,30 +4,32 @@
 - title: "Strateegia"
   url: "/Strateegia"
 
-- title: "Sõnastik"
-  url: "/Sonastik"
-
-- title: "Töövoog"
-  url: "/Toovoog"
+- title: "Protsessid"
+  categories:
+  - title: "Üldine töövoog"
+    url: "/Toovoog"
 
 - title: "Põhikontseptid"
   categories:
-  - title: "Nõue"
+  - title: "Nõuded"
     url: "/Noue"
-  - title: "Infosüsteemi kirjeldus"
+  - title: "Kirjeldused"
     categories:
     - title: "Andmekoosseis"
       url: "/Andmekoosseis"
     - title: "Kirjeldusstandard"
       url: "/Kirjeldusstandard"
-  - title: "Issue"
+  - title: "Issue-d"
     url: "/Issue"
-
-- title: "Komponentstruktuur"
-  url: "/Komponentstruktuur"
+  - title: "Teavitused"
+    url: "/Teavitused"
+  - title: "Sõnastik"
+    url: "/Sonastik"
 
 - title: "Komponendid"
   categories:
+  - title: "Komponentstruktuur"
+    url: "/Komponentstruktuur"
   - title: "Kirjeldaja"
     url: "/Kirjeldaja"
   - title: "Avaldaja"
@@ -37,6 +39,12 @@
   - title: "Sirvija"
     url: "/Sirvija"
 
+- title: "Liidesed teiste süsteemidega"
+  categories:
+  - title: "Liides SAP-ga"
+    url: "/LiidesSAPga"
+  - title: "Liides Äriregistriga"
+    url: "/liidesAriregistriga"
 
 - title: "Tehnoloogiad"
   categories:
@@ -45,34 +53,20 @@
   - title: "Tehnoloogiakasutus"
     url: "/Tehnoloogiakasutus"  
 
-
-- title: "Isikuandmete töötlus"
-  url: "/Isikuandmed"
-
-- title: "Liidesed teiste süsteemidega"
+-title: "Muud aspektid"
   categories:
-  - title: "Liides SAP-ga"
-    url: "/LiidesSAPga"
-  - title: "Liides Äriregistriga"
-    url: "/liidesAriregistriga"
-
-- title: "Turvalisus"
-  url: "/Turvalisus"
-
-- title: "Teavitused"
-  url: "/Teavitused"
-
-- title: "Andmekvaliteet"
-  url: "/Andmekvaliteet"
-
-- title: "Üleminek"
-  url: "/Yleminek"
-
-- title: "Kood"
-  url: "/Kood"
-
-- title: "Teenuste URL-id"
-  url: "/URLid"
+  - title: "Isikuandmete töötlus"
+    url: "/Isikuandmed"
+  - title: "Turvalisus"
+    url: "/Turvalisus"
+  - title: "Andmekvaliteet"
+    url: "/Andmekvaliteet"
+  - title: "Üleminek"
+    url: "/Yleminek"
+  - title: "Kood"
+    url: "/Kood"
+  - title: "Teenuste URL-id"
+    url: "/URLid"
 
 - title: "Teatmiku täiendamine"
   url: "/Taiendamine"
