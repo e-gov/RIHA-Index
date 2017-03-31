@@ -32,10 +32,10 @@ __Risk__ – määramatust arvestav hinnang ohule. Infoturvariski väljendatakse
 
 | Tegevus  | Oht - Tagajärg - Tõenäosus - Meetmed |
 |-----------|------------------------------------|
-| Infosüsteemide kirjeldamine RIHAs | Omanik ei kirjelda hoolikalt → Kirjeldus mittetäielik, mitteajakohane, v-o isegi eksitav (30%) → 1, 2 |
-|          | Kirjeldama pääseb vastava õiguseta isik → Ebaõiged või fake-andmed →   |
-|          | Lokaalses RIHAs pääseb kirjeldama vastava õiguseta isik → Ebaõiged või fake-andmed, mis jõuavad ka kesksüsteemi (?%) → 5 |
-| Kirjelduste kogumine kesksüsteemi | Koguja võtab valed andmed → lokaalselt kirjeldatud andmed jäävad kogumata või kogutakse fake-andmeid (?%) →  3, 4 |
+| 1 Infosüsteemide kirjeldamine RIHAs | 1.1 Omanik ei kirjelda hoolikalt → Kirjeldus mittetäielik, mitteajakohane, v-o isegi eksitav (30%) → 1, 2 |
+|          | 1.2 Kirjeldama pääseb vastava õiguseta isik → Ebaõiged või fake-andmed →   |
+|          | 1.3 Lokaalses RIHAs pääseb kirjeldama vastava õiguseta isik → Ebaõiged või fake-andmed, mis jõuavad ka kesksüsteemi (?%) → 5 |
+| 2 Kirjelduste kogumine kesksüsteemi | 2.1 Koguja võtab valed andmed → lokaalselt kirjeldatud andmed jäävad kogumata või kogutakse fake-andmeid (?%) →  3, 4 |
 
 Meetmed
 
