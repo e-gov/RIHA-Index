@@ -26,6 +26,7 @@
 
                 <ol class='alammenyy2'>
                 {% for subitem in subcategory %}
+                  <li>OK {{ subitem.title }}</li>
                   <li><a href="{{ site.baseurl }}{{ subitem.url }}">{{ subitem.title }}</a></li>
                 {% endfor %}
                 </ol>
