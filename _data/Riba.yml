@@ -53,7 +53,7 @@
   - title: "Tehnoloogiakasutus"
     url: "/Tehnoloogiakasutus"  
 
--title: "Muud aspektid"
+- title: "Muud aspektid"
   categories:
   - title: "Isikuandmete töötlus"
     url: "/Isikuandmed"
