@@ -33,6 +33,8 @@ __Koht RIHA arendus- ja haldusartefaktide süsteemis.__
       +---------------------------------+
       |     Kasutuslood (JIRA)          |
       +---------------------------------+
+      |     Soovide hindamise tabel     |
+      +---------------------------------+
       |       RIHA strateegia           |
       +---------------------------------  
 </pre>  
