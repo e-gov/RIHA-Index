@@ -27,17 +27,21 @@ __Koht RIHA arendus- ja haldusartefaktide süsteemis.__
       +---------------------------------+
       |  Töötav kood + dokumentatsioon  |
       +---------------------------------+
-      |        Vaheanalüüsid            |
+      |  RIHA keskkonnad ja dok-n*      |
+      +---------------------------------+
+      |        Vaheanalüüsid*           |
       +---------------------------------+
       |     Arhitektuuridokument        |
       +---------------------------------+
-      |     Kasutuslood (JIRA)          |
+      |     Kasutuslood (JIRA)*         |
       +---------------------------------+
-      |     Soovide hindamise tabel     |
+      |     Soovide hindamise tabel*    |
       +---------------------------------+
-      |       RIHA strateegia           |
+      |       RIHA strateegia*          |
       +---------------------------------  
 </pre>  
+
+* - ei ole avalik
 
 __Modulaarne ülesehitus.__ Arhitektuuridokument on modulaarse ülesehitusega, koosnedes osadokumentidest (lehtedest). Iga osadokument käsitleb üht tehnilist küsimust või arhitektuurset aspekti. 
 
