@@ -3,19 +3,23 @@ title: Kesksüsteem
 permalink: Kesk
 ---
 
+# Kesksüsteem
 
 ![](img/JOONIS-1204-02.PNG)
 
-Joonis kujutab RIHA kesksüsteemi ülesehitus.
+Joonis kujutab RIHA kesksüsteemi ülesehitust.
 
-__Inimkasutaja__ suhtleb RIHAga veebisirvija vahendusel.
+__Inimkasutaja__ suhtleb RIHAga veebisirvija vahendusel. Inimkasutaja:
+- võib tegutseda mitmes rollis: `Kirjeldaja`, `Hindaja`, `Sirvija`
+- võib olla autentimata või autenditud.
 
 __Kasutajarakendus__. Veebisirvijas töötav RIHA kliendipoolne rakendus:
 - pakub ühtset kasutajakogemust, võimalust liikuda sujuvalt erinevate vaadete ja rollide vahel
-- võimalust avada kliendirakendust või selle osi mitmes sirvimiskontekstis (sakis)
-- teostatakse üheleherakenduse (ingl _SPA, single page application_) põhimõttel (ei pea olema absoluutne SPA).
+- võimalust avada kliendirakendust või selle osi mitmes sirvimiskontekstis (sakis).
 
-_Serveriteenused__ on RIA taristusse paigaldatud rakenduste - serverikomponentide - poolt pakutavad HTTPS REST API teenused. Serveriteenuseid tarbivad:
+Kasutajarakendus teostatakse üheleherakenduse (ingl _SPA, single page application_) põhimõttel (ei pea olema absoluutne SPA).
+
+__Serveriteenused__ on RIA taristusse paigaldatud rakenduste - serverikomponentide - poolt pakutavad HTTPS REST API teenused. Serveriteenuseid tarbivad:
 - veebisirvijas töötavad RIHA kasutajarakendused
 - muud võimalikud RIHA API-t kasutavad rakendused.
 
@@ -24,17 +28,17 @@ _Serveriteenused__ on RIA taristusse paigaldatud rakenduste - serverikomponentid
 __Isoleerimine__. Serverikomponendid võivad olla paigaldatud ühte keskkonda (Apache veebiserverisse), kuid on loogiliselt iseseisvad ja suhtlevad üksteisega ainult HTTPS REST API-de kaudu.
 
 Serverikomponentide hulka kuuluvad (nimekiri võib täieneda):
-- __Autentija__ korraldab ja teostab autentimist, kasutades kas oma autentimisprotseduuri (ID-kaardiga autentimine Apache veebiserveri abil) või välist eIDAS-autentimisteenust; vt [Autentimine](Autentimine)
-- __Autoriseerija__ autoriseerib autenditud kasutaja; vt [Autoriseerimine](Autoriseerimine)
-- Kirjeldaja
-- Hindaja
-- Koguja
-- Sirvija
-- Teavitaja.
+- __Autentija__ - korraldab ja teostab autentimist, kasutades kas oma autentimisprotseduuri (ID-kaardiga autentimine Apache veebiserveri abil) või välist eIDAS-autentimisteenust; vt [Autentimine](Autentimine)
+- __Autoriseerija__ - autoriseerib autenditud kasutaja; vt [Autoriseerimine](Autoriseerimine)
+- __Kirjeldaja__
+- __Hindaja__
+- __Koguja__
+- __Sirvija__
+- __Teavitaja__.
 
-__Andmehoidla__ eesmärk on RIHA kui süsteemi oleku (ingl _state_) hoidmine. Andmehoidla moodustavad kirjeldused, hinnangud, teavitused jm andmed. Andmeid hoitakse JSON, YAML vm masintöödeldavas vormingus, vajadusel relatsioonilise andmebaasi vormingus. Andmed võivad asuda ühises keskkonnas (failisüsteem, PostgreSQL andmebaas), kuid on loogiliselt eraldihoitud.
+__Andmehoidla__ eesmärk on RIHA kui süsteemi oleku (ingl _state_) hoidmine. Andmehoidla moodustavad kirjeldused, hinnangud, teavitused jm andmed. Andmeid hoitakse JSON, YAML vm masintöödeldavas vormingus, vajadusel relatsioonilise andmebaasina. Andmed võivad asuda ühises keskkonnas (failisüsteem, PostgreSQL andmebaas), kuid on loogiliselt eraldihoitud selles mõttes, et igal serverikomponendil on oma andmed, millele teine serverikomponent pääseb ligi ainult pöördumisega omanikkomponendi API poole.
 
-_Autoriseerimisandmete hoidla__ ülesanne on hoida teavet isikutele omistatud rollide kohta. Autoriseerimisandmete hoidla teostatakse Active Directory (AD) tarkvaraga.
+__Autoriseerimisandmete hoidla__ ülesanne on hoida teavet isikutele omistatud rollide kohta. Autoriseerimisandmete hoidla teostatakse Active Directory (AD) tarkvaraga.
 
 
 
