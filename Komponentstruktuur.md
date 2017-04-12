@@ -3,7 +3,7 @@ title: Komponentstruktuur
 permalink: Komponentstruktuur
 ---
 
-# Komponentstruktuur
+# Põhimõtted
 
 __Hajuspõhimõte__. Uus RIHA rajatakse hajuspõhimõttele, mille kohaselt soositakse infosüsteemide kirjelduste publitseerimist asutuse enda taristus.
 

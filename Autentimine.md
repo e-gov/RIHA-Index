@@ -5,8 +5,13 @@ permalink: Autentimine
 
 # Autentimine
 
-Autentimine lahendatakse serverikomponendis Autentija. Sessioonihalduseks kasutatakse JWT tokeneid.
+Autentimine lahendatakse serverikomponendis Autentija. 
 
-Autentimise töövoog on järgmine (vt skeemi lehel [Kesksüsteem](Kesksüsteem)):
+## Sessioonihaldus
+
+Sessioonihalduseks kasutatakse JWT tokeneid.
+
+Autentimise töövoog on järgmine (vt skeeme [Kesksüsteem](Kesksüsteem) ja [Sessioonihaldus](Sessioonihaldus)):
+
 
 
