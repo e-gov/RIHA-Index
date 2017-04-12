@@ -15,7 +15,7 @@ __Majutamine__. Asutustele, kes Kirjeldajat oma taristusse paigaldada ei soovi, 
 
 RIHA koosneb eraldi paigaldatavatest ja kasutatavatest, teenuseid pakkuvatest rakendustest ehk komponentidest. Iga rakendus täidab üht-kaht funktsiooni. Komponendid tarbivad teiste komponentide teavet __masinliideste (API-de)__ kaudu ja pakuvad ise teavet samuti masinliideste kaudu. Inimene suhtleb rakendustega __kasutajaliideste__ kaudu.
 
-__RIHA kesksüsteemi__ moodustavad RIA taristusse paigaldatud komponendid.
+__[RIHA kesksüsteemi](Kesk)__ moodustavad RIA taristusse paigaldatud komponendid.
 
 <pre>
                                                      ,-.
