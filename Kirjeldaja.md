@@ -20,5 +20,4 @@ Kirjeldaja on rakendus, mis aitab inimkasutajal koostada ja avaldada kirjeldusi,
 
 Kirjeldaja paigaldatakse hajusalt, mitmetes eksemplarides. 
 
-[Pääs rakendusse](https://e-gov.github.io/RIHA-Launcher/)
 
