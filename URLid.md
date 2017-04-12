@@ -1,9 +1,9 @@
 ---
-title: Teenuste URL-id
+title: URL-id
 permalink: URLid
 ---
 
-# Teenuste URL-id
+# URL-id
 
 <p class='staatus'>Läbi arutada infraosakonnaga, paigaldamise vaatest. Võimalikud on olulised muutused</p>
 

@@ -57,6 +57,8 @@
 
 - title: "Muud aspektid"
   categories:
+  - title: "Kasutajakogemus"
+    url: "/Kasutajakogemus"   
   - title: "Isikuandmete töötlus"
     url: "/Isikuandmed"
   - title: "Turvalisus"
@@ -71,7 +73,7 @@
     url: "/Yleminek"
   - title: "Kood"
     url: "/Kood"
-  - title: "Teenuste URL-id"
+  - title: "URL-id"
     url: "/URLid"
 
 - title: "Teatmiku täiendamine"
