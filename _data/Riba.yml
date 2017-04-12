@@ -30,6 +30,8 @@
   categories:
   - title: "Komponentstruktuur"
     url: "/Komponentstruktuur"
+  - title: "Kesksüsteem"
+    url: "/Kesk"  
   - title: "Kirjeldaja"
     url: "/Kirjeldaja"
   - title: "Avaldaja"
