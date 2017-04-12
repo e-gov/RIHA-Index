@@ -7,6 +7,6 @@ permalink: Autoriseerimine
 
 Autoriseerimine lahendatakse serverikomponendis Autoriseerija. Sessioonihalduseks kasutatakse JWT tokeneid.
 
-Autoriseerimise töövoog on järgmine (vt skeeme [Kesksüsteem](Kesksüsteem) ja [Sessioonihaldus](Sessioonihaldus)):
+Autoriseerimise töövoog on järgmine (vt skeeme [Kesksüsteem](Kesk) ja [Sessioonihaldus](Sessioonihaldus)):
 
 _(vaja kirja panna)_
