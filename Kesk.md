@@ -29,12 +29,12 @@ __Isoleerimine__. Serverikomponendid võivad olla paigaldatud ühte keskkonda (A
 
 Serverikomponentide hulka kuuluvad (nimekiri võib täieneda):
 - __Autentija__ - korraldab ja teostab autentimist, kasutades kas oma autentimisprotseduuri (ID-kaardiga autentimine Apache veebiserveri abil) või välist eIDAS-autentimisteenust; vt [Autentimine](Autentimine)
-- __Autoriseerija__ - autoriseerib autenditud kasutaja; vt [Autoriseerimine](Autoriseerimine)
-- __Kirjeldaja__
-- __Hindaja__
-- __Koguja__
-- __Sirvija__
-- __Teavitaja__.
+- __Autoriseerija__ - autoriseerib autenditud kasutaja, kasutades kas kohapealset Autoriseerimisandmete hoidlat ja/või SAP atribuuditeenust (vt [Liides SAP-ga](LiidesSAPga)); vt [Autoriseerimine](Autoriseerimine)
+- __Kirjeldaja__; vt [Kirjeldaja](Kirjeldaja)
+- __Hindaja__; vt [Hindaja](Hindaja)
+- __Koguja__; vt [Koguja](Koguja)
+- __Sirvija__; vt [Sirvija](Sirvija)
+- __Teavitaja__; vt [Teavitused](Teavitused).
 
 __Andmehoidla__ eesmärk on RIHA kui süsteemi oleku (ingl _state_) hoidmine. Andmehoidla moodustavad kirjeldused, hinnangud, teavitused jm andmed. Andmeid hoitakse JSON, YAML vm masintöödeldavas vormingus, vajadusel relatsioonilise andmebaasina. Andmed võivad asuda ühises keskkonnas (failisüsteem, PostgreSQL andmebaas), kuid on loogiliselt eraldihoitud selles mõttes, et igal serverikomponendil on oma andmed, millele teine serverikomponent pääseb ligi ainult pöördumisega omanikkomponendi API poole.
 
