@@ -5,19 +5,15 @@ permalink: Komponentstruktuur
 
 # Komponentstruktuur
 
-Uus RIHA rajatakse hajuspõhimõttele, mille kohaselt soositakse infosüsteemide kirjelduste publitseerimist asutuse enda taristus. Asutus võib vastava RIA arendatud komponendi (Kirjeldaja) paigaldada oma taristusse, võib aga ka arendada liidese, mis publitseerib asutuse enda metaandmete varamust kirjeldusi (vastavalt RIHA API spetsifikatsioonile).
+__Hajuspõhimõte__. Uus RIHA rajatakse hajuspõhimõttele, mille kohaselt soositakse infosüsteemide kirjelduste publitseerimist asutuse enda taristus.
 
-Asutustele, kes Kirjeldajat oma taristusse paigaldada ei soovi, pakutakse RIA taristusse paigaldatud Kirjeldajat.
+__Kirjelduste avalikustamine omaarendatud liidese kaudu__. Asutus võib arendada liidese, mis publitseerib asutuse enda metaandmete varamust kirjeldusi (vastavalt RIHA API spetsifikatsioonile).
 
-RIHA koosneb eraldi paigaldatavatest ja kasutatavatest rakendustest (komponentidest).
+__Kirjeldaja paigaldamine asutuse taristusse__.  Asutus, kes soovib oma infosüsteemide kirjeldusi hoida enda taristus,  võib seda teha ka vastava RIA arendatud komponendi (Kirjeldaja) paigaldamisega oma taristusse,
 
-Iga rakendus täidab üht-kaht funktsiooni.
+__Majutamine__. Asutustele, kes Kirjeldajat oma taristusse paigaldada ei soovi, pakutakse RIA taristusse paigaldatud Kirjeldajat. Sellisel juhul RIA taristu majutusteenuse pakkuja, asutuse aga asuri (ingl _Tenant_) rollis.
 
-Komponendid tarbivad teiste komponentide teavet masinliideste (API-de) kaudu ja pakuvad ise teavet samuti masinliideste kaudu.
-
-Inimene suhtleb rakendustega kasutajaliideste kaudu.
-
-Rakendused paigaldatakse ühes või mitmes eksemplaris.
+RIHA koosneb eraldi paigaldatavatest ja kasutatavatest, teenuseid pakkuvatest rakendustest ehk komponentidest. Iga rakendus täidab üht-kaht funktsiooni. Komponendid tarbivad teiste komponentide teavet __masinliideste (API-de)__ kaudu ja pakuvad ise teavet samuti masinliideste kaudu. Inimene suhtleb rakendustega __kasutajaliideste__ kaudu.
 
 __RIHA kesksüsteemi__ moodustavad RIA taristusse paigaldatud komponendid.
 
