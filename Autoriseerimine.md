@@ -9,3 +9,4 @@ Autoriseerimine lahendatakse serverikomponendis Autoriseerija. Sessioonihaldusek
 
 Autoriseerimise töövoog on järgmine (vt skeeme [Kesksüsteem](Kesksüsteem) ja [Sessioonihaldus](Sessioonihaldus)):
 
+_(vaja kirja panna)_
