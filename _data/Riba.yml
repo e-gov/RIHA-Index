@@ -28,7 +28,7 @@
 
 - title: "Komponendid"
   categories:
-  - title: "Komponentstruktuur"
+  - title: "Põhimõtted"
     url: "/Komponentstruktuur"
   - title: "Kesksüsteem"
     url: "/Kesk"  
@@ -36,7 +36,7 @@
     url: "/Kirjeldaja"
   - title: "Avaldaja"
     url: "/Avaldaja"
-  - title: "Kooskõlastaja"
+  - title: "Hindaja"
     url: "/Kooskolastaja"
   - title: "Sirvija"
     url: "/Sirvija"
