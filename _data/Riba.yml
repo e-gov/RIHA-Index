@@ -43,11 +43,16 @@
 
 - title: "Liidesed teiste süsteemidega"
   categories:
-  - title: "Liides SAP-ga"
+  - title: "SAP-ga"
     url: "/LiidesSAPga"
-  - title: "Liides Äriregistriga"
+  - title: "Äriregistriga"
     url: "/liidesAriregistriga"
-
+  - title: "Riigiteenuste portaaliga"
+    url: "/liidesRiigiteenustega"
+  - title: "eesti.ee-ga"
+    url: "/liideseestiee"
+  - title: "X-tee monitooringusüsteemiga"
+    url: "/Xteemonitooringuga"    
 - title: "Tehnoloogiad"
   categories:
   - title: "Valikute lähtekohad"  
