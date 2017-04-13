@@ -178,8 +178,8 @@ Näide 3
    "sub":{
       "isikukood":"60107110134",
       "nimi":{
-         "eesnimi":"Priit",
-         "perekonnanimi":"Parmakson"
+         "eesnimi":"Eero",
+         "perekonnanimi":"Vegmann"
       }
    },
    "asutus":{
