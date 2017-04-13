@@ -4,8 +4,17 @@ permalink: Taiendamine
 ---
 
 # Teatmiku täiendamine
+{:.no_toc}
+
+* TOC
+{:toc}
+
 
 Arhitektuuriteatmiku tekstid asuvad GitHub repos [https://github.com/e-gov/RIHA-Index](https://github.com/e-gov/RIHA-Index).
+
+Arhitektuuriteatmik publitseeritakse teisendaja [Jekyll](https://jekyllrb.com/) abil aadressil [https://e-gov.github.io/RIHA-Index/](https://e-gov.github.io/RIHA-Index/) ning seal edasi ametliku koopiana RIA veebilehel.
+
+## Uue artikli loomine
 
 Teave on jagatud artikliteks.
 
@@ -25,9 +34,12 @@ Uue artikli loomiseks:
     - `permalink` määrab artikli URL-i
   - YAML-failis `_data/Riba.yml` tuleb määrata artikli koht külgmenüüs.
 
+## Joonised
+
 Jooniste tegemiseks on hea kasutada [ASCIIFlow](http://asciiflow.com/) veebiredaktorit.
 
-Arhitektuuriteatmik publitseeritakse teisendaja [Jekyll](https://jekyllrb.com/) abil aadressil [https://e-gov.github.io/RIHA-Index/](https://e-gov.github.io/RIHA-Index/).
+
+## Esiletõsted
 
 __ Märkuste kujundamiseks__ võib kasutada CSS stiiliklassi  `rem`. Näiteks:
 
