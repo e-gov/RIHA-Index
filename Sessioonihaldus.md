@@ -13,11 +13,11 @@ Vt ka: [Kesksüsteem](Kesk), [Autentimine](Autentimine), [Autoriseerimine](Autor
 
 ## Mõisted
 
-__Kasutaja__, ![](img/HUMAN.PNG) RIHA inimkasutaja. 
+__Kasutaja__, RIHA inimkasutaja. 
 
 __Kasutajarakendus__, veebisirvijasse laetud RIHA klientrakendus.
 
-__SAP__, riigi personali- ja palgaarvestuse andmekogu, pakub X-tee vahendusel ![](img/X-ROAD.PNG) isiku asutuses töötamise fakti tuvastamise teenust. 
+__SAP__, riigi personali- ja palgaarvestuse andmekogu, pakub X-tee vahendusel isiku asutuses töötamise fakti tuvastamise teenust. 
 
 __Serveriteenus__, RIHA funktsionaalsust pakkuva komponend serveripoolne osa.
 
