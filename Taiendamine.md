@@ -41,7 +41,7 @@ Jooniste tegemiseks on hea kasutada [ASCIIFlow](http://asciiflow.com/) veebireda
 
 ## Esiletõsted
 
-__ Märkuste kujundamiseks__ võib kasutada CSS stiiliklassi  `rem`. Näiteks:
+Märkuste kujundamiseks võib kasutada CSS stiiliklassi  `rem`. Näiteks:
 
 ```
 <p class='rem'>See on märkus.</p>
@@ -49,7 +49,7 @@ __ Märkuste kujundamiseks__ võib kasutada CSS stiiliklassi  `rem`. Näiteks:
 
 <p class='rem'>See on märkus.</p>
 
-__Pooleliolevate teemade__ näitamiseks võib kasutada CSS stiiliklassi `staatus`. Näiteks:
+Pooleliolevate teemade näitamiseks võib kasutada CSS stiiliklassi `staatus`. Näiteks:
 
 ```
 <p class='staatus'>See leht vajab täiendamist.</p>
