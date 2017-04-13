@@ -8,35 +8,36 @@ permalink: Kesk
 ```
                                               ,-.   Kasutaja,
 +-----------+ +----------+                    `|'   rollides KIRJELDAJA,
-|eIDAS      | |SAP       |                    /|\   HINDAJA, SIRVIJA     +------------+
-|autentimis-+ |atribuudi-+   Veebisirvija      |                         |RIHA API-t  |
-|teenus     | |teenus    |                    / \                        |kasutav     |
-+-----+-----+ +----+-----+       +---------------------------+           |muu rakendus|
-      ^            ^             |   Ühtset kasutajakogemust |           +------+-----+
-      |            |             |   pakkuv üheleherakendus  |                  |
-      |            |             |                           |                  |
-      |            |             +---------------------------+                  |
-      |            |                                                            |
- <-----------------+tulemüür/ruuter/koormusjaotur F5 +-------------------------------->
-      |            |                                                            |
-      |            |         +-------------+   Serveriteenused    <-------------+
-      |            |         |             |        (Ja^a)
- +----+------------+------------------------------------------------------------------+
- | AUTENTIJA      AUTORI-    | KIRJELDAJA  |  HINDAJA    KOGUJA   SIRVIJA   TEAVITAJA |
- |                SEERIJA    |             |                                          |
- |                           |             |                                          |
- +------------------------------------------------------------------------------------+
-                             |             |
-                             |             |
-                             |             |   Andmehoidla (failisüsteem, PostgreSQL)
-     +----------------+   +------------------------------------------------------------+
-     | Autoriseerimis++   |  |             |Andmed ühes keskkonnas, kuid majutatavata  |
-     | andmete hoidla |   |  |             |asutuste ja serveriteenuste kaupa          |
-     |                |   |  |             |isoleeritult                               |
-     +----------------+   +------------------------------------------------------------+
-                             |             |
-                             +-------------+
+|eIDAS      | |SAP       |                    /|\   HINDAJA, SIRVIJA
+|autentimis-+ |atribuudi-+   Veebisirvija      |
+|teenus     | |teenus    |                    / \
++-----+-----+ +----+-----+       +------------------------+    +-------------+
+      ^            ^             | Ühtset kasutajakogemust|    |RIHA API-t   |
+      |            |             | pakkuv üheleherakendus |    |kasutav      |
+      |            |             |                        |    |muu rakendus |
+      |            |             +------------------------+    +------+------+
+      |            |                                                  |
+  -----------------+tulemüür/ruuter/koormusjaotur F5 +-----------------------+
+      |            |                                                  |
+      |            |         +----------+      Serveriteenused        v
+      |            |         |          |           (Ja^a)
+ +----+------------+---------------------------------------------------------+
+ | AUTENTIJA      AUTORI-    |KIRJELDAJA|  HINDAJA KOGUJA SIRVIJA TEAVITAJA  |
+ |                SEERIJA    |          |                                    |
+ |                           |          |                                    |
+ +---------------------------------------------------------------------------+
+                             |          |
+                             |          |
+                             |          | Andmehoidla (failisüsteem, PostgreSQL)
+     +----------------+   +-------------+------------------------------------+
+     | Autoriseerimis++   |  | Andmed ühes keskkonnas, kuid majutatavate     |
+     | andmete hoidla |   |  | asutuste ja serveriteenuste kaupa             |
+     |                |   |  | isoleeritult                                  |
+     +----------------+   +-------------+------------------------------------+
+                             |          |
+                             +----------+
                             Majutatav asutus
+
 ```
 
 Joonis kujutab RIHA kesksüsteemi ülesehitust.
