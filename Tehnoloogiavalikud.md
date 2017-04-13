@@ -84,6 +84,9 @@ Tehnoloogiate valimisel tuleb arvestada eriti järgmist.
 #### Masinkasutajate autentimine
 - [HTTP Basic Authentication](https://tools.ietf.org/html/rfc2617)
 
+### Sessioonihaldus
+- [JSON Web Token](https://jwt.io/), vt [Sessioonihaldus](Sessioonihaldus)
+
 ### Pääsuhaldus
  - [LDAP](https://en.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol)
  - [RBAC](https://en.wikipedia.org/wiki/Role-based_access_control) (rollipõhine pääsuhaldus)
