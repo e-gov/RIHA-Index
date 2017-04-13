@@ -36,8 +36,7 @@ Uue artikli loomiseks:
 
 ## Joonised
 
-Jooniste tegemiseks on hea kasutada [ASCIIFlow](http://asciiflow.com/) veebiredaktorit.
-
+Jooniste tegemiseks on sobiv kasutada [ASCIIFlow](http://asciiflow.com/) veebiredaktorit. Tekst- e ASCII joonised tuleb õigeks kuvamiseks asetada kolmekordsete _backtick_ sümbolite vahele (vt nt leht [Kesksüsteem](Kesk)). Joonise uuendamise töövoog: 1) ava tekstiredaktoris joonist sisaldava lehe lähtetekst; 2) kopeeri tekstjoonis ASCIIFlow-sse; 3) muutmise järel vajuta nuppu `Upload` ja kopeeri avaneva akna sisu lehe lähteteksti.
 
 ## Esiletõsted
 
