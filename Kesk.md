@@ -5,7 +5,39 @@ permalink: Kesk
 
 # Kesksüsteem
 
-![](img/JOONIS-1204-02.PNG)
+```
+                                              ,-.   Kasutaja,
++-----------+ +----------+                    `|'   rollides KIRJELDAJA,
+|eIDAS      | |SAP       |                    /|\   HINDAJA, SIRVIJA     +------------+
+|autentimis-+ |atribuudi-+   Veebisirvija      |                         |RIHA API-t  |
+|teenus     | |teenus    |                    / \                        |kasutav     |
++-----+-----+ +----+-----+       +---------------------------+           |muu rakendus|
+      ^            ^             |   Ühtset kasutajakogemust |           +------+-----+
+      |            |             |   pakkuv üheleherakendus  |                  |
+      |            |             |                           |                  |
+      |            |             +---------------------------+                  |
+      |            |                                                            |
+ <-----------------+tulemüür/ruuter/koormusjaotur F5 +-------------------------------->
+      |            |                                                            |
+      |            |         +-------------+   Serveriteenused    <-------------+
+      |            |         |             |        (Ja^a)
+ +----+------------+------------------------------------------------------------------+
+ | AUTENTIJA      AUTORI-    | KIRJELDAJA  |  HINDAJA    KOGUJA   SIRVIJA   TEAVITAJA |
+ |                SEERIJA    |             |                                          |
+ |                           |             |                                          |
+ +------------------------------------------------------------------------------------+
+                             |             |
+                             |             |
+                             |             |   Andmehoidla (failisüsteem, PostgreSQL)
+     +----------------+   +------------------------------------------------------------+
+     | Autoriseerimis++   |  |             |Andmed ühes keskkonnas, kuid majutatavata  |
+     | andmete hoidla |   |  |             |asutuste ja serveriteenuste kaupa          |
+     |                |   |  |             |isoleeritult                               |
+     +----------------+   +------------------------------------------------------------+
+                             |             |
+                             +-------------+
+                            Majutatav asutus
+```
 
 Joonis kujutab RIHA kesksüsteemi ülesehitust.
 
