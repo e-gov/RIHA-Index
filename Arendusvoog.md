@@ -55,5 +55,5 @@ permalink: Arendusvoog
 +---------------------------------+
 </pre>  
 
-* - ei ole avalik
+`*` - ei ole avalik
 
