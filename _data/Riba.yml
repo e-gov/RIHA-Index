@@ -8,7 +8,8 @@
   categories:
   - title: "Üldine töövoog"
     url: "/Toovoog"
-
+  - title: "Arendusvoog"  
+    url: "/Arendusvoog"
 - title: "Põhikontseptid"
   categories:
   - title: "Nõuded"

@@ -21,28 +21,6 @@ Seetõttu:
 - eelistatud on vahetu suhtlus. Kirjalikult fikseeritakse ainult kõige olulisem
 - arhitektuuridokumenti täiendatakse ja ajakohastatakse arenduse käigus pidevalt.
 
-__Koht RIHA arendus- ja haldusartefaktide süsteemis.__
-
-<pre>
-      +---------------------------------+
-      |  Töötav kood + dokumentatsioon  |
-      +---------------------------------+
-      |  RIHA keskkonnad ja dok-n*      |
-      +---------------------------------+
-      |        Vaheanalüüsid*           |
-      +---------------------------------+
-      |     Arhitektuuridokument        |
-      +---------------------------------+
-      |     Kasutuslood (JIRA)*         |
-      +---------------------------------+
-      |     Soovide hindamise tabel*    |
-      +---------------------------------+
-      |       RIHA strateegia*          |
-      +---------------------------------  
-</pre>  
-
-* - ei ole avalik
-
 __Modulaarne ülesehitus.__ Arhitektuuridokument on modulaarse ülesehitusega, koosnedes osadokumentidest (lehtedest). Iga osadokument käsitleb üht tehnilist küsimust või arhitektuurset aspekti. 
 
 __Protsess.__ Arhitektuurilise küsimuse tõusetumisel töötatakse see läbi. Peamised töövormid on arutelu, tehniline uurimine, kasutades erinevaid allikaid. Tulemus fikseeritakse kirjalikult niivõrd, kuivõrd see on arendusega edasiliikumiseks vajalik. 
