@@ -1,20 +1,32 @@
 ---
 title: Arendusvoog
 permalink: Arendusvoog
-----
+---
 
-## Arendusvoo peamised protsessid, sisendid ´ja väljundid
+## Töövormid
 
-Strateegia kujundamine
-Püstijalakoosolek
-Nädalakoosolek
-Soovist nõudeks
-Arhitektuuriteema läbitöötamine
-Arendusülesande läbirääkimine
-Programmeerimine
-Testimine
-Paigaldamine
-Kasutamine
++---------------------------------+
+|           Kasutamine            |
++---------------------------------+
+|          Paigaldamine           |
++---------------------------------+
+|            Testimine            |
++---------------------------------+
+|         Programmeerimine        |
++---------------------------------+
+| Arendusülesande läbirääkimine   |
++---------------------------------+
+|  Arhitektuuriteema läbitöötamine|
++---------------------------------+
+|       Püstijalakoosolek         |
++---------------------------------+
+|         Nädalakoosolek          |
++---------------------------------+
+|         Soovist nõudeks         |
++---------------------------------+
+|    Strateegia kujundamine       |
++---------------------------------+
+
 
 ## Arenduse peamised artefaktid
 
