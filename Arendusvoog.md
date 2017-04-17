@@ -5,6 +5,7 @@ permalink: Arendusvoog
 
 ## Töövormid
 
+<pre>
 +---------------------------------+
 |           Kasutamine            |
 +---------------------------------+
@@ -26,7 +27,7 @@ permalink: Arendusvoog
 +---------------------------------+
 |    Strateegia kujundamine       |
 +---------------------------------+
-
+</pre>  
 
 ## Arenduse peamised artefaktid
 
@@ -52,7 +53,6 @@ permalink: Arendusvoog
 +---------------------------------+
 |       RIHA strateegia*          |
 +---------------------------------+
-
 </pre>  
 
 * - ei ole avalik
