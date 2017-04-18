@@ -15,23 +15,23 @@ Vt ka [Kesksüsteem](Kesk), [API-de disaini juhis](https://agiil.github.io/IT/AP
 
 ## Mõisted
 
-__Kasutaja__, RIHA inimkasutaja. 
+_Kasutaja_, RIHA inimkasutaja. 
 
-__Kasutajarakendus__, veebisirvijasse laetud RIHA klientrakendus.
+_Kasutajarakendus_, veebisirvijasse laetud RIHA klientrakendus.
 
-__RIHA komponent__ – hajusalt (asutuse mõju alla olevasse taristusse) või keskselt (RIA taristusse) paigaldatav, käitatav, mingit teenust või teenuseid osutav eraldiseisev tarkvararakendus.
+_RIHA komponent_ – hajusalt (asutuse mõju alla olevasse taristusse) või keskselt (RIA taristusse) paigaldatav, käitatav, mingit teenust või teenuseid osutav eraldiseisev tarkvararakendus.
 
-__RIHA teenus__ – RIHA komponendi poolt pakutav kasutajaliides (UI) inimkasutajale või masinliides (API) masinkasutajale; komponent üldjuhul osutab üht teenust, kuid võib osutada ka mitut, sh nii UI kui ka API kaudu.
+_RIHA teenus_ – RIHA komponendi poolt pakutav kasutajaliides (UI) inimkasutajale või masinliides (API) masinkasutajale; komponent üldjuhul osutab üht teenust, kuid võib osutada ka mitut, sh nii UI kui ka API kaudu.
 
-__RIHA API__ – 1) kitsamas mõttes – RIHA kesksüsteemi kokkukogutud kirjeldusi kättesaadavaks tegev masinliides (Avaldaja e Publisher-i API); laiemas mõttes – hajusarhitektuurilise RIHA kõigi masinliideste kogum: Kirjeldaja API, Hindaja API, Sirvija API, Visualiseerija API, Koguja API, Teavitaja API, muude lisanduvate komponentide API-d.
+_RIHA API_ – 1) kitsamas mõttes – RIHA kesksüsteemi kokkukogutud kirjeldusi kättesaadavaks tegev masinliides (Avaldaja e Publisher-i API); laiemas mõttes – hajusarhitektuurilise RIHA kõigi masinliideste kogum: Kirjeldaja API, Hindaja API, Sirvija API, Visualiseerija API, Koguja API, Teavitaja API, muude lisanduvate komponentide API-d.
 
-__RIHA kasutajaliides__ – RIHA komponentide kasutajaliideste kogum (disain, HTML/CSS ja UIG).
+_RIHA kasutajaliides_ – RIHA komponentide kasutajaliideste kogum (disain, HTML/CSS ja UIG).
 
-__RIHA kesksüsteem__ – RIA taristus paiknevad komponendid, mis võimaldavad pakkuda terviklikku kataloogiteenust.
+_RIHA kesksüsteem_ – RIA taristus paiknevad komponendid, mis võimaldavad pakkuda terviklikku kataloogiteenust.
 
-__Serveriteenus__, RIHA funktsionaalsust pakkuva komponendi serveripoolne osa.
+_Serveriteenus_, RIHA funktsionaalsust pakkuva komponendi serveripoolne osa.
 
-## Sisenemispunktid RIHA kesksüsteemi kasutajaliidesesse
+## Kasutajaliides (RIHA kesksüsteem)
 
 Kasutajaliidese URL-ides järgitakse põhimõtteid:
 
@@ -76,7 +76,7 @@ Esmane sisenemispunkt RIHA kesksüsteemi on `https://riha.ee`. Sellel aadressil 
   - `https://riha.ee/RIA`
   - `https://riha.ee/70006317`
 
-## RIHA kesksüsteemi API-d
+## API (RIHA kesksüsteem)
 
 RIHA API pakub RIHAsse kogutud andmeid RESTful põhimõtete järgi, reeglina JSON-vormingus. API-t teostavad kesksüsteemi serveriteenused. Peamised sisenemispunktid:
 
@@ -92,7 +92,7 @@ RIHA API pakub RIHAsse kogutud andmeid RESTful põhimõtete järgi, reeglina JSO
 
 ## Hajusalt paigutatud komponentide URL-id
 
-Hajusalt paigaldatud komponentide (Kirjeldaja) ja ise teostatud Kirjeldaja API teenusenime valib vastava komponendi haldaja. Soovituslik nimemuster on `api.riha.<asutus>.ee`.
+Hajusalt paigaldatud komponentide (Kirjeldaja) ja ise teostatud Kirjeldaja API teenusenime valib vastava komponendi haldaja. Soovituslik nimetüvi on `riha.<asutus>.ee`.
 
 # Vana RIHA URL-de ümbersuunamine
 
