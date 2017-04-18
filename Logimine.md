@@ -11,7 +11,6 @@ permalink: Logimine
 * TOC
 {:toc}
 
-
 ## Logimise põhimõtted RIAs
 
 Logimise eesmärgiks on sisendandmete tootmine mitmele teisele olulisele IT halduse ja arenduse protsessile [Hallas 2015]:

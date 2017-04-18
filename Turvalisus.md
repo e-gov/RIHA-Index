@@ -4,6 +4,12 @@ permalink: Turvalisus
 ---
 
 # Turvalisus
+{:.no_toc}
+
+<p class='staatus'></p>
+
+* TOC
+{:toc}
 
 ## Ülevaade 
 
@@ -25,6 +31,26 @@ Turvalisuse tagamisel tuleb arvestada, et RIHA on tarkvararakendus, aga ühtlasi
 - __RIHA rakendus__ on hajus, koosnedes keskselt, RIHA taristusse paigaldatud komponentidest, asutuste taristutesse paigaldatud komponentidest ja asutuste endi poolt arendatud, RIHA API standardile vastavatest liidestest.
 - __RIHA protsess__ hõlmab RIHA käitamist, kasutamist, arendamist, nõuete haldust.
 - __RIHA organisatsioon__ hõlmab RIA-t ja kõiki RIHAs andmeid loovaid asutusi.
+
+## RIHA turvaklass
+
+RIHA turvaklass on __K2T2S2__ ja turvatase on M.
+
+Käideldavus (K). Käideldavuse nõue K2 on suuresti tingitud isikuandmete kaitse seadusest §25 ning RIA-sisesest teenustasemeleppest (edaspidi SLA).
+
+Terviklus (T). Tervikluse nõue T2 on tingitud infosüsteemide andmevahetuskihi määrusest.
+
+Konfidentsiaalsus (S). Olemasoleva RIHA S1 tase on põhjendatud sellega, et RIHA sisaldab infot asutusesiseseks kasutamiseks, juurdepääs teabele on lubatav juurdepääsu taotleva isiku õigustatud huvi korral.
+
+Uue RIHA S2 tase on põhjendatud sellega, et RIHA sisaldab avalikku infot, infot asutusesiseseks kasutamiseks ning  teavet, mille kasutamine on lubatud ainult teatud kindlatele kasutaja gruppidele ning juurdepääs teabele on lubatav juurdepääsu taotleva isiku õigustatud huvi korral. Ligipääse haldab RIHA teenusehaldur või infosüsteemide omanikud, asutused ise. AK tasemega on näiteks isikuandmed ja tehnilist kirjeldust sisaldav dokumentatsioon.  
+
+Uue RIHA pääsuõiguste süsteemis võimaldatakse ligipääsu õiguste andmist kasutajagruppide kaupa läbi erinevate tasandite (asutus, kasutajagrupp,  roll jne) . 
+
+Riigisaladus puudub.  Juurdepääsupiiranguta andmed/ dokumendid on avalikult kättesaadavad RIHA veebiliidese kaudu.
+
+Uue RIHA loomisel määratakse maksimaalne konfidentsiaalsuse  tase, kuna hilisem süsteemi muutmine võib osutuda oluliselt kallimaks.
+
+RIHA moodulite arendamise järgselt viiakse perioodiliselt läbi turvaanalüüs, mille raames kontrollitakse seatud tasemed üle. 
 
 ## Riskianalüüs
 
