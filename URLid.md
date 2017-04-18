@@ -13,7 +13,7 @@ permalink: URLid
 
 Vt ka [Kesksüsteem](Kesk), [API-de disaini juhis](https://agiil.github.io/IT/API)
 
-## Mõisted
+## 1  Mõisted
 
 _Kasutaja_, RIHA inimkasutaja. 
 
@@ -31,7 +31,7 @@ _RIHA kesksüsteem_ – RIA taristus paiknevad komponendid, mis võimaldavad pak
 
 _Serveriteenus_, RIHA funktsionaalsust pakkuva komponendi serveripoolne osa.
 
-## Kasutajaliides (RIHA kesksüsteem)
+## 2  Kasutajaliides (RIHA kesksüsteem)
 
 Kasutajaliidese URL-ides järgitakse põhimõtteid:
 
@@ -83,7 +83,7 @@ Esmane sisenemispunkt RIHA kesksüsteemi on `https://riha.ee`. Sellel aadressil 
   - `https://riha.ee/RIA`
   - `https://riha.ee/70006317`
 
-## API (RIHA kesksüsteem)
+## 3  API (RIHA kesksüsteem)
 
 RIHA API pakub RIHAsse kogutud andmeid RESTful põhimõtete järgi, reeglina JSON-vormingus. API-t teostavad kesksüsteemi serveriteenused. Peamised sisenemispunktid:
 
@@ -97,11 +97,11 @@ RIHA API pakub RIHAsse kogutud andmeid RESTful põhimõtete järgi, reeglina JSO
 
 `https://riha.ee/API/v1/Approvals` - tagastab hinnangud.
 
-## Hajusalt paigutatud komponentide URL-id
+## 4  Hajusalt paigutatud komponentide URL-id
 
 Hajusalt paigaldatud komponentide (Kirjeldaja) ja ise teostatud Kirjeldaja API teenusenime valib vastava komponendi haldaja. Soovituslik nimetüvi on `riha.<asutus>.ee`.
 
-# Vana RIHA URL-de ümbersuunamine
+# 5  Vana RIHA URL-de ümbersuunamine
 
 `https://riha.eesti.ee/riha/main/asu/riigi_infosusteemi_amet` → `https://riha.ee/RIA`
 
