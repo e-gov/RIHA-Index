@@ -6,7 +6,7 @@ permalink: URLid
 # URL-id
 {:.no_toc}
 
-<p class='staatus'>Läbi arutada infraosakonnaga. Võimalikud on muutused</p>
+<p class='staatus'>Kavand. Läbi arutada infraosakonnaga. Võimalikud on muutused</p>
 
 * TOC
 {:toc}
@@ -93,4 +93,10 @@ RIHA API pakub RIHAsse kogutud andmeid RESTful põhimõtete järgi, reeglina JSO
 ## Hajusalt paigutatud komponentide URL-id
 
 Hajusalt paigaldatud komponentide (Kirjeldaja) ja ise teostatud Kirjeldaja API teenusenime valib vastava komponendi haldaja. Soovituslik nimemuster on `api.riha.<asutus>.ee`.
+
+# Vana RIHA URL-de ümbersuunamine
+
+`https://riha.eesti.ee/riha/main/asu/riigi_infosusteemi_amet' -> `https://riha.ee/RIA`
+
+`https://riha.eesti.ee/riha/main/inf/riigi_infosusteemi_haldussusteem` -> `https://riha.ee/RIHA`
 
