@@ -101,7 +101,7 @@ RIHA API pakub RIHAsse kogutud andmeid RESTful põhimõtete järgi, reeglina JSO
 
 Hajusalt paigaldatud komponentide (Kirjeldaja) ja ise teostatud Kirjeldaja API teenusenime valib vastava komponendi haldaja. Soovituslik nimetüvi on `riha.<asutus>.ee`.
 
-# 5  Vana RIHA URL-de ümbersuunamine
+## 5  Vana RIHA URL-de ümbersuunamine
 
 `https://riha.eesti.ee/riha/main/asu/riigi_infosusteemi_amet` → `https://riha.ee/RIA`
 
