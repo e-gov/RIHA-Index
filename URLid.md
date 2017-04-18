@@ -6,7 +6,7 @@ permalink: URLid
 # URL-id
 {:.no_toc}
 
-<p class='staatus'>Läbi arutada infraosakonnaga, paigaldamise vaatest. Võimalikud on olulised muutused</p>
+<p class='staatus'>Läbi arutada infraosakonnaga. Võimalikud on muutused</p>
 
 * TOC
 {:toc}
@@ -55,7 +55,7 @@ Esmane sisenemispunkt RIHA kesksüsteemi on `https://riha.ee`. Sellel aadressil 
 
 - hindamise üldvaade
   - `https://riha.ee/Hinda`
-  - `https://riha.ee/Assess`
+  - `https://riha.ee/Approve`
 
 - konkreetse infosüsteemi hindamine - `https://riha.ee/Hinda/RIHA`
 
@@ -76,24 +76,19 @@ Esmane sisenemispunkt RIHA kesksüsteemi on `https://riha.ee`. Sellel aadressil 
   - `https://riha.ee/RIA`
   - `https://riha.ee/70006317`
 
-## API
+## RIHA kesksüsteemi API-d
 
-- Sirvija
-  - UI – `riha.ee`
-- Kirjeldaja
-  - kasutajaliides – `kirjelda.riha.ee`
-  - API – puudub, kirjeldused kogutakse kohe Avaldajasse
-- Avaldaja (Publisher)
-  - API – `api.riha.ee`
-- Hindaja (Approver)
-  - UI – `hinda.riha.ee`
-  - API – `api.hinda.ee`
-- Teavitaja
-  - Saatmis-API – `api.saada.riha.ee`
-  - Saatmise UI – `saada.riha.ee`
-  - Tellimis-API – `api.elli.riha.ee`
-  - Tellimise UI – `telli.riha.ee`
+RIHA API pakub RIHAsse kogutud andmeid RESTful põhimõtete järgi, reeglina JSON-vormingus. API-t teostavad kesksüsteemi serveriteenused. Peamised sisenemispunktid:
 
+`https://riha.ee/API/v1/Systems` - tagastab kõigi infosüsteemide nimekirja
+
+`https://riha.ee/API/v1/Systems/RIHA` - tagastab konkreetse infosüsteemi kirjelduse
+
+`https://riha.ee/API/v1/Orgs` - tagastab kõigi organisatsioonide nimekirja (kes omavad infosüsteeme)
+
+`https://riha.ee/API/v1/Orgs/RIA` - tagastab konkreetse organisatsiooni üldandmed ja infosüsteemide nimekirja
+
+`https://riha.ee/API/v1/Approvals` - tagastab hinnangud.
 
 ## Hajusalt paigutatud komponentide URL-id
 

@@ -19,7 +19,7 @@ __Kasutajarakendus__, veebisirvijasse laetud RIHA klientrakendus.
 
 __SAP__, riigi personali- ja palgaarvestuse andmekogu, pakub X-tee vahendusel isiku asutuses töötamise fakti tuvastamise teenust. 
 
-__Serveriteenus__, RIHA funktsionaalsust pakkuva komponend serveripoolne osa.
+__Serveriteenus__, RIHA funktsionaalsust pakkuva komponendi serveripoolne osa.
 
 __Sessioonitõend__ - (_session token_),  ![](img/JWT.PNG) JSON Web Token vormingus andmeüksus, mis tõendab kasutaja isikut ja õigusi. Sessioonitõend moodustatakse RIHA serveriteenuses Autoriseerija ning edastatakse Kasutaja veebisirvijasse, kus see salvestatakse küpsisena. Sessioonitõend on nn esitajatõend (_bearer token_), see pannakse kaasa iga HTTP pöördumisega Kasutajarakendusest Serveriteenuse poole.
 
