@@ -11,18 +11,25 @@ Autentimine lahendatakse serverikomponendis Autentija. Autentija autendib kasuta
 
 ##  eesti.ee autentimisteenus
 
-Vt: eesti.ee autentimisteenuse liides struktuur (dokument aprill 2017):
+eesti.ee autentimisteenus autendib avalikesse e-teenustesse sisenejaid nii Eestis tunnustatud elektroonilise identiteedi (eID) vahendite (ID-kaart, mobiil-ID) ka teistes Euroopa Liidu liikmesriikides tunnustatud eID vahendite alusel. eesti.ee autentimisteenusega suheldakse protokolliga OpenID Connect 1.0. 
+
+Vt: eesti.ee autentimisteenuse liides struktuur (dokument aprill 2017).
+
+Ülevaade eesti.ee autentimisteenuse liidesest:
 
 __Redirect tegemine autentimisteenusesse:__
 
 Location: autentimisteenuse login lehe aadress
 
 Parameetrid:
+
+```
 response_type=code
 &scope=openid profile
 &client_id=<autentimist küsiva infosüsteemi ID>
 &state=<autentimist küsiva infosüsteemi kasutajasessiooni ID>
 &redirect_uri=<aadress, kuhu kasutaja pärast autentimist tagasi suunata>
+```
 
 __Redirect vastus autentimist küsinud infosüsteemi:__
 
