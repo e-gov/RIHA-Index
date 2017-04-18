@@ -100,7 +100,7 @@ Hajusalt paigaldatud komponentide (Kirjeldaja) ja ise teostatud Kirjeldaja API t
 
 # Vana RIHA URL-de ümbersuunamine
 
-`https://riha.eesti.ee/riha/main/asu/riigi_infosusteemi_amet' -> `https://riha.ee/RIA`
+`https://riha.eesti.ee/riha/main/asu/riigi_infosusteemi_amet` → `https://riha.ee/RIA`
 
-`https://riha.eesti.ee/riha/main/inf/riigi_infosusteemi_haldussusteem` -> `https://riha.ee/RIHA`
+`https://riha.eesti.ee/riha/main/inf/riigi_infosusteemi_haldussusteem` → `https://riha.ee/RIHA`
 
