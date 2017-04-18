@@ -49,7 +49,9 @@ Esmane sisenemispunkt RIHA kesksüsteemi on `https://riha.ee`. Sellel aadressil 
   - `https://riha.ee/Kirjelda`
   - `https://riha.ee/Describe`
 
-- konkreetse infosüsteemi kirjeldamine - `https://riha.ee/Kirjelda/RIHA`
+- konkreetse infosüsteemi kirjeldamine -
+  - `https://riha.ee/Kirjelda/RIHA`
+  - `https://riha.ee/Describe/RIHA`
 
 ###   Hindamine
 
@@ -57,7 +59,9 @@ Esmane sisenemispunkt RIHA kesksüsteemi on `https://riha.ee`. Sellel aadressil 
   - `https://riha.ee/Hinda`
   - `https://riha.ee/Approve`
 
-- konkreetse infosüsteemi hindamine - `https://riha.ee/Hinda/RIHA`
+- konkreetse infosüsteemi hindamine
+  - `https://riha.ee/Hinda/RIHA`
+  - `https://riha.ee/Approve/RIHA`
 
 ### Infosüsteemide lõikes
 
