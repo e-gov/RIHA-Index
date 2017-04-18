@@ -35,6 +35,60 @@ Hajusalt paigaldatud komponentide (Kirjeldaja) ja ise teostatud Kirjeldaja API t
 
 Kesksüsteemi komponentide teenusenimed:
 
+`https://riha.ee` - peamine sisenemispunkt RIHA kesksüsteemi
+
+`https://riha.ee/asutus/RIA` - sisenemispunkt asutuse vaatesse
+
+## Vaated
+
+|                |   Sirvi     |   Kirjelda  |  Hinda         |
+|------------|------------|-------------|----------------|
+|  Tervik   |      (1)      |     (2)        |     (3)           |
+|  Asutus   |      (4)      |                 |    (6)            |
+|  Infosüsteem   |     (7)     |     (8)     |      (9)       |
+
+(1) - esmane sisenemispunkt RIHA kesksüsteemi - `https://riha.ee`, 
+
+(2) - peamine sisenemispunkt kirjeldamisse - `https://riha.ee/Kirjelda`, `https://riha.ee/Produce`
+
+(3) - peamine sisenemispunkt hindamisse - `https://riha.ee/Hinda`, `https://riha.ee/Assess`
+
+
+### Sirvimine
+
+- sirvimise üldvaade - esmane sisenemispunkt RIHA kesksüsteemi - `https://riha.ee`; nn avaleht, võimaldab liikuda mitmes suunas: asutuste otsimine, infosüsteemide otsimine, kirjeldamine, hindamine.
+
+### Kirjeldamine
+
+- kirjeldamise üldvaade - `https://riha.ee/Kirjelda`
+
+- konkreetse infosüsteemi kirjeldamine - `https://riha.ee/Kirjelda/RIHA`
+
+###   Hindamine
+
+- hindamise üldvaade - `https://riha.ee/Hinda`
+
+- konkreetse infosüsteemi hindamine - `https://riha.ee/Hinda/RIHA`
+
+### Infosüsteemide lõikes
+
+- infosüsteemide sirvimise vaade
+  - `https://riha.ee/Infosüsteemid`
+  - `https://riha.ee/Systems`
+- konkreetse infosüsteemi vaade
+  - `https://riha.ee/RIHA`
+
+### Asutuste lõikes
+
+- asutuste sirvimise vaade
+  - `https://riha.ee/Asutused`
+  - `https://riha.ee/Orgs`
+- konkreetse asutuse vaade
+  - `https://riha.ee/RIA`
+  - `https://riha.ee/70006317`
+
+## API
+
 - Sirvija
   - UI – `riha.ee`
 - Kirjeldaja

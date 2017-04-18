@@ -41,6 +41,8 @@
     url: "/Kooskolastaja"
   - title: "Sirvija"
     url: "/Sirvija"
+  - title: "API-d"
+    url: "/APId"  
 
 - title: "Liidesed teiste süsteemidega"
   categories:
@@ -53,7 +55,8 @@
   - title: "eesti.ee-ga"
     url: "/liideseestiee"
   - title: "X-tee monitooringusüsteemiga"
-    url: "/Xteemonitooringuga"    
+    url: "/Xteemonitooringuga"  
+      
 - title: "Tehnoloogiad"
   categories:
   - title: "Valikute lähtekohad"  
