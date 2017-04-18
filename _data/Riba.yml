@@ -86,6 +86,8 @@
     url: "/Kood"
   - title: "URL-id"
     url: "/URLid"
+  - title: "Kõrgkäideldavus"
+    url: "Korg"  
 
 - title: "Teatmiku täiendamine"
   url: "/Taiendamine"
