@@ -19,6 +19,9 @@ failover
 fallback 
 : 1) _taandeolek_ normaalset ajutiselt asendav (väiksemate võimalustega) varukonfiguratsioon või -tööviis;  2) _varuvariant_
 
+scalability
+: _mastaabitavus_, süsteemi omadus tulla ühtviisi toime väga suurte või väga väikeste koormustega, ilma et ta tõhusus- ja kvaliteedinäitajad oluliselt muutuksid; tavaliselt hõlmab ka laiendatavust
+
 switchover
 : sama, mis _failover_, kuid käsitsi
 
@@ -74,3 +77,9 @@ Veebisirvija  +------------------+
               +---------------+
 
 ```
+
+## Kõrgkäideldavus andmehoidlas
+
+Kõrgkäideldavus on oluline ka andmehoidlas, sest andmehoidla tõrge võib tingida vajaduse andmehoidla varukoopiast taastada. Taastamine võib võtta aega, samuti läheksid kaduma pärast viimast varundamist tehtud muudatused. Toetatud tehnoloogiatest on kõrgkäideldavust kõige lihtsam saavutada PostgreSQL andmebaasis. Vt:
+
+- [PostgreSQL 9.6.2 Documentation, High Availability, Load Balancing, and Replication](https://www.postgresql.org/docs/current/static/high-availability.html)
