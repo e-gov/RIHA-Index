@@ -37,7 +37,10 @@ Kasutajaliidese URL-ides järgitakse põhimõtteid:
 
 - URL-id on inimkasutatavad: lühikesed, inimesele tähenduslikud, meeldejäävad
 - URL-id võimaldavad otseteid (sisenemispunkte) nii kõigi suuremate toimingute (sirvimine, kirjeldamine, hindamine) kui ka toimingute objektide lõikes (asutused, infosüsteemid, hiljem ka muud)
-- võimalik on kasutada paralleel-URL-e eesti ja inglise keeles.
+- võimalik on kasutada paralleel-URL-e eesti ja inglise keeles
+- infosüsteemidele ja asutustele saab viidata lühinimedega
+- asutusele saab viidata ka registrikoodiga
+- täpitähed esitatakse URL encoded kujul.
 
 ### Esmane sisenemispunkt
 
