@@ -17,7 +17,7 @@ Vt: eesti.ee autentimisteenuse liides struktuur (dokument aprill 2017).
 
 Ülevaade eesti.ee autentimisteenuse liidesest:
 
-__Redirect tegemine autentimisteenusesse:__
+_Redirect tegemine autentimisteenusesse:_
 
 Location: autentimisteenuse login lehe aadress
 
@@ -31,7 +31,7 @@ response_type=code
 &redirect_uri=<aadress, kuhu kasutaja pärast autentimist tagasi suunata>
 ```
 
-__Redirect vastus autentimist küsinud infosüsteemi:__
+_Redirect vastus autentimist küsinud infosüsteemi:_
 
 Location: <väärtus redirect_uri'st>
 
@@ -42,7 +42,7 @@ code=<autentimise identifikaator>
 &state=<seostav ID, eelmisest päringust>
 ```
 
-__ID tokeni hankimine (autentimist küsiva IS ja autentimisteenuse vahel):__
+_ID tokeni hankimine (autentimist küsiva IS ja autentimisteenuse vahel):_
 
 POST autentimisteenuse token endpoint'i
 
@@ -54,7 +54,7 @@ grant_type=authorization_code
 &redirect_uri=<sama aadress nagu 1. päringus>
 ```
 
-__ID tokeni vastus (JSON)__
+_ID tokeni vastus (JSON)_
 
 ```
 id_token: JWT (Json Web Token)
@@ -72,7 +72,7 @@ acr: <autentimistase, vastavalt eIDAS tasemetele>
 amr: <autentimisvahend>
 ```
 
-__Kasutajainfo (UserInfo) päring__
+_Kasutajainfo (UserInfo) päring_
 
 GET päring autentimisteenuse UserInfo endpoint'i
 
@@ -82,7 +82,7 @@ Parameetrid:
 Authorization: "Bearer <acces_token väärtus>"
 ```
 
-__Kasutajainfo (UserInfo) päringu vastus (JSON)__
+_Kasutajainfo (UserInfo) päringu vastus (JSON)_
 
 tagastab OpenID Connect spetsifikatsioonile vastavalt eIDAS kohustuslikud väljad:
 
@@ -94,11 +94,4 @@ family_name: <perekonnanimi>
 birthdate: <sünniaeg>
 ```
 
-## Sessioonihaldus
-
-Sessioonihalduseks kasutatakse JWT tokeneid.
-
-Autentimise töövoog on järgmine (vt skeeme [Kesksüsteem](Kesk) ja [Sessioonihaldus](Sessioonihaldus)):
-
-_(vaja kirja panna)_
 
