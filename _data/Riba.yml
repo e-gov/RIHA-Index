@@ -87,7 +87,9 @@
   - title: "URL-id"
     url: "/URLid"
   - title: "Kõrgkäideldavus"
-    url: "Korg"  
+    url: "/Korg"
+  - title: "Logimine"
+    url: "Logimine"    
 
 - title: "Teatmiku täiendamine"
   url: "/Taiendamine"
