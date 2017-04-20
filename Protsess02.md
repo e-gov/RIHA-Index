@@ -3,9 +3,9 @@ title: Protsess 02
 permalink: Protsess02
 ---
 
-<p class='rem'>Kavand. Kavandi eesmärgiks on esitada võimaliku protsess mudel inimesele hoomataval kujul . Selleks kasutame nn "känkimist" (ingl <i>chunking</i>i>) ja nn Milleri arvu - üheski lõikes ei tohi elementide arv ületada 7 ± 2. Vastav keerukusarvutus on lisatud protsessikirjelduse lõppu. Vt <a href='https://teadvus.wordpress.com/2009/12/09/kui-palju-mahub-korraga-mallu/'>Kui palju mahub korraga mällu</a>.</p>
-
 # RIHA protsess
+
+<p class='status'>Kavand. Kavandi eesmärgiks on esitada võimaliku protsesi mudel inimesele hoomataval kujul . Selleks kasutame nn "känkimist" (ingl <i>chunking</i>i>) ja nn Milleri arvu - üheski lõikes ei tohi elementide arv ületada 7 ± 2. Vastav keerukusarvutus on lisatud protsessikirjelduse lõppu. Vt <a href='https://teadvus.wordpress.com/2009/12/09/kui-palju-mahub-korraga-mallu/'>Kui palju mahub korraga mällu</a>.</p>
 
 ## 1  Kirjeldamine
 
