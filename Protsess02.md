@@ -3,9 +3,9 @@ title: Protsess 02
 permalink: Protsess02
 ---
 
-# RIHA protsess
+<p class='rem'>Kavand. Kavandi eesmärgiks on esitada võimaliku protsess mudel inimesele hoomataval kujul . Selleks kasutame nn "känkimist" (ingl <i>chunking</i>i>) ja nn Milleri arvu - üheski lõikes ei tohi elementide arv ületada 7 ± 2. Vastav keerukusarvutus on lisatud protsessikirjelduse lõppu. Vt <a href='https://teadvus.wordpress.com/2009/12/09/kui-palju-mahub-korraga-mallu/'>Kui palju mahub korraga mällu</a>.</p>
 
-_kavand_
+# RIHA protsess
 
 ## 1  Kirjeldamine
 
@@ -21,7 +21,7 @@ ___Hindajad___ perioodiliselt ___hindavad___ kirjeldusi. Hindamine päädib ___h
 
 Hindamisotsuses, aga ka omaniku enda poolt võidakse tõstatada ___küsimusi___.
 
-Küsimus (ingl k issue) fikseerib lahendamata probleemi või täitmata nõude.
+Küsimus (ingl k <i>issue</i>) fikseerib lahendamata probleemi või täitmata nõude.
 
 ## 4 Arutelu
 
