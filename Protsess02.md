@@ -37,7 +37,7 @@ Kohustuse täitmisel või probleemi äralangemisel küsimus suletakse.
 
 ## 7  Nõude haldus
 
-Kirjeldamine ja hindamine lähtuvad ___nõuetest___. Nõudel on ___omanik. Nõude omanik tagab nõude kasulikkuse ja täitmise ___metoodika___. 
+Kirjeldamine ja hindamine lähtuvad ___nõuetest___. Nõudel on ___omanik___. Nõude omanik tagab nõude kasulikkuse ja täitmise ___metoodika___. 
 
 ## 8  Protsessi IT-teostus
 
