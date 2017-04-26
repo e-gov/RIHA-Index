@@ -45,7 +45,7 @@ Andmehoidja kood asub [RIHA-Storage](https://github.com/e-gov/RIHA-Storage).
 
 ## Põhimõtted
 
-__Andmebaasimootor__. Kasutatakse uusimat Ubuntu LTS-s toetatud PostgreSQL versiooni. Alates versioonist 9.4 on PostgreSQL-l väga hea tugi vaba struktuuriga JSON andmete efektiivseks hoidmiseks ja töötlemiseks (`jsonb` tüüpi väljal).
+Andmebaasimootor. Kasutatakse uusimat Ubuntu LTS-s toetatud PostgreSQL versiooni. Alates versioonist 9.4 on PostgreSQL-l väga hea tugi vaba struktuuriga JSON andmete efektiivseks hoidmiseks ja töötlemiseks (`jsonb` tüüpi väljal).
 
 Senised erinevad tabelid infosüsteemi, teenuse, klassifikaatori, valdkonna, valdkonna sõnastiku ja XML vara jaoks asendatakse ühise universaalse tabeliga `main_resource`.
 
@@ -91,7 +91,7 @@ Infosüsteemi, tema andmebaaside ja tabelite versioneerimise põhimõtted on det
 
 ## Infosüsteemi funktsioonide kirjeldamine
 
-<p class='rem'>Funktsioonide kirjeldamise ärivajadus on praeguse seisuga mitteaktuaalne. Seetõttu käesolev jaotis on 'deprecated'.</p>
+<p class='staatus'>Funktsioonide kirjeldamise ärivajadus on praeguse seisuga mitteaktuaalne. Seetõttu käesolev jaotis on 'deprecated'.</p>
 
 Uue võimalusena on võimalik infosüsteemi kirjelduse koosseisus kirjeldada infosüsteemi funktsioonide/eesmärkide loetelu. Funktsioonid/eesmärgid tuleb kirjeldada andmete säilitustähtaegade täpsusega - erineva säilitustähtajaga säilitatavate andmete kohta tuleb kirjeldada erinev funktsioon/eesmärk.
 
@@ -125,7 +125,7 @@ Sisendite ja väljundite järjekord esitatud ei ole, konkreetne struktuur on ül
 
 ## Valdkondade, sõnastike ja XML varade kirjeldamine
 
-<p class='rem'>Käesolev jaotis on ettevaatav. Ei teostata 2017 arenduses.</p>
+<p class='staatus'>Käesolev jaotis on ettevaatav. Ei teostata 2017 arenduses.</p>
 
 Nende kolme põhiressursi edasine konkreetne kasutus- ja haldamisviis vajab detailset ärianalüüsi. Põhiküsimused seejuures on:
 
