@@ -15,25 +15,25 @@ Eesmärk on esitada adekvaatne, ajakohane pilt infosüsteemi tegelikust seisust.
 
 ## 2  Hindamine 
 
-___Hindajad___ perioodiliselt ___hindavad___ kirjeldusi. Hindamine päädib ___hindamisotsusega___.
+___Hindajad___ vastavalt oma riskianalüüsile ___hindavad___ kirjeldusi. Hindamine päädib ___hindamisotsusega___.
 
-## 3 Küsimuse tõstatamine
+## 3 Teema tõstatamine
 
-Hindamisotsuses, aga ka omaniku enda poolt võidakse tõstatada ___küsimusi___.
+Hindamisotsuses, aga ka omaniku enda poolt võidakse tõstatada ___teemasid___.
 
-Küsimus (ingl k <i>issue</i>) fikseerib lahendamata probleemi või täitmata nõude.
+Teema (ingl k <i>issue</i>) fikseerib lahendamata küsimuse või täitmata nõude.
 
 ## 4 Arutelu
 
-Omaniku kohustus on küsimused lahendada. Küsimuse lahendamine toob kaasa ___arutelu___ kooskõlastaja ja omaniku vahel.
+Omaniku kohustus on teemad lahendada. Teema lahendamine toob kaasa ___arutelu___ kooskõlastaja ja omaniku vahel.
 
 ## 5 Kohustuse võtmine 
 
-Arutelu käigus võib omanik võtta ___kohustusi___. Kohustus on lubadus asi kokkulepitud tähtajaks ära teha.
+Arutelu käigus võib omanik võtta või hindaja omanikule panna ___kohustusi___. Kohustus on lubadus või nõue asi kokkulepitud tähtajaks ära teha.
 
-## 6  Küsimuse lahendamine
+## 6  Teema lahendamine
 
-Kohustuse täitmisel või probleemi äralangemisel küsimus suletakse.
+Kõikide teemas tõstatatud kohustuste täitmisel või probleemi äralangemisel teema suletakse.
 
 ## 7  Nõude haldus
 
@@ -47,6 +47,6 @@ Protsess IT-teostuse (standardid, tarkvara, IT-teenused) korraldab RIA.
 
 ### Keerukuse hinnang
 
-- artefaktid (6): kirjeldus, hindamisotsus, küsimus, arutelu, kohustus, nõue.
-- sammud (8): kirjeldamine, hindamine, küsimuse tõstatamine, arutelu, kohustuse võtmine, küsimuse lahendamine, nõude haldus.
+- artefaktid (6): kirjeldus, hindamisotsus, teema, arutelu, kohustus, nõue.
+- sammud (8): kirjeldamine, hindamine, teema tõstatamine, arutelu, kohustuse võtmine/panemine, teema lahendamine, nõude haldus.
 - osapooled (3): infosüsteemi omanik, hindaja, RIA.
