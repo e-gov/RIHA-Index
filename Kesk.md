@@ -6,32 +6,32 @@ permalink: Kesk
 # Kesksüsteem
 
 ```
-                                              ,-.   Kasutaja,
+                                              ,+.   Kasutaja,
 +-----------+ +----------+                    `|'   rollides KIRJELDAJA,
 |eIDAS      | |SAP       |                    /|\   HINDAJA, SIRVIJA
-|autentimis-+ |atribuudi-+   Veebisirvija      |
+|autentimis++ |atribuudi++   Veebisir^ija      +
 |teenus     | |teenus    |                    / \
 +-----+-----+ +----+-----+       +------------------------+    +-------------+
-      ^            ^             | Ühtset kasutajakogemust|    |RIHA API-t   |
-      |            |             | pakkuv üheleherakendus |    |kasutav      |
+      ^            ^             | Ühtset kasutajakogemust|    |RIHA API+t   |
+      |            |             | pakku^ üheleherakendus |    |kasuta^      |
       |            |             |                        |    |muu rakendus |
       |            |             +------------------------+    +------+------+
       |            |                                                  |
-  -----------------+tulemüür/ruuter/koormusjaotur F5 +-----------------------+
+  +----------------+tulemüür/ruuter/koormusjaotur F5 +-----------------------+
       |            |                                                  |
-      |            |         +----------+      Serveriteenused        v
+      |            |         +----------+      Ser^eriteenused        v
       |            |         |          |           (Ja^a)
  +----+------------+---------------------------------------------------------+
- | AUTENTIJA      AUTORI-    |KIRJELDAJA|  HINDAJA KOGUJA SIRVIJA TEAVITAJA  |
+ | AUTENTIJA      AUTORI+    |KIRJELDAJA|  HINDAJA KOGUJA SIRVIJA TEAVITAJA  |
  |                SEERIJA    |          |                                    |
- |                           |          |                                    |
- +---------------------------------------------------------------------------+
-                             |          |
-                             |          |
-                             |          | Andmehoidla (failisüsteem, PostgreSQL)
+ |                           |          |            ANDMEHOIDJA             |
+ +--------------------------------------------------------+------------------+
+                             |          |                 |
+                             |          |                 v
+                             |          | Andmehoidla (PostgreSQL)
      +----------------+   +-------------+------------------------------------+
      | Autoriseerimis++   |  | Andmed ühes keskkonnas, kuid majutatavate     |
-     | andmete hoidla |   |  | asutuste ja serveriteenuste kaupa             |
+     | andmete hoidla |   |  | asutuste ja ser^eriteenuste kaupa             |
      |                |   |  | isoleeritult                                  |
      +----------------+   +-------------+------------------------------------+
                              |          |

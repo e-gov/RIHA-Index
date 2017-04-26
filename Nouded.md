@@ -22,4 +22,4 @@ Nõuded nõuetele:
 - Nõudega ärahoitav kahju > andmeesitamise ja järelevalve kulu
 - Tuleb hinnata ka alternatiivkulu – saamata tulu, kuna ametnikud ei tegele tähtsama probleemi lahendamisega
 - Peab olema selge, kas ja mis andmeid tuleb esitada nõude kontrolliks
-- Nõue peab olema kontrollitav ja määratud nõude kontrollija (järelevalvaja)
+- Nõue peab olema kontrollitav ja määratud nõude kontrollija (järelevalvaja).

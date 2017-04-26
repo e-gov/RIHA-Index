@@ -43,6 +43,8 @@
     url: "/Kooskolastaja"
   - title: "Sirvija"
     url: "/Sirvija"
+  - title: "Andmehoidja"
+    url: "/Andmehoidja"  
   - title: "API-d"
     url: "/APId"  
 
