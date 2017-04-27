@@ -94,6 +94,8 @@
     url: "/Korg"
   - title: "Logimine"
     url: "/Logimine"
+  - title: "Versioneerimine"
+    url: "/Versioneerimine"  
 
 - title: "Teatmiku täiendamine"
   url: "/Taiendamine"
