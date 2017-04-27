@@ -5,9 +5,34 @@ permalink: Yleminek
 
 # Üleminek
 
-<p class='staatus'>Praegu käsitleme siin eelkõige andmete ülekandmist vanast RIHAst uude. Hiljem käsitlus täieneb.</p>
+<p class='staatus'>Üleminekul uuele RIHA-le on nii korralduslikud (organisatsioonilised), õiguslikud kui ka tehnilised aspektid. Praegu käsitleme siin eelkõige andmete ülekandmist vanast RIHAst uude. Hiljem käsitlus täieneb.</p>
 
-Üleminekul uuele RIHA-le on nii korralduslikud (organisatsioonilised), õiguslikud kui ka tehnilised aspektid.
+## Tehniline andmeülekanne
+
+```
+(variant 2)
+
+   Importija +------------------>  O API
+       ^                           |
+       |                   +-------+------+
+       +                   |              |
+ Andmed JSON-kujul         | RIHA+Storage |
+       ^                   | (Java)       |
+       |                   |              |
+       +                   +-------+------+
+   Eksportija                      |
+       ^                           |
+       |                           |
++------+-------+           +-------v------+
+|  Vana RIHA   |           |              |
+|  PostgreSQL  |           | RIHA-Storage |
+|  andmebaas   +---------> | PostgreSQL   |
+|              |           | andmebaas    |
++--------------+   skript  +--------------+
+
+                (variant 1)
+
+```
 
 ## Üldnõuded andmete ülekandele
 

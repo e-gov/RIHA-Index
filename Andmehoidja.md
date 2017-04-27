@@ -9,7 +9,7 @@ permalink: Andmehoidja
 * TOC
 {:toc}
 
-Vt ka: [Kesksüsteem](Kesk).
+Vt ka: [Kesksüsteem](Kesk), [Üleminek](Yleminek).
 
 ## Ülevaade
 
