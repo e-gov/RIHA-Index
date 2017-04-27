@@ -65,6 +65,33 @@ Kommentaaride ja dokumentide universaalsed abitabelid jäetakse alles ja restruk
 
 Andmebaasi struktuur toetub kahele peamisele tabelile: ülemise taseme tabel `main_resource` ja tema komponentide tabel `data_object` ning neile lisainfot andvatele tabelitele `document` ja `comment`.
 
+Lisaks on kasutusel objektitüüpide tabel `kind`.
+
+<p status='rem'>Tabeli "role_right" vajadus tuleb üle vaadata.</p>
+
+````
+                +---------------+
+                |               |
+                |    kind       |
+                |               |
+                +-------+-------+
+                        |
+                        |
+                +-------+-------+
+                |               |
+                | main_resource |
+       +--------+               +---------+
+       |        +---------+-----+         |
+       |                  |               |
+       |                  |               |
++------+------+ +---------+-----+  +------+-----+
+|             | |               |  |            |
+|data_object  | |    document   |  |   comment  |
+|             | |               |  |            |
++-------------+ +---------------+  +------------+
+
+````
+
 Mõlemad tabelid võivad moodustada hierarhia oma `parent_id` välja kaudu. Seejuures näeme ette, et:
 
 - `main_resource` tabeli rida sisaldab suurel hulgal informatsiooni, on versioneeritav ja ei moodusta üldjuhul sügavaid hierarhiaid. Tabel ei sisalda nö väga suurtes kogustes ridu.
