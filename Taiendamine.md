@@ -9,6 +9,7 @@ permalink: Taiendamine
 * TOC
 {:toc}
 
+<p class='staatus'>Ettepanekuid arhitektuuriteatmiku täiendamiseks saab igaüks teha lisaks Pull Request-idele ka <a href='https://github.com/e-gov/RIHA-Index/issues'>Issue</a>-de abil.</p>>
 
 Arhitektuuriteatmiku tekstid asuvad GitHub repos [https://github.com/e-gov/RIHA-Index](https://github.com/e-gov/RIHA-Index).
 
@@ -33,6 +34,8 @@ Uue artikli loomiseks:
     - `title` annab artikli pealkirja (seda kasutatakse külgmenüüs)
     - `permalink` määrab artikli URL-i
   - YAML-failis `_data/Riba.yml` tuleb määrata artikli koht külgmenüüs.
+
+Sisukorra lisamiseks vt käesoleva artikli lähteteksti.
 
 ## Joonised
 
