@@ -59,3 +59,6 @@ Pooleliolevate teemade näitamiseks võib kasutada CSS stiiliklassi `staatus`. N
 
 <p class='staatus'>See leht vajab täiendamist.</p>
 
+## Kasulikku
+
+`***`***Rasvane kaldkiri***`***`
