@@ -46,7 +46,9 @@
   - title: "Andmehoidja"
     url: "/Andmehoidja"  
   - title: "API-d"
-    url: "/APId"  
+    url: "/APId"
+  - title: "API-de testimine"
+    url: "/APIdetestimine"    
 
 - title: "Liidesed teiste süsteemidega"
   categories:
