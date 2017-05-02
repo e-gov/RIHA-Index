@@ -4,6 +4,7 @@
 $mutedblue: #607D8B;
 $bluegrey100: #CFD8DC;
 $erepunane: #f44336;
+$pruun: #6D4C41;
 
 /* ---- Keha -------- */
 body {
@@ -104,7 +105,7 @@ blockquote {
 /* Kood; asciiflow joonised */
 pre, code, samp {
   font-family: 'Anonymous Pro', monospace;
-  font-size: 16px; color: #F06292;
+  font-size: 16px; color: $pruun;
   overflow-y: hidden; overflow-x: hidden;
   page-break-inside: avoid; hyphens: none;
   text-transform: none;
