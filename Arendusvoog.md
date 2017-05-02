@@ -36,11 +36,11 @@ permalink: Arendusvoog
 
 ## Arenduse korralduse põhijooned
 
-__Soovide kaardistamine__. Ärijuht koos Tootejuhiga koguvad ja kaardistavad Kasutajate __soove__. Tegevus on proaktiivne ja ka kasutajate soove suunav ning kujundav.
+__Soovide kaardistamine__. Ärijuht koos tootejuhiga koguvad ja kaardistavad kasutajate __soove__. Tegevus on proaktiivne ja ka kasutajate soove suunav ning kujundav.
 
-__Eesmärkide seadmine__. Soovid prioritiseeritakse. Äri- ja tootejuhi kõrval osaleb selles tegevuses ka Arhitekt. Tulemuseks on ***soovide prioritiseeritud tabel***. Ärijuht koostab ***strateegia***, milles püstitab strateegilised eesmärgid.
+__Eesmärkide seadmine__. Soovid prioritiseeritakse. Äri- ja tootejuhi kõrval osaleb ka arhitekt. Tulemuseks on ***soovide prioritiseeritud tabel***. Ärijuht koostab ***strateegia***, milles püstitab strateegilised eesmärgid.
 
-__Agiilne planeerimine.__. Tööd planeeritakse - ***eepikutena***, ***kasutuslugudena***, ***task***-dena - ja proritiseeritakse. Tegevuse tulemusena formeerub __***arendusjärjekord***__.
+__Agiilne planeerimine.__. Tööd planeeritakse - ***eepikutena***, ***kasutuslugudena***, ***task***-dena - ja prioritiseeritakse. Tegevuse tulemusena formeerub ***arendusjärjekord***.
 
 __Arhitektuuri kujundamine__. Arhitekt tegeleb paralleelselt toote läbivate aspektide ja tehnoloogiliste küsimuste läbitöötamisega, arendajate toetamise ja neile sisendi ettevalmistamisega. Tulemused fikseeritakse ***arhitektuuriteatmikus***. Siia kuulub ka ***vaheanalüüside*** koostamine.
 
