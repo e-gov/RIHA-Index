@@ -23,7 +23,7 @@ Tarkvara ehitamisel tuleb tagada, et kasutajaliideses kuvatakse versiooni- ja re
 
 (Kuidas? Vt git-i käsk `git describe --tags --always`, samuti [Using Git to generate an automatic version number](https://cd34.com/blog/programming/using-git-to-generate-an-automatic-version-number/)).
 
-***Versioonihalduse protsess***. _Issue_ -> _JIRA task_ -> _Commit_ -> _Reliis_
+**Versioonihalduse protsess**. _Issue_ -> _JIRA task_ -> _Commit_ -> _Reliis_
 
 Reliisi juures peab olema reliisiteade (_release notes_), mis ütleb mida eelmise versiooniga võrreldes muudeti. Dokumendi puhul võib reliisiteade seisneda kirjes „Muudatuste ajalugu“ tabelis.
 
