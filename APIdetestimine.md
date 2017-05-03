@@ -6,12 +6,12 @@ permalink: APIdetestimine
 
 ## 1. Eeldused API testide käivitamiseks ja loomiseks
 RIHA API testide loomisel kasutame Postman rakendust ja käsurealt testide jooksutamiseks Newman rakendust: 
-- Postmani installeerimine: https://www.getpostman.com/
-- Newmani installeerimine: https://github.com/postmanlabs/newman
+- Postmani installeerimine: [https://www.getpostman.com/](https://www.getpostman.com/)
+- Newmani installeerimine: [https://github.com/postmanlabs/newman](https://github.com/postmanlabs/newman)
 
 Näidete loomisel kasutan kahe rakenduse API teenust:
-- RIHA REST API (Girf) - http://riha-proxy.ci.kit/rest/api/db/main_resource
-- RIHA Producer - https://riha-produc3r.herokuapp.com/
+- RIHA REST API (Girf) - [http://riha-proxy.ci.kit/rest/api/db/main_resource](http://riha-proxy.ci.kit/rest/api/db/main_resource)
+- RIHA Producer - [https://riha-produc3r.herokuapp.com/](https://riha-produc3r.herokuapp.com/)
 
 Girfi lahendus kodeerib andmeid reeglina JSON formaadis, erandina GET päringute puhul aga CGI nimi=urlencoded_väärtus paaridena. RIHA Producer (ja ühtlasi teised CB lahendused) kasutavad x-www-form-urlencoded väärtuspaare.
 
