@@ -12,6 +12,8 @@
     url: "/Protsess02"  
   - title: "Arendusvoog"  
     url: "/Arendusvoog"
+  - title: "Testimine"
+    url: "/Testimine"
 - title: "Põhikontseptid"
   categories:
   - title: "Nõuded"
