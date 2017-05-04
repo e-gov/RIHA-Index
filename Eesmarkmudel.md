@@ -24,9 +24,11 @@ __Eesmärkide hierarhia__ on vahend keerukast kooslusest lihtsama vaate saavutam
       - Autoriseerimine <span class='sf'>SF1.2</span>
       - Andmed üle kantud <span class='sf'>SF3.1</span>
         - Andmekvaliteet kontrollitud <span class='sf'>SF3.3</span> 
-    - Hindamine
+    - Hindamine <span class='sf'>SF2</span>
       - Autentimine <span class='sf'>SF1.1</span>
       - Autoriseerimine <span class='sf'>SF1.2</span>
+      - töövoog optimeeritud <span class='sf'>SF2.1</span>
+        - kooskõlastajad töövooga rahul <span class='sf'>SF2.1</span>
     - Koguja <span class='sf'>SF3.2</span>
     - Sirvimine <span class='sf'>SF4</span>
   - Beta-2 avalikustatud
