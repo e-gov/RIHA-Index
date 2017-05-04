@@ -3,48 +3,67 @@ title: Eesmärkmudel
 permalink: Eesmarkmudel
 ---
 
+# Eesmärkmudel
+
+Tähistused: "-" - eesmärk (_Goal_), <span class='Q'>Q</span> - kvaliteedieesmärk (_Quality Goal_), <span class='sf'>SFn</span> - struktuuritoetuse lubadus
+
 - SF projekti õnnestumine
  * Audiitorile on OK
   - Beta-1 avalikustatud
-    * 30.06
-    * RIA taristus 
-    * Heroku taristus
-    - Kirjeldamine <span class='sf'>SF1.3</span>, ´SF1.4´
-      - Autentimine ´SF1.1´
-      - Autoriseerimine ´SF1.2´
-      - Andmed üle kantud ´SF3.1´
-        - Andmekvaliteet kontrollitud ´SF3.3´ 
+    * <span class='Q'>Q</span> 30.06
+    * <span class='Q'>Q</span>RIA taristus 
+    * <span class='Q'>Q</span>Heroku taristus
+    - Kirjeldamine <span class='sf'>SF1.3</span>, <span class='sf'>SF1.4</span>
+      - Autentimine <span class='sf'>SF1.1</span>
+      - Autoriseerimine <span class='sf'>SF1.2</span>
+      - Andmed üle kantud <span class='sf'>SF3.1</span>
+        - Andmekvaliteet kontrollitud <span class='sf'>SF3.3</span> 
     - Hindamine
-      - Autentimine ´SF1.1´
-      - Autoriseerimine ´SF1.2´
-    - Koguja ´SF3.2´
-    - Sirvimine ´SF4´
+      - Autentimine <span class='sf'>SF1.1</span>
+      - Autoriseerimine <span class='sf'>SF1.2</span>
+    - Koguja <span class='sf'>SF3.2</span>
+    - Sirvimine <span class='sf'>SF4</span>
   - Beta-2 avalikustatud
-    * 30.09
-    * RIA taristus
+    * <span class='Q'>Q</span>30.09
+    * <span class='Q'>Q</span>RIA taristus
     - Kirjeldaja täiendavad omadused
     - Hindaja täiendavad omadused
-    - Automaatkontrollid ´SF3.4´
-    - Avaandmetena ilusasti kättesaadav ´SF5´
+    - Automaatkontrollid <span class='sf'>SF3.4</span>
+    - Avaandmetena ilusasti kättesaadav <span class='sf'>SF5</span>
   - Toodangus
-    * 1.11
-    * RIA taristus
-    - pentestimine ´SF6´
-    - juhendid ´SF7´
+    * <span class='Q'>Q</span>1.11
+    * <span class='Q'>Q</span>RIA taristus
+    - pentestimine <span class='sf'>SF6</span>
+    - juhendid <span class='sf'>SF7</span>
 
-SF1 Riigi infosüsteemi kirjeldamise moodul
-SF1.1 sisselogimine
-SF1.2 autoriseerimine, AAR õiguste jagamine ja kontroll
-SF1.3 RIHAsse asutuse lisamine/muutmine
-SF1.4 RIHAs infosüsteemi/andmekogu kirjeldamine/muutmine
-SF2 Kooskõlastamise moodul (sh järelevalve tugi)
-SF2.1 optimeeritud töövoog kooskõlastajatele ja järelevalvajatele
-SF3 Andmebaasi andmete täiendamine ja muudatuste tuge
-SF3.1 Olemasoleva platvormi reorganiseerimine: RIHAs hoitavate andmete analüüsi ja andmeväljade restruktureerimine
-SF3.2 Andmete teisendustööriista ja koguja/pärimisvõimaluse loomine
-SF3.3 Olemasolevate RIHA andmete andmekvaliteedi kontrollimine, migratsioon ja andmebaaside sünkroniseerimine
-SF3.4 andmete uuendamist/täiendamist soodustavate automaatkontrollide lisamine ning vajadusel ka automaatteavituste realiseerimine
-SF4 RIHAsse kantud andmete avaandmetena kättesaadavaks tegemine - avaandmete liidese loomine (nt avaandmete filtreerimist, konverteerimist, teenusena pakkumist)
-SF5 Tööriist avaandmete kuvamiseks e. tervikpilt/koondvaade RIHAs olemasolevatest andmetest, sh andmete otsing ja aruandlus
-SF6 RIHA pentestimine ja turvaanalüüs
-SF7 Juhendmaterjalide uuendamine ja koolitusmaterjalid
+<span class='sf'>SF1</span> Riigi infosüsteemi kirjeldamise moodul
+
+<span class='sf'>SF1.1</span> sisselogimine
+
+<span class='sf'>SF1.2</span>, AAR õiguste jagamine ja kontroll
+
+<span class='sf'>SF1.3</span> RIHAsse asutuse lisamine/muutmine
+
+<span class='sf'>SF1.4</span> RIHAs infosüsteemi/andmekogu kirjeldamine/muutmine
+
+<span class='sf'>SF2</span> Kooskõlastamise moodul (sh järelevalve tugi)
+
+<span class='sf'>SF2.1</span> optimeeritud töövoog kooskõlastajatele ja järelevalvajatele
+
+<span class='sf'>SF3</span> Andmebaasi andmete täiendamine ja muudatuste tuge
+
+<span class='sf'>SF3.1</span> Olemasoleva platvormi reorganiseerimine: RIHAs hoitavate andmete analüüsi ja andmeväljade restruktureerimine
+
+<span class='sf'>SF3.2</span> Andmete teisendustööriista ja koguja/pärimisvõimaluse loomine
+
+<span class='sf'>SF3.3</span> Olemasolevate RIHA andmete andmekvaliteedi kontrollimine, migratsioon ja andmebaaside sünkroniseerimine
+
+<span class='sf'>SF3.4</span> andmete uuendamist/täiendamist soodustavate automaatkontrollide lisamine ning vajadusel ka automaatteavituste realiseerimine
+
+<span class='sf'>SF4</span> RIHAsse kantud andmete avaandmetena kättesaadavaks tegemine - avaandmete liidese loomine (nt avaandmete filtreerimist, konverteerimist, teenusena pakkumist)
+
+<span class='sf'>SF5</span> Tööriist avaandmete kuvamiseks e. tervikpilt/koondvaade RIHAs olemasolevatest andmetest, sh andmete otsing ja aruandlus
+
+<span class='sf'>SF6</span> RIHA pentestimine ja turvaanalüüs
+
+<span class='sf'>SF7</span> Juhendmaterjalide uuendamine ja koolitusmaterjalid

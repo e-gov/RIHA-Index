@@ -161,5 +161,7 @@ dd { margin-left: 4em; }
 /* Kaasavõtmiseks */
 .noue { border: 1px solid Aquamarine; background-color: Azure; }
 
-/* SF taag */
-.sf { border-radius: 4px; border: 1px solid #1565C0; }
+/* SF taag, Quality Goal taag */
+.sf { border-radius: 4px; border: 1px solid #1565C0;
+  color: #1565C0; padding: 2px; }
+.Q { color: red; }
