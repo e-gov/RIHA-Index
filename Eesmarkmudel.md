@@ -7,7 +7,7 @@ permalink: Eesmarkmudel
 
 ## Metoodika ja tähistused
 
-__Eesmärkide hierarhia__ on vahend keerukast kooslusest lihtsama vaate saavutamiseks. Lihtsama vaate eesmärk on tegevuste fokusseerimine kõige olulisema saavutamisele. Hierarhiline esitus ei tähenda, et reaalsus ise oleks hierarhiline.  __Eesmärk__ (_Goal_) ("-")  on seisund, mida on vaja saavutada. __Kvaliteedieesmärk__ (_Quality Goal_) (<span class='Q'>Q</span>) on ligikaudu võrdne mittefunktsionaalse nõudega. __Struktuuritoetuse lubadus__. Eriline koht käesolevas mudelis on struktuuritoetuse lepingus fikseeritud lubadustel (<span class='sf'>SFn</span>). Eesmärkmudelit detailiseeritakse kuni kasutuslugudeni. Kasutatud Tenso & Taveter [1] mudelit modifitseeritud kujul.
+__Eesmärkide hierarhia__ on vahend keerukast kooslusest lihtsama vaate saavutamiseks. Lihtsama vaate eesmärk on tegevuste fokusseerimine kõige olulisema saavutamisele. Hierarhiline esitus ei tähenda, et reaalsus ise oleks hierarhiline.  __Eesmärk__ (_Goal_) ("-")  on seisund, mida on vaja saavutada. __Kvaliteedieesmärk__ (_Quality Goal_) (<span class='Q'>Q</span>) on ligikaudu võrdne mittefunktsionaalse nõudega. __Struktuuritoetuse lubadus__. Eriline koht käesolevas mudelis on struktuuritoetuse lepingus fikseeritud lubadustel (<span class='sf'>SFn</span>). Eesmärkmudelit detailiseeritakse. __Tegevuseni viimine__ (_Operationalisation_) saavutatakse sellega, et eesmärkmudel viiakse välja kuni kasutuslugudeni. Kasutatud Tenso & Taveter [1] mudelit modifitseeritud kujul.
 
 [1] Tenso, Tanel & Taveter, Kuldar. Requirements Engineering With Agent-Oriented Models.
 
