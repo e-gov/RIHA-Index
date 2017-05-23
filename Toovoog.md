@@ -9,7 +9,7 @@ permalink: Toovoog
 
 1. Infosüsteemi haldaja e OMANIK
 2. RIA TEENUSEHALDUR
-3. KOOSKÕLASTAJA
+3. HINDAJA
 4. RIHA KASUTAJA
 
 ## Toimingud
@@ -25,37 +25,38 @@ permalink: Toovoog
 3. Kirjelduste kokkukogumine
   - [Avaldaja](Avaldaja) käib perioodiliselt URL-id läbi ja kogub kirjeldused kokku.
   - [Avaldaja](Avaldaja) teeb kirjeldused masinliidese (API) kaudu kõigile kättesaadavaks.
-4. Kooskõlastamine
-  - KOOSKÕLASTAJA, kasutades [Kooskõlastajat](Kooskõlastaja), vaatab läbi kokkukogutud kirjeldused ja teeb kooskõlastusotsused.
-  - Kooskõlastusotsused saavad avalikult kättesaadavaks [Kooskõlastaja](Kooskõlastaja) masinliidese (API) kaudu.
+4. Hindamine
+  - HINDAJA, kasutades [Hindajat](Hindaja), vaatab läbi kokkukogutud kirjeldused ja teeb hindamisotsused.
+  - Hindamisotsused saavad avalikult kättesaadavaks [Hindaja](Hindaja) masinliidese (API) kaudu.
 5. RIHA andmete kasutamine
   - RIHA KASUTAJA saab [Sirvija](Sirvija) abil tutvuda kirjeldustega ja kooskõlastusotsustega.
 
 <pre>
-                                            RIHA KASUTAJA
-                                                     ,-.
-                                 +-------------+     `|'
-KOOSKÕLASTAJA                    |Sirvija      |     /|\
-                                 |             +---+  |
-,-.                              +--+--+-------+     / \
-`|'                                 ^  ^
-/|\     +-------------+  API        |  |
- | +--> |Kooskõlastaja|◯ +----------+  |
-/ \     |             |                +
-        +------+------+     +---------+◯  API
-               ^            |   +-------------+
-               +------------+   |Avaldaja     |
-                                |             |
-              ,-.           Konf+------+------+
-    RIA       `|'            ^         ^
-    TEENUSE-  /|\            |         |
-    HALDUR     |  +----------+         |
-              / \                      +
-               ^        ,-.            ◯  API
-               |        `|'     +-------------+
-               +------+ /|\     |Kirjeldaja   |
-                         | +--> |             |
-                        / \     +-------------+
-                      OMANIK
+                                              RIHA KASUTAJA
+                                                       ,+.
+                                   +-------------+     `|'
+HINDAJA                            |   Sirvija   |     /|\
+                                   |             +---+  +
+  ,+.                              +--+--+-------+     / \
+  `|'                                 ^  ^
+  /|\     +-------------+  API        |  |
+   + +--> |   Hindaja   |◯ +----------+  |
+  / \     |             |                +
+          +------+------+     +---------+◯  API
+                 ^            |   +-------------+
+                 +------------+   |   Avaldaja  |
+                                  |             |
+                ,+.           Konf+------+------+
+      RIA       `|'            ^         ^
+      TEENUSE+  /|\            |         |
+      HALDUR     +  +----------+         |
+                / \                      +
+                 ^        ,+.            ◯  API
+                 |        `|'     +-------------+
+                 +------+ /|\     | Kirjeldaja  |
+                           + +--> |             |
+                          / \     +-------------+
+                        OMANIK
+
 </pre>  
 
