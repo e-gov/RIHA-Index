@@ -25,7 +25,7 @@ __[RIHA kesksüsteemi](Kesk)__ moodustavad RIA taristusse paigaldatud komponendi
 ,-.                              +--+--+-------+     / \
 `|'                                 ^  ^
 /|\     +-------------+  API        |  |
- | +--> |Kooskõlastaja|◯ +----------+  |
+ | +--> |   Hindaja   |◯ +----------+  |
 / \     |             |                +
         +------+------+     +---------+◯  API
                ^            |   +-------------+
