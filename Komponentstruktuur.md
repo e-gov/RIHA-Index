@@ -11,7 +11,7 @@ __Kirjelduste avalikustamine omaarendatud liidese kaudu__. Asutus võib arendada
 
 __Kirjeldaja paigaldamine asutuse taristusse__.  Asutus, kes soovib oma infosüsteemide kirjeldusi hoida enda taristus,  võib seda teha ka vastava RIA arendatud komponendi (Kirjeldaja) paigaldamisega oma taristusse,
 
-__Majutamine__. Asutustele, kes Kirjeldajat oma taristusse paigaldada ei soovi, pakutakse RIA taristusse paigaldatud Kirjeldajat. Sellisel juhul RIA taristu majutusteenuse pakkuja, asutuse aga asuri (ingl _Tenant_) rollis.
+__Majutamine__. Asutustele, kes Kirjeldajat oma taristusse paigaldada ei soovi, pakutakse RIA taristusse paigaldatud Kirjeldajat. Sellisel juhul on RIA taristu majutusteenuse pakkuja, asutus aga asuri (ingl _tenant_) rollis.
 
 RIHA koosneb eraldi paigaldatavatest ja kasutatavatest, teenuseid pakkuvatest rakendustest ehk komponentidest. Iga rakendus täidab üht-kaht funktsiooni. Komponendid tarbivad teiste komponentide teavet __masinliideste (API-de)__ kaudu ja pakuvad ise teavet samuti masinliideste kaudu. Inimene suhtleb rakendustega __kasutajaliideste__ kaudu.
 
