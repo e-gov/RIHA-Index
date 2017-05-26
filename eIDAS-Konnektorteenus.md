@@ -5,8 +5,6 @@ sidebar: false
 alttitle: eIDAS konnektorteenus
 ---
 
-<div class='rem'>Arvestada. et kuna Euroopa Komisjoni CEF veebisüsteem on muutmisel, võivad viited vajada ajakohastamist.</div>
-
 # Liidestumisjuhend
 {:.no_toc}
 
@@ -76,17 +74,27 @@ Vahetatavad sõnumid peavad vastama eIDAS sõnumivormingutele, vastavalt spetsif
 
 Teenusest arusaamist võib hõlbustada demorakendusega tutvumine. Demorakenduses [https://eidastest.eesti.ee/SP/populateIndexPage](https://eidastest.eesti.ee/SP/populateIndexPage) saab läbi mängida kasutaja autentimisvoo. Lähema teabe saamiseks demorakenduse kasutamise ja lähtekoodi kohta pöörduda RIA poole.  
 
-## Taustateave
+## Normatiivdokumendid
 
-[eID eIDAS profile] European Commission. eID eIDAS profile. [https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/eID+eIDAS+profile]](https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/eID+eIDAS+profile). Technicals specifications.
+Käesoleva jaotise dokumentidega tutvumine ja nende järgimine implementatsioonis on nõutav.
 
-[eIDAS SAML Attribute Profile] [eIDAS SAML Attribute Profile](https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/eID+eIDAS+profile?preview=/23003348/35218928/eIDAS%20SAML%20Attribute%20Profile%20v1.1_2.pdf).
+<div class='noue'>Euroopa Komisjoni CEF veebisüsteem on muutmisel. Seetõttu võivad mõned viited tulevikus vajada ajakohastamist.</div>
 
-[eIDAS SAML Message Format] [eIDAS SAML Message Format](https://joinup.ec.europa.eu/sites/default/files/eidas_message_format_v1.0.pdf).
+[eID eIDAS profile] European Commission. ***eID eIDAS profile***. [https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/eID+eIDAS+profile](https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/eID+eIDAS+profile). Technical specifications.
 
-[] Riigi Infosüsteemi Amet (2016) eIDAS Node arhitektuur.
+[eIDAS SAML Attribute Profile] eIDAS SAML Attribute Profile. [https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/eID+eIDAS+profile?preview=/23003348/35218928/eIDAS%20SAML%20Attribute%20Profile%20v1.1_2.pdf](https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/eID+eIDAS+profile?preview=/23003348/35218928/eIDAS%20SAML%20Attribute%20Profile%20v1.1_2.pdf).
+
+[eIDAS SAML Message Format] ***eIDAS SAML Message Format***. [https://joinup.ec.europa.eu/sites/default/files/eidas_message_format_v1.0.pdf](https://joinup.ec.europa.eu/sites/default/files/eidas_message_format_v1.0.pdf).
+
+## Teatmelised dokumendid
+
+Käesoleva jaotise dokumendid võivad olla kasulikud teenusest ja selle kontekstis paremaks arusaamiseks. Tutvumine ei ole liidestamiseks tingimata vajalik.
+
+[eIDAS Node arhitektuur] Riigi Infosüsteemi Amet (2016) eIDAS Node arhitektuur. Tutvumiseks pöörduda RIA poole.
 
 ## Lisa 1 eIDAS autentimisvoog
+
+Allolev joonis esitab eIDAS autentimisvoo. Lähemalt vt [eIDAS Node arhitektuur].
 
 ![](img/Autentimisvoog.PNG)
 
