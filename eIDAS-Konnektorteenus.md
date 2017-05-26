@@ -1,11 +1,10 @@
 ---
 title: eIDAS konnektorteenus. Liidestumisjuhend
 permalink: eIDAS-Konnektorteenus
+sidebar: false
 ---
 
-eIDAS konnektorteenus
-
-# Liidestumisjuhend
+# eIDAS konnektorteenus. Liidestumisjuhend
 
 ## Ülevaade
 
