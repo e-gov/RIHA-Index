@@ -5,7 +5,13 @@ sidebar: false
 alttitle: eIDAS konnektorteenus
 ---
 
+<div class='rem'>Arvestada. et kuna Euroopa Komisjoni CEF veebisüsteem on muutmisel, võivad viited vajada ajakohastamist.</div>
+
 # Liidestumisjuhend
+{:.no_toc}
+
+* TOC
+{:toc}
 
 ## Ülevaade
 
@@ -51,7 +57,7 @@ Liidestumiseks tuleb teostada järgmised tööd:
 | 4 Liidese testimine | + | + |
 | 5 Liidese käikulaskmine | + | + |
 
-## Vahetatavad sõnumid
+## Tehniline ülevaade
 
 Autentimislahenduse ja eIDAS konnektorteenuse vaheline suhtlus on osa eIDAS autentimisvoost (vt lisa 1), hõlmates sellest kahte sõnumisaatmist:
 
@@ -60,8 +66,23 @@ Autentimislahenduse ja eIDAS konnektorteenuse vaheline suhtlus on osa eIDAS aute
 
 Sõnumisaatmise teostatakse veebisirvija ümbersuunamise (_redirect_) abil.
 
+Sõnumivahetus autentimislahenduse ja eIDAS konnektorteenuse vahel toimub eIDAS tehnilise spetsifikatsiooni v 1.1 [eID eIDAS profile] alusel.
+
+## Sõnumivormingud
+
+Vahetatavad sõnumid peavad vastama eIDAS sõnumivormingutele, vastavalt spetsifikatsioonides "eIDAS SAML Message Format" (v 1.1) [eIDAS Message Format] ja "eIDAS SAML Attribute Profile" (v 1.1) [eIDAS Attribute Profile] määratletule.  
+
+## Demorakendus
+
+Teenusest arusaamist võib hõlbustada demorakendusega tutvumine. Demorakenduses [https://eidastest.eesti.ee/SP/populateIndexPage](https://eidastest.eesti.ee/SP/populateIndexPage) saab läbi mängida kasutaja autentimisvoo. Lähema teabe saamiseks demorakenduse kasutamise ja lähtekoodi kohta pöörduda RIA poole.  
 
 ## Taustateave
+
+[eID eIDAS profile] European Commission. eID eIDAS profile. [https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/eID+eIDAS+profile]](https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/eID+eIDAS+profile). Technicals specifications.
+
+[eIDAS SAML Attribute Profile] [eIDAS SAML Attribute Profile](https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/eID+eIDAS+profile?preview=/23003348/35218928/eIDAS%20SAML%20Attribute%20Profile%20v1.1_2.pdf).
+
+[eIDAS SAML Message Format] [eIDAS SAML Message Format](https://joinup.ec.europa.eu/sites/default/files/eidas_message_format_v1.0.pdf).
 
 [] Riigi Infosüsteemi Amet (2016) eIDAS Node arhitektuur.
 
