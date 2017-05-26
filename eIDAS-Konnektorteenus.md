@@ -13,7 +13,7 @@ alttitle: eIDAS konnektorteenus
 
 ## 1 Ülevaade
 
-_eIDAS konnektorteenus_, edaspidi ka _teenus_, on RIA poolt käitatav taristuteenus, mis võimaldab Eesti asutuse autentimisteenusel teostada EL teise liikmesriigi eID kasutaja autentimist.
+_eIDAS konnektorteenus_, edaspidi ka _teenus_, on RIA poolt käitatav taristuteenus, mis võimaldab Eesti asutuse autentimisrakendusel autentida EL teise liikmesriigi eID kasutajat.
 
 Tehniliselt teostab teenust RIA taristusse paigaldatud _eIDAS Connector servertarkvara_, mis liidestatakse ühelt poolt asutuse autentimisrakendusega ja teiselt poolt EL teiste riikide eIDAS taristutega.
 
@@ -23,9 +23,9 @@ Käesolev juhend esitab teenuse kasutuselevõtmiseks vajaliku teabe ja tööd.
 
 _eIDAS konnektorteenus_ - RIA poolt käitatav taristuteenus, mis võimaldab Eesti asutuse autentimisteenusel teostada EL teise liikmesriigi eID kasutaja autentimist. 
 
-_autentimislahendus_ - asutuse poolt käitatav tarkvarakomponent, mis korraldab asutuse e-teenuse kasutaja (kes võib olla nii Eesti kui ka EL teise liikmesriigi eID kasutaja) isikusamasuse tuvastamist, suheldes selleks eIDAS konnektorteenusega.
+_autentimisrakendus_ - asutuse poolt käitatav tarkvarakomponent, mis korraldab asutuse e-teenuse kasutaja (kes võib olla nii Eesti kui ka EL teise liikmesriigi eID kasutaja) autentimist (isikusamasuse tuvastamist), suheldes selleks eIDAS konnektorteenusega.
 
-_asutus_ - eIDAS konnektorteenust kasutav asutus.
+_asutus_ - eIDAS konnektorteenust kasutava autentimisrakenduse omanikasutus.
 
 ## 3 Teenuse kasutusvoog (tehniline ülevaade)
 
@@ -43,24 +43,24 @@ KASUTAJA
                                (SAML)
 ```
 
-eIDAS konnektorteenus on ühendajaks asutuse autentimislahenduse ja EL eIDAS-taristu vahel.
+eIDAS konnektorteenus on ühendajaks asutuse autentimisrakenduse ja EL eIDAS-taristu vahel.
 
-Autentimislahenduse ja eIDAS konnektorteenuse vaheline suhtlus on osa eIDAS autentimisvoost (vt lisa 1), hõlmates sellest kahte sõnumiedastust:
+Autentimisrakenduse ja eIDAS konnektorteenuse vaheline suhtlus on osa eIDAS autentimisvoost (vt lisa 1), hõlmates sellest kahte sõnumiedastust:
 
-- autentimispäringut esitava SAML tõendi (_token_) saatmine autentimislahendusest eIDAS konnektorteenusele (joonisel lisas 1 sõnumiedastus nr 4);
-- autentimisvastust esitava SAML tõendi saatmine eIDAS konnektorteenuselt autentimislahendusele (joonisel lisas 1 sõnumiedastus nr 9).
+- autentimispäringut esitava SAML tõendi (_token_) saatmine autentimisrakendusest eIDAS konnektorteenusele (vt joonisel lisas 1 sõnumiedastus nr 4);
+- autentimisvastust esitava SAML tõendi saatmine eIDAS konnektorteenuselt autentimisrakendusele (vt joonisel lisas 1 sõnumiedastus nr 9).
 
 Sõnumiedastus teostatakse veebisirvija ümbersuunamise (_Re-direct_) abil.
 
 ## 4 Tehniline spetsifikatsioon
 
-Sõnumivahetus autentimislahenduse ja eIDAS konnektorteenuse vahel teostatakse eIDAS tehnilise spetsifikatsiooni v 1.1 [eID eIDAS profile] alusel. Vt jaotis "Normatiivdokumendid".
+Sõnumivahetus autentimisrakenduse ja eIDAS konnektorteenuse vahel teostatakse vastavalt eIDAS tehnilisele spetsifikatsioonile v 1.1 [eID eIDAS profile]. Vt jaotis "Normatiivdokumendid".
 
 Vahetatavad sõnumid ja nende töötlusreeglid peavad vastama eIDAS nõuetele, vastavalt spetsifikatsioonides "eIDAS SAML Message Format" (v 1.1) [eIDAS Message Format] ja "eIDAS SAML Attribute Profile" (v 1.1) [eIDAS Attribute Profile] määratletule.  
 
 ## 5 Normatiivdokumendid
 
-Käesoleva jaotise dokumentidega tutvumine ja nende järgimine autentimislahenduse liidese mõlemas otsas on kohustuslik.
+Käesoleva jaotise dokumentidega tutvumine ja nende järgimine autentimisrakenduse liidese mõlemas otsas on kohustuslik.
 
 Märkus. Euroopa Komisjoni CEF veebisüsteem on muutmisel (mai 2017). Seetõttu võivad mõned viited tulevikus vajada ajakohastamist.
 
@@ -76,12 +76,12 @@ Liidestamiseks tuleb teostada järgmised tööd:
 
 |            |  Asutus     | RIA               |
 |---------|:------------:|:---------------:|
-|  1  Autentimislahenduse tarkvara loomine või täiendamine |  +  |   |
-|  2  Autentimislahenduse paigaldamine ja häälestamine ühendumiseks RIA-s asuva eIDAS Connector serveriga | + |   |
+|  1  Autentimisrakenduse tarkvara loomine või täiendamine |  +  |   |
+|  2  Autentimisrakenduse paigaldamine ja häälestamine ühendumiseks RIA-s asuva eIDAS Connector serveriga | + |   |
 | 3 Liidese testimine | + | + |
 | 4 Liidese käikulaskmine | + | + |
 
-## 6.1 Autentimislahenduse tarkvara loomine või täiendamine
+## 6.1 Autentimisrakenduse tarkvara loomine või täiendamine
 
 Teenusest arusaamist võib hõlbustada demorakendusega tutvumine. Demorakenduses saab läbi mängida kasutaja autentimisvoo. Demorakenduse lähtekoodi koos dokumentatsiooniga saab alla laadida CEF veebilehelt (demo SP) [eIDAS Node tarkvara].
 
@@ -89,13 +89,13 @@ Tutvuda saab ka RIAs ülespandud demorakendusega, selle URL on:
 
 `https://eidastest.eesti.ee/SP/populateIndexPage`
 
-## 6.2 Autentimislahenduse häälestamine
+## 6.2 Autentimisrakenduse häälestamine
 
-Testimiseks kasutada eIDASe konnektorteenuse testkeskonda. Testimise autentimispäringuid vastuvõtva teenusepunkti URL: 
+Testimiseks kasutada eIDASe konnektorteenuse testkeskonda. Testimise autentimispäringuid vastuvõtva teenusepunkti URL on: 
 
 `https://eidastest.eesti.ee/EidasNode/ServiceProvider`
 
-Testkeskkonnas suhtlevad autentimislahendus ja teenus sertifikaatide abil. Sertifikaatide vahetamiseks pöörduda RIA poole.
+Autentimisrakendus ja teenus suhtlevad sertifikaatide abil. Sertifikaatide vahetamiseks pöörduda RIA poole.
 
 ## Liidese testimine
 
@@ -103,11 +103,11 @@ Testkeskkonnas suhtlevad autentimislahendus ja teenus sertifikaatide abil. Serti
 
 ## Liidese käikulaskmine
 
-Teenuse avamiseks toodangukeskkonnas peab teenus olema testitud. Toodangukeskkonnas suhtlevad autentimislahendus ja teenus sertifikaatide abil. Sertifikaatide vahetamiseks pöörduda RIA poole.
+Teenuse avamiseks toodangukeskkonnas peab teenus olema testitud. Toodangukeskkonnas suhtlevad autentimisrakendus ja teenus sertifikaatide abil. Sertifikaatide vahetamiseks pöörduda RIA poole.
 
 ## Teatmelised dokumendid
 
-Käesoleva jaotise dokumendid võivad olla kasulikud teenusest ja selle kontekstis paremaks arusaamiseks. Tutvumine ja kasutamine ei ole liidestamiseks tingimata vajalik.
+Käesoleva jaotise dokumendid ja tarkvara võivad olla kasulikud teenusest ja selle kontekstist paremaks arusaamiseks ning autentimisrakenduse arenduses. Kuid tutvumine ja kasutamine ei ole tingimata vajalik.
 
 [eIDAS Node arhitektuur] Riigi Infosüsteemi Amet (2016) ***eIDAS Node arhitektuur***. Tutvumiseks pöörduda RIA poole.
 
