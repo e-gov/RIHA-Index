@@ -27,7 +27,9 @@ _autentimisrakendus_ - asutuse poolt käitatav tarkvarakomponent, mis korraldab 
 
 _asutus_ - eIDAS konnektorteenust kasutava autentimisrakenduse omanikasutus.
 
-## 3 Teenuse kasutusvoog (tehniline ülevaade)
+## 3 Tehniline ülevaade
+
+## 3.1 Teenuse kasutusvoog
 
 ```
                            autentimispäring
@@ -52,13 +54,13 @@ Autentimisrakenduse ja eIDAS konnektorteenuse vaheline suhtlus on osa eIDAS aute
 
 Sõnumiedastus teostatakse veebisirvija ümbersuunamise (_Re-direct_) abil.
 
-## 4 Tehniline spetsifikatsioon
+## 3.2 Tehniline spetsifikatsioon
 
 Sõnumivahetus autentimisrakenduse ja eIDAS konnektorteenuse vahel teostatakse vastavalt eIDAS tehnilisele spetsifikatsioonile v 1.1 [eID eIDAS profile]. Vt jaotis "Normatiivdokumendid".
 
 Vahetatavad sõnumid ja nende töötlusreeglid peavad vastama eIDAS nõuetele, vastavalt spetsifikatsioonides "eIDAS SAML Message Format" (v 1.1) [eIDAS Message Format] ja "eIDAS SAML Attribute Profile" (v 1.1) [eIDAS Attribute Profile] määratletule.  
 
-## 5 Normatiivdokumendid
+## 3.3 Normatiivdokumendid
 
 Käesoleva jaotise dokumentidega tutvumine ja nende järgimine autentimisrakenduse liidese mõlemas otsas on kohustuslik.
 
@@ -70,7 +72,7 @@ Märkus. Euroopa Komisjoni CEF veebisüsteem on muutmisel (mai 2017). Seetõttu 
 
 [eIDAS SAML Message Format] ***eIDAS SAML Message Format***. [https://joinup.ec.europa.eu/sites/default/files/eidas_message_format_v1.0.pdf](https://joinup.ec.europa.eu/sites/default/files/eidas_message_format_v1.0.pdf).
 
-## 6 Liidestamistööd
+## 4 Liidestamistööd
 
 Liidestamiseks tuleb teostada järgmised tööd:
 
@@ -81,7 +83,7 @@ Liidestamiseks tuleb teostada järgmised tööd:
 | 3 Liidese testimine | + | + |
 | 4 Liidese käikulaskmine | + | + |
 
-## 6.1 Autentimisrakenduse tarkvara loomine või täiendamine
+## 4.1 Autentimisrakenduse tarkvara loomine või täiendamine
 
 Teenusest arusaamist võib hõlbustada demorakendusega tutvumine. Demorakenduses saab läbi mängida kasutaja autentimisvoo. Demorakenduse lähtekoodi koos dokumentatsiooniga saab alla laadida CEF veebilehelt (demo SP) [eIDAS Node tarkvara].
 
@@ -89,7 +91,7 @@ Tutvuda saab ka RIAs ülespandud demorakendusega, selle URL on:
 
 `https://eidastest.eesti.ee/SP/populateIndexPage`
 
-## 6.2 Autentimisrakenduse häälestamine
+## 4.2 Autentimisrakenduse häälestamine
 
 Testimiseks kasutada eIDASe konnektorteenuse testkeskonda. Testimise autentimispäringuid vastuvõtva teenusepunkti URL on: 
 
@@ -97,15 +99,15 @@ Testimiseks kasutada eIDASe konnektorteenuse testkeskonda. Testimise autentimisp
 
 Autentimisrakendus ja teenus suhtlevad sertifikaatide abil. Sertifikaatide vahetamiseks pöörduda RIA poole.
 
-## Liidese testimine
+## 4.3 Liidese testimine
 
 Üksikasjade kohta pöörduda RIA poole.
 
-## Liidese käikulaskmine
+## 4.4 Liidese käikulaskmine
 
 Teenuse avamiseks toodangukeskkonnas peab teenus olema testitud. Toodangukeskkonnas suhtlevad autentimisrakendus ja teenus sertifikaatide abil. Sertifikaatide vahetamiseks pöörduda RIA poole.
 
-## Teatmelised dokumendid
+## 5 Teatmelised dokumendid
 
 Käesoleva jaotise dokumendid ja tarkvara võivad olla kasulikud teenusest ja selle kontekstist paremaks arusaamiseks ning autentimisrakenduse arenduses. Kuid tutvumine ja kasutamine ei ole tingimata vajalik.
 
