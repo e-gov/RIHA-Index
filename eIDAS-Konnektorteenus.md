@@ -17,7 +17,7 @@ _eIDAS konnektorteenus_, edaspidi ka _teenus_, on RIA poolt käitatav taristutee
 
 Tehniliselt teostab teenust RIA taristusse paigaldatud _eIDAS Connector servertarkvara_, mis liidestatakse ühelt poolt asutuse autentimisrakendusega ja teiselt poolt EL teiste riikide eIDAS taristutega.
 
-Käesolev juhend esitab teenuse kasutuselevõtmiseks vajaliku teabe ja tööd.
+Käesolev juhend on suunatud teenust kasutavale asutajale ja esitab teenuse kasutuselevõtmiseks vajaliku teabe ja tööd.
 
 ## 2 Mõisted
 
