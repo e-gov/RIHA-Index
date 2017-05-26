@@ -1,5 +1,10 @@
 <div id='Pais'>
   <a href="{{ site.baseurl }}"><img src='https://github.com/e-gov/RIHA-Frontend/raw/master/logo/gov-CVI/lions.png'>
-  RIHA arhitektuuriteatmik
+  {% if page.alttitle %}
+    {{ page.alttitle }}
+  {% else %}
+    RIHA arhitektuuriteatmik
+  {% endif %}
+
   </a>  
 </div>

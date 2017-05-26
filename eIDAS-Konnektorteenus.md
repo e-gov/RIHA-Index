@@ -2,9 +2,10 @@
 title: eIDAS konnektorteenus. Liidestumisjuhend
 permalink: eIDAS-Konnektorteenus
 sidebar: false
+alttitle: eIDAS konnektorteenus
 ---
 
-# eIDAS konnektorteenus. Liidestumisjuhend
+# Liidestumisjuhend
 
 ## Ülevaade
 
@@ -42,13 +43,11 @@ eIDAS konnektorteenus on ühendajaks asutuse autentimislahenduse ja EL eIDAS-tar
 
 Liidestumiseks tuleb teostada järgmised tööd:
 
-|    |  Asutus | RIA |
-|----------------------------------|:------------:|:---------------:|
+|            |  Asutus     | RIA               |
+|---------|:------------:|:---------------:|
 |  1  Autentimislahenduse tarkvara loomine või täiendamine |  +  |   |
 |  2  Autentimislahenduse paigaldamine | + |   |
-|  3  Autentimislahenduse häälestamine
-ühendumiseks RIA-s asuva eIDAS Connector
-serveriga | + | + |
+|  3  Autentimislahenduse häälestamine ühendumiseks RIA-s asuva eIDAS Connector serveriga | + | + |
 | 4 Liidese testimine | + | + |
 | 5 Liidese käikulaskmine | + | + |
 
