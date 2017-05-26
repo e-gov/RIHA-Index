@@ -66,7 +66,7 @@ Märkus. Euroopa Komisjoni CEF veebisüsteem on muutmisel (mai 2017). Seetõttu 
 
 [eID eIDAS profile] European Commission. ***eID eIDAS profile***. [https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/eID+eIDAS+profile](https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/eID+eIDAS+profile). Technical specifications.
 
-[eIDAS SAML Attribute Profile] eIDAS SAML Attribute Profile. [https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/eID+eIDAS+profile?preview=/23003348/35218928/eIDAS%20SAML%20Attribute%20Profile%20v1.1_2.pdf](https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/eID+eIDAS+profile?preview=/23003348/35218928/eIDAS%20SAML%20Attribute%20Profile%20v1.1_2.pdf).
+[eIDAS SAML Attribute Profile] ***eIDAS SAML Attribute Profile***. [https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/eID+eIDAS+profile?preview=/23003348/35218928/eIDAS%20SAML%20Attribute%20Profile%20v1.1_2.pdf](https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/eID+eIDAS+profile?preview=/23003348/35218928/eIDAS%20SAML%20Attribute%20Profile%20v1.1_2.pdf).
 
 [eIDAS SAML Message Format] ***eIDAS SAML Message Format***. [https://joinup.ec.europa.eu/sites/default/files/eidas_message_format_v1.0.pdf](https://joinup.ec.europa.eu/sites/default/files/eidas_message_format_v1.0.pdf).
 
@@ -77,20 +77,35 @@ Liidestamiseks tuleb teostada järgmised tööd:
 |            |  Asutus     | RIA               |
 |---------|:------------:|:---------------:|
 |  1  Autentimislahenduse tarkvara loomine või täiendamine |  +  |   |
-|  2  Autentimislahenduse paigaldamine | + |   |
-|  3  Autentimislahenduse häälestamine ühendumiseks RIA-s asuva eIDAS Connector serveriga | + | + |
-| 4 Liidese testimine | + | + |
-| 5 Liidese käikulaskmine | + | + |
+|  2  Autentimislahenduse paigaldamine ja häälestamine ühendumiseks RIA-s asuva eIDAS Connector serveriga | + |   |
+| 3 Liidese testimine | + | + |
+| 4 Liidese käikulaskmine | + | + |
 
-## Demorakendus
+## Autentimislahenduse tarkvara loomine või täiendamine
 
-Teenusest arusaamist võib hõlbustada demorakendusega tutvumine. Demorakenduses [https://eidastest.eesti.ee/SP/populateIndexPage](https://eidastest.eesti.ee/SP/populateIndexPage) saab läbi mängida kasutaja autentimisvoo. Lähema teabe saamiseks demorakenduse kasutamise ja lähtekoodi kohta pöörduda RIA poole.  
+Teenusest arusaamist võib hõlbustada demorakendusega tutvumine. Demorakenduses [https://eidastest.eesti.ee/SP/populateIndexPage](https://eidastest.eesti.ee/SP/populateIndexPage) saab läbi mängida kasutaja autentimisvoo. Demorakenduse lähtekoodi koos dokumentatsiooniga saab alla laadida CEF veebilehelt (demo SP) [eIDAS Node tarkvara].  
+
+## Autentimislahenduse häälestamine
+
+## Liidese testimine
+
+Testimiseks kasutada eIDASe konnektorteenuse testkeskonda. Testimise autentimispäringuid vastuvõtva teenusepunkti URL: 
+
+`https://eidastest.eesti.ee/EidasNode/ServiceProvider`
+
+Testkeskkonnas suhtlevad autentimislahendus ja teenus sertifikaatide abil. Sertifikaatide vahetamiseks pöörduda RIA poole.
+
+## Liidese käikulaskmine
+
+Teenuse avamiseks toodangukeskkonnas peab teenus olema testitud. Toodangukeskkonnas suhtlevad autentimislahendus ja teenus sertifikaatide abil. Sertifikaatide vahetamiseks pöörduda RIA poole.
 
 ## Teatmelised dokumendid
 
-Käesoleva jaotise dokumendid võivad olla kasulikud teenusest ja selle kontekstis paremaks arusaamiseks. Tutvumine ei ole liidestamiseks tingimata vajalik.
+Käesoleva jaotise dokumendid võivad olla kasulikud teenusest ja selle kontekstis paremaks arusaamiseks. Tutvumine ja kasutamine ei ole liidestamiseks tingimata vajalik.
 
 [eIDAS Node arhitektuur] Riigi Infosüsteemi Amet (2016) eIDAS Node arhitektuur. Tutvumiseks pöörduda RIA poole.
+
+[eIDAS Node tarkvara] European Commission. eIDAS-Node. [https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/eIDAS-Node](https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/eIDAS-Node).
 
 ## Lisa 1 eIDAS autentimisvoog
 
