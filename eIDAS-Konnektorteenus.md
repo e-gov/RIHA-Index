@@ -13,19 +13,21 @@ alttitle: eIDAS konnektorteenus
 
 ## Ülevaade
 
-***eIDAS konnektorteenus***, edaspidi ka _teenus_, on RIA poolt käitatav taristuteenus, mis võimaldab Eesti asutuse autentimisteenusel teostada EL teise liikmesriigi eID kasutaja autentimist. Tehniliselt teostab teenust RIA taristusse paigaldatud eIDAS Connector servertarkvara, mis liidestatakse ühelt poolt asutuse autentimisrakendusega ja teiselt poolt EL teiste riikide eIDAS taristutega.
+_eIDAS konnektorteenus_, edaspidi ka _teenus_, on RIA poolt käitatav taristuteenus, mis võimaldab Eesti asutuse autentimisteenusel teostada EL teise liikmesriigi eID kasutaja autentimist.
 
-Käesolev juhend esitab teenuse kasutuselevõtmiseks vajalikud tööd ja teabe.
+Tehniliselt teostab teenust RIA taristusse paigaldatud _eIDAS Connector servertarkvara_, mis liidestatakse ühelt poolt asutuse autentimisrakendusega ja teiselt poolt EL teiste riikide eIDAS taristutega.
+
+Käesolev juhend esitab teenuse kasutuselevõtmiseks vajaliku teabe ja tööd.
 
 ## Mõisted
 
-***eIDAS konnektorteenus*** - RIA poolt käitatav taristuteenus, mis võimaldab Eesti asutuse autentimisteenusel teostada EL teise liikmesriigi eID kasutaja autentimist. 
+_eIDAS konnektorteenus_ - RIA poolt käitatav taristuteenus, mis võimaldab Eesti asutuse autentimisteenusel teostada EL teise liikmesriigi eID kasutaja autentimist. 
 
-***autentimislahendus*** - asutuse poolt käitatav tarkvarakomponent, mis korraldab asutuse e-teenuse kasutaja (kes võib olla nii Eesti kui ka EL teise liikmesriigi eID kasutaja) isikusamasuse tuvastamist, suheldes selleks eIDAS konnektorteenusega.
+_autentimislahendus_ - asutuse poolt käitatav tarkvarakomponent, mis korraldab asutuse e-teenuse kasutaja (kes võib olla nii Eesti kui ka EL teise liikmesriigi eID kasutaja) isikusamasuse tuvastamist, suheldes selleks eIDAS konnektorteenusega.
 
-***asutus*** - eIDAS konnektorteenust kasutav asutus.
+_asutus_ - eIDAS konnektorteenust kasutav asutus.
 
-## Teenuse kasutusvoog
+## Teenuse kasutusvoog (tehniline ülevaade)
 
 ```
                            autentimispäring
@@ -43,9 +45,34 @@ KASUTAJA
 
 eIDAS konnektorteenus on ühendajaks asutuse autentimislahenduse ja EL eIDAS-taristu vahel.
 
-## Tööd
+Autentimislahenduse ja eIDAS konnektorteenuse vaheline suhtlus on osa eIDAS autentimisvoost (vt lisa 1), hõlmates sellest kahte sõnumiedastust:
 
-Liidestumiseks tuleb teostada järgmised tööd:
+- autentimispäringut esitava SAML tõendi (_token_) saatmine autentimislahendusest eIDAS konnektorteenusele (joonisel lisas 1 sõnumiedastus nr 4);
+- autentimisvastust esitava SAML tõendi saatmine eIDAS konnektorteenuselt autentimislahendusele (joonisel lisas 1 sõnumiedastus nr 9).
+
+Sõnumiedastus teostatakse veebisirvija ümbersuunamise (_Re-direct_) abil.
+
+## Tehniline spetsifikatsioon
+
+Sõnumivahetus autentimislahenduse ja eIDAS konnektorteenuse vahel teostatakse eIDAS tehnilise spetsifikatsiooni v 1.1 [eID eIDAS profile] alusel. Vt jaotis "Normatiivdokumendid".
+
+Vahetatavad sõnumid peavad vastama eIDAS sõnumivormingutele, vastavalt spetsifikatsioonides "eIDAS SAML Message Format" (v 1.1) [eIDAS Message Format] ja "eIDAS SAML Attribute Profile" (v 1.1) [eIDAS Attribute Profile] määratletule.  
+
+## Normatiivdokumendid
+
+Käesoleva jaotise dokumentidega tutvumine ja nende järgimine autentimislahenduse liidese mõlemas otsas on kohustuslik.
+
+Märkus. Euroopa Komisjoni CEF veebisüsteem on muutmisel (mai 2017). Seetõttu võivad mõned viited tulevikus vajada ajakohastamist.
+
+[eID eIDAS profile] European Commission. ***eID eIDAS profile***. [https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/eID+eIDAS+profile](https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/eID+eIDAS+profile). Technical specifications.
+
+[eIDAS SAML Attribute Profile] eIDAS SAML Attribute Profile. [https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/eID+eIDAS+profile?preview=/23003348/35218928/eIDAS%20SAML%20Attribute%20Profile%20v1.1_2.pdf](https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/eID+eIDAS+profile?preview=/23003348/35218928/eIDAS%20SAML%20Attribute%20Profile%20v1.1_2.pdf).
+
+[eIDAS SAML Message Format] ***eIDAS SAML Message Format***. [https://joinup.ec.europa.eu/sites/default/files/eidas_message_format_v1.0.pdf](https://joinup.ec.europa.eu/sites/default/files/eidas_message_format_v1.0.pdf).
+
+## Liidestamistööd
+
+Liidestamiseks tuleb teostada järgmised tööd:
 
 |            |  Asutus     | RIA               |
 |---------|:------------:|:---------------:|
@@ -55,36 +82,9 @@ Liidestumiseks tuleb teostada järgmised tööd:
 | 4 Liidese testimine | + | + |
 | 5 Liidese käikulaskmine | + | + |
 
-## Tehniline ülevaade
-
-Autentimislahenduse ja eIDAS konnektorteenuse vaheline suhtlus on osa eIDAS autentimisvoost (vt lisa 1), hõlmates sellest kahte sõnumisaatmist:
-
-- autentimispäringut esitava SAML tõendi (_token_) saatmine autentimislahendusest eIDAS konnektorteenusele (joonisel lisas 1 nr 4);
-- autentimisvastust esitava SAML tõendi saatmine eIDAS konnektorteenuselt autentimislahendusele (joonisel lisas 1 nr 9).
-
-Sõnumisaatmise teostatakse veebisirvija ümbersuunamise (_redirect_) abil.
-
-Sõnumivahetus autentimislahenduse ja eIDAS konnektorteenuse vahel toimub eIDAS tehnilise spetsifikatsiooni v 1.1 [eID eIDAS profile] alusel.
-
-## Sõnumivormingud
-
-Vahetatavad sõnumid peavad vastama eIDAS sõnumivormingutele, vastavalt spetsifikatsioonides "eIDAS SAML Message Format" (v 1.1) [eIDAS Message Format] ja "eIDAS SAML Attribute Profile" (v 1.1) [eIDAS Attribute Profile] määratletule.  
-
 ## Demorakendus
 
 Teenusest arusaamist võib hõlbustada demorakendusega tutvumine. Demorakenduses [https://eidastest.eesti.ee/SP/populateIndexPage](https://eidastest.eesti.ee/SP/populateIndexPage) saab läbi mängida kasutaja autentimisvoo. Lähema teabe saamiseks demorakenduse kasutamise ja lähtekoodi kohta pöörduda RIA poole.  
-
-## Normatiivdokumendid
-
-Käesoleva jaotise dokumentidega tutvumine ja nende järgimine implementatsioonis on nõutav.
-
-<div class='noue'>Euroopa Komisjoni CEF veebisüsteem on muutmisel. Seetõttu võivad mõned viited tulevikus vajada ajakohastamist.</div>
-
-[eID eIDAS profile] European Commission. ***eID eIDAS profile***. [https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/eID+eIDAS+profile](https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/eID+eIDAS+profile). Technical specifications.
-
-[eIDAS SAML Attribute Profile] eIDAS SAML Attribute Profile. [https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/eID+eIDAS+profile?preview=/23003348/35218928/eIDAS%20SAML%20Attribute%20Profile%20v1.1_2.pdf](https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/eID+eIDAS+profile?preview=/23003348/35218928/eIDAS%20SAML%20Attribute%20Profile%20v1.1_2.pdf).
-
-[eIDAS SAML Message Format] ***eIDAS SAML Message Format***. [https://joinup.ec.europa.eu/sites/default/files/eidas_message_format_v1.0.pdf](https://joinup.ec.europa.eu/sites/default/files/eidas_message_format_v1.0.pdf).
 
 ## Teatmelised dokumendid
 
