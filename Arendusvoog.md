@@ -7,30 +7,30 @@ permalink: Arendusvoog
 
 ```
                     ,+.
-                    `+'                               ,+.
-                 Arendaja                             `|'
-                     +                                /|\
-                    / \                                +
-    GitHub                  Heroku                    / \
-   +-----------+          +-----------+             Kasutaja
-   |           |          | Arendus-  |                |
-   |   Repod   +--------> | keskkond  |                |
-   |           |          |           |                |
-   +-----+-----+          +-----------+                |
-         |                                             |
-         |                                             |
-+------------------------------------------------------------+
-         v                                             v
+                    `+'                                                      ,+.
+                 Arendaja                                                    `|'
+                     +                                                       /|\
+                    / \     Arendaja lokaalne /                               +                   
+    GitHub                  Heroku                                           / \
+   +-----------+          +-----------+                                   Kasutaja
+   |           |          | Arendus-  |                                       |
+   |   Repod   +--------> | keskkond  |                                       |
+   |           |          |           |                                       |
+   +-----+-----+          +-----------+                                       |
+         |                                                                    |
+         |                                                                    |
++-----------------------------------------------------------------------------------+
+         v                                                                    v
     Bitbucket
-   +-----------+          +-----------+          +-----------+
-   |           |          | Test-     |          |           |
-   |   Repod   +--------> | keskkond  +--------> |  Toodang  |
-   |           |          |           |          |           |
-   +-----------+   ,+.    +-----------+    ,+.   +-----------+
-                   `|'                     `|'
-                   /|\                     /|\
-            Admin   +        Jenkins        +  Admin
-                   / \                     / \
+   +-----------+          +-----------+          +-----------+         +-----------+ 
+   |           |          | CI        |          | Test-     |         | Toodang   |
+   |   Repod   +--------> | keskkond  +--------> | keskkond  |-------->|           |
+   |           |          |           |          |           |         |           |
+   +-----------+          +-----------+    ,+.   +-----------+   ,+.   +-----------+
+                                           `|'                   `|'
+                                           /|\                   /|\
+                             Jenkins        +  Admin              +   Admin
+                                           / \                   / \
 
 ```
 
@@ -46,9 +46,12 @@ __Arhitektuuri kujundamine__. Arhitekt tegeleb paralleelselt toote läbivate asp
 
 __Programmeerimine__. Arendajad teostavad kasutuslood ***koodis***. Koodi hoitakse avalikus repos (GitHub) ja RIA repos (BitBucket).
 
-__Paigaldamine__. Funktsionaalse testimise eesmärgil paigaldatakse kood Heroku keskkonnas. Täistestimise eesmärgil paigaldatakse kood RIA testkeskkonnas.
+__Paigaldamine__. Funktsionaalse testimise eesmärgil paigaldatakse kood Heroku keskkonda või arendaja lokaalsesse keskkonda. Viimast saab lubada üksnes juhul, kui arendaja lokaalne keskkond on RIA-le pidevalt kättesaadav ning alati uuendatud. 
+Süsteemitestimise eesmärgil paigaldatakse rakendus Jenkinsi vahendusel RIA CI keskkonda. Paigaldus toimub regulaarsete intervallide vahel ja/või peale iga master haru lähtekoodi muudatust. Süsteemitestimise käigus veendutakse RIA taristu nõuetele vastavuses, s.t süsteemitestimine eeldab ehitamise konfigureerimist (Jenkinsis) nõnda, et kõik vajalikud sõltuvused tuleksid RIA taristu repodest. See tähendab näiteks lokaalse apt ja maven repositooriumi täiendamist vajaminevate sõltuvustega.
+RIA testkeskkonda paigaldatakse rakendus (mitte hiljem kui) vastuvõtutestimiseks. Testkeskkonnas vastuvõtutestimine on nõutud juhul, kui funktsionaalse testimise läbiviimiseks on tarvilik võimalikult toodangulähedane konfiguratsioon, testandmete hulk ja omadused, jõudlus ja ligipääs väliste infosüsteemide testliidestele. RIA testkeskkonda paigaldus viiakse läbi manuaalselt Jenkinsi seadistuse ja arendajate juhendi põhjal. Testkeskkonna paigalduse käigus viib infra läbi manuaalse paigaldatuvuse testi ning veendub, et rakendus oleks paigaldatav ka CI keskkonna vahenduseta.
+Toodangukeskkonda paigaldus toimub läbi muudatuste halduse peale iga suurema reliisi süsteemi- ja vastuvõtutestimist. Toodangukeskkonna paigaldus toimub manuaalselt testkeskkonna paigalduse põhjal.
 
-__Testimine__. Testitakse kahes järgus: "funktsionaalse" testimise eesmärgiks on kontrollida, et tarkvara töötab funktsionaalses mõttes. "Täistestimise" eesmärk on kontrollida, et tarkvara ja selle paigaldus täidab kõiki toodangukeskkonnas käitamise eelduseks olevaid nõudeid.
+__Testimine__. Testitakse kahes järgus: "funktsionaalse" testimise eesmärgiks on kontrollida, et tarkvara töötab funktsionaalses mõttes. Funktsionaalset testimist teosta "Süsteemitestimise" eesmärk on kontrollida, et tarkvara ja selle paigaldus täidab kõiki toodangukeskkonnas käitamise eelduseks olevaid nõudeid.
 
 __Kasutamine__. 
 
