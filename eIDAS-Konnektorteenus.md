@@ -8,6 +8,8 @@ alttitle: eIDAS konnektorteenus
 # Liidestumisjuhend
 {:.no_toc}
 
+versioon 1.0, 30.05.2017
+
 * TOC
 {:toc}
 
