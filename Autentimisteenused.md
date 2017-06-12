@@ -8,24 +8,24 @@ permalink: Autentimisteenused
 # Teenuseprofiilid
 {:.no_toc}
 
-Sisukord 
-
 versioon 1.0, 12.06.2017
+
+Sisukord 
 
 * TOC
 {:toc}
 
 ## Ülevaade
 
-Käesolev dokument esitab RIAs arendatavate autentimisteenuste (nii siseriiklike kui ka piiriüleste) teenuseprofiilid (teatmelised lühikirjeldused).
+Käesolev dokument esitab RIAs arendatavate autentimisteenuste, nii siseriiklike kui ka piiriüleste,  teenuseprofiilid (teatmelised lühikirjeldused).
 
-Kõigepealt esitatakse tabelis iga teenuse kohta: identifikaator (koodnimetus), lühi- ja täispikk nimetus, võimalikud  alternatiivnimetused, sihtrühma lühikirjeldus ja MUST/NICE TO HAVE atribuut.
+Kõigepealt esitatakse tabelisse koondatult iga teenuse kohta: identifikaator (koodnimetus), lühi- ja täispikk nimetus, võimalikud  alternatiivnimetused, sihtrühma lühikirjeldus ja MUST/NICE TO HAVE atribuut.
 
 Seejärel esitatakse iga teenuse kohta eraldi: teenuse kasutusvoo ülevaatlik kirjeldus, kasutatavate standardite ja tehnoloogiate loetelu ja kõrgvaateline arhitektuurijoonis.
 
-_Märkus. Seadmata kahtluse alla teenuste kombineerimise (ingl _bundling_) otstarbekust, kas tehnilise teostuse või marketingi eesmärgil, on käesoleva liigituse aluseks siiski võetud teenuste fokusseerimine sihtrühmadele.  (Põhimõte, et teenusel ei saa olla mitut erinevat sihtrühma). Liigituse eesmärk on ka võib-olla teha sammuke teenuste nimetusi arusaadavamaks tegemise suunas. "eIDAS Node" ei ole teenusenimetusena päris hea, sest selles sees on kolm erinevat (osa)teenust täiesti erinevatele sihtrühmadele. "Isikutuvastusportaal" on hea üldmõistena, kuid tuleb silmas pidada, et ka selle kaudu on kavas pakkuda kolmele erinevale sihtrühmale kolme erinevat teenust. (See ei tähenda, et "eIDAS Node" ja "Isikutuvastusportaal" terminitena kasutuskõlblikud oleksid. Lihtsalt tuleks lisada selgitus, millise sihtrühma millist teenusekasutusvoogu  või -voogusid silmas peetakse). "Selgemad" nimetused on allolevas tabelis märgendatud punasega. Teenusenimede kujundamine on pikk protsess. Käesolev dokument ei sea eesmärgiks nimetusi fikseerida. - Priit P_ 
+_Märkus._ Seadmata kahtluse alla teenuste kombineerimise (ingl _bundling_) otstarbekust, kas tehnilise teostuse või marketingi eesmärgil, on käesoleva liigituse aluseks siiski võetud teenuste fokusseerimine sihtrühmadele.  (Põhimõte, et teenusel ei saa olla mitut erinevat sihtrühma). Liigituse eesmärk on ka loodetavasti teha sammuke teenuste nimetusi arusaadavamaks tegemise suunas. "eIDAS Node" ei ole teenusenimetusena päris hea, sest selles sees on kolm erinevat, täiesti erinevatele sihtrühmadele pakutavat (osa)teenust. "Isikutuvastusportaal" on hea üldmõistena, kuid tuleb silmas pidada, et ka selle kaudu on kavas pakkuda kolmele erinevale sihtrühmale kolme erinevat teenust. See ei tähenda, et "eIDAS Node" ja "Isikutuvastusportaal" terminitena kasutuskõlblikud oleksid. Lihtsalt tuleks lisada selgitus, millise sihtrühma millist teenusekasutusvoogu  või -voogusid silmas peetakse. "Selgemad" nimetused on allolevas tabelis märgendatud punasega. Teenusenimede kujundamine on pikk protsess. Käesolev dokument ei sea eesmärgiks nimetusi fikseerida. - Priit P 
 
-Arhitektuurijooniste juures tasub meeles pidada, et sõnumivahetused (v.a pärimine Äriregistrist üle X-tee) teostatakse kasutaja veebisirvija ümbersuunamiste (_redirect), aga ka OpenID Connect _backend_-päringute abil.
+Arhitektuurijooniste juures tasub meeles pidada, et sõnumivahetused (v.a pärimine Äriregistrist üle X-tee) teostatakse kasutaja veebisirvija ümbersuunamiste (_redirect_), aga ka OpenID Connect _backend_-päringute abil. Tähistused: `EE` - Eesti, `SE` - Rootsi (välisriigi näitena).
 
 | Id | lühinimetus | nimetus | alternatiiv-nimetused | sihtrühm | MUST/NICE |
 |:---:|:---------:|:-----------:|:-------:|:--------:|
@@ -37,9 +37,9 @@ Arhitektuurijooniste juures tasub meeles pidada, et sõnumivahetused (v.a pärim
 
 ## 1 eIDAS autentimispäringute vahendusteenus välisriikidesse
 
-***Teenuse kasutusvoog:*** 1. Välisriigi eID kasutaja soovib kasutada Eesti asutuse e-teenust. 2. Suunatakse RIA "isikutuvastusportaali", kus valib riigi, mille eID-d ta kasutab. 3. RIA "isikutuvastusportaalist" suunatakse eIDAS konnektorteenuse vahendusel välisriigi eIDAS vahendusteenusesse, sealt edasi välisriigi rahvuslikku identiteeditaristusse, kus kasutaja autenditakse. 4. Autentimistõend liigub sama teed pidi tagasi Eesti e-teenusesse. 5. Autenditud kasutaja alustab Eesti e-teenuse kasutamist.
+***Teenuse kasutusvoog:*** 1. Välisriigi eID kasutaja soovib kasutada Eesti asutuse e-teenust. 2. Kasutaja Suunatakse RIA "isikutuvastusportaali", kus valib riigi, mille eID-d ta kasutab. 3. RIA "isikutuvastusportaalist" suunatakse eIDAS konnektorteenuse vahendusel välisriigi eIDAS vahendusteenusesse, sealt edasi välisriigi rahvuslikku identiteeditaristusse, kus kasutaja autenditakse. 4. Autentimistõend liigub sama teed pidi tagasi Eesti e-teenusesse. 5. Autenditud kasutaja alustab Eesti e-teenuse kasutamist.
 
-***Standardid ja tehnoloogiad:*** Eesti e-teenusega liides OpenID Connect-ga; välisriigi eIDAS vahendusteenuse osutajaga liidest SAML-põhise eIDAS protokolliga.
+***Standardid ja tehnoloogiad:*** Eesti e-teenusega liides teostatakse `OpenID Connect`-ga; välisriigi eIDAS vahendusteenuse osutajaga liides teostatakse `SAML`-põhise eIDAS protokolliga.
 
 ***Arhitektuurijoonis:***
 
@@ -49,7 +49,7 @@ Arhitektuurijooniste juures tasub meeles pidada, et sõnumivahetused (v.a pärim
 
 ***Teenuse kasutusvoog:*** 1. Eesti eID kasutaja soovib tarbida välisriigi e-teenust. 2. Välisriigi e-teenus suunab kasutaja läbi välisriigi eIDAS konnektorteenuse ja Eesti eIDAS vahendusteenuse RIA eIDAS autentimisteenusesse, kus toimub Eesti eID kasutaja autentimine. 3. Autentimistõend liigub sama teed pidi tagasi. 4. Autenditud kasutaja alustab välisriigi e-teenuse kasutamist.
 
-***Standardid ja tehnoloogiad:*** SAML-põhine eIDAS protokoll.
+***Standardid ja tehnoloogiad:*** `SAML`-põhine eIDAS protokoll.
 
 ***Arhitektuurijoonis:***
 
@@ -61,7 +61,7 @@ Arhitektuurijooniste juures tasub meeles pidada, et sõnumivahetused (v.a pärim
 
 ***Olulised jooned:*** Erinevusena teenusest 1 ühendub Eesti e-teenus mitte "isikutuvastusportaali", vaid otse eIDAS konnektorteenuse külge.
 
-***Standardid ja tehnoloogiad:*** e-teenus peab teostama konnektorteenuse SAML-põhise protokolli. 
+***Standardid ja tehnoloogiad:*** e-teenus peab teostama eIDAS konnektorteenuse `SAML`-põhise protokolli. 
 
 ***Arhitektuurijoonis:***
 
@@ -72,10 +72,11 @@ Arhitektuurijooniste juures tasub meeles pidada, et sõnumivahetused (v.a pärim
 ***Teenuse kasutusvoog:*** a) 1. Eesti eID kasutaja logib sisse ühes Eesti e-teenuses; 2. Kasutaja liigub teise e-teenusesse või avab selle paralleelselt esimesega. 3. Teise teenusesse sisselogimisel ei ole vaja uuesti autentida. 4. Kasutaja logib välja ühest e-teenusest. Sellega logitakse ta välja kõigist e-teenustest (_Single Sign-Off_).
 
 ***Olulised jooned:***
-- Teenusega liitunud asutused moodustavad nn usaldusföderatsiooni (_Federated Identity_). Vastavad äriloogika ja -turvaküsimused vajavad tähelepanu. Vrdl [NIST Draft Special Publication 800-63C. Digital Identity Guidelines. Federation and Assertions](https://pages.nist.gov/800-63-3/sp800-63c.html) (May 2017).
-- sisaldab ka ühekordse väljalogimise võimalust (_Single Sign-Off_).
+- Teenusega liitunud asutused moodustavad nn usaldusföderatsiooni (_Federated Identity_). Vastavad äriloogika- ja turvaküsimused vajavad tähelepanu. Vrdl: [NIST Draft Special Publication 800-63C. Digital Identity Guidelines. Federation and Assertions](https://pages.nist.gov/800-63-3/sp800-63c.html) (May 2017).
+- sisaldab ka ühekordse väljalogimise võimalust (_Single Sign-Off_)
+- sisaldab sessioonihaldust.
 
-***Standardid ja tehnoloogiad:*** ´OpenID Connect´ protokoll.
+***Standardid ja tehnoloogiad:*** `OpenID Connect` protokoll.
 
 ***Arhitektuurijoonis:***
 
@@ -83,9 +84,9 @@ Arhitektuurijooniste juures tasub meeles pidada, et sõnumivahetused (v.a pärim
 
 ## 5 Siseriiklik autentimisteenus
 
-***Teenuse kasutusvoog:*** 1. Eesti eID kasutaja soovib sisse logida Eesti asutuse e-teenusesse; 2. Kasutaja suunatakse "isikutuvastusportaali", kus ta autenditakse; 3. Autenditud kasutaja suunatakse tagasi e-teenusesse.
+***Teenuse kasutusvoog:*** 1. Eesti eID kasutaja soovib sisse logida Eesti asutuse e-teenusesse; 2. Kasutaja suunatakse "isikutuvastusportaali", kus ta autenditakse; 3. Autenditud kasutaja suunatakse tagasi e-teenusesse. 4. Kasutaja alustab teenuse kasutamist.
 
-***Standardid ja tehnoloogiad:*** ´OpenID Connect´ protokoll.
+***Standardid ja tehnoloogiad:*** `OpenID Connect` protokoll.
 
 ***Arhitektuurijoonis:***
 
