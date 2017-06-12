@@ -23,33 +23,35 @@ Iga teenuse kohta eraldi esitatakse teenuse kasutusvoo ülevaatlik kirjeldus, ka
 
 ## 1 eIDAS autentimispäringute vahendusteenus välisriikidesse
 
-***Teenuse kasutusvoog:*** 1. Välisriigi eID kasutaja soovib kasutada Eesti asutuse e-teenust. 2. Suunatakse RIA "isikutuvastusportaali", kus valib riigi, mille eID-d ta kasutab. 3. RIA "isikutuvastusportaalist" suunatakse eIDAS konnektorteenuse vahendusel välisriigi eIDAS vahendusteenusesse, sealt edasi välisriigi rahvuslikku identiteeditaristusse, kus kasutaja autenditakse. 4. Autentimistõend liigub sama teed pidi tagasi Eesti e-teenusesse.
+***Teenuse kasutusvoog:*** 1. Välisriigi eID kasutaja soovib kasutada Eesti asutuse e-teenust. 2. Suunatakse RIA "isikutuvastusportaali", kus valib riigi, mille eID-d ta kasutab. 3. RIA "isikutuvastusportaalist" suunatakse eIDAS konnektorteenuse vahendusel välisriigi eIDAS vahendusteenusesse, sealt edasi välisriigi rahvuslikku identiteeditaristusse, kus kasutaja autenditakse. 4. Autentimistõend liigub sama teed pidi tagasi Eesti e-teenusesse. 5. Autenditud kasutaja alustab Eesti e-teenuse kasutamist.
 
 ***Standardid ja tehnoloogiad:*** Eesti e-teenusega liides OpenID Connect-ga; välisriigi eIDAS vahendusteenuse osutajaga liidest SAML-põhise eIDAS protokolliga.
 
 ***Arhitektuurijoonis:***
 
-![](img/Voog5.PNG)
+![](img/Voog1.PNG)
 
 ## 2 Välisriikidest saabuvate eIDAS autentimispäringute täitmise teenus
 
-***Teenuse kasutusvoog:***
+***Teenuse kasutusvoog:*** 1. Eesti eID kasutaja soovib tarbida välisriigi e-teenust. 2. Välisriigi e-teenus suunab kasutaja läbi välisriigi eIDAS konnektorteenuse ja Eesti eIDAS vahendusteenuse RIA eIDAS autentimisteenusesse, kus toimub Eesti eID kasutaja autentimine. 3. Autentimistõend liigub sama teed pidi tagasi. 4. Autenditud kasutaja alustab välisriigi e-teenuse kasutamist.
 
-***Olulised jooned:***
-
-***Standardid ja tehnoloogiad:***
+***Standardid ja tehnoloogiad:*** SAML-põhine eIDAS protokoll.
 
 ***Arhitektuurijoonis:***
+
+![](img/Voog2.PNG)
 
 ## 3 eIDAS konnektorteenus Eesti asutusele
 
-***Teenuse kasutusvoog:***
+***Teenuse kasutusvoog:***  1. Välisriigi eID kasutaja soovib kasutada Eesti asutuse e-teenust. 2. e-teenus suunab kasutaja eIDAS konnektorteenuse vahendusel välisriigi eIDAS vahendusteenusesse, sealt edasi välisriigi rahvuslikku identiteeditaristusse, kus kasutaja autenditakse. 4. Autentimistõend liigub sama teed pidi tagasi Eesti e-teenusesse. 5. Autenditud kasutaja alustab Eesti e-teenuse kasutamist.
 
-***Olulised jooned:***
+***Olulised jooned:*** Erinevusena teenusest 1 ühendub Eesti e-teenus mitte "isikutuvastusportaali", vaid otse eIDAS konnektorteenuse külge.
 
-***Standardid ja tehnoloogiad:***
+***Standardid ja tehnoloogiad:*** e-teenus peab teostama konnektorteenuse SAML-põhise protokolli. 
 
 ***Arhitektuurijoonis:***
+
+![](img/Voog3.PNG)
 
 ## 4 Ühekordse sisselogimise teenus
 
@@ -62,6 +64,8 @@ Iga teenuse kohta eraldi esitatakse teenuse kasutusvoo ülevaatlik kirjeldus, ka
 ***Standardid ja tehnoloogiad:*** ´OpenID Connect´ protokoll.
 
 ***Arhitektuurijoonis:***
+
+![](img/Voog4.PNG)
 
 ## 5 Siseriiklik autentimisteenus
 
