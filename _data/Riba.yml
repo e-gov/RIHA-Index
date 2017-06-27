@@ -46,6 +46,8 @@
     url: "/Kooskolastaja"
   - title: "Sirvija"
     url: "/Sirvija"
+  - title: "Visualiseerija"
+    url: "/Visualiseerija"
   - title: "Andmehoidja"
     url: "/Andmehoidja"  
   - title: "API-d"

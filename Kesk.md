@@ -23,7 +23,7 @@ permalink: Kesk
       |            |         |          |           (Ja^a)
  +----+------------+---------------------------------------------------------+
  | AUTENTIJA      AUTORI+    |KIRJELDAJA|  HINDAJA KOGUJA SIRVIJA TEAVITAJA  |
- |                SEERIJA    |          |                                    |
+ |                SEERIJA    |          |                      VISUALISEERIJA|
  |                           |          |            ANDMEHOIDJA             |
  +--------------------------------------------------------+------------------+
                              |          |                 |
@@ -37,7 +37,6 @@ permalink: Kesk
                              |          |
                              +----------+
                             Majutatav asutus
-
 ```
 
 Joonis kujutab RIHA kesksüsteemi ülesehitust.
@@ -66,6 +65,7 @@ Serverikomponentide hulka kuuluvad (nimekiri võib täieneda):
 - __[Hindaja](Hindaja)__
 - __[Koguja](Koguja)__
 - __[Sirvija](Sirvija)__
+- __[Visualiseerija](Visualiseerija)__
 - __[Teavitaja](Teavitused)__
 
 __Andmehoidla__ eesmärk on RIHA kui süsteemi oleku (ingl _state_) hoidmine. Andmehoidla moodustavad kirjeldused, hinnangud, teavitused jm andmed. Andmeid hoitakse JSON, YAML vm masintöödeldavas vormingus, vajadusel relatsioonilise andmebaasina. Andmed võivad asuda ühises keskkonnas (failisüsteem, PostgreSQL andmebaas), kuid on loogiliselt eraldihoitud selles mõttes, et igal serverikomponendil on oma andmed, millele teine serverikomponent pääseb ligi ainult pöördumisega vastava serveriteenuse poole.

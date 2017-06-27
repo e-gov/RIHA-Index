@@ -18,30 +18,29 @@ RIHA koosneb eraldi paigaldatavatest ja kasutatavatest, teenuseid pakkuvatest ra
 __[RIHA kesksüsteemi](Kesk)__ moodustavad RIA taristusse paigaldatud komponendid.
 
 <pre>
-                                                     ,-.
+                                                     ,+.
                                  +-------------+     `|'
                                  |Sirvija      |     /|\
-                                 |             +---+  |
-,-.                              +--+--+-------+     / \
+                                 |             +---+  +
+,+.                              +--+--+-------+     / \
 `|'                                 ^  ^
-/|\     +-------------+  API        |  |
- | +--> |   Hindaja   |◯ +----------+  |
-/ \     |             |                +
-        +------+------+     +---------+◯  API
+/|\     +-------------+  API        |  |           +-------------+
+ + +--> |   Hindaja   |◯ +----------+  +---------> |   Visuali-  |
+/ \     |             |                +           |   seerija   |
+        +------+------+     +---------+◯  API      +-------------+
                ^            |   +-------------+
                +------------+   |Avaldaja     |
-                                |             |
-                                +------+------+
-                                       ^
-                                       |
+                                |             |    +-------------+
+                                +------+------+    |  Teavitaja  |
+                                       ^           |             |
+                                       |           +-------------+
                                        |
                                        +
-                        ,-.            ◯  API
+                        ,+.            ◯  API
                         `|'     +-------------+
                         /|\     |Kirjeldaja   |
-                         | +--> |             |
+                         + +--> |             |
                         / \     +-------------+
-  
 </pre>  
 
 
