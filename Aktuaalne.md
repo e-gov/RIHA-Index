@@ -1,17 +1,18 @@
 ---
 title: Aktuaalne arhitektuurijoonis
 permalink: Aktuaalne
+sidebar: false
 ---
 
-<img src=''img/KESKSYSTEEM-01.PNG>
+04.07.2017
 
-***RIHA API*** (üldnimetus ***Kirjeldaja API-le***, ***Hindaja API-le*** ja ***Avaldaja API-le***, samuti tulevikus lisanduda võivatele API-dele) on otstarbekas publitseerida RIHA kesksüsteemi rakendusega ühe domeeni all.
+<img src='img/KESKSYSTEEM-01.PNG' style='width: 700px;'>
 
-Erinevad domeenid poleks probleemiks API-des, kust andmeid ainult loetakse (nn avatud e _open_ API-d). Praegu on selliseks ***Avaldaja API***. Sealt lugemine ei vaja autentimist. Samas pole ka välistatud, et tulevikus Avaldaja API mõnele osale on vaja juurdepääsu piirata.
+***RIHA rakendus ja API ühe domeeni all***. RIHA API (üldnimetus Kirjeldaja API-le, Hindaja API-le ja Avaldaja API-le, samuti tulevikus lisanduda võivatele API-dele) on otstarbekas publitseerida RIHA kesksüsteemi rakendusega ühe domeeni all.
 
-Autentija ja autoriseerija võiksid samuti olla RIHA rakendusega ühes domeenis. Siiski pole see otstarbekas, sest: 1) autentimislahenduse eraldihoidmine on RIA mittefunktsionaalne nõue; 2) varem või hiljem on kavas RIHA-s kasutada välist autentimisteenust (RIA loodav autentimis- ja sessioonihaldusteenus).
+Erinevad domeenid poleks probleemiks API-des, kust andmeid ainult loetakse (nn avatud e _open_ API-d). Praegu on selliseks Avaldaja API. Sealt lugemine ei vaja autentimist. Samas pole ka välistatud, et tulevikus Avaldaja API mõnele osale on vaja juurdepääsu piirata.
 
-Ettepanek domeeninimedele ja URL-i teemustritele:
+***Domeeninimed ja URL-i teemustrid***. Ettepanek domeeninimedele ja URL-i teemustritele:
 
 |  domeen/teemuster  | kasutus       |
 |-----------|-------------|
@@ -24,9 +25,16 @@ Ettepanek domeeninimedele ja URL-i teemustritele:
 | `riha.ee/publisher` | Avaldaja API |
 | `autentija.riha.ee` | RIHA autentimis- ja autoriseerimismoodulid |
 
-Väline juurdepääs RIHA API-le on ainult ***Avaldaja API*** osas. See tähendab, et praegu me peame ***Kirjeldaja API*** ja ***Hindaja API*** kasutajatena silmas ainult RIHA kesksüsteemi rakendust (SPA-d). ***Kirjeldaja API*** ja ***Hindaja API*** kaudu andmete salvestamine (POST) eeldab autentimist. Muud rakendused (need võivad olla nii sirvijas töötavad Javascript-rakendused kui ka serverirakendused) võivad andmeid vabalt saada ***Avaldaja API*** kaudu. Sirvijarakendus saadab HTTPS GET AJAX-päringu, serverirakendus tavalise HTTPS GET päringu.
+***Väline juurdepääs ainult Avaldaja API-le***. Väline juurdepääs RIHA API-le on praegu mõistlik anda ainult Avaldaja API osas. See tähendab, et praegu me peame Kirjeldaja API ja Hindaja API kasutajatena silmas ainult RIHA kesksüsteemi rakendust (SPA-d). Kirjeldaja API ja Hindaja API kaudu andmete salvestamine (POST) eeldab autentimist. Muud rakendused (need võivad olla nii sirvijas töötavad Javascript-rakendused kui ka serverirakendused) võivad andmeid vabalt saada Avaldaja API kaudu. Sirvijarakendus saadab HTTPS GET AJAX-päringu, serverirakendus tavalise HTTPS GET päringu.
 
-Autentimija + Autoriseerija on mõtekas paigutada ühe, RIHA põhidomeenist `riha.ee` erineva domeeni alla (`autentija.riha.ee`). Ka CAS-i kasutamisel tuleks teostada OAuth 2.0 või OpenID Connect loogika, seejuures kasutada pääsuvolituste (_authentication token_) esitamiseks JWT kuju. Põhjus on siin selles, et kavandatav RIA ühtne autentimis- ja sessioonihaldusteenus hakkab teenust pakkuma OpenID Connect protokolli kohaselt. Meil oleks vajadusel kergem üle minna.
+
+***Autentija ja autoriseerija eraldi domeenis***. Autentija ja autoriseerija võiksid samuti olla RIHA rakendusega ühes domeenis. Siiski pole see otstarbekas, sest: 1) autentimislahenduse eraldihoidmine on RIA mittefunktsionaalne nõue; 2) varem või hiljem on kavas RIHA-s kasutada välist autentimisteenust (RIA loodav autentimis- ja sessioonihaldusteenus).
+
+Autentimija + Autoriseerija on mõtekas paigutada ühe, RIHA põhidomeenist `riha.ee` erineva domeeni alla (`autentija.riha.ee`).
+
+***Ka CAS-i kasutamisel võimalikult OAuth 2.0 loogika ja JWT kasutamine***. Ka CAS-i kasutamisel tuleks teostada OAuth 2.0 või OpenID Connect loogika, seejuures kasutada pääsuvolituste (_authentication token_) esitamiseks JWT kuju. Põhjus on siin selles, et kavandatav RIA ühtne autentimis- ja sessioonihaldusteenus hakkab teenust pakkuma OpenID Connect protokolli kohaselt. Meil oleks vajadusel kergem üle minna.
+
+## Põhjendusi
 
 Millest lähtuda domeenide süsteemi valikul? Moodulpõhimõte ei ole ainus kaalutlus. Moodulpõhimõte kehtib ka ühe domeeni alla paigutamise korral. Eri domeenidega API-de kasutamine oleks lihtne, kui andmeid ainult loetaks (GET päringud). Andmete salvestamisel (POST päringud) see enam triviaalne ei ole. See oleks teostatav, kuid nõuaks OpenID Connect ja JWT kogemust ja hästitöötavat vastavat autentimisteenust.
 
