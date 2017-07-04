@@ -76,15 +76,7 @@ nav ul { list-style-type: none; }
 table { table-layout: fixed;
     width: 100%; margin: 0 4em 2em 0; }
 table { border-collapse: collapse; }
-table, th, td { border: 1px solid black; }
-
-.ei, .jah { text-align: center; }
-.ei { color: White; background-color: #D1F3D1; } /* Doodle */
-.jah { background-color: #FFCCCA; } /* Doodle */
-
-/* Tekst */
-.disabled { color:#000000; opacity:0.38; }
-.s { font-size: 10pt; }
+table, th, td { border: 1px solid black; padding: 0.5rem 1rem; }
 
 /* TOC genereeritud */
 #markdown-toc > li {
@@ -105,7 +97,8 @@ blockquote {
 /* Kood; asciiflow joonised */
 pre, code, samp {
   font-family: 'Anonymous Pro', monospace;
-  font-size: 16px; color: $pruun;
+  font-size: 16px; color: darkcyan;
+  background-color: lightgray;
   overflow-y: hidden; overflow-x: hidden;
   page-break-inside: avoid; hyphens: none;
   text-transform: none;
