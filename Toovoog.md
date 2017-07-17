@@ -1,6 +1,7 @@
 ---
 title: RIHA üldine töövoog
 permalink: Toovoog
+sidebar: false
 ---
 
 # Töövoog

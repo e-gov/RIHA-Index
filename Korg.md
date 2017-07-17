@@ -3,6 +3,8 @@ title: Kõrgkäideldavus
 permalink: Korg
 ---
 
+<p class='staatus'>Arhiveeritud</p>
+
 # Kõrgkäideldavus
 {:.no_toc}
 
