@@ -72,7 +72,7 @@
     url: "/Andmekvaliteet"
   - title: "Autentimine"
     url: "/Autentimine"
-  - title: Pääsuhaldus"
+  - title: "Pääsuhaldus"
     url: "Paasuhaldus"
     type: "Oluline"
   - title: "Üleminek"
