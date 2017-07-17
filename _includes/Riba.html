@@ -16,7 +16,9 @@
                 <ol class='alammenyy2'>
                 {% for subitem in subcategory.categories %}
                   <li{% if subitem.title == page.title %} class="active"{% endif %}><a href="{{ site.baseurl }}{{ subitem.url }}">{{ subitem.title }}</a>
-                  {% if subitem.type == "Oluline" %} <span style='color: red;'>*</span>{% endif %}
+                  {{ subitem.type }}
+                  {% if subitem.type == "Oluline" %} <span style='color: red;'>*</span>
+                  {% endif %}
                   </li>
                 {% endfor %}
                 </ol>
