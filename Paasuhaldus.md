@@ -1,19 +1,20 @@
 ---
 title: Pääsuhaldus
 permalink: Paasuhaldus
+sidebar: false
 ---
 
 # Pääsuhaldus
 
 ***Eesmärk***
 
-<span class='u'>Minimaalne:</span> RIHA kesksüsteemi kasutajatele pääsuõiguste andmiseks hädavajaliku teabe hoidmine koos selle haldamisega ja pakkumisega masinliidese kaudu RIHA kesksüsteemi rakendusele 
+<span class='u'>Minimaalne:</span> RIHA kesksüsteemi kasutajatele pääsuõiguste andmiseks hädavajaliku teabe hoidmine koos selle haldamisega ja pakkumisega masinliidese kaudu RIHA kesksüsteemi rakendusele.
 
 <span class='u'>Maksimaalne:</span> Masinloetav, hallatud, turvaline ja ajakohane organisatsioonide, isikute, rollide ja pääsuõiguste kataloog riigi infosüsteemi mitmesuguste haldus- , koordineerimis-, käitus- ja teabetoimingute ning vastavate e-teenuste tagamiseks. („Kui sind ei ole RIS õiguste kataloogis, siis sa pole riigi IT-s tegija“).
 
 ***Kasutajad***
 
-- `RIHA teenusehaldur`, läbi LDAP klientrakenduse. Teatud toiminguid võib teha ka RIA kasutajatoe spetsialist –  protseduuriline otsus.
+- `RIHA teenusehaldur`, läbi LDAP klientrakenduse. Teatud toiminguid võib teha ka RIA kasutajatoe spetsialist –  kui tehakse vastav protseduuriline otsus.
 - `RIHA kesksüsteem`, läbi masinliidese, LDAP protokolliga.
 
 ***Tehnoloogiline teostus***
@@ -62,7 +63,7 @@ RIHA teenusehaldur, kasutades LDAP klientrakendust, valides isiku isikute loetel
 `4 Isiku rollide kindlakstegemine`<br>
 `4.1 RIHA teenusehalduri poolt`. RIHA teenusehaldur, kasutades LDAP klientrakendust, valides isiku isikute loetelust või sisestades isiku nime või isikukoodi, saab loetelu isiku rollidest.<br>
 Roll on alati seotud konkreetse organisatsiooniga.<br>
-`4.2  RIHA kesksüsteemi poolt`. RIHA kesksüsteem (autentimismoodul), pöördudes LDAP protokolli kohase liidese kaudu, esitab isikukoodi ja saab vastu isiku kõigi rollide nimekirja. Iga rolli juures näitatakse organisatsiooni registrikood, millega roll on seotud.
+`4.2  RIHA kesksüsteemi poolt`. RIHA kesksüsteem (autentimismoodul), pöördudes LDAP protokolli kohase liidese kaudu, esitab isikukoodi ja saab vastu isiku kõigi rollide nimekirja. Iga rolli juures näitatakse organisatsiooni registrikood, millega roll on seotud.<br>
 `4.3 Isikule tema rollide teadaandmine`<br>
 Isik, logides sisse RIHA kesksüsteemi, saab teavet kas ja millised on tema rollid ja rollidest tulenevad pääsuõigused.
 

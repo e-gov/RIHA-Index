@@ -26,13 +26,17 @@
 
       {% if page.sidebar %}
         {% include Riba.html %}
-      {% else %}
-        <p>
-        <a href="{{ site.baseurl }}">Sisukord</a>
-        </p>
       {% endif %}
 
       <div id='Tekst'>
+
+        {% if page.sidebar %}
+        {% else %}
+          <p style='margin: 1rem 0;'>
+          <a href="{{ site.baseurl }}">Sisukord</a>
+          </p>
+        {% endif %}
+
         {{ content }}
       </div>
 
