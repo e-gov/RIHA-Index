@@ -12,7 +12,7 @@ Käesolev dokument:
 - fikseerib juba tehtud valikud
 - annab viiteid tehnoloogiate kirjeldustele.
 
-<div class='rem'>Dokumenti võiks nimetada ka RIHA tehnoloogiliseks profiiliks või tehnoloogiliseks plaaniks. Profiil &mdash; ülesande täitmiseks kehtestatud standardite kogum (levinud vene keeles).
+<div class='rem'>Dokumenti võiks nimetada ka RIHA tehnoloogiliseks profiiliks või tehnoloogiliseks plaaniks. Profiil &mdash; ülesande täitmiseks kehtestatud standardite kogum.
 </div>
 
 Tehnoloogiaportfelli täiendatakse arenduse käigus.

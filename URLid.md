@@ -3,6 +3,8 @@ title: URL-id
 permalink: URLid
 ---
 
+<p class='staatus'>Arhiveeritud</p>
+
 # URL-id
 {:.no_toc}
 

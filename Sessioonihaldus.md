@@ -3,6 +3,8 @@ title: Sessioonihaldus
 permalink: Sessioonihaldus
 ---
 
+<p class='staatus'>Arhiveeritud</p>
+
 # Sessioonihaldus
 {:.no_toc}
 

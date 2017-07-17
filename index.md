@@ -10,19 +10,9 @@ __Teatmiku eesmärk__ on: 1) arhitektuuriliste aspektide läbitöötamise tulemi
 
 Teatmik kajastab hetke parimat teadmist ja täieneb arenduse käigus. Mida on muudetud näed jaotises [Viimati muudetud](Muudetud). 
 
-## Agiilarenduse põhimõte
+***Arhitektuur agiilarenduses***. RIHA arendatakse agiilselt, lähtudes põhimõtetest: 1) inimesed ja nendevaheline suhtlus on määravamad kui protsessid ja arendusvahendid; 2) töötav tarkvara on olulisem kui kõikehõlmav dokumentatsioon; 3) koostöö kliendiga on loob rohkem väärtust kui läbirääkimised lepingute üle; 4) reageerimine muutunud oludele on adekvaatsem kui algsest plaanist kinnihoidmine ([Agiilse tarkvaraarenduse manifest](http://agilemanifesto.org/iso/et/manifesto.html)).
 
-RIHA arendatakse agiilselt, lähtudes põhimõtetest:
-- inimesed ja nendevaheline suhtlus on määravamad kui protsessid ja arendusvahendid
-- töötav tarkvara on olulisem kui kõikehõlmav dokumentatsioon
-- koostöö kliendiga on loob rohkem väärtust kui läbirääkimised lepingute üle
-- reageerimine muutunud oludele on adekvaatsem kui algsest plaanist kinnihoidmine ([Agiilse tarkvaraarenduse manifest](http://agilemanifesto.org/iso/et/manifesto.html)).
-
-Seetõttu:
-- eelistatud on vahetu suhtlus. Kirjalikult fikseeritakse ainult kõige olulisem
-- arhitektuuridokumenti täiendatakse ja ajakohastatakse arenduse käigus pidevalt.
-
- Arhitektuurilise küsimuse tõusetumisel töötatakse see läbi. Peamised töövormid on arutelu, tehniline uurimine, kasutades erinevaid allikaid. Tulemus fikseeritakse kirjalikult niivõrd, kuivõrd see on arendusega edasiliikumiseks vajalik. 
+Seetõttu on eelistatud vahetu suhtlus, kirjalikult fikseeritakse ainult kõige olulisem ja arhitektuuridokumenti täiendatakse ning ajakohastatakse arenduse käigus jooksvalt.  Arhitektuurilise küsimuse tõusetumisel töötatakse see läbi. Peamised töövormid on arutelu, tehniline uurimine, kasutades erinevaid allikaid. Tulemus fikseeritakse kirjalikult niivõrd, kuivõrd see on arendusega edasiliikumiseks vajalik. 
 
 
 
