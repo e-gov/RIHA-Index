@@ -1,5 +1,9 @@
 <div id="Riba">
   
+  {% comment %} 
+    Toetab kuni kolme taset.
+  {% endcomment %} 
+
   <nav>
     <ol>
       {% assign id_count = '' %}
@@ -11,13 +15,19 @@
             <span id="{{ id_count.size }}" class="lyliti"> ▼ </span>
             <ol id="alammenyy{{ id_count.size }}" class='alammenyy'>
             {% for subcategory in nav.categories %}
-              <li{% if subcategory.title == page.title %} class="active"{% endif %}><a href="{{ site.baseurl }}{{ subcategory.url }}">{{ subcategory.title }}</a></li>
+              <li{% if subcategory.title == page.title %} class="active"{% endif %}>
+                <a href="{{ site.baseurl }}{{ subcategory.url }}">{{ subcategory.title }}
+                </a>
+                {% if subcategory.type == "Oluline" %}
+                    <span style='color: red;'>OLULINE!</span>
+                {% endif %}
+              </li>
               {% if subcategory.categories != null %}
                 <ol class='alammenyy2'>
                 {% for subitem in subcategory.categories %}
                   <li{% if subitem.title == page.title %} class="active"{% endif %}><a href="{{ site.baseurl }}{{ subitem.url }}">{{ subitem.title }}</a>
-                  {{ subitem.type }}
-                  {% if subitem.type == "Oluline" %} <span style='color: red;'>*</span>
+                  {% if subitem.type == "Oluline" %}
+                    <span style='color: red;'>OLULINE!</span>
                   {% endif %}
                   </li>
                 {% endfor %}
