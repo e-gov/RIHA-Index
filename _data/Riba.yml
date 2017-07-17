@@ -92,7 +92,7 @@
   url: "/Muudetud"  
 
 - title: "Arhiiv"
-  url: "/Arhiiv"
+  categories:
   - title: "Sessioonihaldus"
     url: "/Sessioonihaldus"    
   - title: "URL-id"
