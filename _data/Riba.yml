@@ -3,8 +3,8 @@
 
 - title: "Strateegia"
   url: "/Strateegia"
-- title: "Eesmärkmudel"
-  url: "/Eesmarkmudel"
+- title: "SF-i lubadused"
+  url: "/Lubadused"
 - title: "Protsessid"
   categories:
   - title: "Üldine töövoog"
@@ -39,7 +39,8 @@
   - title: "Kesksüsteem"
     url: "/Kesk"
   - title: "Aktuaalne arhitektuurijoonis"
-    url: "/Aktuaalne"  
+    url: "/Aktuaalne"
+    type: "Oluline"  
   - title: "Kirjeldaja"
     url: "/Kirjeldaja"
   - title: "Avaldaja"
@@ -91,6 +92,7 @@
     url: "/Autentimine"
   - title: Pääsuhaldus"
     url: "Paasuhaldus"
+    type: "Oluline"
     title: "Sessioonihaldus"
     url: "/Sessioonihaldus"    
   - title: "Üleminek"

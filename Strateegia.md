@@ -3,10 +3,10 @@ title: Strateegia
 permalink: Strateegia
 ---
 
-<p class='rem'>[Väljavõte RIHA strateegiast]</p>
-
 # Strateegia
 {:.no_toc}
+
+<p class='rem'>[Väljavõte RIHA strateegiast]</p>
 
 * TOC
 {:toc}

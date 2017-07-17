@@ -15,6 +15,4 @@ Lähemalt vt [API-de testimine](APIdetestimine).
 
 ## Kasutajaliidese testimine
 
-<p class='staatus'>Vajab täiendamist.</p>
-
 Kasutajaliidesed testitakse käsitsi.

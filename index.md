@@ -4,9 +4,9 @@ title: RIHA
 
 # Ülevaade
 
-<p class='staatus'>Arhitektuuriteatmik kajastab hetke parimat teadmist ja täieneb pidevalt. Kavandi või eskiisi staatuses materjal on sageli vastavalt markeeritud, kuid muutumine on võimalik ka kõigi teiste osade puhul.</p> 
-
 Käesolev veebisait dokumenteerib RIHA arhitektuuri.
+
+<p class='staatus'>Arhitektuuriteatmik kajastab hetke parimat teadmist ja täieneb arenduse käigus. Mida on muudetud näed jaotises [Viimati muudetud](Muudetud).</p> 
 
 __Arhitektuuriteatmiku eesmärk__ on:
 - arhitektuuriliste aspektide läbitöötamise tulemite kirjalik fikseerimine
