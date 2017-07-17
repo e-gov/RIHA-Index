@@ -36,8 +36,6 @@
   categories:
   - title: "Põhimõtted"
     url: "/Komponentstruktuur"
-  - title: "Kesksüsteem"
-    url: "/Kesk"
   - title: "Aktuaalne arhitektuurijoonis"
     url: "/Aktuaalne"
     type: "Oluline"  

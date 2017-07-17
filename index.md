@@ -6,16 +6,9 @@ title: RIHA
 
 Käesolev veebisait dokumenteerib RIHA arhitektuuri.
 
-<p class='staatus'>Arhitektuuriteatmik kajastab hetke parimat teadmist ja täieneb arenduse käigus. Mida on muudetud näed jaotises [Viimati muudetud](Muudetud).</p> 
+__Teatmiku eesmärk__ on: 1) arhitektuuriliste aspektide läbitöötamise tulemite kirjalik fikseerimine; 2) arendajate suunamine; 3)  arendustiimi liikmetele vajaliku sisendi õigeaegne tootmine. Teatmik hõlmab eelkõige tehnilisi küsimusi (küsimus "kuidas tehniliselt lahendada?").
 
-__Arhitektuuriteatmiku eesmärk__ on:
-- arhitektuuriliste aspektide läbitöötamise tulemite kirjalik fikseerimine
-- arendajate suunamine
-- arendustiimi liikmetele vajaliku sisendi õigeaegne tootmine.
-
-Arhitektuuriteatmik hõlmab eelkõige tehnilisi küsimusi (küsimus "kuidas tehniliselt lahendada?").
-
-Arhitektuuridokument on modulaarse ülesehitusega, koosnedes osadokumentidest (lehtedest). Iga osadokument käsitleb üht tehnilist küsimust või arhitektuurset aspekti. 
+Teatmik kajastab hetke parimat teadmist ja täieneb arenduse käigus. Mida on muudetud näed jaotises [Viimati muudetud](Muudetud). 
 
 ## Agiilarenduse põhimõte
 
