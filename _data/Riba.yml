@@ -83,6 +83,8 @@
     url: "/Logimine"
   - title: "Versioneerimine"
     url: "/Versioneerimine"  
+  - title: "Samaaegsus"
+    url: "/Samaaegsus"  
 
 - title: "Teatmiku täiendamine"
   url: "/Taiendamine"
