@@ -12,7 +12,7 @@ body {
   padding: 0.6em 1.5em 2em 2em; 
   line-height: 1.2;
   font-family: 'Times New Roman', serif; 
-  color: #333;
+  color: black !important;
   font-size: 12pt; 
   }
 
@@ -115,7 +115,7 @@ pre { margin-top: 1em; margin-bottom: 1em; }
 
 /* ==== Lingid ==== */
 a[href] {
-  color: $mutedblue;
+  color: black;
   text-decoration: none;
   border-bottom: 1px solid $mutedblue;
   padding: 0 1px 0;
@@ -124,19 +124,6 @@ a[href] {
 a:visited {
   border-bottom-color: $mutedblue;
 }
-
-a[href]:focus,
-a[href]:hover {
-  background: $mutedblue;
-  background: rgba(75%, 75%, 75%, .25);
-  border-bottom-width: 3px;
-  margin-bottom: -2px;
-}
-a[href]:active {
-  color: #C00;
-  border-color: #C00;
-}
-
 
 /* ==== Definitsiooniloetelud ==== */
 dt { font-weight: bold; font-style: italic; 
