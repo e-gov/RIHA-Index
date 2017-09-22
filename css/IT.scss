@@ -82,6 +82,10 @@ table, th, td { border: 1px solid black; padding: 0.5rem 1rem; }
 #markdown-toc > li {
   list-style: none;
 }
+#markdown-toc > li::before {
+  content: "" !important;
+  margin-left: 0 !important;
+}
 
 /* Allkriipsutus */
 .u { text-decoration: underline; }

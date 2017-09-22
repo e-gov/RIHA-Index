@@ -20,7 +20,9 @@
 
   </head>
   <body onload='init()'>
-    {% include Header.html %}
+    {% if page.header %}
+      {% include Header.html %}
+    {% endif %}
     <!-- Flexbox -->
     <div id='Container'>
 

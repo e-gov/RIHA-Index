@@ -8,6 +8,7 @@ defaults:
       path: "" # Kõik failid
     values:
       layout: "IT"
+      header: "true"
       draft: "false"
       sidebar: "true"
 

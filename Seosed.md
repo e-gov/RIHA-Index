@@ -3,10 +3,10 @@ permalink: Seosed
 sidebar: false
 ---
 
-# Riigiteenused.ee, RIHA ja eesti.ee lõimimine. Vajadused ja võimalused
+#  Kataloogide lõimimise vajadus ja võimalus
 {:.no_toc}
 
-Käesolev dokument esitab kolme kataloogsüsteemi profiilid ja uurib süsteemide lõimimise vajadust ning võimalusi.
+Käesolev dokument käsitleb kolme kataloogi - riigiteenused.ee, eesti.ee ja RIHA - lõimimise vajadust ning võimalusi.
 
 * TOC
 {:toc}
