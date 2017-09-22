@@ -34,9 +34,11 @@
 
         {% if page.sidebar %}
         {% else %}
-          <p style='margin: 1rem 0;'>
-          <a href="{{ site.baseurl }}">Sisukord</a>
-          </p>
+          {% if page.sisukord %}
+            <p style='margin: 1rem 0;'>
+            <a href="{{ site.baseurl }}">Sisukord</a>
+            </p>
+          {% endif %}  
         {% endif %}
 
         {{ content }}
