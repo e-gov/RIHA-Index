@@ -4,7 +4,7 @@ sidebar: false
 header: false
 ---
 
-#  Riigiteenused.ee, eesti.ee ja RIHA sidumine.
+#  Riigiteenused.ee, eesti.ee ja RIHA lõimimine
 {:.no_toc}
 
 22.09.2017
@@ -34,13 +34,13 @@ Sisukord
 ## 2 Lõimimise lähtekohad
 
 ### 2.1 Lõimimine
-***Lõimimine*** tähendab eraldi hoitavate objektide sidumist tervikuks. Lõimimine võib olla tugevam või nõrgem (suurema või väiksema lõtkuga). ***Liidestamine*** tähendab masinliidese loomist kahe süsteemi vahele. See nõuab tarkvaraarendust mõlemas süsteemis, liidespinna (API, protokolli, andmevormingute kokkuleppimist). Lihtsamal juhul üks süsteem kasutab teise süsteemi avalikult väljapandud teavet. Lõimida võib ka käsitsi, protseduurilisel tasandil. Sellisel juhul inimene seostab andmed käsitsi.
+Lõimimine tähendab eraldi hoitavate objektide sidumist tervikuks. Lõimimine võib olla tugevam või nõrgem (suurema või väiksema lõtkuga). Liidestamine tähendab masinliidese loomist kahe süsteemi vahele. See nõuab tarkvaraarendust mõlemas süsteemis, liidespinna (API, protokolli, andmevormingute kokkuleppimist). Lihtsamal juhul üks süsteem kasutab teise süsteemi avalikult väljapandud teavet. Lõimida võib ka käsitsi, protseduurilisel tasandil. Sellisel juhul inimene seostab andmed käsitsi.
 
 ### 2.2 Kokkuliitmine
-Siinkohal me ei peatu ***süsteemide kokkuliitmise*** teemal (kolmest süsteemist teha kaks või üks) - see oleks lõimimise äärmuslik vorm. Kogemused seniste eesti.ee ja RIHA haldamisel pigem toetavad seisukohta, et  kataloogsüsteemide üheks süsteemiks liitmine ei ole mõistlik.
+Siinkohal me ei peatu süsteemide kokkuliitmise teemal (kolmest süsteemist teha kaks või üks) - see oleks lõimimise äärmuslik vorm. Kogemused seniste eesti.ee ja RIHA haldamisel pigem toetavad seisukohta, et  kataloogsüsteemide üheks süsteemiks liitmine ei ole mõistlik.
 
 ### 2.3 Täiendav süsteem
-Vaatlusest jätame välja ka ***täiendava süsteemi*** loomise, olgu siis katus- või metasüsteemina kataloogide kohale või puhvrina nende vahele. _See ei tähenda, et neid metasüsteemi ideed ei võiks arendada mõnes teises kontekstis. riigiteenused.ee ja uus RIHA mõlemad pakuvad andmeid avalikult API-de kaudu. Keegi ei takista tegemast süsteemi, mis võtab ja kombineerib kahe süsteemi andmeid._
+Vaatlusest jätame välja ka täiendava süsteemi loomise, olgu siis katus- või metasüsteemina kataloogide kohale või puhvrina nende vahele. See ei tähenda, et neid metasüsteemi ideed ei võiks arendada mõnes teises kontekstis. riigiteenused.ee ja uus RIHA mõlemad pakuvad andmeid avalikult API-de kaudu. Keegi ei takista tegemast süsteemi, mis võtab ja kombineerib kahe süsteemi andmeid.
 
 ## 2.4 Andmete ja tööprotsesside lõimimine
 Võib eristada andmete ja tööprotsesside seostamist. Andmete seostamise vajadus tuleneb sellest, et kolmes süsteemis hoitav andmed on olemuslikult seotud, esitades sama, keerulise nähtuse erinevaid külgi, erinevatele sihtrühmadele. Tööprotsesside seostamise vajadus tuleneb sellest, et avalikke teenuseid osutatakse infosüsteemide abil ja kodanikule näidatavad teenused vajavad kavandamist, haldamist jm ettevalmistavaid ning toetavaid tegevusi.
