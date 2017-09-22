@@ -3,7 +3,11 @@ permalink: Seosed
 sidebar: false
 ---
 
-# Riigiteenused.ee, RIHA ja eesti.ee sidumine. Vajadused ja võimalused
+# Riigiteenused.ee, RIHA ja eesti.ee lõimimine. Vajadused ja võimalused
+{:.no_toc}
+
+* TOC
+{:toc}
 
 Käesolev dokument esitab kolme kataloogsüsteemi profiilid ja uurib süsteemide lõimimise vajadust ning võimalusi.
 
@@ -22,15 +26,15 @@ Käesolev dokument esitab kolme kataloogsüsteemi profiilid ja uurib süsteemide
 | pakub andmeid masinloetavalt | jah, API | ei (masinloetavad, aga sisemises repos) | jah, API |
 | arendusteave | [MKM-ITAO/riigiteenused](https://github.com/MKM-ITAO/riigiteenused), [MKM-ITAO/Teenuste-kataloogi-RIHA-ja-Eesti.ee-seosed](MKM-ITAO/Teenuste-kataloogi-RIHA-ja-Eesti.ee-seosed) |  | [RIHA arhitektuuriteatmik](https://e-gov.github.io/RIHA-Index) |
 
+## Lõimimine
+
 ***Lõimimine*** tähendab eraldi hoitavate objektide sidumist tervikuks. Lõimimine võib olla tugevam või nõrgem (suurema või väiksema lõtkuga).
 
 Siinkohal me ei peatu ***süsteemide kokkuliitmise*** teemal (kolmest süsteemist teha kaks või üks) - see oleks lõimimise äärmuslik vorm. Kogemused seniste eesti.ee ja RIHA haldamisel pigem toetavad seisukohta, et vaadeldavate kataloogsüsteemide üheks süsteemiks liitmine ei oleks mõistlik.
 
 Vaatlusest jätame välja ka ***täiendava süsteemi*** loomise, olgu siis katus- või metasüsteemina kataloogide kohale või puhvrina nende vahele. _Märkus. See ei tähenda, et neid ideid ei võiks mõnes teises kontekstis arendada._
 
-Lõimimine tähendab nii andmete kui ka tööprotsesside seostamist.
-
-***Andmete seostamise*** vajadus tuleneb sellest, et kolmes süsteemis hoitav andmed on olemuslikult seotud, esitades igaüks sama, keerulise nähtuse erinevat külge, erinevale sihtrühmale.
+**Andmete ja tööprotsesside lõimimine.*** Lõimimine tähendab nii andmete kui ka tööprotsesside seostamist. Andmete seostamise vajadus tuleneb sellest, et kolmes süsteemis hoitav andmed on olemuslikult seotud, esitades igaüks sama, keerulise nähtuse erinevat külge, erinevale sihtrühmale. Tööprotsesside seostamise vajadus tuleneb sellest, et avalike teenuste osutamine teostatakse infosüsteemide abil ja kodanikule näidatavad teenused vajavad kavandamist, haldust jm ettevalmistavaid ja toetavaid tegevusi.
 
 ***Kattuvus andmekoosseisudes.*** Andmete seostamise vajadus võib tuleneda ka süsteemide kattuvast andmekoosseisust.
 
@@ -44,7 +48,7 @@ Lõimimine tähendab nii andmete kui ka tööprotsesside seostamist.
 
 ***Kirjeldamiste koordineerimine***. Seetõttu avaliku teenuse kirjeldamine riigiteenused.ee-s ja eesti.ee-s peavad olema koordineeritud tegevused. Vaja on koordineerida avaliku teenuse riigiteenused.ee-s ja eesti.ee-s kirjeldamise tööprotsessid. Küsimusele, kas neid tööprotsesse saaks IT-lahenduse abil paremini koordineerida ja efektiivsemaks teha, vastamiseks tuleks teenuste kirjeldamise protsesse kummaski süsteemis lähemalt uurida.
 
-***Tööprotsesside seostamise*** vajadus tuleneb sellest, et avalike teenuste osutamine teostatakse infosüsteemide abil. Seejuures ei ole üksühest vastavust avaliku teenuse ja infosüsteemi vahel. Avaliku teenuse osutamisel kombineeritakse andmeid paljudest andmekogudest, kasutatakse erinevaid taristuid ja backend-teenuseid.
+Ei ole üksühest vastavust avaliku teenuse ja infosüsteemi vahel. Avaliku teenuse osutamisel kombineeritakse andmeid paljudest andmekogudest, kasutatakse erinevaid taristuid ja backend-teenuseid.
 
 ***Arenduste koordineerimine***. Tööprotsesside seostamine tähendab ka arendusprotsesside sidumist. Kõigis kolmes süsteemis on viimasel paaril toimunud suured muutused. Arendusprotsessid jätkuvad. Lõimimisel tuleb arvesse võtta nii süsteemides seni toimunut kui ka arengusuundi. 
 
