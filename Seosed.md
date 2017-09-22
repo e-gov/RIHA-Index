@@ -18,9 +18,7 @@ Käesolev dokument esitab kolme kataloogsüsteemi profiilid ja uurib süsteemide
 | õigusregulatsioon | VV määrus [Teenuste korraldamise ja teabehalduse alused](https://www.riigiteataja.ee/akt/131052017007) | VV määrus [Eesti teabevärava eesti.ee .. kord](https://www.riigiteataja.ee/akt/104102013008) | VV määrus (kavand) |
 | õigusnimetus | valitsusasutuste teenuste keskne kataloog |  Eesti teabevärav eesti.ee | riigi infosüsteemi haldussüsteem | 
 | pakub andmeid masinloetavalt | jah, API | jah (läbi GitHubi) | jah, API |
-| arendusteave | [MKM-ITAO/riigiteenused
-](https://github.com/MKM-ITAO/riigiteenused), [MKM-ITAO/Teenuste-kataloogi-RIHA-ja-Eesti.ee-seosed
-](MKM-ITAO/Teenuste-kataloogi-RIHA-ja-Eesti.ee-seosed) |  | [RIHA arhitektuuriteatmik](https://e-gov.github.io/RIHA-Index) |
+| arendusteave | [MKM-ITAO/riigiteenused](https://github.com/MKM-ITAO/riigiteenused), [MKM-ITAO/Teenuste-kataloogi-RIHA-ja-Eesti.ee-seosed](MKM-ITAO/Teenuste-kataloogi-RIHA-ja-Eesti.ee-seosed) |  | [RIHA arhitektuuriteatmik](https://e-gov.github.io/RIHA-Index) |
 
 ***Lõimimine*** tähendab eraldi hoitavate objektide sidumist tervikuks. Lõimimine võib olla tugevam või nõrgem (suurema või väiksema lõtkuga).
 
@@ -61,6 +59,10 @@ Igas süsteemis toimub aktiivne kirjeldamistegevus. Kirjeldusi muudetakse, sh mu
 ***Terminoloogilised küsimused.*** Aastaid on infosüsteemide, aga ka teenuste kirjeldamist takistanud terminoloogiline ebaselgus ja vaidlused mõistete ulatuse ning sisu üle. Juristide ja IT-meeste terminoloogiasõjad näivad nüüd olevat vaibunud (Vt nt Silberg L (2017) _[Andmekogu või andmete kogumine?](https://dspace.ut.ee/bitstream/handle/10062/57144/silberg_ma_2017.pdf?sequence=1&isAllowed=y)_). MKM ITAO juhtimisel töötanud töörühm on täpsustanud teenuste osutamise mõistestikku. Selle töö tulemused on jõudnud ka teenuste korraldamise määrusesse. Kokkuvõttes ei tohiks olla terminoloogilisi takistusi kolme kataloogi lõimimiseks.
 
 ***Modelleerimine***. Avalik teenus ja infosüsteem on seotud kardinaalsussuhtes m : n. EL ISA projektis on loodud avalike teenuste geneeriline mudel CPSV (Common Public Service Vocabulary). Eesti oli aktiivselt selle mudeli loomise juures. Praegused üldised mudelid on täiesti piisavad, et kavandada konkreetseid ühendusi.. Keskenduda tuleks kõige kõige lihtsamata ja samas suurt väärtust loovate ühenduste ehitamisele (nendest allpool). 
+
+# Konkreetsed liidestusideed
+
+***Linkimine***. 
 
 ühes v teises suunas v kahepidine linkimine
 paneb viite(d) eesti.ee-sse ja RIHA-sse
