@@ -3,9 +3,11 @@ permalink: Seosed
 sidebar: false
 ---
 
-# Riigiteenused.ee, RIHA ja eesti.ee sidumise analüüs
+# Riigiteenused.ee, RIHA ja eesti.ee sidumine. Vajadused ja võimalused
 
 Käesolev dokument esitab kolme kataloogsüsteemi profiilid ja uurib süsteemide lõimimise vajadust ning võimalusi.
+
+## Profiilid
 
 |                     | riigiteenused.ee | eesti.ee | RIHA |
 |---------------------|------------------|----------|------|
@@ -22,7 +24,9 @@ Käesolev dokument esitab kolme kataloogsüsteemi profiilid ja uurib süsteemide
 
 ***Lõimimine*** tähendab eraldi hoitavate objektide sidumist tervikuks. Lõimimine võib olla tugevam või nõrgem (suurema või väiksema lõtkuga).
 
-Siinkohal me ei peatu ***süsteemide kokkuliitmise*** teemal (kolmest süsteemist teha kaks või üks) - see oleks lõimimise äärmuslik vorm. Kogemused seniste eesti.ee ja RIHA haldamisel pigem toetavad seisukohta, et vaadeldavate kataloogsüsteemide liitmine ei ole mõistlik.
+Siinkohal me ei peatu ***süsteemide kokkuliitmise*** teemal (kolmest süsteemist teha kaks või üks) - see oleks lõimimise äärmuslik vorm. Kogemused seniste eesti.ee ja RIHA haldamisel pigem toetavad seisukohta, et vaadeldavate kataloogsüsteemide üheks süsteemiks liitmine ei oleks mõistlik.
+
+Vaatlusest jätame välja ka ***täiendava süsteemi*** loomise, olgu siis katus- või metasüsteemina kataloogide kohale või puhvrina nende vahele. _Märkus. See ei tähenda, et neid ideid ei võiks mõnes teises kontekstis arendada._
 
 Lõimimine tähendab nii andmete kui ka tööprotsesside seostamist.
 
@@ -60,9 +64,15 @@ Igas süsteemis toimub aktiivne kirjeldamistegevus. Kirjeldusi muudetakse, sh mu
 
 ***Modelleerimine***. Avalik teenus ja infosüsteem on seotud kardinaalsussuhtes m : n. EL ISA projektis on loodud avalike teenuste geneeriline mudel CPSV (Common Public Service Vocabulary). Eesti oli aktiivselt selle mudeli loomise juures. Praegused üldised mudelid on täiesti piisavad, et kavandada konkreetseid ühendusi.. Keskenduda tuleks kõige kõige lihtsamata ja samas suurt väärtust loovate ühenduste ehitamisele (nendest allpool). 
 
-# Konkreetsed liidestusideed
+***Tasuvus***. Liidestusettepanekute hindamisel tuleks hinnata nii liidestamisest saavat kasu kui ka võimalikke negatiivseid efekte. Liidestamise võimalike kasude hulgas on andmete parem leitavus, õigemad ja ajakohasemad andmed, parem andmekvaliteet, korduva sisestamise vältimine. Samas võib liidestamine, kui liidest ei õnnestu automatiseerida, kaasa tuua hoopis käsitsi andmesisestuse mahu suurenemise. _Kui süsteemid liidestatakse nn "tädimeetodil", siis tuleks kaaluda, kas saadav efekt kaalub üles inimeste äratõmbamise tegelikult töölt samade andmete erinevatesse süsteemidesse käsitsi sisestamisele (ja kas nad üldse hakkavad seda tegema)._
 
-***Linkimine***. 
+## Võimalused
+
+Vaatleme järgnevalt, milliseid konkreetseid seoseid võiks süsteemide vahele luua. Iga võimalust analüüsime nii ärilisest s.t kasulikkuse kui ka tehnilise teostatavuse vaatepunktist.
+
+***Avaliku teenuse kirjes (riigiteenused.ee) viitamine seotud infosüsteemidele***. 
+
+
 
 ühes v teises suunas v kahepidine linkimine
 paneb viite(d) eesti.ee-sse ja RIHA-sse
