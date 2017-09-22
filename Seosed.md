@@ -19,7 +19,7 @@ Käesolev dokument esitab kolme kataloogsüsteemi profiilid ja uurib süsteemide
 | toetatavad tööprotsessid | avalike teenuste kirjeldamine, sh statistika | teave avalike teenuste kohta, teenuste juurde juhatamine, osa teenuste ise osutamine | infosüsteemide kirjeldamine, teave infosüsteemide kohta, infosüsteemide hindamine (endine kooskõlastamine) |
 | õigusregulatsioon | VV määrus [Teenuste korraldamise ja teabehalduse alused](https://www.riigiteataja.ee/akt/131052017007) | VV määrus [Eesti teabevärava eesti.ee .. kord](https://www.riigiteataja.ee/akt/104102013008) | VV määrus (kavand) |
 | õigusnimetus | valitsusasutuste teenuste keskne kataloog |  Eesti teabevärav eesti.ee | riigi infosüsteemi haldussüsteem | 
-| pakub andmeid masinloetavalt | jah, API | jah (läbi GitHubi) | jah, API |
+| pakub andmeid masinloetavalt | jah, API | ei (masinloetavad, aga sisemises repos) | jah, API |
 | arendusteave | [MKM-ITAO/riigiteenused](https://github.com/MKM-ITAO/riigiteenused), [MKM-ITAO/Teenuste-kataloogi-RIHA-ja-Eesti.ee-seosed](MKM-ITAO/Teenuste-kataloogi-RIHA-ja-Eesti.ee-seosed) |  | [RIHA arhitektuuriteatmik](https://e-gov.github.io/RIHA-Index) |
 
 ***Lõimimine*** tähendab eraldi hoitavate objektide sidumist tervikuks. Lõimimine võib olla tugevam või nõrgem (suurema või väiksema lõtkuga).
