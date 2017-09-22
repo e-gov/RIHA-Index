@@ -1,5 +1,6 @@
 ---
 permalink: Seosed
+sidebar: false
 ---
 
 # Riigiteenused.ee, RIHA ja eesti.ee sidumise analüüs
