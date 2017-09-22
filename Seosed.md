@@ -46,13 +46,14 @@ Lõimimine tähendab nii andmete kui ka tööprotsesside seostamist.
 
 ***Tööprotsesside seostamise*** vajadus tuleneb sellest, et avalike teenuste osutamine teostatakse infosüsteemide abil. Seejuures ei ole üksühest vastavust avaliku teenuse ja infosüsteemi vahel. Avaliku teenuse osutamisel kombineeritakse andmeid paljudest andmekogudest, kasutatakse erinevaid taristuid ja backend-teenuseid.
 
-Kõigis kolmes süsteemis on viimasel paaril toimunud suured muutused. Arendusprotsessid jätkuvad. Lõimimisel tuleb arvesse võtta nii süsteemides seni toimunut kui ka arengusuundi. 
+***Arenduste koordineerimine***. Tööprotsesside seostamine tähendab ka arendusprotsesside sidumist. Kõigis kolmes süsteemis on viimasel paaril toimunud suured muutused. Arendusprotsessid jätkuvad. Lõimimisel tuleb arvesse võtta nii süsteemides seni toimunut kui ka arengusuundi. 
 
 Andmete seostamiseks on kolm peamist tehnilist võimalust: 1) linkimine; 2) automatiseeritud andmekorje; 3) korduv sisestamine käsitsi.
 
 ***Sünkroonimine*** e andmete kooskõla hoidmine on seostamisel üks peamisi väljakutseid. Kui linke ei suudeta ajakohasena hoida, s.t lingid lähevad "katki", siis võib olla parem linkimisest üldse loobuda. 
 
-Igas süsteemis toimub aktiivne kirjeldamistegevus. Kirjeldusi muudetakse, sh muudetakse objektide nimetusi. Andmete sidumise eelduseks on seostatavate objektide selge, stabiilne identifitseerimisskeem. 
+***Otsetee objektini (URL).*** Igas süsteemis toimub aktiivne kirjeldamistegevus. Kirjeldusi muudetakse, sh muudetakse objektide nimetusi. Andmete sidumise eelduseks on seostatavate objektide selge, stabiilne identifitseerimisskeem. Identifikaator peaks andma ka otsetee objekti juurde. 
+- Uues RIHAs on igal infosüsteemil püsiidentifikaator (lühinimi) ja kindla mustri järgi lühinimest moodustatav URL.
 
 ***Single source of truth põhimõte***. Seostamisel tuleb arvestada, et kui sama teave on kahes kohas - siia käib ka mõlemasuunaline linkimine - siis peab olema meetod kooskõlakonfliktide lahendamiseks. Peab olema selge, kumb andmeesitus loetakse originaaliks (autentseks, "tõeks"). 
 
@@ -68,22 +69,14 @@ Igas süsteemis toimub aktiivne kirjeldamistegevus. Kirjeldusi muudetakse, sh mu
 
 ## Võimalused
 
-Vaatleme järgnevalt, milliseid konkreetseid seoseid võiks süsteemide vahele luua. Iga võimalust analüüsime nii ärilisest s.t kasulikkuse kui ka tehnilise teostatavuse vaatepunktist.
+Vaatleme järgnevalt, milliseid konkreetseid seoseid võiks süsteemide vahele luua. Iga võimalust analüüsime lühidalt nii ärilisest s.t kasulikkuse kui ka tehnilise teostatavuse vaatepunktist. Oluline moment on ka metoodika olemasolu - s.t kas kirjeldaja saab aru seoses tähendusest ja suudab seosed adekvaatselt kirjeldada.
 
-***Avaliku teenuse kirjes (riigiteenused.ee) viitamine seotud infosüsteemidele***. 
+***Avalikus teenuses viitamine infosüsteemile***. Avaliku teenuse kirjes riigiteenused.ee-s lisada viide (viited) RIHA-s kirjeldatud infosüsteemidele. _Mida see annab?_ Parem pilt teenuse fassaadi taga olevast. Täiendav teave avalike teenuste kavandajatele ja haldajatele. _Tehniline teostus_ Link moodustatakse URL-na; RIHAs on igal infosüsteemil püsiv URL. Kõige lihtsamal kujul näeb seostamise protsess välja nii, et kirjeldaja otsib infosüsteemi RIHAs üles ja kopeerib selle URL-i avaliku teenuse kirjeldusse. Väikese arendusega saab riigiteenused.ee-sse lisada abistava dialoogi, mis võimaldab infosüsteemi leida riigiteenused.ee-st väljumata, infosüsteemi lühi- või täisnime järgi jne. _Metoodika_ Infosüsteemile viitamisel võivad tekkida mitu probleemi: 1) kirjeldaja ei tea, milliste infosüsteemidega avalik teenus on seotud. Taristute ühitamine, IT konsolideerimine eraldi IT-asutustesse jm tegurid võivad viia selleni, et teenuse äriomanik ei teagi, milliste infosüsteemide baasil tema teenust käitatakse. 2) teenus on seotud mitme infosüsteemiga. Kirjeldaja ei tea, kas ta peab kirjeldama ka nõrgad ja kaudsed seosed.
 
+***Infosüsteemis viitamine avalikule teenusele.*** See on eelmisele vastupidine viide. Käsitsi viitamist on siin otstarbekas vältida, vaid teha RIHA-le lihtne REST-liides, mille kaudu riigiteenused.ee-s avaliku teenuse seostamisel infosüsteemiga saadetakse HTTP POST-päringuga seoseteave ka RIHAsse. _Märkus. Eeldab autentimise võimekust REST-liideses. Kui seda ei ole, siis saatmine üle X-tee.  
 
+***Otsingute seostamine.*** Nii riigiteenused.ee-s kui ka RIHA-s on otsingu funktsionaalsus. Otsingute seostamine või ühitamine tähendaks seda, et otsida on võimalik ka seoste järgi. 
 
-ühes v teises suunas v kahepidine linkimine
-paneb viite(d) eesti.ee-sse ja RIHA-sse
+***Kuluarvestuse seostamine.*** Halduskulu mõõdik on riigiteenused.ee-s avaliku teenuse kirjelduse üks tähtsamaid osi. RIHA arendamisel on aastaid üleval olnud mõte, et infosüsteemide kulu (elutsükli maksumust) tuleks mõõta ja need mõõtmistulemused (finantsandmed) võiksid olla RIHAs või vähemalt RIHA kaudu leitavad. Need plaanid ei ole konkretiseerunud. Metoodiliselt on ebaselge, kuidas infosüsteemi kulu mõõta. Kuluarvestuse seostamise eelduseks on avalike teenuste ja infosüsteemide kvantitatiivne seostamine, s.t kulude proportsionaalne jaotamine. Kaheldav, kas teenuste ja infosüsteemide omanikel on oskust sellist kompleksset kuluarvestust teha ja kas neil on võimalik lihtsalt saada vastavaid finantsandmeid. Samuti peaks seda tegema ühtse arvestusmetoodika järgi. Kokkuvõttes, kuluarvestuse sissetoomine RIHAsse ja seostamine riigiteenused.ee-ga ning vastavate IT-tööde kavandamine eeldab kuluarvestuse metoodika väljatöötamist. 
 
-lühinimi - unikaalne, moodustatakse URL
-
-omanik peab mitmes süsteemis kirjeldama? vana oli - uues kattuvat ei ole
-
-käsitsi kahepidist linkimist vältida!
-POST RIHA-sse link tuleb ka RIHAsse nähtavale
-
-Otsingute seostamine?
-
-Statistika tootmine
+***Statistika tootmise seostamine.*** riigiteenused.ee-s kogutakse teenuste kasutusstatistikat ja mõõdetakse teenusega rahulolu. RIHA liidestatakse loodava X-tee monitooringusüsteemiga, kus kogutakse X-tee andmeteenuste kasutusstatistikat. Korrelatsioonid avalike teenuste kasutuse, rahuolu, halduskulu ja X-tee andmeteenuste kasutuse vahel pakub kindlasti huvi. Eelduseks on avalike teenuste ja infosüsteemide seostamine. _X-tee teenused on seotud infosüsteemidega._
