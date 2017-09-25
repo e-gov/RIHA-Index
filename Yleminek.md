@@ -64,7 +64,7 @@ permalink: Yleminek
   - uus kirjeldusvorming on stabiliseerunud.
 1. __Eksport__
   - Eksport vanast süsteemist, automaatse teisendamisega uude vormingusse. Omanikke tuleb selgelt teavitada, mis teisendusi tehakse. 
-  - Eksporditud andmed salvestatakse RIHA uues [andmehoidjas](Andmehoidja). Kasutajate õigused RIHA [pääsuhaldussüsteemis](Paasuhaldus)
+  - Eksporditud infosüsteemide ja hinnangute andmed salvestatakse RIHA uues [andmehoidjas](Andmehoidja). Kasutajate õigused RIHA [pääsuhaldussüsteemis](Paasuhaldus).
 2. __Vana RIHA "külmutamine"__
   - Kõiki avalikke andmeid saab kasutajaliidese kaudu lugeda, kui ei saa muuta. Sisselogimine vanasse RIHAsse pole võimalik.
 
