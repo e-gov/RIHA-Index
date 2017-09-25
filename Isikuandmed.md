@@ -25,7 +25,7 @@ __Kirjeldaja__ - kirjelduste koostaja - isik, kes omab RIHAs õigust kirjeldada 
 
 _Hindaja_ v _Kooskõlastaja_
 
-_Kontaktisik_ - infosüsteemi vm RIHAs kirjeldatud vara kontaktisik – infosüsteemiga (hiljem ka muu RIHA objektiga, nt klassifikaatoriga) seotud isik, kellega võib ühendust võtta. Kui infosüsteemile ei ole määratud teist kontaktisikut, siis on kontaktisikuks viimane kirjeldaja. Kontaktisik võib olla seotud ka asutuse kõigi infosüsteemidega. Sellisel juhul nimetame teda asutuse RIHA kontaktisikuks.
+_Kontaktisik_ - infosüsteemi vm RIHAs kirjeldatud vara kontaktisik – infosüsteemiga (hiljem ka muu RIHA objektiga, nt klassifikaatoriga) seotud isik, kellega võib ühendust võtta. 
 
 RIA poolne __RIHA haldur__.
 
@@ -34,7 +34,7 @@ RIA poolne __RIHA haldur__.
 _Sirvija_ - autentimine ei ole vajalik; logitakse RIHA talitluspidevuse tagamiseks vajalikke andmeid sirvija tegevuse kohta; logitud andmeid kasutatakse turvaintsidentide lahendamiseks ja RIHA kasutusstatistika tootmiseks (viimases isikuid mittetuvastaval viisil).
 
 _Kontaktisik_ - RIHA töödeldakse järgmisi kontaktisikute andmeid (edaspidi - kontaktandmed):
-- isikukood, nimi, asutuse nimetus, e-posti aadress, ametinimetus (valikuline), telefon (valikuline), infosüsteemi(de) nimetused
+- isikukood, nimi, asutuse nimetus, e-posti aadress, infosüsteemi(de) nimetused
 - kontaktisiku tegevuste logi.
 
 _Kirjeldaja_ - Kirjeldajate kohta hoitakse RIHAs samu andmeid, mis kontaktisikute kohta.
@@ -55,10 +55,11 @@ Kontaktisikute andmete töötlus:
 
 ## Juurdepääs isikuandmetele RIHAs
 
-Kontaktisik saab deklareerida oma andmed avalikult kättesaadavaks (kõik saavad RIHAs vaadata). Vaikimisi pääsevad kontaktandmetele ligi ainult asutuste töötajad.
+Kontaktisikute nime ja e-posti aadressi näevad kõik RIHAsse sisse loginud kasutajad.
 
-Kirjeldaja kohta näevad teavet ainult tema ise ja järgmised kirjeldajad.
+Kirjeldaja kohta näevad teavet ainult RIA töötajad. RIA väljastab kirjeldusõigusega isikute loetelu ainult asutuse töötajatele.
 
 ## Isikuandmete ajakohasuse tagamine
 
+Hetkel ei kontrollida RIHAs isikuandmete ajakohasust. Plaanis on tekitada liides, et kontrollida isiku seost asutusega: 
 Päringuga üle X-tee riigi personali- ja palgaarvestuse andmekogusse (SAP) kontrollitakse, kas kirjeldaja ja kontaktisik on asutusega seotud. Seda kontrolli tehakse nii uute kirjeldajate ja kontaktisikute lisamisele kui ka perioodiliselt andmete ajakohasuses tagamiseks.
