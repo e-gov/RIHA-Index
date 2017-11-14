@@ -8,19 +8,17 @@ sidebar: false
 
 Kõiki RIHAsse kogutud andmeid saab kasutada RIHA masinliidese e API kaudu.
 
-RIHA masinliidese andmed on avalikud. Igaüks võib neid alla laadida, töödelda, kombineerida muude andmetega, luua lisaväärtust andvaid rakendusi jms. 
+Masinliidese andmed on avalikud. Igaüks võib neid alla laadida, töödelda, siduda muude andmetega, luua lisaväärtust andvaid rakendusi jms. 
 
 Juurdepääs on piiratud ainult mitteavalikele isikuandmetele. Samuti on juurdepääs piiratud andmete RIHAsse kandmise masintoimingutele.
 
 RIHA API aadress on `https://www.riha.ee/api/v1`.
 
-Märkus. Töötab ka `https://riha.ee/api/v1`.
-
 ## Kas proovime kohe?
 
 Võite API-t kohe proovida. Sisestage veebisirvija aadressireal `https://www.riha.ee/api/v1/systems/kir.agri`.
 
-Väljastatakse Kutselise kalapüügi registri masinloetav kirjeldus:
+Väljastatakse Kutselise kalapüügi registri masinloetav kirjeldus (`kir.agri` on süsteemi lühinimi):
 
 ```
 {
@@ -76,34 +74,7 @@ Väljastatakse Kutselise kalapüügi registri masinloetav kirjeldus:
         "name": "Kalapüügiga seonduvate andmete esitamise kord",
         "url": "https://www.riigiteataja.ee/akt/128122016008"
       },
-      {
-        "name": "Komisjoni määrus (EÜ) nr 404/2011",
-        "url": "http://eur-lex.europa.eu/legal-content/ET/TXT/?uri=celex:32011R0404R(02)"
-      },
-      {
-        "name": "Nõukogu määrus (EÜ) nr 1224/2009",
-        "url": "http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2009:343:0001:01:ET:HTML"
-      },
-      {
-        "name": "KALAPÜÜGISEADUS",
-        "url": "https://www.riigiteataja.ee/akt/130122015016?leiaKehtiv"
-      },
-      {
-        "name": "Kutselise kalapüügi lubade taotlemisel esitatavate dokumentide loetelu, kalapüügilubade andmise, kehtetuks tunnistamise ning kehtivuse peatamise kord ja kalapüügilubade vormid",
-        "url": "http://www.riigiteataja.ee/ert/act.jsp?id=955336"
-      },
-      {
-        "name": " KALALAEVADE RIIKLIKU REGISTRI ASUTAMINE JA REGISTRI PIDAMISE PÕHIMÄÄRUS",
-        "url": "http://riigiteataja.ee/ert/act.jsp?id=996457"
-      },
-      {
-        "name": "Kalalaevade alajaotustesse rühmitamise kriteeriumid, segmenti kantavatele kalalaevadele esitatavad nõuded ja kalalaevade segmenti juurdelisamise võimalus",
-        "url": "http://www.riigiteataja.ee/ert/act.jsp?id=717189"
-      },
-      {
-        "name": "Kutselise kalapüügiga seonduvate andmete arvestuse andmekogu põhimäärus",
-        "url": "http://webdk.agri.ee/?page=pub_pub_dynobj_file&pid=4532422&file_id=4588014&u=20100918193745"
-      }
+...
     ],
     "homepage": "https://kir.agri.ee",
     "stored_data": []
@@ -111,17 +82,23 @@ Väljastatakse Kutselise kalapüügi registri masinloetav kirjeldus:
 }
 ```
 
-Nõuanne: Kui paigaldate veebisirvijasse JSON-i vaatamise laienduse, näete andmeid trepitult.
+Nõuanne: Paigaldades veebisirvijasse JSON-i vaatamise laienduse, saate andmeid näha trepitult.
 
-## Milliseid andmeid pakutakse?
+## Mis andmeid RIHA masinliides pakub?
+
+Masinliidese kaudu saab infossüsteemide kirjeldusi, samuti andmeid arutelude (Issues) ja kommentaaride (Comments) kohta. Andmete koosseisu vaata lähemalt masinliidese formaalsest kirjeldusest (allpool).
 
 RIHA väljastab masinloetavaid andmeid JSON vormingus.
+
+## Kuidas andmeid pärida?
+
+Vaatleme infosüsteemide kirjelduste pärimist. Arutelude ja kommentaaride andmeid päritakse sarnasel viisil. Täpsemalt vaata masinliidese formaalsest kirjeldusest (allpool).
 
 Kõigi infosüsteemide nimekirja saamiseks kasutage päringut
 
 `https://www.riha.ee/api/v1/systems`
 
-Infosüsteemide nimekirjas esitatakse iga infosüsteemi kohta lühiandmestik, nt:
+Väljastatakse nimekiri, milles iga infosüsteemi kohta antakse lühiandmestik, nt:
 
 ```
 {
@@ -165,13 +142,15 @@ Infosüsteemide nimekirjas esitatakse iga infosüsteemi kohta lühiandmestik, nt
 }
 ```
 
-Kuna infosüsteeme on palju, väljastatakse andmed leheküljeti. Väljastuse esimese elemendina antakse infosüsteemide arv `"totalElements":1674`, sellele järgneb element `"content"` infosüsteemide kirjeldustega. Väljastuse lõpus on lehekülje number, lehekülgede arv ja lehekülje suurus: `"page":0,"totalPages":84,"size":20`. Lehekülje suurust saab seada. Päring
+Kuna infosüsteeme on palju, väljastatakse andmed leheküljeti. Päringu vastus algab infosüsteemide arvuga, nt `"totalElements":1674`, sellele järgneb element `"content"` infosüsteemide kirjeldustega. Vastuse lõpus on lehekülje number, lehekülgede arv ja lehekülje suurus: `"page":0,"totalPages":84,"size":20`.
+
+Lehekülje suurust saab seada. Näiteks päring
 
 `https://www.riha.ee/api/v1/systems?size=5&page=3`
  
 seab lehekülje suuruseks `5` ja väljastab lehekülje `3`.
 
-Infosüsteemide detailse kirjelduse saab eraldi päringuga: 
+Infosüsteemi detailse kirjelduse saamiseks lisage päringule infosüsteemi lühinimi: 
 
 `https://www.riha.ee/api/v1/systems/{infosüsteemi lühinimi}`
 
@@ -179,29 +158,22 @@ Näiteks
 
 `https://www.riha.ee/api/v1/systems/70002443-ekis` (Luua Metsanduskool).
 
-Andmeid saab ka arutelude (Issues) ja kommentaaride (Comments) kohta. Lähemalt vaata API formaalsest kirjeldusest.
-
 ## Masinliidese formaalne kirjeldus
 
-RIHA masinliides on kirjeldatud OpenAPI (varem tuntud Swagger nime all)vormingus. Kirjeldus asub:
+RIHA masinliides on kirjeldatud OpenAPI (Swagger) vormingus. Kirjeldus asub:
 
 [RIHA-Browser API](https://raw.githubusercontent.com/e-gov/RIHA-Browser/master/backend/src/main/resources/static/swagger.yaml).
 
-Kirjelduse paremaks sirvimiseks võite kasutada ka ReDoc tööriista:
+Kirjeldust saate sirvida ka ReDoc vormingus:
 
 [https://kertuhiire.github.io/RIHA-Help/](https://kertuhiire.github.io/RIHA-Help/).
 
-Vt ka [RIHA andmete JSON-skeemi](https://github.com/e-gov/RIHA-Browser/blob/master/backend/src/main/resources/infosystem_schema.json).
+Abiks võib olla ka [RIHA andmete JSON-skeem](https://github.com/e-gov/RIHA-Browser/blob/master/backend/src/main/resources/infosystem_schema.json).
 
 ## Andmekasutajad
 
-RIHA masinloetavate andmete ümber peaks kujunema erinevate andmekasutajate ökosüsteem. Teadaolevate RIHA andmeid masinliidese kaudu tarbivate süsteemide hulgas on:
+RIHA masinloetavate andmete ümber kujuneb andmekasutajate "ökosüsteem". Teadaolevate RIHA andmeid masinliidese kaudu tarbivate süsteemide hulgas on:
 
-"RIHA aktiivsusmonitor", `https://apidemojatest.herokuapp.com/watch`, lähtekood ja dokumentatsioon: [https://github.com/e-gov/RIHA-API-Demo](https://github.com/e-gov/RIHA-API-Demo).
+- RIHA laiendatud otsingu prototüüp (otsib omaniku nimest, registrikoodist, infosüsteemi nimest ja lühinimest), [https://e-gov.github.io/RIHA-Experiments/otsi](https://e-gov.github.io/RIHA-Experiments/otsi), lähtekood: [https://github.com/e-gov/RIHA-Experiments/edit/master/otsi.html](https://github.com/e-gov/RIHA-Experiments/edit/master/otsi.html).
 
-
-
-
-
-
-
+- "RIHA aktiivsusmonitor", [https://apidemojatest.herokuapp.com/watch](https://apidemojatest.herokuapp.com/watch), lähtekood: [https://github.com/e-gov/RIHA-API-Demo](https://github.com/e-gov/RIHA-API-Demo).
