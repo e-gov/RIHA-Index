@@ -1,8 +1,12 @@
 ---
-permalink: Arhitektuurikirjeldus
+permalink: /
 ---
 
-# Ahitektuurikirjeldus
+<img src='img/ee_cef_0.png' style='width:400px'>
+
+<img src='img/LOVID.png' style='width: 80px;'>
+
+# Arhitektuurikirjeldus
 {: .no_toc}
 
 - TOC
