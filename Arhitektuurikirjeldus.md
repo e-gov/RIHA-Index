@@ -70,6 +70,7 @@ Pääsuõiguste hoidla | - | - | sisekomponent kirjeldajate ja hindajate pääsu
 
 komponent | avalik                                       | repo | funktsioon
 ----------|----------------------------------------------|------|-------
+RIHA-Index | [https://arhitektuur.riha.ee](https://arhitektuur.riha.ee) | [https://github.com/e-gov/RIHA-Index](https://github.com/e-gov/RIHA-Index) | RIHA arhitektuurikirjeldus
 RIHA-Frontend | [https://e-gov.github.io/RIHA-Frontend](https://e-gov.github.io/RIHA-Frontend) | [https://github.com/e-gov/RIHA-Frontend](https://github.com/e-gov/RIHA-Frontend) | Kasutajaliidese disaini abivahend
 RIHA-Experiments | | [https://github.com/e-gov/RIHA-Experiments](https://github.com/e-gov/RIHA-Experiments) | abirepo tehnoloogiate katsetamiseks
 
