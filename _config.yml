@@ -1,6 +1,7 @@
 # Üldised määratlused
 title: RIHA arhitektuurikirjeldus
 baseurl: "https://e-gov.github.io/RIHA-Index"
+repo: "https://github.com/e-gov/RIHA-Index"
 
 defaults:
   -
