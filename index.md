@@ -19,7 +19,7 @@ Käesolev dokument kirjeldab RIHA ja selle vahetu ümbruse:
 - teenused ja liidesed
 - olulisemad sõltuvused.
 
-## Arhitektuurijoonis
+### Arhitektuurijoonis
 
 <img src='img/RIHA-Arhi.PNG' style='width: 600px;'>
 
@@ -35,7 +35,7 @@ RIHA pakub riigi infosüsteemi kataloogiteenust:
 
 Vt lähemalt: [Infosüsteemide kirjeldamine RIHA-s](https://abi.riha.ee/RIHAs-kirjeldamine) (abikeskuse tekst); [Kuidas muuta X-tee alamsüsteemi andmeid RIHAs?](https://abi.riha.ee/X-tee-alamsysteem)
 
-## Masinliides
+### Masinliides
 
 - RIHA arendatakse põhimõttel, et kõik kogutavad andmed peavad olema kättesaadavad masinliidese (API) kaudu.
 - Enamgi veel, kasutaja poolt sirvikus sisestatud andmed kantakse andmehoidlasse samuti API kaudu.
@@ -68,7 +68,7 @@ RIHA-Storage | [https://www.riha.ee/api/v1](https://www.riha.ee/api/v1) | [https
 RIHA-Assets | [https://varamu.riha.ee/](https://varamu.riha.ee/) | [https://github.com/e-gov/RIHA-Assets](https://github.com/e-gov/RIHA-Assets) | veebirakendus, mille kaudu tehakse avalikult kättesaadavaks asutustevahelises dokumendivahetuses kasutatavad varad ja ajutiselt (kuni klassifikaatorite mooduli valmimiseni) ka osad klassifikaatorid
 Pääsuõiguste hoidla | - | - | sisekomponent kirjeldajate ja hindajate pääsuõiguste hoidmiseks, suhtlus pääsuõiguste hoidlaga toimub LDAP protokolliga 
 
-## Arendust toetavad komponendid
+### Arendust toetavad komponendid
 
 komponent | avalik                                       | repo | funktsioon
 ----------|----------------------------------------------|------|-------
@@ -76,7 +76,7 @@ RIHA-Index | [https://arhitektuur.riha.ee](https://arhitektuur.riha.ee) | [https
 RIHA-Frontend | [https://e-gov.github.io/RIHA-Frontend](https://e-gov.github.io/RIHA-Frontend) | [https://github.com/e-gov/RIHA-Frontend](https://github.com/e-gov/RIHA-Frontend) | Kasutajaliidese kujunduslahenduse prototüüp
 RIHA-Experiments | | [https://github.com/e-gov/RIHA-Experiments](https://github.com/e-gov/RIHA-Experiments) | abirepo tehnoloogiate katsetamiseks
 
-## "Ökosüsteemi" muud komponendid
+### "Ökosüsteemi" muud komponendid
 
 komponent | avalik                                       | repo | funktsioon
 ----------|----------------------------------------------|------|-------
@@ -133,7 +133,7 @@ RIHA masinliidese (API) standardiseeritud, [formaalne kirjeldus](https://github.
 
 RIHA kood on avalik.
 
-## URL-id
+### URL-id
 
 Kasutajaliidese URL-ides järgitakse põhimõtteid:
 
@@ -152,7 +152,7 @@ Selged nõuded. RIHA osaks on protsess, millega identifitseeritakse RIHAs kontro
 
 Selge metoodika andmevälja täitmisel. Iga andmevälja täitmisel peab olema selge metoodika ja metoodika peab rakendusest olema kasutajale juhisena kättesaadav.
 
-## "API first" põhimõte
+### "API first" põhimõte
 
 Hajusalt paigaldatud komponendid, aga samuti ka kesksüsteemi serveriteenused ja veebisirvijas paiknev kasutajarakendus suhtlevad üksteisega REST API-de kaudu.
 
@@ -180,6 +180,8 @@ OpenLDAP |          | Browser   |
 PostgreSQL |        | Storage   |
 Spring Boot |        | Browser, Storage |
 Ubuntu   | 16 LTS   |           | 
+
+## Arhitektuurilised aspektid
 
 ## Isikuandmete töötlus
 

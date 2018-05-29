@@ -77,9 +77,12 @@ p { margin: 0 0 1em 0; }
 /*#region Loetelud */
 #Tekst ul {
   list-style-type: '-  ';
-  margin: 0 0 1em 0;
+  margin: 0;
   padding-left: 1em;
-}  
+} 
+#Tekst > ul {
+  margin-bottom: 1em;
+} 
 
 #Tekst > ol {
   padding-left: 1em;
@@ -94,7 +97,10 @@ p { margin: 0 0 1em 0; }
 }    
 #markdown-toc li {
   list-style-type: '   ' !important;
-}  
+}
+#markdown-toc > li {
+  margin-bottom: 1em;
+}
 /*#endregion */
 
 /*#region Tabelid */
