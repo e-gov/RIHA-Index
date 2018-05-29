@@ -33,9 +33,11 @@ RIHA pakub riigi infosüsteemi kataloogiteenust:
 - süsteemi kirjeldamine
 - süsteemikirjelduste pakkumine masinliidese (API) kaudu
 - hindajate tagasiside
-- lisaks pakutakse "RIHA varamu" nime all asutustevahelise dokumendivahetuslahenduse metaandmekirjeldusi
+- lisaks pakutakse "RIHA varamu" nime all asutustevahelise dokumendivahetuslahenduse metaandmekirjeldusi.
 
-Vt lähemalt: [Infosüsteemide kirjeldamine RIHA-s](https://abi.riha.ee/RIHAs-kirjeldamine) (abikeskuse tekst); [Kuidas muuta X-tee alamsüsteemi andmeid RIHAs?](https://abi.riha.ee/X-tee-alamsysteem)
+Vt lähemalt:
+- [Infosüsteemide kirjeldamine RIHA-s](https://abi.riha.ee/RIHAs-kirjeldamine) (abikeskuse tekst)
+- [Kuidas muuta X-tee alamsüsteemi andmeid RIHAs?](https://abi.riha.ee/X-tee-alamsysteem).
 
 ### Masinliides
 
@@ -44,44 +46,45 @@ Vt lähemalt: [Infosüsteemide kirjeldamine RIHA-s](https://abi.riha.ee/RIHAs-ki
 - Masinliides on JSON RESTful vormingus.
 - Masinliides kirjeldatakse OpenAPi (Swagger) vormingus. 
 
-Vt: [RIHA masinliides](https://abi.riha.ee/APIabi) (abikeskuse tekst)
+Vt:
+- [RIHA masinliides](https://abi.riha.ee/APIabi) (abikeskuse tekst).
 
 ## Komponendid ja osapooled
 
 ### Organisatsioonid
 
-- Riigi Infosüsteemi Amet (RIA) - haldab ja arendab RIHA
- - infosüsteemi omanik - asutus, X-tee alamsüsteemi korral ka ettevõte jm organisatsioon, RIHA kirjeldatud süsteemi omanik
-- hindaja - asutus, kes hindab infosüsteemi vastavust nõuetele  
+- Riigi Infosüsteemi Amet (RIA) - haldab ja arendab RIHA.
+- infosüsteemi omanik - asutus, X-tee alamsüsteemi korral ka ettevõte jm organisatsioon, RIHA kirjeldatud süsteemi omanik.
+- hindaja - asutus, kes hindab infosüsteemi vastavust nõuetele.
 
 ### Inimesed
 
-- kasutaja - RIHA kasutaja, ei pea olema autenditud  
-- kirjeldaja - asutuse vm organisatsiooni töötaja, kes kirjeldab RIHAs infosüsteemi
-- hindaja - hindava asutuse töötaja, kes hindab RIHAs kirjeldatud infosüsteemi vastavust nõuetele 
+- kasutaja - RIHA kasutaja, ei pea olema autenditud.
+- kirjeldaja - asutuse vm organisatsiooni töötaja, kes kirjeldab RIHAs infosüsteemi.
+- hindaja - hindava asutuse töötaja, kes hindab RIHAs kirjeldatud infosüsteemi vastavust nõuetele.
 
 ### Tuumkomponendid
 
-komponent | avalik                                       | repo | funktsioon
-----------|----------------------------------------------|------|-------
+komponent | avalik URL                                       | repo | funktsioon
+----------|:--------------------------------------------:|:----:|-------
 Abikeskus | [https://abi.riha.ee](https://abi.riha.ee) | [https://github.com/e-gov/RIHA-Help](https://github.com/e-gov/RIHA-Help) | annab kasutajale abiteavet RIHA kasutamise kohta
 RIHA-Browser |  | [https://github.com/e-gov/RIHA-Browser](https://github.com/e-gov/RIHA-Browser) | RIHA _front-end_, sirvikus käitatav üheleherakendus
-RIHA-Storage | [https://www.riha.ee/api/v1](https://www.riha.ee/api/v1) | [https://github.com/e-gov/RIHA-Storage](https://github.com/e-gov/RIHA-Storage) | RIHA andmehoidla, teenindab oma API kaudu RIHA teisi serveriteenuseid ja laiema "ökosüsteemi" masinkasutajaid, olles vahendajaks PostgreSQL andmebaasi ja HTTPS päringute vahel.
+RIHA-Storage | [https://www.riha.ee/api/v1](https://www.riha.ee/api/v1) | [https://github.com/e-gov/RIHA-Storage](https://github.com/e-gov/RIHA-Storage) | RIHA andmehoidla, teenindab oma API kaudu RIHA teisi serveriteenuseid ja laiema "ökosüsteemi" masinkasutajaid, vahendaja PostgreSQL andmebaasi ja HTTPS päringute vahel
 RIHA-Assets | [https://varamu.riha.ee/](https://varamu.riha.ee/) | [https://github.com/e-gov/RIHA-Assets](https://github.com/e-gov/RIHA-Assets) | veebirakendus, mille kaudu tehakse avalikult kättesaadavaks asutustevahelises dokumendivahetuses kasutatavad varad ja ajutiselt (kuni klassifikaatorite mooduli valmimiseni) ka osad klassifikaatorid
 Pääsuõiguste hoidla | - | - | sisekomponent kirjeldajate ja hindajate pääsuõiguste hoidmiseks, suhtlus pääsuõiguste hoidlaga toimub LDAP protokolliga 
 
 ### Arendust toetavad komponendid
 
-komponent | avalik                                       | repo | funktsioon
-----------|----------------------------------------------|------|-------
+komponent | avalik URL                                       | repo | funktsioon
+----------|:--------------------------------------------:|:----:|-------
 RIHA-Index | [https://arhitektuur.riha.ee](https://arhitektuur.riha.ee) | [https://github.com/e-gov/RIHA-Index](https://github.com/e-gov/RIHA-Index) | RIHA arhitektuurikirjeldus
-RIHA-Frontend | [https://e-gov.github.io/RIHA-Frontend](https://e-gov.github.io/RIHA-Frontend) | [https://github.com/e-gov/RIHA-Frontend](https://github.com/e-gov/RIHA-Frontend) | Kasutajaliidese kujunduslahenduse prototüüp
+RIHA-Frontend | [https://e-gov.github.io/RIHA-Frontend](https://e-gov.github.io/RIHA-Frontend) | [https://github.com/e-gov/RIHA-Frontend](https://github.com/e-gov/RIHA-Frontend) | kasutajaliidese kujunduslahenduse prototüüp
 RIHA-Experiments | | [https://github.com/e-gov/RIHA-Experiments](https://github.com/e-gov/RIHA-Experiments) | abirepo tehnoloogiate katsetamiseks
 
 ### "Ökosüsteemi" muud komponendid
 
-komponent | avalik                                       | repo | funktsioon
-----------|----------------------------------------------|------|-------
+komponent | avalik URL                                       | repo | funktsioon
+----------|:--------------------------------------------:|:----:|-------
 RIHA-Watch | [https://riha-watch.herokuapp.com/](https://riha-watch.herokuapp.com/) | [https://github.com/e-gov/RIHA-Watch](https://github.com/e-gov/RIHA-Watch) | kuvab viimase 10 päeva jooksul lisatud ja uuendatud infosüsteemid
 
 ## Arhitektuurilised valikud
@@ -137,7 +140,7 @@ RIHA kood on avalik.
 
 ### URL-id
 
-Kasutajaliidese URL-ides järgitakse põhimõtteid:
+Kasutajaliidese URL-des järgitakse põhimõtteid:
 
 - URL-id on inimkasutatavad: lühikesed, inimesele tähenduslikud, meeldejäävad
 - URL-id võimaldavad otseteid (sisenemispunkte) nii kõigi suuremate toimingute (sirvimine, kirjeldamine, hindamine) kui ka toimingute objektide lõikes (asutused, infosüsteemid, hiljem ka muud)
@@ -168,19 +171,18 @@ API-de kujundamisel lähtutakse [API-de disaini juhise](https://agiil.github.io/
 
 sõltuvus | versioon (kui on oluline) | komponent (eesliiteta RIHA-)
 :-------:|:--------:|:---------:|
+Angular  | 4        | Browser   |
+Apache Maven | 3    | kõik Java komponendid |
 Bootstrap | 4       | Browser, Help |
+Bower    |          |           |
 Java 1.8 | OpenJDK  | Browser, Storage, Assets |
 Jekyll   |          | Help      |
-Apache Maven | 3    | kõik Java komponendid |
-Node.js  | 4        |           |
-npm      |          |           |
-Angular  | 4        | Browser   |
-yarn     |          |           |
-bower    |          |           |
-Tomcat   |          |           |
+Node.js  | 4        | kasutusel testimisel  |
 OpenLDAP |          | Browser   |
 PostgreSQL |        | Storage   |
+npm      |          | kasutusel testimisel  |
 Spring Boot |        | Browser, Storage |
+Yarn     |          |           |
 Ubuntu   | 16 LTS   |           | 
 
 ## Käideldavus ja turvalisus
@@ -284,7 +286,7 @@ Teostatud RIA taristus paigaldatud OpenLDAP serveri ja LDAP kliendi abil. Detail
 
 ### ISKE
 
-RIHA ISKE turvaklass on __K2T2S2__ ja turvatase on M.
+RIHA ISKE turvaklass on K2T2S2 ja turvatase on M.
 
 Käideldavus (K). Käideldavuse nõue K2 on suuresti tingitud isikuandmete kaitse seadusest §25 ning RIA-sisesest teenustasemeleppest (edaspidi SLA).
 
