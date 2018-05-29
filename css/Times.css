@@ -57,6 +57,7 @@ h2 {
   margin-bottom: 0.5rem;
 }
 h3, h4 {
+  font-style: italic;
   font-size: 1em !important;
   font-weight: normal;
   margin-bottom: 0.5rem;

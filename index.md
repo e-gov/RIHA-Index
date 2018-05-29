@@ -17,7 +17,9 @@ permalink: /
 Käesolev dokument kirjeldab RIHA ja selle vahetu ümbruse:
 - osapooled ja komponendid
 - teenused ja liidesed
-- olulisemad sõltuvused.
+- tähtsamad arhitektuurilised valikud ja eesmärgid
+- olulisemad sõltuvused
+- käideldavuse ja turvalisuse aspektid.
 
 ### Arhitektuurijoonis
 
@@ -181,9 +183,9 @@ PostgreSQL |        | Storage   |
 Spring Boot |        | Browser, Storage |
 Ubuntu   | 16 LTS   |           | 
 
-## Arhitektuurilised aspektid
+## Käideldavus ja turvalisus
 
-## Isikuandmete töötlus
+### Isikuandmete töötlus
 
 RIHAs töödeldakse ka vähesel määral isikuandmeid. Isikuandmeid on vaja kaitsta. Eelkõige tuleb tagada, et: 1) hoitakse eesmärkide saavutamiseks minimaalselt vajalikke andmeid; 2) ligipääs tundlikele või eraelulistele isikuandmetele on piiratud. Käesolev jaotis kirjeldab isikuandmete töötluse ja kaitse olulisi äriprotsessilisi ja tehnilisi meetmeid RIHAs.
 
@@ -206,7 +208,7 @@ Juurdepääs isikuandmetele RIHAs. Kontaktisik saab deklareerida oma andmed aval
 
 Isikuandmete ajakohasuse tagamine. Edasiarendusvõimalus: _Päringuga üle X-tee riigi personali- ja palgaarvestuse andmekogusse (SAP) kontrollitakse, kas kirjeldaja ja kontaktisik on asutusega seotud. Seda kontrolli tehakse nii uute kirjeldajate ja kontaktisikute lisamisele kui ka perioodiliselt andmete ajakohasuses tagamiseks._
 
-## Kõrgkäideldavus
+### Käideldavus
 
 Mõisted:
 
@@ -222,8 +224,6 @@ scalability
 switchover
 : sama, mis _failover_, kuid käsitsi
 
-## Tõrkekindluse saavutamise meetodid ja vahendid
-
 Tõrkekindluse saavutamise peamised meetodid on:
 
 -  komponentstruktuur
@@ -233,7 +233,8 @@ Tõrkekindluse saavutamise peamised meetodid on:
     süsteemi kohustus teha enesediagnostikat
 - failover.
 
-Vt [Murphy R (2016) Site Reliability Engineering](https://landing.google.com/sre/book.html)
+Vt:
+- [Murphy R (2016) Site Reliability Engineering](https://landing.google.com/sre/book.html)
 
 'No State To Share'. Serveriteenused tuleb projekteerida nii, et serveriteenuse paigaldamisel mitmes instantsis ei teki vajadust olekut (_state_) instantside vahel jagada.
 
@@ -277,13 +278,13 @@ Kõrgkäideldavus andmehoidlas. Kõrgkäideldavus on oluline ka andmehoidlas, se
 
 - [PostgreSQL 9.6.2 Documentation, High Availability, Load Balancing, and Replication](https://www.postgresql.org/docs/current/static/high-availability.html)
 
-## Pääsuhaldus
+### Pääsuhaldus
 
 Teostatud RIA taristus paigaldatud OpenLDAP serveri ja LDAP kliendi abil. Detailide kohta otsi vastavaid JIRA ticketeid.
 
-## Turvalisus
+### ISKE
 
-RIHA turvaklass on __K2T2S2__ ja turvatase on M.
+RIHA ISKE turvaklass on __K2T2S2__ ja turvatase on M.
 
 Käideldavus (K). Käideldavuse nõue K2 on suuresti tingitud isikuandmete kaitse seadusest §25 ning RIA-sisesest teenustasemeleppest (edaspidi SLA).
 
