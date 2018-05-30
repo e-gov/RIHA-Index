@@ -3,8 +3,12 @@ permalink: /
 ---
 
 <div style='display: flex; justify-content: space-between;'>
-  <img src='https://github.com/e-gov/RIHA-Frontend/raw/master/logo/EU/EL.png' style='width:400px'>
-  <img src='img/LOVID.png' style='width: 80px;'>
+  <div>
+    <img src='img/LOVID.png' style='width: 80px;'>
+  </div>
+  <div>
+    <img src='https://github.com/e-gov/RIHA-Frontend/raw/master/logo/EU/EL.png' style='width:400px'>
+  </div>
 </div>
 
 # Arhitektuurikirjeldus
