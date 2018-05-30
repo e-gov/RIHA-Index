@@ -2,7 +2,7 @@
 permalink: /
 ---
 
-<img src='img/ee_cef_0.png' style='width:400px'>
+<img src='https://github.com/e-gov/RIHA-Frontend/raw/master/logo/EU/EL.png' style='width:400px'>
 
 <img src='img/LOVID.png' style='width: 80px;'>
 
@@ -206,7 +206,7 @@ Isikute kohta hoitavad andmed:
   - kontaktisiku tegevuste logi.
 - kirjeldaja_ - Kirjeldajate kohta hoitakse RIHAs samu andmeid, mis kontaktisikute kohta.
 
-Juurdepääs isikuandmetele RIHAs. Kontaktisik saab deklareerida oma andmed avalikult kättesaadavaks (kõik saavad RIHAs vaadata). Vaikimisi pääsevad kontaktandmetele ligi ainult asutuste töötajad. Kirjeldaja kohta näevad teavet ainult tema ise ja järgmised kirjeldajad.
+Juurdepääs isikuandmetele RIHAs. Kontaktisik saab deklareerida oma andmed avalikult kättesaadavaks (kõik saavad RIHAs vaadata). Seejuures kontaktandmetele ligi ainult autenditud töötajad. Kirjeldaja kohta näevad teavet ainult tema ise ja järgmised kirjeldajad.
 
 Isikuandmete ajakohasuse tagamine. Edasiarendusvõimalus: _Päringuga üle X-tee riigi personali- ja palgaarvestuse andmekogusse (SAP) kontrollitakse, kas kirjeldaja ja kontaktisik on asutusega seotud. Seda kontrolli tehakse nii uute kirjeldajate ja kontaktisikute lisamisele kui ka perioodiliselt andmete ajakohasuses tagamiseks._
 
