@@ -4,10 +4,10 @@ permalink: /
 
 <div style='display: flex; justify-content: space-between;'>
   <div>
-    <img src='img/LOVID.png' style='width: 80px;'>
+    <img src='img/LOVID.png' style='width: 100px;'>
   </div>
   <div>
-    <img src='https://github.com/e-gov/RIHA-Frontend/raw/master/logo/EU/EL.png' style='width:400px'>
+    <img src='https://github.com/e-gov/RIHA-Frontend/raw/master/logo/EU/EL.png' style='width:200px'>
   </div>
 </div>
 
