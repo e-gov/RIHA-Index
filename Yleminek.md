@@ -5,7 +5,7 @@ permalink: Yleminek
 
 # Üleminek
 
-<p class='staatus'>Üleminekul uuele RIHA-le on nii korralduslikud (organisatsioonilised), õiguslikud kui ka tehnilised aspektid. Praegu käsitleme siin eelkõige andmete ülekandmist vanast RIHAst uude. Hiljem käsitlus täieneb.</p>
+<p class='staatus'>Üleminekul uuele RIHA-le on nii korralduslikud (organisatsioonilised), õiguslikud kui ka tehnilised aspektid. Praegu käsitleme siin eelkõige andmete ülekandmist vanast RIHAst uude.</p>
 
 ## Tehniline andmeülekanne
 
@@ -63,12 +63,10 @@ permalink: Yleminek
 0. __Ülekande eeldused.__
   - uus kirjeldusvorming on stabiliseerunud.
 1. __Eksport__
-  - Eksport vanast süsteemist vahevormingusse (JSON), ühtlasi automaatse teisendamisega uude vormingusse. Omanikke tuleb selgelt teavitada, mis teisendusi tehakse. Kui omanik peab andmete uude vormingusse viimiseks tegema käsitsi tegevusi, siis tuleb anda omanikule selged juhised.
-  - Eksporditud andmed salvestatakse failidena.
-2. __Import uude süsteemi__
-  - Eeldus: asutus on otsustanud, kas hoiab kirjeldus enda juures või RIHA kesksüsteemis.
-3. __Vana RIHA "külmutamine"__
-  - Andmeid saab kasutajaliidese kaudu lugeda, kui ei saa muuta.
+  - Eksport vanast süsteemist, automaatse teisendamisega uude vormingusse. Omanikke tuleb selgelt teavitada, mis teisendusi tehakse. 
+  - Eksporditud infosüsteemide ja hinnangute andmed salvestatakse RIHA uues [andmehoidjas](Andmehoidja). Kasutajate õigused RIHA [pääsuhaldussüsteemis](Paasuhaldus).
+2. __Vana RIHA "külmutamine"__
+  - Kõiki avalikke andmeid saab kasutajaliidese kaudu lugeda, kui ei saa muuta. Sisselogimine vanasse RIHAsse pole võimalik.
 
 ## Seonduv
 

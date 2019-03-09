@@ -55,68 +55,23 @@ Protsess IT-teostuse (standardid, tarkvara, IT-teenused) korraldab RIA.
 ### Rollid
 
 1. Infosüsteemi haldaja e `OMANIK`
-2. `RIA TEENUSEHALDUR`
-3. `HINDAJA`
-4. `RIHA KASUTAJA`
+2. `HINDAJA`
+3. `RIHA KASUTAJA`
 
-### RIHA rakendus
-
-1. Kirjeldaja
-2. Hindaja
-3. Sirvija
-4. Koguja
 
 ### Toimingud
 
 1. Infosüsteemi kirjeldamine
-  - `OMANIK`, kasutades `Kirjeldajat`, soovi korral võib ka teksti- või programmeerimisredaktorit, koostab infosüsteemi kirjelduse.
+  - `OMANIK`, kasutades RIHA veebiliidest, koostab infosüsteemi kirjelduse.
     - Kirjeldus peab vastama [RIHA kirjeldusstandardile](Kirjeldusstandard).
-  - `OMANIK` paneb kirjelduse avalikult internetti välja.
-    - Kirjeldaja kasutamisel RIHA kesksüsteemis on kirjeldus automaatselt välja pandud.
-2. Kirjelduse URL-i teatamine
-  - `OMANIK` teatab `RIA TEENUSEHALDUR`-ile koostatud kirjelduse URL-i.
-  - `RIA TEENUSEHALDUR` registreerib kirjelduse URL-i `Koguja` konfiguratsioonis.
-3. Kirjelduste kokkukogumine
-  - `Koguja` käib perioodiliselt URL-id läbi ja kogub kirjeldused kokku.
-  - `Sirvija` teeb kirjeldused masinliidese (API) kaudu kõigile kättesaadavaks.
-4. Hindamine
-  - `HINDAJA`, kasutades `Hindajat`, vaatab läbi kokkukogutud kirjeldused ja teeb hindamisotsused.
-  - Hindamisotsused saavad avalikult kättesaadavaks Sirvija kaudu (nii kasutajaliideses kui ka RIHA API-s).
+2. Hindamine
+  - `HINDAJA`, kasutades RIHA veebiliidest, vaatab läbi infosüsteemi kirjeldused ja teeb hindamisotsused.
+  - Hindamisotsuste pealkirjad saavad avalikult kättesaadavaks (nii kasutajaliideses kui ka RIHA API-s). Vaata täpsemalt [RIHA aruteludest](Issue)
 5. RIHA andmete kasutamine
-  - `RIHA KASUTAJA` saab RIHA kesksüsteemi veebirakenduse abil tutvuda kirjeldustega ja kooskõlastusotsustega.
+  - `RIHA KASUTAJA` saab RIHA kesksüsteemi veebirakenduse abil tutvuda kirjeldustega ja hinnangutega.
 
 ---
 
-## Arenduse vaates
-
-```
-                    ,+.
-                    `+'                                                      ,+.
-                 Arendaja                                                    `|'
-                     +                                                       /|\
-                    / \     Arendaja lokaalne /                               +                   
-    GitHub                  Heroku                                           / \
-   +-----------+          +-----------+                                   Kasutaja
-   |           |          | Arendus-  |                                       |
-   |   Repod   +--------> | keskkond  |                                       |
-   |           |          |           |                                       |
-   +-----+-----+          +-----------+                                       |
-         |                                                                    |
-         |                                                                    |
-+-----------------------------------------------------------------------------------+
-         v                                                                    v
-    Bitbucket
-   +-----------+          +-----------+          +-----------+         +-----------+ 
-   |           |          | CI        |          | Test-     |         | Toodang   |
-   |   Repod   +--------> | keskkond  +--------> | keskkond  |-------->|           |
-   |           |          |           |          |           |         |           |
-   +-----------+          +-----------+    ,+.   +-----------+   ,+.   +-----------+
-                                           `|'                   `|'
-                                           /|\                   /|\
-                             Jenkins        +  Admin              +   Admin
-                                           / \                   / \
-
-```
 
 ### Arenduse korralduse põhijooned
 
